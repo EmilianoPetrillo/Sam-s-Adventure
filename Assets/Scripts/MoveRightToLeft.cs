@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class MoveRightToLeft : MonoBehaviour
 {
-    public float moveSpeed = 4;
+    //public float moveSpeed = 4;
 
     // Start is called before the first frame update
     void Start()
@@ -12,18 +12,18 @@ public class MoveRightToLeft : MonoBehaviour
         
     }
 
-    // Update is called once per frame
-    void Update()
-    {
-        Vector2 pos = transform.position;
+    //// Update is called once per frame
+    //void Update()
+    //{
+    //    Vector2 pos = transform.position;
 
-        pos.x -= moveSpeed * Time.fixedDeltaTime;
+    //    pos.x -= moveSpeed * Time.fixedDeltaTime;
 
-        transform.position = pos;
+    //    transform.position = pos;
 
-        if (pos.x < -8)
-        {
-            Destroy(gameObject);
-        }
-    }
+    //    if (pos.x < -8)
+    //    {
+    //        Destroy(gameObject);
+    //    }
+    //}
 }
