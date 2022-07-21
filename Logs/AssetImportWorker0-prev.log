@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'it' Physical Memory: 8151 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 16088 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
@@ -11,114 +11,126 @@ C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Desktop/pasib/Projects/Sam-s-Adventure
+C:/Users/pegor/OneDrive/Documenti/GitHub/Sam-s-Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49742
-Successfully changed project path to: C:/Users/user/Desktop/pasib/Projects/Sam-s-Adventure
-C:/Users/user/Desktop/pasib/Projects/Sam-s-Adventure
+59614
+Successfully changed project path to: C:/Users/pegor/OneDrive/Documenti/GitHub/Sam-s-Adventure
+C:/Users/pegor/OneDrive/Documenti/GitHub/Sam-s-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 60.86 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 34.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Desktop/pasib/Projects/Sam-s-Adventure/Assets
+[Subsystems] Discovering subsystems at path C:/Users/pegor/OneDrive/Documenti/GitHub/Sam-s-Adventure/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
-    Version:  Direct3D 11.0 [level 11.0]
-    Renderer: NVIDIA GeForce GTX 750 Ti (ID=0x1380)
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   
-    VRAM:     2007 MB
-    Driver:   27.21.14.5671
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56072
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56160
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006174 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.001759 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 63.49 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 33.49 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.819 seconds
+- Completed reload, in  0.417 seconds
 Domain Reload Profiling:
-	ReloadAssembly (819ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (418ms)
+		BeginReloadAssembly (42ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (624ms)
-			LoadAssemblies (87ms)
+		EndReloadAssembly (327ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (206ms)
+			SetupTypeCache (105ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (241ms)
+			RebuildScriptCaches (20ms)
+			SetupLoadedEditorAssemblies (125ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (6ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (64ms)
-				BeforeProcessingInitializeOnLoad (21ms)
-				ProcessInitializeOnLoadAttributes (112ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (59ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004857 seconds.
+Registered in 0.001778 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\pasib\Projects\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\OneDrive\Documenti\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 57.90 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 34.17 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.629 seconds
+- Completed reload, in  0.780 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1631ms)
-		BeginReloadAssembly (212ms)
+	ReloadAssembly (781ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
+			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (1331ms)
-			LoadAssemblies (158ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (632ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (507ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (60ms)
-			SetupLoadedEditorAssemblies (462ms)
+			SetupTypeCache (201ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (33ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (58ms)
-				BeforeProcessingInitializeOnLoad (111ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (24ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2216 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.8 MB.
-System memory in use after: 97.8 MB.
+System memory in use after: 97.7 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2649.
-Total: 3.431600 ms (FindLiveObjects: 0.183600 ms CreateObjectMapping: 0.099400 ms MarkObjects: 2.981700 ms  DeleteObjects: 0.165800 ms)
+Total: 2.575600 ms (FindLiveObjects: 0.098300 ms CreateObjectMapping: 0.037700 ms MarkObjects: 2.313700 ms  DeleteObjects: 0.124500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -127,311 +139,30 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scripts/MoveSin.cs
-  artifactKey: Guid(db50817b66fe7624898f8b84d536ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MoveSin.cs using Guid(db50817b66fe7624898f8b84d536ee43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6124327ca64e2b6614bb319663a184d9') in 0.041065 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Scripts/MoveRightToLeft.cs
-  artifactKey: Guid(0c10e71d73636e945bcc0beba7aff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/MoveRightToLeft.cs using Guid(0c10e71d73636e945bcc0beba7aff3d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5e46c12e669fa51459aa278d414b59e') in 0.009389 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.013202 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\pasib\Projects\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.800 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1801ms)
-		BeginReloadAssembly (586ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (423ms)
-		EndReloadAssembly (1136ms)
-			LoadAssemblies (134ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (372ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (458ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (150ms)
-				ProcessInitializeOnLoadAttributes (273ms)
-				ProcessInitializeOnLoadMethodAttributes (19ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.6 MB.
-System memory in use after: 97.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2652.
-Total: 3.563200 ms (FindLiveObjects: 0.203700 ms CreateObjectMapping: 0.101300 ms MarkObjects: 3.092400 ms  DeleteObjects: 0.164900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 154.767283 seconds.
-  path: Assets/DemonSlime
-  artifactKey: Guid(6335a70b52d80a944ab66fefe0dc3e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime using Guid(6335a70b52d80a944ab66fefe0dc3e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af02785531b8a4fdbca6a4e0f21094eb') in 0.017200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.800598 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(d3d19165e61273e4492eb40d2277ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(d3d19165e61273e4492eb40d2277ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db0c6834b57d7df3a14c527b381541') in 0.014873 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027371 seconds.
   path: Assets/Prefab/Boss.prefab
   artifactKey: Guid(9f4a936b74a678d468c1837131d45e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Boss.prefab using Guid(9f4a936b74a678d468c1837131d45e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08e093f527f2b70f808b07e0574a3d58') in 0.110754 seconds 
+Start importing Assets/Prefab/Boss.prefab using Guid(9f4a936b74a678d468c1837131d45e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f8553f8f421a9d2f9ee33f420535d85') in 0.072120 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000386 seconds.
+  Time since last request: 0.000314 seconds.
   path: Assets/Prefab/Enemy.prefab
   artifactKey: Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8bc009e127cf41c06731f286a8dfba7') in 0.022188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.260538 seconds.
-  path: Assets/Prefab/Enemy.prefab
-  artifactKey: Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Enemy.prefab using Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f410390f6ac3bbf1e57ef8921bc9f0c') in 0.015844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.782913 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@4x.png
-  artifactKey: Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Light/Sprite_Mode@4x.png using Guid(554a30a45860f494ca38586c54b7e5d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e93685ca832a039174338dd6a208d7af') in 0.092490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000197 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png
-  artifactKey: Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_playhead.png using Guid(9ea72647c24be493ba6f15a9cd2a24ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39927b807314c3a335a85bff6277a4c4') in 0.024420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode@4x.png
-  artifactKey: Guid(2223b0a570b66ee42b3e0a79f0789b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.animation/Editor/Assets/SkinningModule/Icons/Selected/Sprite_Mode@4x.png using Guid(2223b0a570b66ee42b3e0a79f0789b2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff81033b75e18fd49e7f4a7489be901f') in 0.027335 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png
-  artifactKey: Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/ObjectMenuCreation/DefaultAssets/Sprite Shapes/SpriteShapeEdge.png using Guid(0ae2b74b1edd14bb18dd7b65ae916a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a0a6bac8b0ef1cbcd7454e1ebfdb51') in 0.027986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png
-  artifactKey: Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_leftrange.png using Guid(9417efc47083f4a1598c1966a6345cdb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac329b1e98816bb3dfd99145a4b9e57') in 0.027188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png
-  artifactKey: Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.collab-proxy/Editor/PlasticSCM/Assets/Images/step1.png using Guid(9ce84ff0fdeb13d4a83f077d075dd9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b3b000b79ebf6c6bbbe657b790dffe6') in 0.031050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png
-  artifactKey: Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.2d.spriteshape/Editor/Handles/ss_rightrange.png using Guid(ee5df01235032491c8b180741ea820fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3d4c6837c59948a358d303503c69709') in 0.028592 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.348959 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_7.png
-  artifactKey: Guid(0b996846cd99f4646934ebd1ba1a584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_7.png using Guid(0b996846cd99f4646934ebd1ba1a584e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d4c0b7c858bdb3127b709b3f572e951') in 0.030374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_9.png
-  artifactKey: Guid(b8e34efad44af4e4ebd25a1108ead9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_9.png using Guid(b8e34efad44af4e4ebd25a1108ead9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a379df1314297bae4bf96694f7dc1413') in 0.027556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_8.png
-  artifactKey: Guid(85922ab6c08143344893057f5c547333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_8.png using Guid(85922ab6c08143344893057f5c547333) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0960752f14d07759fa58e87c561f7ef9') in 0.025882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_11.png
-  artifactKey: Guid(f48a1a03fa4344b4b9068fb160be63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_11.png using Guid(f48a1a03fa4344b4b9068fb160be63a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbaf674027338258bd81ef8e64dc6b87') in 0.022682 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_10.png
-  artifactKey: Guid(9540716718301ec498205714ba4fbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_10.png using Guid(9540716718301ec498205714ba4fbfcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0549ad5d936792cfbb4c3e4b0ceb653') in 0.021483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_12.png
-  artifactKey: Guid(598bfb2593683d84a883f7a8a02b2f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_12.png using Guid(598bfb2593683d84a883f7a8a02b2f56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5473a3c5364d141e4e9bd5ce59cb1ac9') in 0.028207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.259358 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_1.png
-  artifactKey: Guid(7cb215c87dac6c142b98499e8c02cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_1.png using Guid(7cb215c87dac6c142b98499e8c02cd86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2836eca469af932bec1dadca061ae0d4') in 0.028037 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_2.png
-  artifactKey: Guid(566ce9110cf1b1542a147e37a91f907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_2.png using Guid(566ce9110cf1b1542a147e37a91f907d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e36eaf502ec57031fac480414e7bd56') in 0.026803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_4.png
-  artifactKey: Guid(a1020dd350ecc604f9063ed8a1117a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_4.png using Guid(a1020dd350ecc604f9063ed8a1117a20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7011603bdcd9d17cedee7812109ce844') in 0.030146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_6.png
-  artifactKey: Guid(d75d1bfd9f2732548bcf457ffa8849ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_6.png using Guid(d75d1bfd9f2732548bcf457ffa8849ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f9170cdac311e513f3e0b7fc72c829f') in 0.029252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_3.png
-  artifactKey: Guid(2006e5a254a9d7b45b7e5a57e99e50d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_3.png using Guid(2006e5a254a9d7b45b7e5a57e99e50d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38adf13474e599d41914e19d8819219d') in 0.028323 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_5.png
-  artifactKey: Guid(118f2021506c33c439c41a10ccfd9209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle/demon_idle_5.png using Guid(118f2021506c33c439c41a10ccfd9209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da166e54209da20f13b795dbe38289e') in 0.030000 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 48.937223 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0
-  artifactKey: Guid(33ea0ffdfe13a61479d43a9da4dea724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0 using Guid(33ea0ffdfe13a61479d43a9da4dea724) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1c7e144da78991138a32fbac5ede14a') in 0.013211 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.730137 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/DemonSlimeController.controller
-  artifactKey: Guid(bb308e1f711d27c4aa85820986086400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/DemonSlimeController.controller using Guid(bb308e1f711d27c4aa85820986086400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15d83ee1a640e74fb1802e95a96e070') in 0.016579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 39.740165 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations
-  artifactKey: Guid(4e001e799f681b6499473621eacf150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations using Guid(4e001e799f681b6499473621eacf150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d86c3acd8f0f8fb370b17d0878bc17') in 0.010709 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.742320 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonIdle.anim
-  artifactKey: Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonIdle.anim using Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64231f1e27e038b6f5265897d32f7259') in 0.012972 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.229963 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonSlimeIdle.anim
-  artifactKey: Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonSlimeIdle.anim using Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4acad88e417cdf9f038b3a0271c19d5a') in 0.010715 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.456247 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites
-  artifactKey: Guid(48fcf0b27511ce149bd78d4067a8b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites using Guid(48fcf0b27511ce149bd78d4067a8b8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6bcee57053ac7e42922dde73779f0e4') in 0.011884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.335617 seconds.
-  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle
-  artifactKey: Guid(a72058d1fb5150647bf027b23c42c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/01_demon_idle using Guid(a72058d1fb5150647bf027b23c42c157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2199d15cc7f644b9ae100cd4d7e16760') in 0.011381 seconds 
+Start importing Assets/Prefab/Enemy.prefab using Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a82eed8efee929ccd8253a2595240c2e') in 0.015019 seconds 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004192 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\pasib\Projects\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.362 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1363ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (1101ms)
-			LoadAssemblies (159ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (55ms)
-			SetupLoadedEditorAssemblies (397ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (119ms)
-				ProcessInitializeOnLoadAttributes (246ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.7 MB.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.5 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2675.
-Total: 4.338200 ms (FindLiveObjects: 0.208500 ms CreateObjectMapping: 0.098700 ms MarkObjects: 3.881800 ms  DeleteObjects: 0.147900 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 3.204000 ms (FindLiveObjects: 0.202100 ms CreateObjectMapping: 0.160900 ms MarkObjects: 2.741200 ms  DeleteObjects: 0.098300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -440,56 +171,144 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
+Received Import Request.
+  Time since last request: 2.383123 seconds.
+  path: Assets/Prefab/Enemy.prefab
+  artifactKey: Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefab/Enemy.prefab using Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f23704294e5a660a5e9585b40fff1e6') in 0.009266 seconds 
+========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004588 seconds.
+Registered in 0.002265 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Desktop\pasib\Projects\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\OneDrive\Documenti\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.55 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.46 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.361 seconds
+- Completed reload, in  0.727 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1362ms)
-		BeginReloadAssembly (146ms)
+	ReloadAssembly (728ms)
+		BeginReloadAssembly (85ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (27ms)
+		EndReloadAssembly (601ms)
+			LoadAssemblies (68ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (217ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (213ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (46ms)
+				ProcessInitializeOnLoadAttributes (148ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2659.
+Total: 2.157100 ms (FindLiveObjects: 0.106500 ms CreateObjectMapping: 0.041700 ms MarkObjects: 1.902000 ms  DeleteObjects: 0.105800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 99.306839 seconds.
+  path: Assets/Scripts/Enemy.cs
+  artifactKey: Guid(df181d550dfe4d941ab0f8ebf9356cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Enemy.cs using Guid(df181d550dfe4d941ab0f8ebf9356cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b8b6a3c7e68ead2a3fef3935c8ddaa4') in 0.014152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 86.050052 seconds.
+  path: Assets/Scripts/Character.cs
+  artifactKey: Guid(e724896d50ca1294693db3fe556c5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Character.cs using Guid(e724896d50ca1294693db3fe556c5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebffcb338a54fb1f79a3cf0fc3688f9f') in 0.003834 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.614583 seconds.
+  path: Assets/Scripts/Boss.cs
+  artifactKey: Guid(403d970ab670b4345ab54d200eba69b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/Boss.cs using Guid(403d970ab670b4345ab54d200eba69b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd7ca8fcb1272a4c60f1365c9b2f9bfe') in 0.004577 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003080 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\OneDrive\Documenti\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.45 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.303 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1303ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (39ms)
-		EndReloadAssembly (1124ms)
-			LoadAssemblies (169ms)
+		EndReloadAssembly (1102ms)
+			LoadAssemblies (112ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (393ms)
+			SetupTypeCache (289ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (383ms)
+			RebuildScriptCaches (83ms)
+			SetupLoadedEditorAssemblies (504ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (108ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (15ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				InitializePlatformSupportModulesInManaged (49ms)
+				SetLoadedEditorAssemblies (2ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (342ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.7 MB.
+System memory in use before: 100.6 MB.
+System memory in use after: 100.6 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2678.
-Total: 4.909900 ms (FindLiveObjects: 0.733400 ms CreateObjectMapping: 0.287100 ms MarkObjects: 3.662600 ms  DeleteObjects: 0.225600 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 5.486800 ms (FindLiveObjects: 0.172800 ms CreateObjectMapping: 0.079600 ms MarkObjects: 4.744600 ms  DeleteObjects: 0.487000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -498,8 +317,415 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+========================================================================
+Received Import Request.
+  Time since last request: 372.194944 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/DemonSlimeController.controller
+  artifactKey: Guid(bb308e1f711d27c4aa85820986086400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/DemonSlimeController.controller using Guid(bb308e1f711d27c4aa85820986086400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0fd80e264ab7d928a4a5ac8bf0dd1f6') in 0.013870 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 284.300586 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/spritesheets
+  artifactKey: Guid(b73cf7c0ecd346843ab72639e61543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/spritesheets using Guid(b73cf7c0ecd346843ab72639e61543ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4817103fc21f28791473003e9175e94c') in 0.003475 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.767660 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/spritesheets/demon_slime_FREE_v1.0_288x160_spritesheet.png
+  artifactKey: Guid(380e7817228b30b43a54a5de7af89a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/spritesheets/demon_slime_FREE_v1.0_288x160_spritesheet.png using Guid(380e7817228b30b43a54a5de7af89a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '951d33c54e11fc4808cfd1378860dd53') in 0.054385 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.574868 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk
+  artifactKey: Guid(949591c61d40a2348914563e0c23f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk using Guid(949591c61d40a2348914563e0c23f6fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '070230a6b9f1d4e5654187c9fd071097') in 0.003069 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.074933 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_1.png
+  artifactKey: Guid(9143c1ebdd8352c4e8f76e4dc78960a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_1.png using Guid(9143c1ebdd8352c4e8f76e4dc78960a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '140aab058aa9ba272de3e91c47e936a2') in 0.017382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000523 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_6.png
+  artifactKey: Guid(c167e30da1656c74b84f7f6ab5ecfb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_6.png using Guid(c167e30da1656c74b84f7f6ab5ecfb07) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c367e25f1209e40fd8a9f11c7f36961') in 0.011246 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000653 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_4.png
+  artifactKey: Guid(5a52998db26e25247917b29302e6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_4.png using Guid(5a52998db26e25247917b29302e6e5b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebbc55870bc2c07167b53d679c94daa0') in 0.014990 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000551 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_2.png
+  artifactKey: Guid(8dc6a5ab0a8c94c48b23e26c1c450f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_2.png using Guid(8dc6a5ab0a8c94c48b23e26c1c450f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '391e24f654d8147756bbbed3e521493f') in 0.013579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_5.png
+  artifactKey: Guid(9ffbe745b982755409688983435ba187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_5.png using Guid(9ffbe745b982755409688983435ba187) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b73235926b0fa9fd1323138564772274') in 0.012808 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000287 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_3.png
+  artifactKey: Guid(5bf0d795d1661b543a30fe88be67595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/02_demon_walk/demon_walk_3.png using Guid(5bf0d795d1661b543a30fe88be67595f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8dfbc8bc408ba4fa8b23e809a774b938') in 0.016981 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.647853 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_1.png
+  artifactKey: Guid(0686a434a6cf7c241814d0fab8577a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_1.png using Guid(0686a434a6cf7c241814d0fab8577a10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04e635169e6e9c67bddd8e998f604968') in 0.014576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000485 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_14.png
+  artifactKey: Guid(84e2bb52fe684e740a7dda996fcc8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_14.png using Guid(84e2bb52fe684e740a7dda996fcc8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd32c1d9933bf936a37389b0c2d132349') in 0.015045 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000325 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_5.png
+  artifactKey: Guid(97235ee0102aa16488ad613039be474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_5.png using Guid(97235ee0102aa16488ad613039be474c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cc1ac3e8a90e0c44de24b798ee04d1e') in 0.015637 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000460 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_10.png
+  artifactKey: Guid(ccfa6b8a994b21c47bfdf659022b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_10.png using Guid(ccfa6b8a994b21c47bfdf659022b6148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be7d69879b3eee60c455e9b2d76ab92b') in 0.012906 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000449 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_11.png
+  artifactKey: Guid(825ef392bf7b3f14293c7525612ca55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_11.png using Guid(825ef392bf7b3f14293c7525612ca55b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5f88666b83fc20f6ba058231872ebf') in 0.013154 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000437 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_3.png
+  artifactKey: Guid(72e069805d5423b4aa05caaf07617194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_3.png using Guid(72e069805d5423b4aa05caaf07617194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2f69bd5196f8920fb85d5540621ceb') in 0.013727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_4.png
+  artifactKey: Guid(82fed89bcfb5c1548b96c6fc0cae2d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_4.png using Guid(82fed89bcfb5c1548b96c6fc0cae2d01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d25636bb0c97356ea381e987bf4a3d4') in 0.014767 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_9.png
+  artifactKey: Guid(0199b3797301d8444a661a60d60d7550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_9.png using Guid(0199b3797301d8444a661a60d60d7550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e6dd4936360c872e6b1dd6f5db54907') in 0.012344 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_15.png
+  artifactKey: Guid(977fd06ec69d81f4b873ae2738d8c81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_15.png using Guid(977fd06ec69d81f4b873ae2738d8c81b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5654e1d0820860d1bb619325a746217') in 0.013974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_2.png
+  artifactKey: Guid(71d2021b20a535c4abf734b17b836817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_2.png using Guid(71d2021b20a535c4abf734b17b836817) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55e15fb46fa7148da184c426fe6c7b05') in 0.014151 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000345 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_7.png
+  artifactKey: Guid(f1f42995f0ea4e0419194fdfe1e0ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_7.png using Guid(f1f42995f0ea4e0419194fdfe1e0ee11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74dca9d061d425a0e518cb9e638829c7') in 0.012148 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_13.png
+  artifactKey: Guid(11c03f55ed894c946a606e60d15e33df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_13.png using Guid(11c03f55ed894c946a606e60d15e33df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e98988032a47e6e2e0c6c704a0ffffa') in 0.011915 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000368 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_12.png
+  artifactKey: Guid(b91ad4205dc795744bdedeb6dcb4c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_12.png using Guid(b91ad4205dc795744bdedeb6dcb4c184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e64ee3e6f2d90d2671adcd828fd2e58e') in 0.014602 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000428 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_6.png
+  artifactKey: Guid(2acfc8e61be862645b57f46c13dd6c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_6.png using Guid(2acfc8e61be862645b57f46c13dd6c98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '122abf263852068305f3c83a4ae56b9f') in 0.011120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000268 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_8.png
+  artifactKey: Guid(809d6d457d5ff364b810e1cb43715108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/03_demon_cleave/demon_cleave_8.png using Guid(809d6d457d5ff364b810e1cb43715108) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edb9101fa86c1cd0b371e2cb8fd8df6b') in 0.011586 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.006453 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_1.png
+  artifactKey: Guid(ceb68f390440e7f4fafca8a118f32637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_1.png using Guid(ceb68f390440e7f4fafca8a118f32637) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7329b886872caca3ee7475eba390746') in 0.013882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000465 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_3.png
+  artifactKey: Guid(ec09739f4eed5b340bc965f192a127cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_3.png using Guid(ec09739f4eed5b340bc965f192a127cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec48deb4b82895906386bfcb2cb8015a') in 0.016710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000468 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_5.png
+  artifactKey: Guid(248caf01acb4f6e4cbe90ef7ac481b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_5.png using Guid(248caf01acb4f6e4cbe90ef7ac481b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ff7f8f13f07839a95e0794f3f1deabb') in 0.013010 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000396 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_2.png
+  artifactKey: Guid(f3e5ce46a9ba6d14e80d2a2fe383ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_2.png using Guid(f3e5ce46a9ba6d14e80d2a2fe383ab9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75346b2a22d70bd4bc39c4160aa6affd') in 0.011293 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_4.png
+  artifactKey: Guid(4206db3f662ffb542916d93d081aed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/04_demon_take_hit/demon_take_hit_4.png using Guid(4206db3f662ffb542916d93d081aed5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce677d6756a9132d012e00901aa8663') in 0.011332 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.843209 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_1.png
+  artifactKey: Guid(40cdb30c47abba14c8fac5875af7ec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_1.png using Guid(40cdb30c47abba14c8fac5875af7ec34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8501445ce7c381fd2e44f5c86c057881') in 0.017136 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000474 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_18.png
+  artifactKey: Guid(f80e14d6320300548a621e294edddb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_18.png using Guid(f80e14d6320300548a621e294edddb40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27bd771701a60d8eac399bb2a6f7c07e') in 0.012604 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000354 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_8.png
+  artifactKey: Guid(2db58934adfd2da43bb7d95901ae9205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_8.png using Guid(2db58934adfd2da43bb7d95901ae9205) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eef720e2588f2df6e4570192bee118db') in 0.013846 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000337 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_10.png
+  artifactKey: Guid(9cb1c30e5bc2cbd4e96d36b28b96e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_10.png using Guid(9cb1c30e5bc2cbd4e96d36b28b96e3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f99eee988b1d23cbd3df392d9c4f38') in 0.014836 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000347 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_14.png
+  artifactKey: Guid(d4054a59b95d91743bde48f3b819b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_14.png using Guid(d4054a59b95d91743bde48f3b819b83f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f81d77a6a9ff457292dd95ad29fd80d') in 0.013315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_3.png
+  artifactKey: Guid(993c024e16b212748bb53035a424c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_3.png using Guid(993c024e16b212748bb53035a424c514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc8836c008e08a9aba5fb7fdc0d0f878') in 0.011744 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000584 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_16.png
+  artifactKey: Guid(3d6a5b6480a35814f83d3616d9bfa75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_16.png using Guid(3d6a5b6480a35814f83d3616d9bfa75e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5172c5840b510ad3d9f4f2145d7243c8') in 0.012582 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000627 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_19.png
+  artifactKey: Guid(14771f509ff64f14bbeb3a61a6c61de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_19.png using Guid(14771f509ff64f14bbeb3a61a6c61de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a1c25e0001ace341532063819364fb32') in 0.013876 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_20.png
+  artifactKey: Guid(abb3cb4b2a65dcf40868664794e00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_20.png using Guid(abb3cb4b2a65dcf40868664794e00ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0b90137252e6fa4bd497f08aa1ad41e') in 0.011404 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_11.png
+  artifactKey: Guid(538b5a4e5dc1e6c4ca8d660e939dcbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_11.png using Guid(538b5a4e5dc1e6c4ca8d660e939dcbbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81370722cf52a6e21e4aede69f21532e') in 0.015452 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_6.png
+  artifactKey: Guid(11192fcd9fb677b4ea9b8d1a5f9798ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_6.png using Guid(11192fcd9fb677b4ea9b8d1a5f9798ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc0ea974ada3470f9dd136944e6dcea3') in 0.013877 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_4.png
+  artifactKey: Guid(e2ca143e09da16846ad0274aa6ebf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_4.png using Guid(e2ca143e09da16846ad0274aa6ebf455) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef80f4de55b432e151b0f0cbad61cbad') in 0.014199 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000371 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_22.png
+  artifactKey: Guid(e89ea6be63bb8164ab2dfa62749f5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_22.png using Guid(e89ea6be63bb8164ab2dfa62749f5a8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4caad6d2e5447aa6bf59b86bc9f130b3') in 0.012615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000219 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_7.png
+  artifactKey: Guid(9ec2dd02d6ec0fe46b5595fd37340aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_7.png using Guid(9ec2dd02d6ec0fe46b5595fd37340aa7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec450ad89e7792c67ca89d66d9b1c268') in 0.012853 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_12.png
+  artifactKey: Guid(afe8aecc4360c1345876a416cae3115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_12.png using Guid(afe8aecc4360c1345876a416cae3115e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59757014be510e1879879373bdd1d701') in 0.012517 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000262 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_15.png
+  artifactKey: Guid(4245e37ebf6152342b1c53f477f6bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_15.png using Guid(4245e37ebf6152342b1c53f477f6bdcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbee1857037a1111e72e048964f4263e') in 0.013662 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000341 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_2.png
+  artifactKey: Guid(057a47f237cefac43969c9f25dcd3f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_2.png using Guid(057a47f237cefac43969c9f25dcd3f34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b0983abcde6b195db98b2b61553c326') in 0.013319 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_21.png
+  artifactKey: Guid(2405d1344680bba4aaef857012cede34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_21.png using Guid(2405d1344680bba4aaef857012cede34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d9831972f9d5af1a97296215da2539d') in 0.011736 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_13.png
+  artifactKey: Guid(7ef0499a150ee894fa7f6915b8ede56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_13.png using Guid(7ef0499a150ee894fa7f6915b8ede56e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efc950b84d66f140e8480452b38ac508') in 0.011735 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_9.png
+  artifactKey: Guid(a5ae9945220f17940b77bf136963756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_9.png using Guid(a5ae9945220f17940b77bf136963756e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9227bc0a326552fd8fef09c870a8b345') in 0.011652 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000367 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_17.png
+  artifactKey: Guid(8de907c09d0dde248a91279dfcb9d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_17.png using Guid(8de907c09d0dde248a91279dfcb9d5b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '022d97776e0a27ce01215d5f36f4e128') in 0.013415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000476 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_5.png
+  artifactKey: Guid(9f908754037cc4f4e80d59f742eae815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/individual sprites/05_demon_death/demon_death_5.png using Guid(9f908754037cc4f4e80d59f742eae815) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e13302dbeaf1b1a6e6e23c6b54f9f0b1') in 0.014028 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.966470 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/01_d_idle.gif
+  artifactKey: Guid(6c0f6562f5dc57744a95d2788092f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/01_d_idle.gif using Guid(6c0f6562f5dc57744a95d2788092f17e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ccdadcc7a5a35bbe11dc87f9f15a5dc') in 0.013704 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000314 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/02_d_walk.gif
+  artifactKey: Guid(0033a640c95659b4987c2b8c0632ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/02_d_walk.gif using Guid(0033a640c95659b4987c2b8c0632ef87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c34bd3745bb7d5d1e8a11c7f83de577') in 0.012103 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000637 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/03_d_cleave.gif
+  artifactKey: Guid(48eae93b9f29d8b4d9654221a43b04d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/03_d_cleave.gif using Guid(48eae93b9f29d8b4d9654221a43b04d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e385dc31dab03155cd2df46c9927dffa') in 0.011904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000433 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/05_d_death.gif
+  artifactKey: Guid(45c2869878e8a8941b6a0f2213abf1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/05_d_death.gif using Guid(45c2869878e8a8941b6a0f2213abf1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f419d1dd59a7c3b18a7bc2c849cd07') in 0.012177 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000313 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/04_d_take_hit.gif
+  artifactKey: Guid(5dc29e019aff1b940835ea7e07b1ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/gifs/04_d_take_hit.gif using Guid(5dc29e019aff1b940835ea7e07b1ea8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fc7be4234d9a05870d8134b8cd66f91') in 0.010705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.047350 seconds.
+  path: Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonSlimeIdle.anim
+  artifactKey: Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/DemonSlime/boss_demon_slime_FREE_v1.0/Animations/DemonSlimeIdle.anim using Guid(d5784d46da588444d91499910f6578fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f0f0f6363946e6c31a4202acdc9ce0f') in 0.005459 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003486 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\OneDrive\Documenti\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.201 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1203ms)
+		BeginReloadAssembly (190ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (60ms)
+		EndReloadAssembly (949ms)
+			LoadAssemblies (142ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (302ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (376ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (101ms)
+				ProcessInitializeOnLoadAttributes (249ms)
+				ProcessInitializeOnLoadMethodAttributes (10ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2209 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.8 MB.
+System memory in use after: 100.8 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2671.
+Total: 3.329800 ms (FindLiveObjects: 0.220400 ms CreateObjectMapping: 0.051500 ms MarkObjects: 2.892400 ms  DeleteObjects: 0.163000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
