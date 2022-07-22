@@ -13,7 +13,6 @@ GameObject:
   - component: {fileID: 7390229677090703348}
   - component: {fileID: 7390229677090703349}
   - component: {fileID: 2224764165235023612}
-  - component: {fileID: 1755738987409825441}
   m_Layer: 0
   m_Name: Boss
   m_TagString: Enemy
@@ -143,18 +142,6 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 403d970ab670b4345ab54d200eba69b2, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
---- !u!114 &1755738987409825441
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7390229677090703352}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: db50817b66fe7624898f8b84d536ee43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 5

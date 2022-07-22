@@ -13,11 +13,19 @@ public class Player : MonoBehaviour
 
     int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
 
-    int ATK;
+    private int ATK;
+    private int HP;
+    private int ATKSPD;
+    private int CRITRATE;
+    private int CRITDAMAGE;
 
     private void Start()
     {
         ATK = 100;
+        HP = 100;
+        ATKSPD = 1;
+        CRITRATE = 0;
+        CRITDAMAGE = 100;
     }
 
     public void Attack()
@@ -40,7 +48,6 @@ public class Player : MonoBehaviour
         {
             weapon = 0;
         }
-        print(weapon);
     }
 
     private void PistolAttack()
@@ -62,6 +69,30 @@ public class Player : MonoBehaviour
     {
         projectile2 = Instantiate(projectilePrefab2, transform.position + Vector3.right, Quaternion.identity);
         projectile2.GetComponent<Projectile>().damage = ATK;
+    }
+
+    public void StatUpgrade(string statToUpgrade, int value)
+    {
+        if(statToUpgrade.Equals("ATK"))
+        {
+            ATK += value;
+        }
+        else if (statToUpgrade.Equals("HP"))
+        {
+            HP += value;
+        }
+        else if (statToUpgrade.Equals("ATKSPD"))
+        {
+            ATKSPD += value;
+        }
+        else if (statToUpgrade.Equals("CRITRATE"))
+        {
+            CRITRATE += value;
+        }
+        else if (statToUpgrade.Equals("CRITDAMAGE"))
+        {
+            CRITDAMAGE += value;
+        }
     }
 
 }

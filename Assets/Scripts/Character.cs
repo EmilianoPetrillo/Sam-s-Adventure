@@ -18,7 +18,6 @@ public class Character : MonoBehaviour
 
     protected virtual void OnDeath()
     {
-        print("i'm dead shit");
         Destroy(gameObject);
     }
 
