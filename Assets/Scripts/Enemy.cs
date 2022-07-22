@@ -5,19 +5,19 @@ using UnityEngine;
 public class Enemy : Character
 {
 
-    protected int coins;
-    protected UIController UIController;
-    protected GameController GameController;
+    protected float coins;
     protected bool deathCheck = false;
     //Senza il controllo deathCheck (dentro OnDeath()) diversi proiettili potevano invocare la funzione OnDeath
     //facendo avanzare il player di più livelli in un colpo solo.
     protected float speed = 1.5f;
 
-    protected void Start()
+    public float multiplier = 1;
+
+    protected virtual void Start()
     {
-        hitpoints = 1000;
-        coins = 100;
-        FindReferences();
+        HP = 1000 * multiplier;
+        coins = 100 * multiplier;
+        ATK = 100 * multiplier;
     }
 
     private void Update()
@@ -25,19 +25,13 @@ public class Enemy : Character
         Move();
     }
 
-    private void FindReferences()
-    {
-        UIController = FindObjectOfType<UIController>();
-        GameController = FindObjectOfType<GameController>();
-    }
-
     protected override void OnDeath()
     {
         if(deathCheck == false)
         {
             deathCheck = true;
-            UIController.CoinsUp(coins);
-            GameController.LevelUp();
+            UIController.Instance.CoinsUp(coins);
+            GameController.Instance.LevelUp();
             base.OnDeath();
         }
     }

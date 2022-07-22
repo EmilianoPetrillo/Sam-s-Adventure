@@ -4,10 +4,10 @@ using UnityEngine;
 
 public class Boss : Enemy
 {
-    private new void Start()
+    protected override void Start()
     {
-        base.Start();
-        hitpoints = 2000;
-        coins = 500;
+        HP = 2000 * multiplier;
+        coins = 500 * multiplier;
+        ATK = 500 * multiplier;
     }
 }

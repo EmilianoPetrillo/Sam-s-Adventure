@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class GameController : MonoBehaviour
 {
+
+    public static GameController Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     public GameObject Enemy;
     public GameObject Boss;
     public Transform SpawnPosition;
@@ -31,15 +46,6 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public int Stage
-    {
-        get { return stage; }
-    }
-    public int Level
-    {
-        get { return level; }
-    }
-
     public void LevelUp()
     {
         if (timer == false)
@@ -50,11 +56,13 @@ public class GameController : MonoBehaviour
         {
             if (level >= 10)
             {
+                UIController.Instance.level9Completed = false;
                 StageUp();
             }
             else if (level == 9)
             {
                 level++;
+                UIController.Instance.level9Completed = true;
                 SpawnBoss();
             }
             else if (level <= 8)
@@ -66,7 +74,7 @@ public class GameController : MonoBehaviour
             t = 0;
         }
     }
-
+    
     public void StageUp()
     {
         if(stage >= 10)
@@ -88,11 +96,33 @@ public class GameController : MonoBehaviour
 
     private void SpawnEnemy()
     {
-        Instantiate(Enemy, SpawnPosition.position, Quaternion.identity);
+        GameObject enemy = Instantiate(Enemy, SpawnPosition.position, Quaternion.identity);
+        enemy.GetComponent<Enemy>().multiplier = MultiplierCalculator(stage, level);
     }
 
     private void SpawnBoss()
     {
         Instantiate(Boss, SpawnPosition.position, Quaternion.identity);
     }
+
+    private float MultiplierCalculator(int Stage, int Level)
+    {
+        float a = Level / 10f;
+        float multiplier = stage + a;
+        return multiplier;
+    }
+
+    public void ForcedLevelUp()
+    {
+        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
+        Destroy(enemy);
+    }
+
+    #region PROPERTIES
+
+    public int Stage => stage;
+
+    public int Level => level;
+
+    #endregion
 }

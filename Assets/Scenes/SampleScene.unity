@@ -1153,7 +1153,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1075293847}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1316841775}
+        m_TargetAssemblyTypeName: UIController, Assembly-CSharp
+        m_MethodName: BossButton
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1075293847
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1267,6 +1279,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actualCoins: {fileID: 765035726}
   stageAndLevel: {fileID: 455080617}
+  player: {fileID: 1769775561}
+  bossButton: {fileID: 1075293844}
+  level9Completed: 0
 --- !u!1 &1470823356
 GameObject:
   m_ObjectHideFlags: 0
@@ -1614,11 +1629,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   projectilePrefab0: {fileID: 2071703974779912799, guid: 3d2e10ed047fe94428947701ea7c829b, type: 3}
-  projectile0: {fileID: 0}
   projectilePrefab1: {fileID: 8689375317197207745, guid: e559ca8296b067a4d8f23f5adbc171fc, type: 3}
-  projectile1: {fileID: 0}
   projectilePrefab2: {fileID: 5591920311131459051, guid: 4fc14652383e8c241a8b5eacdba0bdb6, type: 3}
-  projectile2: {fileID: 0}
 --- !u!212 &1769775562
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1968,6 +1980,7 @@ MonoBehaviour:
   Enemy: {fileID: 7390229677090703352, guid: f9068b9c16ebf0b4a85f0aaba9e28089, type: 3}
   Boss: {fileID: 7390229677090703352, guid: 9f4a936b74a678d468c1837131d45e00, type: 3}
   SpawnPosition: {fileID: 1308625935}
+  UIController: {fileID: 1316841775}
 --- !u!1 &2118884169
 GameObject:
   m_ObjectHideFlags: 0
