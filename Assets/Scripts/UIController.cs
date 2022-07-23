@@ -31,7 +31,6 @@ public class UIController : MonoBehaviour
     private int keyCRITDAMAGE = 0;
     public Text actualCoins;
     public Text stageAndLevel;
-    public Player player;
 
     public GameObject bossButton;
     public bool level9Completed;
@@ -50,7 +49,12 @@ public class UIController : MonoBehaviour
     {
         coins += (int)gainedCoins;
     }
-
+    public void BossButton()
+    {
+        GameController.Instance.LevelUp();
+        GameController.Instance.ForcedLevelUp();
+    }
+    #region STATS UPGRADE BUTTONS
     private void AtkUpgrade()
     {
         if (coins >= coinsToUpgradeATK)
@@ -58,7 +62,7 @@ public class UIController : MonoBehaviour
             coins -= coinsToUpgradeATK;
             keyATK++;
             coinsToUpgradeATK += 100 * keyATK;
-            player.ATKUpgrade();
+            Player.Instance.ATKUpgrade();
         }
     }
 
@@ -69,7 +73,7 @@ public class UIController : MonoBehaviour
             coins -= coinsToUpgradeHP;
             keyHP++;
             coinsToUpgradeHP += 100 * keyHP;
-            player.HPUpgrade();
+            Player.Instance.HPUpgrade();
         }
     }
 
@@ -80,7 +84,7 @@ public class UIController : MonoBehaviour
             coins -= coinsToUpgradeCRITRATE;
             keyCRITRATE++;
             coinsToUpgradeCRITRATE += 100 * keyCRITRATE;
-            player.CRITRATEUpgrade();
+            Player.Instance.CRITRATEUpgrade();
         }
     }
 
@@ -91,14 +95,9 @@ public class UIController : MonoBehaviour
             coins -= coinsToUpgradeCRITDAMAGE;
             keyCRITDAMAGE++;
             coinsToUpgradeCRITDAMAGE += 100 * keyCRITDAMAGE;
-            player.CRITDAMAGEUpgrade();
+            Player.Instance.CRITDAMAGEUpgrade();
         }
     }
-
-    public void BossButton()
-    {
-        GameController.Instance.LevelUp();
-        GameController.Instance.ForcedLevelUp();
-    }
+    #endregion
 
 }

@@ -4,6 +4,21 @@ using UnityEngine;
 
 public class Player : Character
 {
+
+    public static Player Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     public GameObject projectilePrefab0;
     GameObject projectile0;
     public GameObject projectilePrefab1;
@@ -21,6 +36,27 @@ public class Player : Character
         CRITDAMAGE = 150;
     }
 
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Mouse1))
+            HP -= 100;
+        if (HP <= 0)
+        {
+            OnDeath();
+        }
+    }
+
+    protected override void OnDeath()
+    {
+        GameController.Instance.ForcedLevelDown();
+    }
+
+    public void PlayerRespawn()
+    {
+        HP = 1000;
+    }
+
+    #region ATTACK TYPES
     public void Attack()
     {
         if (weapon == 0)
@@ -33,7 +69,7 @@ public class Player : Character
 
     public void ChangeWeapon()
     {
-        if(weapon < 2)
+        if (weapon < 2)
         {
             weapon++;
         }
@@ -73,7 +109,8 @@ public class Player : Character
         else
             projectile.GetComponent<Projectile>().damage = dmg;
     }
-
+    #endregion
+    #region STATS UPGRADE METHODS
     public void ATKUpgrade()
     {
         ATK += 10;
@@ -93,4 +130,5 @@ public class Player : Character
     {
         CRITDAMAGE += 0.5f;
     }
+    #endregion
 }

@@ -26,6 +26,9 @@ public class GameController : MonoBehaviour
     private int stage;
     private int level;
 
+    bool timer = false;
+    float t = 0;
+
     private void Start()
     {
         stage = 1;
@@ -33,8 +36,6 @@ public class GameController : MonoBehaviour
         SpawnEnemy();
     }
 
-    bool timer = false;
-    float t = 0;
 
     private void Update()
     {
@@ -46,6 +47,7 @@ public class GameController : MonoBehaviour
         }
     }
 
+    #region STAGES AND LEVELS
     public void LevelUp()
     {
         if (timer == false)
@@ -89,11 +91,35 @@ public class GameController : MonoBehaviour
         }
     }
 
+    public void ForcedLevelUp()
+    {
+        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
+        Destroy(enemy);
+    }
+
+    public void ForcedLevelDown()
+    {
+        Player.Instance.PlayerRespawn();
+        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
+        Destroy(enemy);
+        if (level <= 10)
+        {
+            level -= 2;
+            LevelUp();
+        }
+        else if(level == 1)
+        {
+            level--;
+            LevelUp();
+        }
+    }
+
     private void EndGame()
     {
         print("gj");
     }
-
+    #endregion
+    #region ENEMIES SPAWN
     private void SpawnEnemy()
     {
         GameObject enemy = Instantiate(Enemy, SpawnPosition.position, Quaternion.identity);
@@ -111,13 +137,7 @@ public class GameController : MonoBehaviour
         float multiplier = stage + a;
         return multiplier;
     }
-
-    public void ForcedLevelUp()
-    {
-        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
-        Destroy(enemy);
-    }
-
+    #endregion
     #region PROPERTIES
 
     public int Stage => stage;
