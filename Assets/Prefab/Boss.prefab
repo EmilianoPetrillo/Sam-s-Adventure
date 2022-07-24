@@ -144,6 +144,5 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 403d970ab670b4345ab54d200eba69b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 5
-  frequency: 20
-  magnitude: 0.5
+  characterSO: {fileID: 11400000, guid: 6bc45ea259edc8e44a19a66dfb732ff1, type: 2}
+  enemySO: {fileID: 11400000, guid: 6bc45ea259edc8e44a19a66dfb732ff1, type: 2}

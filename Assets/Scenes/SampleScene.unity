@@ -1279,7 +1279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   actualCoins: {fileID: 765035726}
   stageAndLevel: {fileID: 455080617}
-  player: {fileID: 1769775561}
   bossButton: {fileID: 1075293844}
   level9Completed: 0
 --- !u!1 &1470823356
@@ -1628,6 +1627,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: adafabcc4e6646a489b671b257035c3f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  characterSO: {fileID: 11400000, guid: b1f802ce715bfa74f865c6dbfdaba080, type: 2}
   projectilePrefab0: {fileID: 2071703974779912799, guid: 3d2e10ed047fe94428947701ea7c829b, type: 3}
   projectilePrefab1: {fileID: 8689375317197207745, guid: e559ca8296b067a4d8f23f5adbc171fc, type: 3}
   projectilePrefab2: {fileID: 5591920311131459051, guid: 4fc14652383e8c241a8b5eacdba0bdb6, type: 3}
@@ -1980,7 +1980,6 @@ MonoBehaviour:
   Enemy: {fileID: 7390229677090703352, guid: f9068b9c16ebf0b4a85f0aaba9e28089, type: 3}
   Boss: {fileID: 7390229677090703352, guid: 9f4a936b74a678d468c1837131d45e00, type: 3}
   SpawnPosition: {fileID: 1308625935}
-  UIController: {fileID: 1316841775}
 --- !u!1 &2118884169
 GameObject:
   m_ObjectHideFlags: 0

@@ -6,8 +6,7 @@ public class Boss : Enemy
 {
     protected override void Start()
     {
-        HP = 2000 * multiplier;
-        coins = 500 * multiplier;
-        ATK = 500 * multiplier;
+        enemySO.coins = 500 * enemySO.multiplier;
+        characterSO.ATK = 500 * enemySO.multiplier;
     }
 }

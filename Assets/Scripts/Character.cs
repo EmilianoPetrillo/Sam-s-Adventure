@@ -5,15 +5,12 @@ using UnityEngine;
 public class Character : MonoBehaviour
 {
 
-    protected float HP;
-    protected float ATK;
-    protected float CRITRATE;
-    protected float CRITDAMAGE;
+    public CharacterSO characterSO;
 
-    public void TakeDamage(int damage)
+    public virtual void TakeDamage(int damage)
     {
-        HP-= damage;
-        if (HP <= 0)
+        characterSO.HP -= damage;
+        if (characterSO.HP <= 0)
         {
             OnDeath();
         }

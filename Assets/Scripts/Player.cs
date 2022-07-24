@@ -28,19 +28,11 @@ public class Player : Character
 
     int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
 
-    private void Start()
-    {
-        ATK = 100;
-        HP = 1000;
-        CRITRATE = 0;
-        CRITDAMAGE = 150;
-    }
-
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
-            HP -= 100;
-        if (HP <= 0)
+            characterSO.HP -= 100;
+        if (characterSO.HP <= 0)
         {
             OnDeath();
         }
@@ -53,7 +45,7 @@ public class Player : Character
 
     public void PlayerRespawn()
     {
-        HP = 1000;
+        characterSO.HP = 1000;
     }
 
     #region ATTACK TYPES
@@ -82,12 +74,12 @@ public class Player : Character
     private void PistolAttack()
     {
         projectile0 = Instantiate(projectilePrefab0, transform.position + Vector3.right, Quaternion.identity);
-        CheckCrit(ATK, projectile0);
+        CheckCrit(characterSO.ATK, projectile0);
     }
 
     private void ShotgunAttack()
     {
-        float shotgunatk = ATK / 2;
+        float shotgunatk = characterSO.ATK / 2;
         for(int i = 0; i < 4; i++)
         {
             projectile1 = Instantiate(projectilePrefab1, transform.position + Vector3.right, new Quaternion(1, Random.Range(-0.2f, 0.2f), 0, 0));
@@ -97,15 +89,15 @@ public class Player : Character
 
     private void SniperAttack()
     {
-        float sniperatk = ATK * 1.5f;
+        float sniperatk = characterSO.ATK * 1.5f;
         projectile2 = Instantiate(projectilePrefab2, transform.position + Vector3.right, Quaternion.identity);
         CheckCrit(sniperatk, projectile2);
     }
 
     private void CheckCrit(float dmg, GameObject projectile)
     {
-        if (Random.Range(0f, 1f) <= (CRITRATE / 100))
-            projectile.GetComponent<Projectile>().damage = dmg * (CRITDAMAGE / 100);
+        if (Random.Range(0f, 1f) <= (characterSO.CRITRATE / 100))
+            projectile.GetComponent<Projectile>().damage = dmg * (characterSO.CRITDAMAGE / 100);
         else
             projectile.GetComponent<Projectile>().damage = dmg;
     }
@@ -113,22 +105,22 @@ public class Player : Character
     #region STATS UPGRADE METHODS
     public void ATKUpgrade()
     {
-        ATK += 10;
+        characterSO.ATK += 10;
     }
 
     public void HPUpgrade()
     {
-        HP += 10;
+        characterSO.HP += 10;
     }
 
     public void CRITRATEUpgrade()
     {
-        CRITRATE += 0.5f;
+        characterSO.CRITRATE += 0.5f;
     }
 
     public void CRITDAMAGEUpgrade()
     {
-        CRITDAMAGE += 0.5f;
+        characterSO.CRITDAMAGE += 0.5f;
     }
     #endregion
 }

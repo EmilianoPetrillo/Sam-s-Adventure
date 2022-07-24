@@ -4,20 +4,26 @@ using UnityEngine;
 
 public class Enemy : Character
 {
-
-    protected float coins;
     protected bool deathCheck = false;
     //Senza il controllo deathCheck (dentro OnDeath()) diversi proiettili potevano invocare la funzione OnDeath
     //facendo avanzare il player di più livelli in un colpo solo.
     protected float speed = 1.5f;
 
-    public float multiplier = 1;
+    protected EnemySO enemySO;
+    public EnemySO EnemySO
+    {
+        get { return enemySO; }
+    }
+
+    protected void Awake()
+    {
+        enemySO = Object.Instantiate<EnemySO>((EnemySO)characterSO);
+    }
 
     protected virtual void Start()
     {
-        HP = 1000 * multiplier;
-        coins = 100 * multiplier;
-        ATK = 100 * multiplier;
+        enemySO.coins = 100 * enemySO.multiplier;
+        enemySO.ATK = 100 * enemySO.multiplier;
     }
 
     private void Update()
@@ -30,7 +36,7 @@ public class Enemy : Character
         if(deathCheck == false)
         {
             deathCheck = true;
-            UIController.Instance.CoinsUp(coins);
+            UIController.Instance.CoinsUp(enemySO.coins);
             GameController.Instance.LevelUp();
             base.OnDeath();
         }
@@ -41,6 +47,15 @@ public class Enemy : Character
         if(Vector2.Distance(transform.position, new Vector2(-6f, 0f)) > 2)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime); 
+        }
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        enemySO.HP -= damage;
+        if (enemySO.HP <= 0)
+        {
+            OnDeath();
         }
     }
 }

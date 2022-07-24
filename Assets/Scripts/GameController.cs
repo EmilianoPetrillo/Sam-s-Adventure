@@ -123,7 +123,7 @@ public class GameController : MonoBehaviour
     private void SpawnEnemy()
     {
         GameObject enemy = Instantiate(Enemy, SpawnPosition.position, Quaternion.identity);
-        enemy.GetComponent<Enemy>().multiplier = MultiplierCalculator(stage, level);
+        enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 
     private void SpawnBoss()

@@ -57,15 +57,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
-    <Compile Include="Assets\Scripts\PistolProjectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\PistolProjectile.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
-    <Compile Include="Assets\Scripts\ShotgunProjectile.cs" />
-    <Compile Include="Assets\Scripts\SniperProjectile.cs" />
-    <Compile Include="Assets\Scripts\Projectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\ShotgunProjectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\SniperProjectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\EnemiesSO\EnemySO.cs" />
+    <Compile Include="Assets\EnemiesSO\CharacterSO.cs" />
+    <Compile Include="Assets\EnemiesSO\PlayerSO.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
