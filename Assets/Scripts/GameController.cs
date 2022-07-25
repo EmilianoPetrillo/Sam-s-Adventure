@@ -19,7 +19,8 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public GameObject Enemy;
+    public GameObject[] Enemy;
+    private int enemyIndex;
     public GameObject Boss;
     public Transform SpawnPosition;
 
@@ -122,7 +123,8 @@ public class GameController : MonoBehaviour
     #region ENEMIES SPAWN
     private void SpawnEnemy()
     {
-        GameObject enemy = Instantiate(Enemy, SpawnPosition.position, Quaternion.identity);
+        enemyIndex = Random.Range(0, Enemy.GetLength(0));
+        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

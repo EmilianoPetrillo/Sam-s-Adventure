@@ -9,6 +9,13 @@ public class Enemy : Character
     //facendo avanzare il player di più livelli in un colpo solo.
     protected float speed = 1.5f;
 
+    Animator animator;
+    Animation deathAnimation;
+
+    private float t = 0;
+    private bool timer;
+
+
     protected EnemySO enemySO;
     public EnemySO EnemySO
     {
@@ -18,6 +25,7 @@ public class Enemy : Character
     protected void Awake()
     {
         enemySO = Object.Instantiate<EnemySO>((EnemySO)characterSO);
+        animator = GetComponent<Animator>();
     }
 
     protected virtual void Start()
@@ -29,26 +37,38 @@ public class Enemy : Character
 
     private void Update()
     {
-        Move();
+        if(deathCheck == false)
+            Move();
+        if (timer == true)
+            t += Time.deltaTime;
+        if (t >= animator.GetCurrentAnimatorStateInfo(0).length)
+        {
+            UIController.Instance.CoinsUp(enemySO.coins);
+            GameController.Instance.LevelUp();
+            Destroy(gameObject);
+        }
     }
 
     protected override void OnDeath()
     {
-        if(deathCheck == false)
+        if (deathCheck == false)
         {
+            timer = true;
             deathCheck = true;
-            UIController.Instance.CoinsUp(enemySO.coins);
-            GameController.Instance.LevelUp();
-            base.OnDeath();
+            animator.SetBool("Walk", false);
+            animator.SetBool("Attack", false);
+            animator.SetBool("Dead", true);
         }
     }
 
     protected virtual void Move()
     {
-        if(Vector2.Distance(transform.position, new Vector2(-6f, 0f)) > 2)
+        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > 2)
         {
-            transform.Translate(Vector2.left * speed * Time.deltaTime); 
+            transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
+        else
+            Attack();
     }
 
     public override void TakeDamage(int damage)
@@ -59,4 +79,11 @@ public class Enemy : Character
             OnDeath();
         }
     }
+
+    private void Attack()
+    {
+        animator.SetBool("Walk", false);
+        animator.SetBool("Attack", true);
+    }
+
 }
