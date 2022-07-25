@@ -55,7 +55,7 @@ public class UIController : MonoBehaviour
         GameController.Instance.ForcedLevelUp();
     }
     #region STATS UPGRADE BUTTONS
-    private void AtkUpgrade()
+    public void AtkUpgrade()
     {
         if (coins >= coinsToUpgradeATK)
         {
@@ -66,7 +66,7 @@ public class UIController : MonoBehaviour
         }
     }
 
-    private void HpUpgrade()
+    public void HpUpgrade()
     {
         if (coins >= coinsToUpgradeHP)
         {
@@ -77,7 +77,7 @@ public class UIController : MonoBehaviour
         }
     }
 
-    private void CritRateUpgrade()
+    public void CritRateUpgrade()
     {
         if (coins >= coinsToUpgradeCRITRATE)
         {
@@ -88,7 +88,7 @@ public class UIController : MonoBehaviour
         }
     }
 
-    private void CritDamageUpgrade()
+    public void CritDamageUpgrade()
     {
         if (coins >= coinsToUpgradeCRITDAMAGE)
         {

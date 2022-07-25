@@ -102,7 +102,7 @@ public class GameController : MonoBehaviour
         Player.Instance.PlayerRespawn();
         GameObject enemy = FindObjectOfType<Enemy>().gameObject;
         Destroy(enemy);
-        if (level <= 10)
+        if (level <= 10 && level > 1)
         {
             level -= 2;
             LevelUp();

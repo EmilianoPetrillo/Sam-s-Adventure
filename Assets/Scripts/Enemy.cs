@@ -22,8 +22,9 @@ public class Enemy : Character
 
     protected virtual void Start()
     {
-        enemySO.coins = 100 * enemySO.multiplier;
-        enemySO.ATK = 100 * enemySO.multiplier;
+        enemySO.coins *= enemySO.multiplier;
+        enemySO.ATK *= enemySO.multiplier;
+        enemySO.HP *= enemySO.multiplier;
     }
 
     private void Update()

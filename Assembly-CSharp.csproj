@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Player.cs" />
+    <Compile Include="Assets\EnemiesSO\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Weapons\PistolProjectile.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Weapons\ShotgunProjectile.cs" />
@@ -68,11 +69,14 @@
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\EnemiesSO\EnemySO.cs" />
     <Compile Include="Assets\EnemiesSO\CharacterSO.cs" />
-    <Compile Include="Assets\EnemiesSO\PlayerSO.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
-    <None Include="Assets\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
+    <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
+    <None Include="Assets\AssetsMaterial\License.txt" />
+    <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
+    <None Include="Assets\AssetsMaterial\bulkhead-walls-files\license.txt" />
+    <None Include="Assets\AssetsMaterial\Font.txt" />
+    <None Include="Assets\AssetsMaterial\Robot Shooting Game\Read Me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
