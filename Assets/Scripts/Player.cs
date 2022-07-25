@@ -6,6 +6,7 @@ public class Player : Character
 {
 
     public static Player Instance;
+    public HealthBar healthBar;
 
     private void Awake()
     {
@@ -28,10 +29,19 @@ public class Player : Character
 
     int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
 
+    private void Start()
+    {
+        characterSO.HP = 800;
+        healthBar.SetMaxHealth(characterSO.HP);
+    }
+
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
+        {
             characterSO.HP -= 100;
+            healthBar.SetHealth(characterSO.HP);
+        }
         if (characterSO.HP <= 0)
         {
             OnDeath();
@@ -45,7 +55,8 @@ public class Player : Character
 
     public void PlayerRespawn()
     {
-        characterSO.HP = 1000;
+        characterSO.HP = 800;
+        healthBar.SetMaxHealth(characterSO.HP);
     }
 
     #region ATTACK TYPES

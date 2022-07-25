@@ -11,6 +11,7 @@ public class Enemy : Character
 
     Animator animator;
     Animation deathAnimation;
+    public HealthBar healthBar;
 
     private float t = 0;
     private bool timer;
@@ -33,6 +34,7 @@ public class Enemy : Character
         enemySO.coins *= enemySO.multiplier;
         enemySO.ATK *= enemySO.multiplier;
         enemySO.HP *= enemySO.multiplier;
+        healthBar.SetMaxHealth(enemySO.HP);
     }
 
     private void Update()
@@ -74,6 +76,8 @@ public class Enemy : Character
     public override void TakeDamage(int damage)
     {
         enemySO.HP -= damage;
+        if(enemySO.HP >=0)
+            healthBar.SetHealth(enemySO.HP);
         if (enemySO.HP <= 0)
         {
             OnDeath();
