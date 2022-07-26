@@ -1,1409 +1,136 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.33f1 (915a7af8b0d5) revision 9525882'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 7103 MB
+OS: 'Windows 11  (10.0.22000) 64bit Core' Language: 'it' Physical Memory: 16088 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
 COMMAND LINE ARGUMENTS:
-D:\Program Files\2020.3.33f1\Editor\Unity.exe
+C:\Program Files\Unity\Hub\Editor\2020.3.33f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/gianl/Desktop/Sam's Adventure
+C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61362
-Successfully changed project path to: C:/Users/gianl/Desktop/Sam's Adventure
-C:/Users/gianl/Desktop/Sam's Adventure
+55319
+Successfully changed project path to: C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
+C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 166.45 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.88 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
-[Subsystems] Discovering subsystems at path D:/Program Files/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/gianl/Desktop/Sam's Adventure/Assets
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/pegor/Documents/GitHub/Sam-s-Adventure/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: AMD Radeon(TM) Vega 8 Graphics (ID=0x15d8)
+    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
     Vendor:   
-    VRAM:     3551 MB
-    Driver:   26.20.11030.22001
+    VRAM:     6023 MB
+    Driver:   30.0.15.1165
 Initialize mono
-Mono path[0] = 'D:/Program Files/2020.3.33f1/Editor/Data/Managed'
-Mono path[1] = 'D:/Program Files/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'D:/Program Files/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56532
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56040
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/Program Files/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.036926 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.001845 seconds.
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 110.69 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 35.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.493 seconds
+- Completed reload, in  0.374 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1494ms)
-		BeginReloadAssembly (165ms)
+	ReloadAssembly (374ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (1128ms)
-			LoadAssemblies (151ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (293ms)
+			LoadAssemblies (38ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
+			SetupTypeCache (89ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (442ms)
+			RebuildScriptCaches (19ms)
+			SetupLoadedEditorAssemblies (118ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (111ms)
-				BeforeProcessingInitializeOnLoad (30ms)
-				ProcessInitializeOnLoadAttributes (228ms)
-				ProcessInitializeOnLoadMethodAttributes (63ms)
+				RefreshPlugins (36ms)
+				BeforeProcessingInitializeOnLoad (6ms)
+				ProcessInitializeOnLoadAttributes (53ms)
+				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.026931 seconds.
+Registered in 0.001824 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gianl\Desktop\Sam's Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 118.93 ms, found 3 plugins.
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 37.78 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.373 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3375ms)
-		BeginReloadAssembly (457ms)
+	ReloadAssembly (680ms)
+		BeginReloadAssembly (85ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
+			DisableScriptedObjects (2ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (64ms)
-		EndReloadAssembly (2746ms)
-			LoadAssemblies (323ms)
+			CreateAndSetChildDomain (13ms)
+		EndReloadAssembly (558ms)
+			LoadAssemblies (59ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (749ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (125ms)
-			SetupLoadedEditorAssemblies (1265ms)
+			SetupTypeCache (175ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (119ms)
-				BeforeProcessingInitializeOnLoad (276ms)
-				ProcessInitializeOnLoadAttributes (782ms)
-				ProcessInitializeOnLoadMethodAttributes (75ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (40ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.17 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2218 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 97.8 MB.
-System memory in use after: 97.7 MB.
-
-Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2651.
-Total: 9.895100 ms (FindLiveObjects: 0.364100 ms CreateObjectMapping: 0.103600 ms MarkObjects: 8.914400 ms  DeleteObjects: 0.508500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/AssetsMaterial/bulkhead-walls-files/layers
-  artifactKey: Guid(e73a5863a1f4e0b47a54dba6ac82913c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/bulkhead-walls-files/layers using Guid(e73a5863a1f4e0b47a54dba6ac82913c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd213f55cc28314f2e8af6f3e95cf8036') in 0.048561 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 250.259879 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk
-  artifactKey: Guid(5eaee50479152f64b963f57fdc17e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk using Guid(5eaee50479152f64b963f57fdc17e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf1e2f0cd3f3462734afc95db61298fe') in 0.019256 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.810983 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Idle1.png
-  artifactKey: Guid(cd9acb21fd5f3bd44ae7b772e5f6e28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Idle1.png using Guid(cd9acb21fd5f3bd44ae7b772e5f6e28d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02cc1cb31e969f0c8ddb3299c73d8f7e') in 0.235567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Jump2.png
-  artifactKey: Guid(e48782bc0ab8ac54f8d39335a9fc617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Jump2.png using Guid(e48782bc0ab8ac54f8d39335a9fc617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be574bf08cde9a67c5a6d013b81defd9') in 0.038148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000584 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Idle2.png
-  artifactKey: Guid(c349d09fcfcefe74ca7679d3301115d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Idle2.png using Guid(c349d09fcfcefe74ca7679d3301115d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06697cb8e02e97e974285eec281ed88d') in 0.071102 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000669 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Jump1.png
-  artifactKey: Guid(235ff657c9d042940a0997b5a6d1c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Jump1.png using Guid(235ff657c9d042940a0997b5a6d1c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da6f6dcfb6dcc2fd09491195edecf15c') in 0.042063 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000686 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Walk2.png
-  artifactKey: Guid(1ef8317e425d57a4aad65fff225dfbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Walk2.png using Guid(1ef8317e425d57a4aad65fff225dfbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdf56cc4a1a20af8541cf374b9e127c') in 0.061081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Run1.png
-  artifactKey: Guid(e6066c4e1b28e234591f59a8687e27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Run1.png using Guid(e6066c4e1b28e234591f59a8687e27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959ab3dbf22a1e0158fcecde3b296c48') in 0.041250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000973 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown2.png
-  artifactKey: Guid(e780abe47a796fe469f9149cfb6920d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown2.png using Guid(e780abe47a796fe469f9149cfb6920d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd4ef6d60eb77980d17c7cfde6804cea') in 0.034750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000577 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Run2.png
-  artifactKey: Guid(64afe625dd0f2da4fac13c546eba1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Run2.png using Guid(64afe625dd0f2da4fac13c546eba1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '431d2f31e184cc14f1840f3dd05fec9a') in 0.046291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000427 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Walk1.png
-  artifactKey: Guid(87fb996b6003b3c43b2885eb35284b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Walk1.png using Guid(87fb996b6003b3c43b2885eb35284b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '766f127dbac29ef89d2b6cc3b4b42507') in 0.062322 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown1.png
-  artifactKey: Guid(056c9edb7cd1e354fa87827a88f02196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown1.png using Guid(056c9edb7cd1e354fa87827a88f02196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d75dc7563beebfedc623beec4c78a95') in 0.066317 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.751631 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations
-  artifactKey: Guid(840e5262d9364e747ad9e610cc84746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations using Guid(840e5262d9364e747ad9e610cc84746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9528d58180c03b9a308cb877ad6c41ff') in 0.075162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.506525 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations
-  artifactKey: Guid(449a4525d7db67d498daa4acbf93eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations using Guid(449a4525d7db67d498daa4acbf93eba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb0c89d6da78d597ccfe8f71cb99fc50') in 0.018399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.154997 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_crouch_shoot.gif
-  artifactKey: Guid(042e306bc1649be448ebfc58b61b8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_crouch_shoot.gif using Guid(042e306bc1649be448ebfc58b61b8a2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bc20865de2d5fd336f046b484806a1') in 0.086555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_jumping_shoot.gif
-  artifactKey: Guid(2fbed54a9040a674fb2f8366b7875158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_jumping_shoot.gif using Guid(2fbed54a9040a674fb2f8366b7875158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2c5fe7dad0ba449fd908e0dc00158f8') in 0.046612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000729 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_shoot_up.gif
-  artifactKey: Guid(7990bbf8f7023a84bab769d7c51adf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_shoot_up.gif using Guid(7990bbf8f7023a84bab769d7c51adf50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ea7530cd01648fd80a74ec1b29d48d1') in 0.045728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000455 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_run.gif
-  artifactKey: Guid(96c56884d13e5e14ab72b41550338110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_run.gif using Guid(96c56884d13e5e14ab72b41550338110) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d91a7a0ed7b4ec259ae217ac1e667eb') in 0.048829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000437 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_falling_shoot.gif
-  artifactKey: Guid(f94c26ce54e9fe449b50a9c9424b9154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_falling_shoot.gif using Guid(f94c26ce54e9fe449b50a9c9424b9154) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c12bc7db5b5f54b4fe6e551e119e617') in 0.070440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000724 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_death.gif
-  artifactKey: Guid(a4268c68782b83745a7295327236f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_death.gif using Guid(a4268c68782b83745a7295327236f69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c020fcc8fa8e742addd265da504aaebf') in 0.047078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_running_shoot.gif
-  artifactKey: Guid(1a7caee9eda128444a5f7e79863f4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_running_shoot.gif using Guid(1a7caee9eda128444a5f7e79863f4451) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd80cac735f715b2ce2def171ce930a2') in 0.058542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000917 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_shoot.gif
-  artifactKey: Guid(1cb8496910096764d93812a248469273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Sample Animations/Armature_shoot.gif using Guid(1cb8496910096764d93812a248469273) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aededa96281d047d9026d07375d35ed5') in 0.049397 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.732256 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/body.png
-  artifactKey: Guid(f3a3b8ab3bd0d4d448b6359f51b6ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/body.png using Guid(f3a3b8ab3bd0d4d448b6359f51b6ac7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32a984f759bdba3b10fca9805a13baf2') in 0.038159 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000377 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/muzzle.png
-  artifactKey: Guid(cc08f840953888943b4bc1edf7705ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/muzzle.png using Guid(cc08f840953888943b4bc1edf7705ac3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0a2c22acbf1277735def9802de0b6db') in 0.038808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000431 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head death.png
-  artifactKey: Guid(f8370e2906d72a6498132d050dfb23a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head death.png using Guid(f8370e2906d72a6498132d050dfb23a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19325570a3978f6c34793f556d62b66') in 0.044048 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000564 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left foot.png
-  artifactKey: Guid(9caeabc8d0e153043873e1ee7c6e909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left foot.png using Guid(9caeabc8d0e153043873e1ee7c6e909c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a265229b796b21b78cbfd6924b2e02d2') in 0.049178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000535 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right thigh.png
-  artifactKey: Guid(41a6d5739cc0d3a48bf37d6d5cd87168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right thigh.png using Guid(41a6d5739cc0d3a48bf37d6d5cd87168) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97095d50c476fcfc92438785a4c44743') in 0.035634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000551 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right arm.png
-  artifactKey: Guid(6b3ad7306fb388f4988e89d0824506a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right arm.png using Guid(6b3ad7306fb388f4988e89d0824506a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dcf15e9a01ee04d440482990a108060') in 0.035901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000588 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right forearm.png
-  artifactKey: Guid(c41c81cba8097f94e9fb394bb93d011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right forearm.png using Guid(c41c81cba8097f94e9fb394bb93d011a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c77bfb6090be932a617e36c408e36db3') in 0.085409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000509 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head.png
-  artifactKey: Guid(0279bfe6f33bc124abb6f011bd56c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head.png using Guid(0279bfe6f33bc124abb6f011bd56c382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e41eadb52c58175570adf73609c9677') in 0.039194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000614 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left hand.png
-  artifactKey: Guid(969f3b89a33b5244ea9b4ab69730a36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left hand.png using Guid(969f3b89a33b5244ea9b4ab69730a36f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c701af9cc5189c9c8a7798bd51739861') in 0.064533 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left leg.png
-  artifactKey: Guid(fcc53164841125846b0c827be1fd7d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left leg.png using Guid(fcc53164841125846b0c827be1fd7d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26e328eedcdd420fc012ea0ebb64cd99') in 0.031735 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000658 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head idle.png
-  artifactKey: Guid(055b9800b1f66014792435c7c6d1c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/head idle.png using Guid(055b9800b1f66014792435c7c6d1c2e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4f7abe52d7b49db85e68ea3ff15f70d') in 0.044049 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left arm.png
-  artifactKey: Guid(62d3efd2bbd5c4a47aaf3412b4e2220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left arm.png using Guid(62d3efd2bbd5c4a47aaf3412b4e2220a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85a2e00e0eca53a82e43385c139090c5') in 0.064984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/gun.png
-  artifactKey: Guid(61ccc80038058d9448317397f4fc5a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/gun.png using Guid(61ccc80038058d9448317397f4fc5a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b622da471e42ef60db01beb86ad90dde') in 0.047495 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000539 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right foot.png
-  artifactKey: Guid(ff10e284b7b442346bb81b2b331f7890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right foot.png using Guid(ff10e284b7b442346bb81b2b331f7890) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c95f21dabea56a1adf266efdaa47bb5e') in 0.062171 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left thigh.png
-  artifactKey: Guid(24ea8a78ad88c1f4b89bb29cdc5b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left thigh.png using Guid(24ea8a78ad88c1f4b89bb29cdc5b057f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c57fd773d152fb11be7dfd039f093918') in 0.059520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000613 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right leg.png
-  artifactKey: Guid(6692393c1342bd349b7ea302686f6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/right leg.png using Guid(6692393c1342bd349b7ea302686f6b6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b236e846819f164eded32b2fa82e2ff4') in 0.030493 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000672 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left forearm.png
-  artifactKey: Guid(2c148e69dcda8cd4cbf00b585af830a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Body Parts/left forearm.png using Guid(2c148e69dcda8cd4cbf00b585af830a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '153326a0c1eca87bbde5adb4b4b1beab') in 0.039473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.466656 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch
-  artifactKey: Guid(3acffc1bd460a3d4eba99a4962985614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch using Guid(3acffc1bd460a3d4eba99a4962985614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648e9af7aca9ebbcf64e3181e62df600') in 0.054705 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 34.128707 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death
-  artifactKey: Guid(5e9b13c1b7280ee4facdedf3c2812ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death using Guid(5e9b13c1b7280ee4facdedf3c2812ba9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e675b6660bcb11690bdd71085cae2995') in 0.015937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.065130 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_0.png
-  artifactKey: Guid(93d7217ae0c20fe4c9e4356af24716b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_0.png using Guid(93d7217ae0c20fe4c9e4356af24716b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b30f67c7ab326489ec72abc2ed068007') in 0.300471 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_3.png
-  artifactKey: Guid(4b039f25b83b30d448f0432edb2cbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_3.png using Guid(4b039f25b83b30d448f0432edb2cbb53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a86addfc5d4a05e5b7ea97f298d630b4') in 0.054216 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000749 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_2.png
-  artifactKey: Guid(66bccbc0dfac0a44788602127d34deb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_2.png using Guid(66bccbc0dfac0a44788602127d34deb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e25b8d6f1d2e27b3a2bf30d6be53bca') in 0.050185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000751 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_4.png
-  artifactKey: Guid(0a1e621d46a8cbc44ab9553ffb02e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_4.png using Guid(0a1e621d46a8cbc44ab9553ffb02e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35830fa1b3018d7b40a1c524808ea3bc') in 0.056814 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000752 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_1.png
-  artifactKey: Guid(4b251ac3d008c23438d1fa7acf2db3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Death/Armature_death_1.png using Guid(4b251ac3d008c23438d1fa7acf2db3dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7e0764382e132fdcd7ef071e7c539fe') in 0.051196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.309708 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch Shoot/Armature_crouch_shoot_0.png
-  artifactKey: Guid(1995c011447ba1b46ab288b9bae612ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch Shoot/Armature_crouch_shoot_0.png using Guid(1995c011447ba1b46ab288b9bae612ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a51c4500c84d342bbbb8e1e0a3359e8') in 0.066244 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch Shoot/Armature_crouch_shoot_1.png
-  artifactKey: Guid(911d5f98440ddeb469a8683c40516fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/2D Character Vector Flat Style/Animations/Crouch Shoot/Armature_crouch_shoot_1.png using Guid(911d5f98440ddeb469a8683c40516fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b03a56dc9eab5580c371a460bb954429') in 0.056487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.173329 seconds.
-  path: Assets/AssetsMaterial/__MACOSX/bulkhead-walls-files
-  artifactKey: Guid(ec12c4b564bcd964ca6aa765e0ee7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/__MACOSX/bulkhead-walls-files using Guid(ec12c4b564bcd964ca6aa765e0ee7dbf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34f72a10fb6e736fecba35deb048605e') in 0.021147 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016574 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gianl\Desktop\Sam's Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.18 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.643 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2649ms)
-		BeginReloadAssembly (553ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (50ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (247ms)
-		EndReloadAssembly (1964ms)
-			LoadAssemblies (303ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (679ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (135ms)
-			SetupLoadedEditorAssemblies (660ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (10ms)
-				SetLoadedEditorAssemblies (2ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (178ms)
-				ProcessInitializeOnLoadAttributes (439ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.51 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.7 MB.
-System memory in use after: 100.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2690.
-Total: 10.033700 ms (FindLiveObjects: 0.417700 ms CreateObjectMapping: 0.129900 ms MarkObjects: 7.918800 ms  DeleteObjects: 1.564300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 480.088253 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES
-  artifactKey: Guid(54e7c8d9653b6f9458ceaa1a058e7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES using Guid(54e7c8d9653b6f9458ceaa1a058e7b45) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a09b58b98a5b1bbbc2409558fdb58d3') in 0.038045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.980126 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue
-  artifactKey: Guid(aaf2a93c956ff7448a16f2a9111cf5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue using Guid(aaf2a93c956ff7448a16f2a9111cf5a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed4928ce3fc2b05df258908ac98d157') in 0.024953 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.067548 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Crouch.png
-  artifactKey: Guid(02ac9ab7469d5fa4c8c62856a1bd1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Crouch.png using Guid(02ac9ab7469d5fa4c8c62856a1bd1f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56d7c61bdb6a583984f022f4ece4680e') in 0.146012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Jump.png
-  artifactKey: Guid(ff9564ebdc553d64c861c610539ec2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Jump.png using Guid(ff9564ebdc553d64c861c610539ec2ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6355bdbf3a73af01ca9104d39c6a98b') in 0.053194 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000677 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Idle.png
-  artifactKey: Guid(1bd296001792d474cacc1f5ff96f7c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Idle.png using Guid(1bd296001792d474cacc1f5ff96f7c92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5ed2da920b86a06529794f314bb24c5') in 0.044178 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Run.png
-  artifactKey: Guid(d85cb5b5d2a3d1e43807d248fe3f3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Run.png using Guid(d85cb5b5d2a3d1e43807d248fe3f3f5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae97348d33b33e7e84dd081fe7f734') in 0.065387 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000541 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Death.png
-  artifactKey: Guid(3c313ff3daab60041b13224912e039ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Blue/Gunner_Blue_Death.png using Guid(3c313ff3daab60041b13224912e039ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8db56c235107379c77148622575413a') in 0.057599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.007801 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black
-  artifactKey: Guid(816a1adeb8c9cbc44846c6472dba6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black using Guid(816a1adeb8c9cbc44846c6472dba6cc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5ecbf677c97371605dd522c1ef785f') in 0.018876 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.169298 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES
-  artifactKey: Guid(afccb5197090e784287c65d1a11c38d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES using Guid(afccb5197090e784287c65d1a11c38d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e773f364aecc7179a5effc438bc1e679') in 0.018367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.793384 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES/Gunner_Crouch.aseprite
-  artifactKey: Guid(e1684f04adb63c04ca0ba4914f181abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES/Gunner_Crouch.aseprite using Guid(e1684f04adb63c04ca0ba4914f181abe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ecec6f6e39db26de8f435f7898b578') in 0.031350 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.456779 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES/Gunner_Death.aseprite
-  artifactKey: Guid(a72a1a6487c319c45b1f4a4a31d4911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/_WORKING FILES/Gunner_Death.aseprite using Guid(a72a1a6487c319c45b1f4a4a31d4911c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f894d41165fa67309b5b2cf67f48294') in 0.027564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.814699 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS
-  artifactKey: Guid(8be6f3db24b709f4aadc75fd0d09fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS using Guid(8be6f3db24b709f4aadc75fd0d09fb35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22a42064bae06d9e93947a7ccecf9dff') in 0.056799 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043955 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/BulletStream.png
-  artifactKey: Guid(8d9f63ba6c02ff74bb418b55b88d5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/BulletStream.png using Guid(8d9f63ba6c02ff74bb418b55b88d5a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff171d9fa6198da5b06e0cee73a33ce1') in 0.041349 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000448 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/MuzzleFlash.png
-  artifactKey: Guid(d9bcb7f18efdeab428c0fedca0b02e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/MuzzleFlash.png using Guid(d9bcb7f18efdeab428c0fedca0b02e74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34dde54643fe4860931b302e09e19126') in 0.058661 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000623 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Platform_Thin.png
-  artifactKey: Guid(3491871045115b1458e2969130886f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Platform_Thin.png using Guid(3491871045115b1458e2969130886f20) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817c28ef1c97a978799bf5f605b4e832') in 0.056616 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000525 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Platform.png
-  artifactKey: Guid(c6c4b62e3240360449c0dedc3ad953ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Platform.png using Guid(c6c4b62e3240360449c0dedc3ad953ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9332488300d96ee905cadd0846539a42') in 0.043631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Shadow.png
-  artifactKey: Guid(1f17fc8733482684e99a31550decf153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/Shadow.png using Guid(1f17fc8733482684e99a31550decf153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '448f224f71fb6b2045add1e66f187e0b') in 0.047462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/SpongeBullet.png
-  artifactKey: Guid(d2d9ab625389195468e367467d3acf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/EXTRAS/SpongeBullet.png using Guid(d2d9ab625389195468e367467d3acf22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0808dee688efec6f23380e2fbc604963') in 0.058157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.476266 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519
-  artifactKey: Guid(8a995ed6d23a77846a623b5a7ca2ec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519 using Guid(8a995ed6d23a77846a623b5a7ca2ec1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fb722048e2879d48b346dae93e42722') in 0.054461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.655556 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Crouch.png
-  artifactKey: Guid(554da2e38957e7f48895200e9643a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Crouch.png using Guid(554da2e38957e7f48895200e9643a6c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31ecacd42226f5f5e9759981bd4bfcd') in 0.035109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000432 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Jump.png
-  artifactKey: Guid(2219d316d7746bc439abe868139a1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Jump.png using Guid(2219d316d7746bc439abe868139a1f6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12a4ebd4163c77ac31d127ccc8b26c4b') in 0.077069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000611 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Run.png
-  artifactKey: Guid(adeff8f69143bb7468edf4dc3e505f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Run.png using Guid(adeff8f69143bb7468edf4dc3e505f28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89f82f412ab1620709752e6519a42f75') in 0.045503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000690 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Death.png
-  artifactKey: Guid(22376d295e72e9444b8e71a24ad82a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Death.png using Guid(22376d295e72e9444b8e71a24ad82a12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2ba2bf8bd6301c0d495b218ec460dd') in 0.051105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000609 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Idle.png
-  artifactKey: Guid(fb21a4429a29bfc4180a8673d44ab772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Black/Gunner_Black_Idle.png using Guid(fb21a4429a29bfc4180a8673d44ab772) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b04f5214f7bc6e38c3b7d90f548ae259') in 0.052221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 63.914754 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Red
-  artifactKey: Guid(c13ebc61a52ae954596d3a7174253c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Red using Guid(c13ebc61a52ae954596d3a7174253c63) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '923e71a577c2f557a691982623d556d6') in 0.027251 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.351841 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow
-  artifactKey: Guid(9c40955123ffc2340afca001af217182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow using Guid(9c40955123ffc2340afca001af217182) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35839e6c8006eb924dcbcaaa42e6a581') in 0.019125 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042987 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Crouch.png
-  artifactKey: Guid(cbbad2a35647abb49a7b99319f7d1b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Crouch.png using Guid(cbbad2a35647abb49a7b99319f7d1b6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42711550026ad5ec5232fc17a13f3cd8') in 0.071704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000634 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Run.png
-  artifactKey: Guid(a6e58b016eb266b42a586475aa043fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Run.png using Guid(a6e58b016eb266b42a586475aa043fcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '296474ef808e61b9f3b1871de8777a87') in 0.051737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Idle.png
-  artifactKey: Guid(a520e88e6d38558428033e279eb49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Idle.png using Guid(a520e88e6d38558428033e279eb49b79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f95f40cb4d78406af4c9a8e12428a2f') in 0.039248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000502 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Death.png
-  artifactKey: Guid(1f15e2349bd68d7438dfa2fff529e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Death.png using Guid(1f15e2349bd68d7438dfa2fff529e294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6ce8842b3959a764c4444141f0f0ed') in 0.044864 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000440 seconds.
-  path: Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Jump.png
-  artifactKey: Guid(0f05a311480c6ee49ae970c1035d3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/TeamGunner_By_SecretHideout_060519/CHARACTER_SPRITES/Yellow/Gunner_Yellow_Jump.png using Guid(0f05a311480c6ee49ae970c1035d3500) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d29987d208cccc39600488a0a0575ab') in 0.042072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 806.435455 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments
-  artifactKey: Guid(7a31ec4e8df1ee044bd87609e62ca8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments using Guid(7a31ec4e8df1ee044bd87609e62ca8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a5ab87987e41becb34142444d73efac') in 0.020004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.770679 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment
-  artifactKey: Guid(4bacce92530ef8547b55b93a50f420ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment using Guid(4bacce92530ef8547b55b93a50f420ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84bb032f5313ce43f8c077886d768dc1') in 0.015206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.623540 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG
-  artifactKey: Guid(4b46e70d8bba69c44a7d03d73916ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG using Guid(4b46e70d8bba69c44a7d03d73916ebe3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f01a6c883b8a32058816909a65c5371') in 0.038400 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.008751 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/preview-alien-environment.png
-  artifactKey: Guid(a4b56b980c57a7047bfecc8a9eb66872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/preview-alien-environment.png using Guid(a4b56b980c57a7047bfecc8a9eb66872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad32741e2ea6f91140569d55d42ff669') in 0.406281 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.083664 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers
-  artifactKey: Guid(a71857d3038b9aa45a9e8bdab75fbbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers using Guid(a71857d3038b9aa45a9e8bdab75fbbef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c32816242fc2a28c52826720b0d76495') in 0.015027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.699504 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/back-structures.png
-  artifactKey: Guid(81006f3de9f43c34cb2fbb3859816734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/back-structures.png using Guid(81006f3de9f43c34cb2fbb3859816734) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94b6e95fac32d1c22cc7704b49985704') in 0.035337 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/background.png
-  artifactKey: Guid(c3374651d8b695d46839ef23229c4a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/background.png using Guid(c3374651d8b695d46839ef23229c4a81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46b2aeee4fb7059020fe66babf96038f') in 0.058906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000417 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/tileset.png
-  artifactKey: Guid(85394ee3c353c3341a34fe822782c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/alien-environment/PNG/layers/tileset.png using Guid(85394ee3c353c3341a34fe822782c6e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '136bc3a1e24a4768a082f73d655d00c7') in 0.057686 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.527695 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites
-  artifactKey: Guid(c54febb6b37747c4695df0a4788dbe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites using Guid(c54febb6b37747c4695df0a4788dbe11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f2d161baced028cd8fb5d8a332d264') in 0.046896 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.832829 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy
-  artifactKey: Guid(7e41c621ba17769419a90a7f1a1b1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy using Guid(7e41c621ba17769419a90a7f1a1b1e21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fbea4fb1fd7c23a0aa807847eeb11a0') in 0.060208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.611057 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy
-  artifactKey: Guid(47832577330f2634e94205beabbc7db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy using Guid(47832577330f2634e94205beabbc7db1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fdeab59eed4c5139694159417a3ba6a') in 0.028345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.953440 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit
-  artifactKey: Guid(e26178b5ec9cc9e4f88743ab6f4fbb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit using Guid(e26178b5ec9cc9e4f88743ab6f4fbb18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df3dcfeff768f45fcb806724e3a3c334') in 0.023002 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.515184 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit
-  artifactKey: Guid(9f38a55363f949148ad062f088d14915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit using Guid(9f38a55363f949148ad062f088d14915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03c0f7c25f02f5ebe1a705b8c3a7a8ba') in 0.018815 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.066625 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG
-  artifactKey: Guid(b6ea5ad7295998e45b0fd4efb3087c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG using Guid(b6ea5ad7295998e45b0fd4efb3087c0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '289755a22b102869cbfa38a3132b35f6') in 0.010105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.082055 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/bipedal-unit.png
-  artifactKey: Guid(73158e359157e3246abdf4a4686e4fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/bipedal-unit.png using Guid(73158e359157e3246abdf4a4686e4fce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bcbe9f1beb36966abb36cc1d400fbd2') in 0.065901 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.117549 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites
-  artifactKey: Guid(77d07188b521c3344804fb226084b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites using Guid(77d07188b521c3344804fb226084b3b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '862cfdd6bc2f24db1e12598daa901f59') in 0.024268 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063754 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit1.png
-  artifactKey: Guid(f08062397cef2bb47aa9cdf2a581a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit1.png using Guid(f08062397cef2bb47aa9cdf2a581a9a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01c492364d680d78d2c849c573920551') in 0.103072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000470 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit2.png
-  artifactKey: Guid(d4f566c1c5af6e34d992fa9904e58ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit2.png using Guid(d4f566c1c5af6e34d992fa9904e58ca6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da0589bc623f5c6147f4c5f7ec4393c0') in 0.118257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit7.png
-  artifactKey: Guid(f782ffdc6e0351a49b234cfc57e16f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit7.png using Guid(f782ffdc6e0351a49b234cfc57e16f84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '726b956bbd2f99b310bbf83de8360dab') in 0.073990 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000519 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit4.png
-  artifactKey: Guid(e2905791e6a1411418d7dea5944e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit4.png using Guid(e2905791e6a1411418d7dea5944e2b85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e453cd5cbd5efd03e6ca813ac4443225') in 0.067466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000686 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit5.png
-  artifactKey: Guid(770137e50e3a6874bac6cd08ad54d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit5.png using Guid(770137e50e3a6874bac6cd08ad54d221) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c55bdd4952d859b1b441bafdb94dd014') in 0.088791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000803 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit3.png
-  artifactKey: Guid(136df44bd1cb68a4aa56fd5a24854735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit3.png using Guid(136df44bd1cb68a4aa56fd5a24854735) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffd4b61bd3fe35e53e796ebd57f0248') in 0.066514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000461 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit6.png
-  artifactKey: Guid(aa4f571a6a0078d41a44703f03bb491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/PNG/sprites/bipedal-unit6.png using Guid(aa4f571a6a0078d41a44703f03bb491d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73c009381cd0d969b1b6a8889ae0e88d') in 0.093066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.477772 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG
-  artifactKey: Guid(2520be70d2c12e146ad011b44e3a8fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG using Guid(2520be70d2c12e146ad011b44e3a8fe1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78ac76d0fbe4ccee578ea310e306ff0d') in 0.027492 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045283 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-idle.png
-  artifactKey: Guid(305405f18d2291f4f985fb76806d0158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-idle.png using Guid(305405f18d2291f4f985fb76806d0158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1131f4c9c0b29aae2909a5baaa693f0a') in 0.047258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000398 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-walk.png
-  artifactKey: Guid(f6b52f7624696f649af3f2a467f5158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/PNG/alien-enemy-walk.png using Guid(f6b52f7624696f649af3f2a467f5158c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f5fc5a59d121ef2505f20f2f1128a26') in 0.045936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.481960 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion
-  artifactKey: Guid(f5db94e8c0f3c9b45b078c1c1d47983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion using Guid(f5db94e8c0f3c9b45b078c1c1d47983b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79a271a52901b7ed2a609a7ee22b3458') in 0.020062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.635184 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective
-  artifactKey: Guid(c92fca10ce7f1024bb0b534efa311fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective using Guid(c92fca10ce7f1024bb0b534efa311fbe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca4e7cac27cc9d94d6941f6ce08eacf') in 0.036135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.769736 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG
-  artifactKey: Guid(4219200940574284e934f5703cbac171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG using Guid(4219200940574284e934f5703cbac171) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd23fc47523f602f2a9d69e1def2994ed') in 0.013543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.780581 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets
-  artifactKey: Guid(1ddab80a551095740a07aa92f4e19dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets using Guid(1ddab80a551095740a07aa92f4e19dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a0a36bd6625706935598a5c7d25405') in 0.012974 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/draw-gun.png
-  artifactKey: Guid(5d3be84be3e8c00488b8b2c07adf678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/draw-gun.png using Guid(5d3be84be3e8c00488b8b2c07adf678c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4248d45b1d2b7517ab437b50dcc6eac') in 0.057346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000403 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/death.png
-  artifactKey: Guid(e8946becfbacbe240af692777749eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/death.png using Guid(e8946becfbacbe240af692777749eed9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '518a771012a84ea475b6f0d30ce9a4ce') in 0.059027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000413 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/crouch.png
-  artifactKey: Guid(305b2bbf9fa5fcf458fc87526f6722b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/crouch.png using Guid(305b2bbf9fa5fcf458fc87526f6722b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7df17fde085d9333d29dd36fc056832a') in 0.039001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000524 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/punch.png
-  artifactKey: Guid(36e3adb47d1890d4a9772b7b4f809388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/punch.png using Guid(36e3adb47d1890d4a9772b7b4f809388) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd55e65872f2cdf483983dce5b4bc870') in 0.054234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/gun-walk.png
-  artifactKey: Guid(344ead65ea372b64189f566dd193f466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/gun-walk.png using Guid(344ead65ea372b64189f566dd193f466) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8344555e306f452755ff27cb9b325b77') in 0.042184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000772 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/walk.png
-  artifactKey: Guid(3391bc26543103c4282654542169fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/walk.png using Guid(3391bc26543103c4282654542169fa5a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cac3fb7520bcd04c5bceb1bd0848bbe') in 0.047551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000486 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/shot.png
-  artifactKey: Guid(f8cb7e78eceaca042995f3770cce0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/spritesheets/shot.png using Guid(f8cb7e78eceaca042995f3770cce0677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d25bb71c2ce50fc9270c3546b227911') in 0.066089 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.617442 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites
-  artifactKey: Guid(45052eae491e0434b98184b78e52a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites using Guid(45052eae491e0434b98184b78e52a464) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '267fa2e1cc4ef438e981f46ed310ac1d') in 0.039743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.634614 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch
-  artifactKey: Guid(97de179f269d5194ab84d28af9ca2d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch using Guid(97de179f269d5194ab84d28af9ca2d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a065c50de8fbf07f482141110916e78f') in 0.009639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.073285 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-1.png
-  artifactKey: Guid(132097c8ed087294d9647678ea5cbf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-1.png using Guid(132097c8ed087294d9647678ea5cbf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa265a40cd489d05e0734a41d0e6a6a6') in 0.071922 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000400 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-2.png
-  artifactKey: Guid(91f34942bd14e4442a9322c34b93ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-2.png using Guid(91f34942bd14e4442a9322c34b93ae40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82304862245b7d3840af0aa5c23b1f17') in 0.043530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000459 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-4.png
-  artifactKey: Guid(49b6fec775a50614a999eb7b4bbc2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-4.png using Guid(49b6fec775a50614a999eb7b4bbc2f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66909f2c651399779109911706f47323') in 0.045196 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-6.png
-  artifactKey: Guid(31e89da2327edf14fa27ffa250421318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-6.png using Guid(31e89da2327edf14fa27ffa250421318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78781e708a82497c421d6e12e534d1de') in 0.043088 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000576 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-3.png
-  artifactKey: Guid(18e8c083fc817cd4c9d3686f900a12cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-3.png using Guid(18e8c083fc817cd4c9d3686f900a12cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9db790c26ffb2c1a4b49f05d4427278') in 0.052830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000467 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-5.png
-  artifactKey: Guid(bbc5247929bdfab44a69bb182902786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PNG/sprites/crouch/Layer-5.png using Guid(bbc5247929bdfab44a69bb182902786e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881fab89e4cbebf5fe48b8979eece065') in 0.048085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.069118 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews
-  artifactKey: Guid(5a205db33ed7c494b99c070d96818619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews using Guid(5a205db33ed7c494b99c070d96818619) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0e58b4abc4b8fc7ac4668b828d64fac') in 0.058193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000501 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/death.gif
-  artifactKey: Guid(a481de1778d3f364c9fbb983d2380b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/death.gif using Guid(a481de1778d3f364c9fbb983d2380b8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3523f5c6b42366d16c4ae5d0c94afc9c') in 0.067368 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000824 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/draw-gun.gif
-  artifactKey: Guid(f1f19b70bbb65ff4fbe492d406d2df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/draw-gun.gif using Guid(f1f19b70bbb65ff4fbe492d406d2df32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45ca9de53903179eab48bdcb20a08c5') in 0.039531 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000632 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/crouch.gif
-  artifactKey: Guid(b4216f944bfb20f43a9add472cbce002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/crouch.gif using Guid(b4216f944bfb20f43a9add472cbce002) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e746db55d257e85aa65a0d3a0df806a') in 0.048247 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000391 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/walk.gif
-  artifactKey: Guid(a85a84d13a24ab040821a342e1e707f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/walk.gif using Guid(a85a84d13a24ab040821a342e1e707f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d2a7ed533c351f60533afa2ffeac0c') in 0.046344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000383 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/punch.gif
-  artifactKey: Guid(bdc02f7eb3365ee46ad53a4bb4ce86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/punch.gif using Guid(bdc02f7eb3365ee46ad53a4bb4ce86ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4497cf7d9e21b49953f3f70cf49c0fd') in 0.062800 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000724 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/gun-walk.gif
-  artifactKey: Guid(ff797594fcdc9b640afd9fdc39a9a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/gun-walk.gif using Guid(ff797594fcdc9b640afd9fdc39a9a1ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f026161f48600ad7ca4b06c323eeebd') in 0.059465 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000436 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/shot.gif
-  artifactKey: Guid(2a40e3176c4e54e42bee14985b4dc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/GIF Previews/shot.gif using Guid(2a40e3176c4e54e42bee14985b4dc3d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1cab3282ca9dd7a03bc8e4d2aefbe77') in 0.043927 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.932683 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD
-  artifactKey: Guid(b2a4c3cf3e8d8814ca8d7c93ecc9d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD using Guid(b2a4c3cf3e8d8814ca8d7c93ecc9d06e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c07568392534fb557ee5c882833af2fc') in 0.032229 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043783 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/crouch.psd
-  artifactKey: Guid(b5c862309e7a40643bc57bb52819755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/crouch.psd using Guid(b5c862309e7a40643bc57bb52819755b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf754cd709b5a6d1a9a0fc91156dd71') in 0.048968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000411 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/draw-gun.psd
-  artifactKey: Guid(495e721b161dbd645a368d978297e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/draw-gun.psd using Guid(495e721b161dbd645a368d978297e559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e86136f1f0ceb2040173eb805e67894d') in 0.039937 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/gun-walk.psd
-  artifactKey: Guid(588cf0007ab0bd1489d70c70ad57cd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/gun-walk.psd using Guid(588cf0007ab0bd1489d70c70ad57cd72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feed322441afe074824153c1e87552c7') in 0.036292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000544 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/shot.psd
-  artifactKey: Guid(08fb969121686e345a9e4265a927e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/shot.psd using Guid(08fb969121686e345a9e4265a927e069) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5b2f2ba914291e27953f95545ba1022') in 0.048106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/cyberpunk-detective.psd
-  artifactKey: Guid(1a01f58a34e8b42448c58f8a3938b9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/cyberpunk-detective.psd using Guid(1a01f58a34e8b42448c58f8a3938b9c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d20e8c1700ea0250db68a0442e843bd') in 0.052655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000696 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/walk.psd
-  artifactKey: Guid(6e798b8337b263344b7c8dd1c64f0fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/walk.psd using Guid(6e798b8337b263344b7c8dd1c64f0fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bbe0702bb6fc8227a4989a21ca11ce87') in 0.042249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/punch.psd
-  artifactKey: Guid(1206b85d24338a7498b28d2156cb509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/punch.psd using Guid(1206b85d24338a7498b28d2156cb509d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '735cd489e0bd22462c28c3e84641eaae') in 0.037527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000571 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/death.psd
-  artifactKey: Guid(6b76d7d48ea65f7458c2a292292ddcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/cyberpunk-detective/PSD/death.psd using Guid(6b76d7d48ea65f7458c2a292292ddcbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62d0c91f7802b66b42ef711b5294c90') in 0.059422 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.846627 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit
-  artifactKey: Guid(2fd93b45a2909234288fd199a19b4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit using Guid(2fd93b45a2909234288fd199a19b4a21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0113a5f3460e74cf6afff840fcd32ab0') in 0.018224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.111364 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG
-  artifactKey: Guid(81fd1c0c3934a134f850ffc98775f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG using Guid(81fd1c0c3934a134f850ffc98775f2a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f148e40b5ab48f5d0a7b9acc993bba5') in 0.007376 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.067877 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/ship-unit-with-thrusts.png
-  artifactKey: Guid(10714bd757fa6d84fb8a290223ba1c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/ship-unit-with-thrusts.png using Guid(10714bd757fa6d84fb8a290223ba1c28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee086dcfad299dc4a3c29fb99e3f6f0d') in 0.035473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.004078 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites
-  artifactKey: Guid(0470aaee40e97d14a85b114de9de647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites using Guid(0470aaee40e97d14a85b114de9de647d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e121a39d158350ee3784426163be5caf') in 0.019808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059251 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/spaceship-unit.png
-  artifactKey: Guid(e1ab96d0b0d5b094686bb257e4dbe91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/spaceship-unit.png using Guid(e1ab96d0b0d5b094686bb257e4dbe91d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a5901bbc085fa68be6cfebf9db2bbc3') in 0.041516 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/thrust.png
-  artifactKey: Guid(e96da995a2a60c14baba867840536454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/PNG/separated sprites/thrust.png using Guid(e96da995a2a60c14baba867840536454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '894fcb945659da40a9e6f56da5a1a64c') in 0.076056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.476699 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit
-  artifactKey: Guid(9c5fb3d5fad81b147ab399efd2f06cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit using Guid(9c5fb3d5fad81b147ab399efd2f06cad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6e76959fe38ecca59bdd6ee532b23d') in 0.017259 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.063139 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/tank-unit-preview.png
-  artifactKey: Guid(d0b35f308cd8235438bc4ef0dd335810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/tank-unit-preview.png using Guid(d0b35f308cd8235438bc4ef0dd335810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e40983959c9db1a4a8965a2035ce5162') in 0.065962 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.294354 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Music
-  artifactKey: Guid(1fe4b48429b3e884194d9116536a53dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Music using Guid(1fe4b48429b3e884194d9116536a53dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e49e66d1d703efe340117305518815a5') in 0.016660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.926337 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS
-  artifactKey: Guid(8b5d14f21003bc64dad6c07516d1b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS using Guid(8b5d14f21003bc64dad6c07516d1b8ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c6be8cd225f1fcda944a7f8665e501') in 0.052451 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.161148 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS/alien-enemy-2-flying-preview.gif
-  artifactKey: Guid(2f2e2b34e9bd3a844afd465afd4fadc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS/alien-enemy-2-flying-preview.gif using Guid(2f2e2b34e9bd3a844afd465afd4fadc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '323168bd9a90ada02712f26a617b9944') in 0.071794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS/alien-enemy-2-flying.gif
-  artifactKey: Guid(fe7d1a5dfb9e2534e9eece7f7d4769c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-flying-enemy/GIFS/alien-enemy-2-flying.gif using Guid(fe7d1a5dfb9e2534e9eece7f7d4769c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3060015a3a12b3f73a7dad662b2f7d08') in 0.045240 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.350714 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS
-  artifactKey: Guid(edeecd3f5e2fcaa45934d39cac6ad1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS using Guid(edeecd3f5e2fcaa45934d39cac6ad1bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9aeb818941dcb849f27ae3b45d20ade6') in 0.012374 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000547 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-idle-CLEAR.gif
-  artifactKey: Guid(6dd60ee1ffda06749b1cf45667aa851e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-idle-CLEAR.gif using Guid(6dd60ee1ffda06749b1cf45667aa851e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9692949042422df4bd7051d51d2a3c8a') in 0.060514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000473 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-walk-CLEAR.gif
-  artifactKey: Guid(fc231ec1537506347acba6620c18bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-walk-CLEAR.gif using Guid(fc231ec1537506347acba6620c18bfad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcf468d245c634576094ec6df0fc7de5') in 0.070442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-idle.gif
-  artifactKey: Guid(6b74b375aa1d74f4b9d05be08d2067f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-idle.gif using Guid(6b74b375aa1d74f4b9d05be08d2067f3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db67e11063bf8db727f8104313e7675c') in 0.042429 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000494 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-walk.gif
-  artifactKey: Guid(009f045517bd29c4c9f6ad33de7dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/alien-walking-enemy/GIFS/alien-enemy-walk.gif using Guid(009f045517bd29c4c9f6ad33de7dd71d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '124219ed95971626f7ae6ba2d5b14a57') in 0.066821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.239900 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews
-  artifactKey: Guid(85aeea8ade92508409a66ddfe6cefd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews using Guid(85aeea8ade92508409a66ddfe6cefd8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6f2fa380d846624cf8916f8fe192b40') in 0.026782 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.045496 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews/preview.gif
-  artifactKey: Guid(74e70a05734856448aa4652f42f287bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews/preview.gif using Guid(74e70a05734856448aa4652f42f287bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad117715721d29989969f130c41cf457') in 0.076287 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000422 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews/transparent-preview.gif
-  artifactKey: Guid(417f98e4bb7cee342bcc31ad7c362732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/bipedal-Unit/Gif Previews/transparent-preview.gif using Guid(417f98e4bb7cee342bcc31ad7c362732) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a73d7556fa1eaaf944da84ad11b0fd') in 0.044646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.293949 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/GIF
-  artifactKey: Guid(bad4a286661b23f45b79d251be98afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/GIF using Guid(bad4a286661b23f45b79d251be98afb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '249e5259a3bbc099a8e55f6b924e753f') in 0.054499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.043056 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/GIF/explosion-animation.gif
-  artifactKey: Guid(b410f5ccb373c19449413a8b56c4ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/Explosion/GIF/explosion-animation.gif using Guid(b410f5ccb373c19449413a8b56c4ee1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02bdc8579c84634850484562d9f71b6d') in 0.045453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.038796 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/gifs previews
-  artifactKey: Guid(ef8c1e164b7ad4940a875cebdc9ea2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/gifs previews using Guid(ef8c1e164b7ad4940a875cebdc9ea2bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd575b1caefc9d44627e47aa3b6a61a3') in 0.017696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.290104 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/gifs previews/mech-unit.gif
-  artifactKey: Guid(e80643c6893783e4aab89c1ab0dd6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/gifs previews/mech-unit.gif using Guid(e80643c6893783e4aab89c1ab0dd6f8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f67a39e9cc6a7ba0c2f3d720fe7a58c3') in 0.071986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.015733 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/PSD
-  artifactKey: Guid(73f283ffd4b47864696a22e1d3a3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/PSD using Guid(73f283ffd4b47864696a22e1d3a3184a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '665008a78f2df5e025f3bda132355855') in 0.004839 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.082129 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/PSD/mech-unit.psd
-  artifactKey: Guid(ddb37ba94b36a804ca349b4bbbd544b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/mech-unit/PSD/mech-unit.psd using Guid(ddb37ba94b36a804ca349b4bbbd544b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a2350f5e0686b9080e89db6767a81f2') in 0.046878 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.461415 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine
-  artifactKey: Guid(4cc4c6a0f82c63d4b83e1acb9b9ceabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine using Guid(4cc4c6a0f82c63d4b83e1acb9b9ceabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc49ca24a8b4d6b2ba631e492885fa1e') in 0.017043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.901241 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS
-  artifactKey: Guid(16b62e2443ed3c2459ed4d00f2976270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS using Guid(16b62e2443ed3c2459ed4d00f2976270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3e60e4ccf3b51173c409a911e14e039') in 0.010363 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.708426 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-die.gif
-  artifactKey: Guid(0c666d27ae6dd814e9fb9ae78f051e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-die.gif using Guid(0c666d27ae6dd814e9fb9ae78f051e8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd78d8dcf7cad2d964bfa8418d40e76e') in 0.048932 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-jump.gif
-  artifactKey: Guid(3a4ffce9adb882e4a8afadac38ec40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-jump.gif using Guid(3a4ffce9adb882e4a8afadac38ec40e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b2a2b8e7d25b5c816e28bbfa9de5c37') in 0.081016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000454 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-shoot.gif
-  artifactKey: Guid(9a3d4a511b4da534a92f987bc2c111c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-shoot.gif using Guid(9a3d4a511b4da534a92f987bc2c111c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2e8ef0d9fbca9c3a10a3376220fceb1') in 0.077924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-idle.gif
-  artifactKey: Guid(21a2b08d10cefdc47a7619ea6469fdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-idle.gif using Guid(21a2b08d10cefdc47a7619ea6469fdd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc5040534a1bbdf2d281d58e6204b25e') in 0.061059 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001051 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-run.gif
-  artifactKey: Guid(169305ca21b246344b56234df24f2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/GIFS/space-marine-run.gif using Guid(169305ca21b246344b56234df24f2997) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d34c37b3003faabf4516e559d1a76e5') in 0.068967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.961940 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG
-  artifactKey: Guid(0b98d65bde5673b44a430498c0c55c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG using Guid(0b98d65bde5673b44a430498c0c55c56) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '181b0eecdf5c9b1d68e6c0914134e95a') in 0.044928 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.016874 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-jump.png
-  artifactKey: Guid(4e2503020d6161f4c8337009a2f83b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-jump.png using Guid(4e2503020d6161f4c8337009a2f83b58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69db171815c3c828b99acc72879bed42') in 0.066386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000463 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/bullet.png
-  artifactKey: Guid(d53a689999f4de14ba83b3f04cb3d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/bullet.png using Guid(d53a689999f4de14ba83b3f04cb3d6e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f94dd1f2a8b0abfaf76d0103cb01ca') in 0.076340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000441 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-idle.png
-  artifactKey: Guid(b7852aeffaf1a5d4e8baba4341e23fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-idle.png using Guid(b7852aeffaf1a5d4e8baba4341e23fc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d0fdc5850ed6f996313b5a342b570f8') in 0.052630 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000449 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/wall-impact-blast.png
-  artifactKey: Guid(18b510af9453e26459443e4a8f3ead6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/wall-impact-blast.png using Guid(18b510af9453e26459443e4a8f3ead6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0938ae5526f1dd1d00ff0cff62aa5c02') in 0.068367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000574 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-shoot.png
-  artifactKey: Guid(0e0d76c5762db3c43979c5d63474efcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-shoot.png using Guid(0e0d76c5762db3c43979c5d63474efcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72af845aa4efc6c18326ecffd4915d76') in 0.065897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000710 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-run.png
-  artifactKey: Guid(93a10825c3916224b9d339e521357143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-run.png using Guid(93a10825c3916224b9d339e521357143) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fef156954eaaef47fb94232a8cd9b1a1') in 0.074672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000512 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-die.png
-  artifactKey: Guid(5526a77c9e8136444ac4f745c8dd2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PNG/space-marine-die.png using Guid(5526a77c9e8136444ac4f745c8dd2af8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '086d04c43e51172f1d9ecd2434ccfe3d') in 0.070650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.391154 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD
-  artifactKey: Guid(43a537102c951884aaf720a0d43e5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD using Guid(43a537102c951884aaf720a0d43e5132) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '810cab36a469165020e4b610b7a26cac') in 0.011895 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042237 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD/space-marine-idle.psd
-  artifactKey: Guid(261c53a1320a59a4e8242c8d99599048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD/space-marine-idle.psd using Guid(261c53a1320a59a4e8242c8d99599048) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2efcf261c547a97d18b29e79d4bd7446') in 0.050776 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000402 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD/space-marine-run.psd
-  artifactKey: Guid(d9ca7115a16e6b54095704b45ba62457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/space-marine/PSD/space-marine-run.psd using Guid(d9ca7115a16e6b54095704b45ba62457) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1a396f6c105f6b418838bd7cf821212') in 0.049150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.859173 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews
-  artifactKey: Guid(c1caa2e218e97ca4b9098cb5a6e330ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews using Guid(c1caa2e218e97ca4b9098cb5a6e330ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '035bca33a4da157b6051f91eda2c5ae8') in 0.021197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.059307 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/preview-spaceship-unit.gif
-  artifactKey: Guid(c143433b27d7c1a409305a9a9dd547e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/preview-spaceship-unit.gif using Guid(c143433b27d7c1a409305a9a9dd547e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2540c299d7c53c79067829330a0535e8') in 0.041904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000425 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/trasparent-with-thrusts.gif
-  artifactKey: Guid(675ee3a4d8d57a149a410a4b018c9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/trasparent-with-thrusts.gif using Guid(675ee3a4d8d57a149a410a4b018c9b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec629f02579cc5b80e0db2dfb85a68e') in 0.040558 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/thrust.gif
-  artifactKey: Guid(ff5bd26106f976c46b23f6ee12e7ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/thrust.gif using Guid(ff5bd26106f976c46b23f6ee12e7ae8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cf4fda6f81eac144393f1c161c1069') in 0.037685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000694 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/spaceship-unit.gif
-  artifactKey: Guid(185956719210dd540b69e3304b040a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/spaceship-unit/Gifs Previews/spaceship-unit.gif using Guid(185956719210dd540b69e3304b040a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e65731356117a7bd6537119b8ccccdad') in 0.037952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.360978 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/GIF Previews
-  artifactKey: Guid(add7b93580b08db4285b0e82080764f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/GIF Previews using Guid(add7b93580b08db4285b0e82080764f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3333597c30bc5817de08192fc754ceb7') in 0.032617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.841776 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG
-  artifactKey: Guid(aa530cc936f5d624f80d4f3aa6d8769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG using Guid(aa530cc936f5d624f80d4f3aa6d8769b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7830859e2874518b7132bd008352ab03') in 0.044100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.058903 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG/tank-unit.png
-  artifactKey: Guid(3ab1680595acbcf46aa2b711a4915f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Sprites/tank-unit/PNG/tank-unit.png using Guid(3ab1680595acbcf46aa2b711a4915f32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '440fa12f3132603e16f491faf0802c1c') in 0.137450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 77.013903 seconds.
-  path: Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/foreground.png
-  artifactKey: Guid(e26ca3254e25273479930fc752857e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Sideview Sci-Fi - Patreon Collection/Environments/bulkhead-walls/PNG/foreground.png using Guid(e26ca3254e25273479930fc752857e6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b31d930c957292585d72ce811168f8') in 0.056236 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017913 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\gianl\Desktop\Sam's Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.946 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2977ms)
-		BeginReloadAssembly (1143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (238ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (519ms)
-		EndReloadAssembly (1692ms)
-			LoadAssemblies (337ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (588ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (89ms)
-			SetupLoadedEditorAssemblies (578ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (141ms)
-				ProcessInitializeOnLoadAttributes (392ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
+				RefreshPlugins (38ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (124ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (19ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.37 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 101.1 MB.
-System memory in use after: 101.2 MB.
+Unloading 2218 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.8 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2776.
-Total: 6.616600 ms (FindLiveObjects: 0.310100 ms CreateObjectMapping: 0.101400 ms MarkObjects: 5.866300 ms  DeleteObjects: 0.336800 ms)
+Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2651.
+Total: 2.159200 ms (FindLiveObjects: 0.100200 ms CreateObjectMapping: 0.038000 ms MarkObjects: 1.874400 ms  DeleteObjects: 0.145600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -1412,7 +139,224 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/AssetsMaterial/3 Hands/2 Punk/7.png
+  artifactKey: Guid(d8eaa693dc9550f429927a859b3b010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/3 Hands/2 Punk/7.png using Guid(d8eaa693dc9550f429927a859b3b010b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e3061db2bfd657fe4aa40f56717016a') in 0.067393 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/AssetsMaterial/3 Hands/2 Punk
+  artifactKey: Guid(76cb857e72fcd784db9ae042bda119d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/3 Hands/2 Punk using Guid(76cb857e72fcd784db9ae042bda119d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a411023aa4a27cf16000701c0fa92a') in 0.002506 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000472 seconds.
+  path: Assets/AssetsMaterial/3 Hands/2 Punk/9.png
+  artifactKey: Guid(954f308cf8ef8684da051e55e4a188e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/3 Hands/2 Punk/9.png using Guid(954f308cf8ef8684da051e55e4a188e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65099dc8dcae44376b45eb7a09c6eb8') in 0.010568 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000358 seconds.
+  path: Assets/AssetsMaterial/3 Hands/2 Punk/1.png
+  artifactKey: Guid(6e6df34fd1d891b42b0307a1da75710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/3 Hands/2 Punk/1.png using Guid(6e6df34fd1d891b42b0307a1da75710e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53a46b2d5a56f371216a49dd3ef74587') in 0.010986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 326.031467 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/Idle3.png
+  artifactKey: Guid(5192399ab4a751242a652526c4bca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Idle3.png using Guid(5192399ab4a751242a652526c4bca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05874a087569ec74f503ffd37411c12') in 0.017979 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 61.759859 seconds.
+  path: Assets/AnimationPlayer/Player_Idle.anim
+  artifactKey: Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player_Idle.anim using Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488cb9cbf1a742159feaa911d0a42a16') in 0.011476 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.692316 seconds.
+  path: Assets/AnimationPlayer/Player.controller
+  artifactKey: Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.controller using Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b527c1d4ced62821d09d1bf134d804') in 0.009553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.066631 seconds.
+  path: Assets/AnimationPlayer
+  artifactKey: Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer using Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fb76267f6bf61df294143612550923') in 0.005768 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 334.633304 seconds.
+  path: Assets/AnimationPlayer/Player_idle.anim
+  artifactKey: Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player_idle.anim using Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f95800f32ba1ca8158f54bef295afce') in 0.008489 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.589784 seconds.
+  path: Assets/AnimationPlayer/Player.controller
+  artifactKey: Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.controller using Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a91a26284662846c53f87fb3c61706a9') in 0.002645 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003602 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.857 seconds
+Domain Reload Profiling:
+	ReloadAssembly (858ms)
+		BeginReloadAssembly (106ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (30ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (97ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (265ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (245ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (40ms)
+				ProcessInitializeOnLoadAttributes (182ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.5 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2662.
+Total: 2.140200 ms (FindLiveObjects: 0.120000 ms CreateObjectMapping: 0.033700 ms MarkObjects: 1.893500 ms  DeleteObjects: 0.092200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002092 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.601 seconds
+Domain Reload Profiling:
+	ReloadAssembly (602ms)
+		BeginReloadAssembly (77ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (491ms)
+			LoadAssemblies (57ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (168ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (185ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (5ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (130ms)
+				ProcessInitializeOnLoadMethodAttributes (7ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2211 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 100.6 MB.
+System memory in use after: 100.6 MB.
+
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2665.
+Total: 2.028300 ms (FindLiveObjects: 0.103000 ms CreateObjectMapping: 0.031200 ms MarkObjects: 1.796200 ms  DeleteObjects: 0.096900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 890.439952 seconds.
+  path: Assets/AnimationPlayer/Player.controller
+  artifactKey: Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.controller using Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '510889e9a6aefe7504bff27439c39562') in 0.013389 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.746823 seconds.
+  path: Assets/AnimationPlayer/Player_idle.anim
+  artifactKey: Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player_idle.anim using Guid(e1842a5d413606b46b823c8d7669b517) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d12dd67cfc700e7fc8b493bdc0ec20') in 0.003057 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.522198 seconds.
+  path: Assets/AnimationPlayer/Player.idle.anim
+  artifactKey: Guid(c408176dd0ba0824681a6c089c6e50d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.idle.anim using Guid(c408176dd0ba0824681a6c089c6e50d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1756e5108dda37c66bdeec56a7607ea3') in 0.007292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.766336 seconds.
+  path: Assets/AnimationPlayer/Player.shoot.anim
+  artifactKey: Guid(9389d902d28fcb34897d48944b65231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.shoot.anim using Guid(9389d902d28fcb34897d48944b65231e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc497743a8dfd12865454da23020fa46') in 0.006461 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.515446 seconds.
+  path: Assets/AnimationPlayer/Player.hurt.anim
+  artifactKey: Guid(e4dd9666f6d90c04ab37d0d04b1ac3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.hurt.anim using Guid(e4dd9666f6d90c04ab37d0d04b1ac3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca1eb65a803cd3f8bc68c27f7d60d111') in 0.007215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 15.384509 seconds.
+  path: Assets/AnimationPlayer/Player.dead.anim
+  artifactKey: Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.dead.anim using Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f936bc8869361bc8d2c43da7505f4c39') in 0.007767 seconds 
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
