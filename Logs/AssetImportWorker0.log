@@ -15,11 +15,11 @@ C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-49276
+53980
 Successfully changed project path to: C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 37.27 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.33 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56580
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56880
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,37 +43,37 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.001895 seconds.
+Registered in 0.001901 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.64 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 33.80 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.385 seconds
+- Completed reload, in  0.363 seconds
 Domain Reload Profiling:
-	ReloadAssembly (385ms)
-		BeginReloadAssembly (42ms)
+	ReloadAssembly (363ms)
+		BeginReloadAssembly (38ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (297ms)
-			LoadAssemblies (41ms)
+		EndReloadAssembly (281ms)
+			LoadAssemblies (37ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (87ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (18ms)
-			SetupLoadedEditorAssemblies (119ms)
+			RebuildScriptCaches (17ms)
+			SetupLoadedEditorAssemblies (113ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (37ms)
-				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (53ms)
+				RefreshPlugins (34ms)
+				BeforeProcessingInitializeOnLoad (5ms)
+				ProcessInitializeOnLoadAttributes (50ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -81,7 +81,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001854 seconds.
+Registered in 0.001992 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for Lumin target not found
@@ -89,32 +89,32 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 36.87 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 37.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.688 seconds
+- Completed reload, in  0.679 seconds
 Domain Reload Profiling:
-	ReloadAssembly (688ms)
+	ReloadAssembly (679ms)
 		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (13ms)
-		EndReloadAssembly (565ms)
-			LoadAssemblies (62ms)
+		EndReloadAssembly (554ms)
+			LoadAssemblies (61ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (177ms)
+			SetupTypeCache (172ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (29ms)
-			SetupLoadedEditorAssemblies (222ms)
+			RebuildScriptCaches (28ms)
+			SetupLoadedEditorAssemblies (223ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (37ms)
 				BeforeProcessingInitializeOnLoad (43ms)
 				ProcessInitializeOnLoadAttributes (124ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
+				ProcessInitializeOnLoadMethodAttributes (11ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -122,15 +122,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
+Refreshing native plugins compatible for Editor in 0.45 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.9 MB.
 System memory in use after: 97.8 MB.
 
 Unloading 31 unused Assets to reduce memory usage. Loaded Objects now: 2653.
-Total: 2.261100 ms (FindLiveObjects: 0.109700 ms CreateObjectMapping: 0.034200 ms MarkObjects: 1.974700 ms  DeleteObjects: 0.141600 ms)
+Total: 2.193800 ms (FindLiveObjects: 0.113500 ms CreateObjectMapping: 0.036800 ms MarkObjects: 1.936000 ms  DeleteObjects: 0.107100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -144,917 +144,217 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png
-  artifactKey: Guid(b6da46610f2e67c47ab4f5011422203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Topaz.png using Guid(b6da46610f2e67c47ab4f5011422203a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11c0accd3453677a9f91af3bf74100aa') in 0.066987 seconds 
+  path: Assets/AnimationPlayer/PlayerDead.anim
+  artifactKey: Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/PlayerDead.anim using Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29f60b775884b090610bfc772b58946a') in 0.048946 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Topaz.png
-  artifactKey: Guid(ff4e2a40a0a91494a873149252b1aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Topaz.png using Guid(ff4e2a40a0a91494a873149252b1aaaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea15bfeb0982d7935fa6432e95515704') in 0.011390 seconds 
+  Time since last request: 6.880790 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_attack1.png
+  artifactKey: Guid(e317436aef94ad34cbb03c7ec097d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_attack1.png using Guid(e317436aef94ad34cbb03c7ec097d11f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1bb9dd1869bad786b6f9116352565db') in 0.084921 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png
-  artifactKey: Guid(67d92be28ed43314bbaf848a1d873f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Ruby.png using Guid(67d92be28ed43314bbaf848a1d873f6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e163e0eac82d0b5d0cd1ddc4322c787') in 0.012598 seconds 
+  Time since last request: 0.000256 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_idle.png
+  artifactKey: Guid(3ea1c9c0a4b1d1c4bb7b774dfeb895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_idle.png using Guid(3ea1c9c0a4b1d1c4bb7b774dfeb895b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac060625751c05a43cbeb2de3b20038d') in 0.019598 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png
-  artifactKey: Guid(1fe19ffae1abab0479d7d9716bcbbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Emerald.png using Guid(1fe19ffae1abab0479d7d9716bcbbb9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f6ae868926057d88d83bcd4d6ceeb77') in 0.011575 seconds 
+  Time since last request: 0.000411 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_death.png
+  artifactKey: Guid(b5e0b0d7edb5ce6409e59b76c7cf97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_death.png using Guid(b5e0b0d7edb5ce6409e59b76c7cf97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d4cc7ae94cc73778f6bdd3648f14b9c') in 0.018546 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Nugget.png
-  artifactKey: Guid(e504bf3779bda9c40ba6d311e0611951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Nugget.png using Guid(e504bf3779bda9c40ba6d311e0611951) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bef4de817430117e4491aa93e38015') in 0.011690 seconds 
+  Time since last request: 0.000580 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_hurt.png
+  artifactKey: Guid(558ba69628ec7664ca822dc9c26349f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_hurt.png using Guid(558ba69628ec7664ca822dc9c26349f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f72ca2a131df23f07c7d4195ab8d845') in 0.018363 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Ingot.png
-  artifactKey: Guid(d5d7f95582604484a87a97c246803bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Silver Ingot.png using Guid(d5d7f95582604484a87a97c246803bc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5160e71bb14969ff96587a186bcd0660') in 0.016362 seconds 
+  Time since last request: 0.000360 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_attack2.png
+  artifactKey: Guid(fb13494057654dd4a8290a72831a762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_attack2.png using Guid(fb13494057654dd4a8290a72831a762e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd49f5b9b32d99dd4abc537b0426098a7') in 0.018884 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png
-  artifactKey: Guid(7d58fd33da0c1714e83ed3c55ae05bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Coal.png using Guid(7d58fd33da0c1714e83ed3c55ae05bb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8a2d2aaa4f1f992a9dcb89ade3be2a1') in 0.011231 seconds 
+  Time since last request: 0.000377 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_run.png
+  artifactKey: Guid(c93ceb255cb70f441a2ec3a2915d4b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_run.png using Guid(c93ceb255cb70f441a2ec3a2915d4b1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744d5b1a7d38410b03f542455a212dea') in 0.014888 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Nugget.png
-  artifactKey: Guid(b3b726454eda80b40a1b30ac1a7a0c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Nugget.png using Guid(b3b726454eda80b40a1b30ac1a7a0c7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86622c69427240207a9b41830c436075') in 0.010896 seconds 
+  Time since last request: 0.000465 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_run_attack.png
+  artifactKey: Guid(9d561ac737a686541bb9ae1706ed7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_run_attack.png using Guid(9d561ac737a686541bb9ae1706ed7d3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8733a84c695ba52ee0f98223d983da43') in 0.019834 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Emerald.png
-  artifactKey: Guid(3281e91e074a48d4eb5d6a1fdd332a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Emerald.png using Guid(3281e91e074a48d4eb5d6a1fdd332a36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27218518d394fbc07585816a015b93f3') in 0.011137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Crystal.png
-  artifactKey: Guid(8f6d58fd471ba8a45a4b681953e29c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Crystal.png using Guid(8f6d58fd471ba8a45a4b681953e29c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40139e4708fcc7839ee1fc8968dbfeea') in 0.010897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000203 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png
-  artifactKey: Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Sapphire.png using Guid(3c9805506cdde8f44889fc034ab0097e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53b29690daa520692f5cb9c3fa08ce6e') in 0.012548 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Ruby.png
-  artifactKey: Guid(70e92df91699f664ab5bad7bf4723022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Cut Ruby.png using Guid(70e92df91699f664ab5bad7bf4723022) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462eb15fbb1c8837d3d45a3f566255c2') in 0.011201 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000335 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Golden Ingot.png
-  artifactKey: Guid(39d66829824cb1d4da958035ee18213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Golden Ingot.png using Guid(39d66829824cb1d4da958035ee18213a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd69306d4b2188dd7fa76bed4d4aa941e') in 0.012110 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000325 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Pearl.png
-  artifactKey: Guid(2c523fa3ca4e1fc4b9a5713e504e6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Pearl.png using Guid(2c523fa3ca4e1fc4b9a5713e504e6cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '002ad139ddbbb6a3df1141633ddef440') in 0.011769 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Ingot.png
-  artifactKey: Guid(b579a157263b8ae4d8dfeebb072e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Copper Ingot.png using Guid(b579a157263b8ae4d8dfeebb072e44f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95131f2ebb0f0bf26bd6c38ddf0b2efa') in 0.011539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Sapphire.png
-  artifactKey: Guid(7c317a7b1aef9e64e9ca3d82d64f843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Sapphire.png using Guid(7c317a7b1aef9e64e9ca3d82d64f843c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8d1c61730a1202292b9f6a92b9e9e08') in 0.013770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png
-  artifactKey: Guid(3faa68d4e2f05f04786133598667ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Diamond.png using Guid(3faa68d4e2f05f04786133598667ac36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee10d58b04b6876856d4a386ea00cb58') in 0.011034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Gold Nugget.png
-  artifactKey: Guid(68f03904aa02ba244a61e03fee3f6293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Gold Nugget.png using Guid(68f03904aa02ba244a61e03fee3f6293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfecffbac3c2af85e1ab1092d0619c7e') in 0.010911 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Obsidian.png
-  artifactKey: Guid(edcbd57032ccbd44e9f228cdd323ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Ore & Gem/Obsidian.png using Guid(edcbd57032ccbd44e9f228cdd323ab50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad0d994d3cdd5b4a0b3972dad89e48bb') in 0.011681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.525607 seconds.
-  path: Assets/AssetsMaterial/GUI/Sliced/GUI_1x_sliced.png
-  artifactKey: Guid(e0da01f5e6f3f134a8d2b7874d1a1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/GUI/Sliced/GUI_1x_sliced.png using Guid(e0da01f5e6f3f134a8d2b7874d1a1318) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7eda29b2a7cc44a839b94f1b0c5efbcd') in 0.018184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AssetsMaterial/GUI/Sliced/GUI_4x_sliced.png
-  artifactKey: Guid(963f1407a0b9acc4b94136cabfc21630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/GUI/Sliced/GUI_4x_sliced.png using Guid(963f1407a0b9acc4b94136cabfc21630) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1b9e7a7a5e4bda5a71258495ab35b27') in 0.018851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/AssetsMaterial/GUI/Sliced/GUI_2x_sliced.png
-  artifactKey: Guid(89e0021d2835bde41974e5a25cbccf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/GUI/Sliced/GUI_2x_sliced.png using Guid(89e0021d2835bde41974e5a25cbccf26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b953fea526cc3919a78e1bbb31133d3') in 0.022663 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003578 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.252 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1252ms)
-		BeginReloadAssembly (193ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (11ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (56ms)
-		EndReloadAssembly (994ms)
-			LoadAssemblies (141ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (54ms)
-			SetupLoadedEditorAssemblies (425ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (77ms)
-				ProcessInitializeOnLoadAttributes (316ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
-				AfterProcessingInitializeOnLoad (7ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.6 MB.
-System memory in use after: 100.6 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2664.
-Total: 4.229200 ms (FindLiveObjects: 0.240300 ms CreateObjectMapping: 0.068100 ms MarkObjects: 3.769500 ms  DeleteObjects: 0.148900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 236.487352 seconds.
-  path: Assets/Scripts/Player.cs
-  artifactKey: Guid(adafabcc4e6646a489b671b257035c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Player.cs using Guid(adafabcc4e6646a489b671b257035c3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b563d60232df3665229c0b3efdeb51f') in 0.010046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.917284 seconds.
-  path: Assets/Scripts/GameController.cs
-  artifactKey: Guid(7c860822dfd51244a8315412d6cd69ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/GameController.cs using Guid(7c860822dfd51244a8315412d6cd69ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e372312efdbf06b834fa9885b6edaafd') in 0.008581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.620000 seconds.
-  path: Assets/Scripts/Enemy.cs
-  artifactKey: Guid(df181d550dfe4d941ab0f8ebf9356cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Enemy.cs using Guid(df181d550dfe4d941ab0f8ebf9356cca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bdfc6437bcdbc811f0e3c2cad6f95ce') in 0.007984 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.727236 seconds.
-  path: Assets/Scripts/Character.cs
-  artifactKey: Guid(e724896d50ca1294693db3fe556c5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Character.cs using Guid(e724896d50ca1294693db3fe556c5618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661e48b6e2780bfd638086175ca02cd3') in 0.007451 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006841 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.440 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2441ms)
-		BeginReloadAssembly (285ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (14ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (86ms)
-		EndReloadAssembly (2014ms)
-			LoadAssemblies (249ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (580ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (105ms)
-			SetupLoadedEditorAssemblies (859ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (23ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (168ms)
-				ProcessInitializeOnLoadAttributes (625ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (9ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (21ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.7 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2667.
-Total: 4.967100 ms (FindLiveObjects: 0.419500 ms CreateObjectMapping: 0.143300 ms MarkObjects: 4.201600 ms  DeleteObjects: 0.201300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 384.670518 seconds.
-  path: Assets/AnimationPlayer/Player.controller
-  artifactKey: Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationPlayer/Player.controller using Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294cf5883a03f7bb440f875c8bbe191d') in 0.023399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 175.572602 seconds.
-  path: Assets/Scripts/UIController.cs
-  artifactKey: Guid(73586ab5c31ce5442a74210b319574a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UIController.cs using Guid(73586ab5c31ce5442a74210b319574a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f01a1ec0e5c47f32cad46ebf9b9f934e') in 0.037625 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 57.167143 seconds.
-  path: Assets/Scripts/UI/ManageSubmenusPanel.cs
-  artifactKey: Guid(deece52e44f11604dab8d7898614053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/UI/ManageSubmenusPanel.cs using Guid(deece52e44f11604dab8d7898614053f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b4856b678653b5b0d9209af519b8964') in 0.014503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.011920 seconds.
-  path: Assets/Scripts/Weapons
-  artifactKey: Guid(c57984e976419154cac1ae935a2aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Weapons using Guid(c57984e976419154cac1ae935a2aa3ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0305c9360d44c141bae9f4a4930bb1f5') in 0.011987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.992934 seconds.
-  path: Assets/Scripts/Weapons/PistolProjectile.cs
-  artifactKey: Guid(0911dc8fb0e24d8408cdc8c131f02fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scripts/Weapons/PistolProjectile.cs using Guid(0911dc8fb0e24d8408cdc8c131f02fbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '053706ae1b80ffd23deb0b30daf32f84') in 0.012187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.480626 seconds.
-  path: Assets/EnemiesSO/CharacterSO.cs
-  artifactKey: Guid(35e4cacf4ffa47d4eacff0632ece1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/CharacterSO.cs using Guid(35e4cacf4ffa47d4eacff0632ece1eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e564cb7c6f0b40ddce36c47c5a81d232') in 0.011784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.020973 seconds.
-  path: Assets/EnemiesSO/PlayerSO.cs
-  artifactKey: Guid(fe2cd0d5cd740424ca00220211d001a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/PlayerSO.cs using Guid(fe2cd0d5cd740424ca00220211d001a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc2c1436e8201367f6c8fbb2f4082bef') in 0.010855 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 762.443884 seconds.
-  path: Assets/AnimationPlayer/PlayerIdle.anim
-  artifactKey: Guid(c408176dd0ba0824681a6c089c6e50d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AnimationPlayer/PlayerIdle.anim using Guid(c408176dd0ba0824681a6c089c6e50d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24c55601470a2ed53f3a87ba3a665dcc') in 0.014062 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003650 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.43 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.830 seconds
-Domain Reload Profiling:
-	ReloadAssembly (831ms)
-		BeginReloadAssembly (108ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (657ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (36ms)
-			SetupLoadedEditorAssemblies (249ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (51ms)
-				ProcessInitializeOnLoadAttributes (177ms)
-				ProcessInitializeOnLoadMethodAttributes (10ms)
-				AfterProcessingInitializeOnLoad (5ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.58 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2670.
-Total: 2.803500 ms (FindLiveObjects: 0.227800 ms CreateObjectMapping: 0.093200 ms MarkObjects: 2.334500 ms  DeleteObjects: 0.146900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.003465 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.101 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1102ms)
-		BeginReloadAssembly (123ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (866ms)
-			LoadAssemblies (103ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (251ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (369ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (11ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (58ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (30ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (36ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2212 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 100.8 MB.
-System memory in use after: 100.8 MB.
-
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 2673.
-Total: 5.147200 ms (FindLiveObjects: 0.186100 ms CreateObjectMapping: 0.096500 ms MarkObjects: 4.659900 ms  DeleteObjects: 0.203300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 430.558036 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk
-  artifactKey: Guid(5eaee50479152f64b963f57fdc17e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk using Guid(5eaee50479152f64b963f57fdc17e410) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '465bb49f2b5157791a1e1066067602cf') in 0.011277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.047853 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Idle2.png
-  artifactKey: Guid(c349d09fcfcefe74ca7679d3301115d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Idle2.png using Guid(c349d09fcfcefe74ca7679d3301115d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0abbee45ea3ab688fe4ba23a69414e') in 0.043434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000445 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Jump2.png
-  artifactKey: Guid(e48782bc0ab8ac54f8d39335a9fc617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Jump2.png using Guid(e48782bc0ab8ac54f8d39335a9fc617b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2133a6bc823e3edb50853fc0859067c') in 0.017534 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000471 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Jump1.png
-  artifactKey: Guid(235ff657c9d042940a0997b5a6d1c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Jump1.png using Guid(235ff657c9d042940a0997b5a6d1c925) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70764f6094b6ea84b18d1c855d698a5d') in 0.017749 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000485 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Walk2.png
-  artifactKey: Guid(1ef8317e425d57a4aad65fff225dfbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Walk2.png using Guid(1ef8317e425d57a4aad65fff225dfbbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca8fe2abd8a2e38a31d34dd03359fed') in 0.027005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Idle3.png
-  artifactKey: Guid(5192399ab4a751242a652526c4bca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Idle3.png using Guid(5192399ab4a751242a652526c4bca2f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b05874a087569ec74f503ffd37411c12') in 0.018404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Run1.png
-  artifactKey: Guid(e6066c4e1b28e234591f59a8687e27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Run1.png using Guid(e6066c4e1b28e234591f59a8687e27cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf2e985a3624c3d6584102467e1bf7c6') in 0.020868 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000281 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown2.png
-  artifactKey: Guid(e780abe47a796fe469f9149cfb6920d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown2.png using Guid(e780abe47a796fe469f9149cfb6920d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1136f9a67e7f74837d639b1ccb00fee8') in 0.016718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Run2.png
-  artifactKey: Guid(64afe625dd0f2da4fac13c546eba1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Run2.png using Guid(64afe625dd0f2da4fac13c546eba1e97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1364b4059493a770cf16486949e1b17') in 0.023641 seconds 
+  Time since last request: 0.000391 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_attack3.png
+  artifactKey: Guid(87d08d71984519347ae8d88df83df9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_attack3.png using Guid(87d08d71984519347ae8d88df83df9f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8409f58d3c4d45d63440b6cce711938e') in 0.018399 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000350 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Walk1.png
-  artifactKey: Guid(87fb996b6003b3c43b2885eb35284b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Walk1.png using Guid(87fb996b6003b3c43b2885eb35284b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c21b3e5b92f341940d3a2c8627ba41f') in 0.019619 seconds 
+  path: Assets/AssetsMaterial/2 Punk/Punk_climb.png
+  artifactKey: Guid(459892759e2cf284e80cf670389deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_climb.png using Guid(459892759e2cf284e80cf670389deb6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '352047de8c181ec2464cb00974fca4bf') in 0.017321 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown1.png
-  artifactKey: Guid(056c9edb7cd1e354fa87827a88f02196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/1 Characters/2 Punk/Sitdown1.png using Guid(056c9edb7cd1e354fa87827a88f02196) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54f9069d4b42d82e255e9a192019a732') in 0.017354 seconds 
+  Time since last request: 0.000279 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_jump.png
+  artifactKey: Guid(e952e7091e187e44ea14e50df87fc017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_jump.png using Guid(e952e7091e187e44ea14e50df87fc017) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaf55b80c5312d0be924deced9401c36') in 0.015552 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 297.771428 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/1.png
-  artifactKey: Guid(47c309c9c05424549adc97b3c4875d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/1.png using Guid(47c309c9c05424549adc97b3c4875d94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be4399f6249fbdd3d032746d3ef7167') in 0.021384 seconds 
+  Time since last request: 0.000420 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_punch.png
+  artifactKey: Guid(d9cf45d5f3a600346ad1458fb037a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_punch.png using Guid(d9cf45d5f3a600346ad1458fb037a9ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92d9a2209a1de6605f6b5acea3255665') in 0.016051 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/6.png
-  artifactKey: Guid(48571fe27518e584da55326d7224c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/6.png using Guid(48571fe27518e584da55326d7224c3ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2d704bbd3cad7b30949e94187a7df52') in 0.018451 seconds 
+  Time since last request: 0.000399 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_doublejump.png
+  artifactKey: Guid(b5cef4df2a490e54eac6fc9ecb6e0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_doublejump.png using Guid(b5cef4df2a490e54eac6fc9ecb6e0a72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f00d0d75290e28c5a8ca76d60cd581dc') in 0.022990 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/6_2.png
-  artifactKey: Guid(3b0f72446ed6cb6408e1cc972dcbffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/6_2.png using Guid(3b0f72446ed6cb6408e1cc972dcbffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b3b85b1d13ef58bf68f3b8ca4b02084') in 0.015381 seconds 
+  Time since last request: 128.662521 seconds.
+  path: Assets/AnimationPlayer/PlayerHurt.anim
+  artifactKey: Guid(e4dd9666f6d90c04ab37d0d04b1ac3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/PlayerHurt.anim using Guid(e4dd9666f6d90c04ab37d0d04b1ac3fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9e75ae0f30ec4397845c841a9ac7be2') in 0.009953 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000559 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/10_2.png
-  artifactKey: Guid(aaf1ae1dc546f854e947088433fd6054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/10_2.png using Guid(aaf1ae1dc546f854e947088433fd6054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13e6e2113a28a6aa856416b69dd6d2e2') in 0.021495 seconds 
+  Time since last request: 78.714980 seconds.
+  path: Assets/AssetsMaterial/2 Punk/Punk_hurt1.png
+  artifactKey: Guid(0e221b9ffc758864086829b17f28f8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/Punk_hurt1.png using Guid(0e221b9ffc758864086829b17f28f8ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdcdca22ab76815d5881ac301207fa13') in 0.037057 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/7_2.png
-  artifactKey: Guid(990a0c010db079648b8eab2a9865d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/7_2.png using Guid(990a0c010db079648b8eab2a9865d6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '624a020098b3d793c3c85a05d6f06f28') in 0.014138 seconds 
+  Time since last request: 17.161830 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk
+  artifactKey: Guid(5fcb51ffc741cee4889e9d3dad386304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk using Guid(5fcb51ffc741cee4889e9d3dad386304) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a11042c280f5c51b017b59bde2e6d0e3') in 0.010059 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/7.png
-  artifactKey: Guid(29efcf90f629cb647b389ef487fd3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/7.png using Guid(29efcf90f629cb647b389ef487fd3225) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bb54e6f1941cc00f422962fddec7c5a') in 0.021713 seconds 
+  Time since last request: 0.055525 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack1.png
+  artifactKey: Guid(8011fd53bbbbf6241be21ff0e482aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack1.png using Guid(8011fd53bbbbf6241be21ff0e482aabc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5edb80156bb7f5cdce4efe1544f50c9') in 0.011967 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000462 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/3_2.png
-  artifactKey: Guid(8e2a854c30111234a8b4c56495b85a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/3_2.png using Guid(8e2a854c30111234a8b4c56495b85a35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59fc1a3ee80be5b228f4cef052ff9490') in 0.018490 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/9_2.png
-  artifactKey: Guid(70a865d4cdafe244785bc033cdc42fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/9_2.png using Guid(70a865d4cdafe244785bc033cdc42fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e1b8e0de19dcd1ffd49ca8c0a78ca4c') in 0.015720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/4_2.png
-  artifactKey: Guid(6645ac4aa93b41f48866050688e0ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/4_2.png using Guid(6645ac4aa93b41f48866050688e0ffd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd49cccd6d83d6436e17cb3021870fbd') in 0.016416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/5_2.png
-  artifactKey: Guid(5234b7229c4445b419a7746ab1437367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/5_2.png using Guid(5234b7229c4445b419a7746ab1437367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fd41eeb7bb8c69ebc9a159722f439e') in 0.016696 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/2_2.png
-  artifactKey: Guid(da007c83048a7464dae7a7106c72c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/2_2.png using Guid(da007c83048a7464dae7a7106c72c436) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edc98c7922f5e1b8bf756d20a904d358') in 0.016188 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/3.png
-  artifactKey: Guid(5a62255f7361f254ba958231a0c7b9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/3.png using Guid(5a62255f7361f254ba958231a0c7b9c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b06b12c4d12fdab73cd815d7211b2956') in 0.019389 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000340 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/9.png
-  artifactKey: Guid(243bd744e1382744c83659a7f1b9ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/9.png using Guid(243bd744e1382744c83659a7f1b9ac59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '901ce1517e072dcd8063e3226c9be72b') in 0.030010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/5.png
-  artifactKey: Guid(2bcfb0d11265adb44bdf2a07fad9aab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/5.png using Guid(2bcfb0d11265adb44bdf2a07fad9aab6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6677b409e7e9ac0eba1967cd951af89') in 0.021292 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000451 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/10.png
-  artifactKey: Guid(93e0bf9ee6224584982485f58f2b90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/10.png using Guid(93e0bf9ee6224584982485f58f2b90c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c977528b6c2ce27a26bbfa878e39c774') in 0.016309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000476 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/3.2.png
-  artifactKey: Guid(39ddb58ac0a40c24a84009b7b62cc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/3.2.png using Guid(39ddb58ac0a40c24a84009b7b62cc36e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5277d659900a28e7f6919a9c26f007') in 0.015784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000573 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/2.png
-  artifactKey: Guid(ce716a967ac91d64d84ff0ecd6ee46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/2.png using Guid(ce716a967ac91d64d84ff0ecd6ee46ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0aaed52fdbe94c7203dd7187a214643a') in 0.017766 seconds 
+  Time since last request: 0.000323 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack2.png
+  artifactKey: Guid(11e85a8d17b9ace42aa87560e96da0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack2.png using Guid(11e85a8d17b9ace42aa87560e96da0d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46fd17fa0d9e895c47a5f01d6aecfafb') in 0.010598 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000367 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/1_2.png
-  artifactKey: Guid(441fc02398d6147468ffccc251e499e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/1_2.png using Guid(441fc02398d6147468ffccc251e499e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5044628b9fa5b5c4d62188e67518403e') in 0.018364 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/4.png
-  artifactKey: Guid(0bb7693313a2e1d42b42aace2a4c4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/4.png using Guid(0bb7693313a2e1d42b42aace2a4c4872) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ab201cac00d5fbbac8032171ba8f34c') in 0.019529 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000282 seconds.
-  path: Assets/AssetsMaterial/5 Bullets/8.png
-  artifactKey: Guid(777e035974e9bce48a424f4f920b3e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/5 Bullets/8.png using Guid(777e035974e9bce48a424f4f920b3e16) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2de92316eee480aaff86dbce7991e6b') in 0.012719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.636953 seconds.
-  path: Assets/AssetsMaterial/Buttons/buttons_1x.png
-  artifactKey: Guid(4d802dd9584960345846a6785d6f699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Buttons/buttons_1x.png using Guid(4d802dd9584960345846a6785d6f699d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9a0410ff3a71ef7ab65ee9f1ec1cf9') in 0.019573 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AssetsMaterial/Buttons/buttons_4x.png
-  artifactKey: Guid(c8757ce02a6487945ae92cd34db8c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Buttons/buttons_4x.png using Guid(c8757ce02a6487945ae92cd34db8c681) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5694d83c20d6f79d0606b0423caa29a') in 0.018914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000396 seconds.
-  path: Assets/AssetsMaterial/Buttons/buttons_2x.png
-  artifactKey: Guid(195eaac127a9c474daec3b80267e1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Buttons/buttons_2x.png using Guid(195eaac127a9c474daec3b80267e1ba8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bf0b036f428aefbfc35ddcf0a68a8ed') in 0.016875 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000338 seconds.
-  path: Assets/AssetsMaterial/Buttons/Item 3-1.png.png
-  artifactKey: Guid(8d263a610a1a42b479dc801a479403f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Buttons/Item 3-1.png.png using Guid(8d263a610a1a42b479dc801a479403f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64f1898005b5997238ed89313e415f3f') in 0.029766 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.206076 seconds.
-  path: Assets/AssetsMaterial/Controller/analog.png
-  artifactKey: Guid(04f850f6eab00224694b176ac609fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/analog.png using Guid(04f850f6eab00224694b176ac609fb79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '968684ae865b36899aab5bd0f7c59d20') in 0.022747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000481 seconds.
-  path: Assets/AssetsMaterial/Controller/ps_style2.png
-  artifactKey: Guid(7740eebc9af11a34e82e4b699ac8fb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/ps_style2.png using Guid(7740eebc9af11a34e82e4b699ac8fb72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfecb2203f49e2cca2264cc2e375a6de') in 0.020528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/AssetsMaterial/Controller/controller_atlas_1x.png
-  artifactKey: Guid(82e741565a6fd6746b97d97af49b61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/controller_atlas_1x.png using Guid(82e741565a6fd6746b97d97af49b61fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c965ea5f31369db062bf3b102c38d9a0') in 0.023106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000407 seconds.
-  path: Assets/AssetsMaterial/Controller/xbox_style2.png
-  artifactKey: Guid(a388868e6bac0904a880ac4467938807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/xbox_style2.png using Guid(a388868e6bac0904a880ac4467938807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1429cd06318d9a7e12b1acdf4b91a626') in 0.014985 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000339 seconds.
-  path: Assets/AssetsMaterial/Controller/controller_atlas_4x.png
-  artifactKey: Guid(773951b0c1506124ca53f4398cbc908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/controller_atlas_4x.png using Guid(773951b0c1506124ca53f4398cbc908d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563867b0708c336e0a4f3fd547c88d8d') in 0.021294 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/AssetsMaterial/Controller/ps_style1.png
-  artifactKey: Guid(d90e722437c8554429ed580c5a497da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/ps_style1.png using Guid(d90e722437c8554429ed580c5a497da4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83745f7a59afe43e788c1ef284a36e0e') in 0.026968 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000328 seconds.
-  path: Assets/AssetsMaterial/Controller/xbox_style1.png
-  artifactKey: Guid(623e5d3ec10647d48b0b993afcfe4a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/xbox_style1.png using Guid(623e5d3ec10647d48b0b993afcfe4a42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0527defff530d2be130650e7d82fef0') in 0.019084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000542 seconds.
-  path: Assets/AssetsMaterial/Controller/controller_atlas_2x.png
-  artifactKey: Guid(d35855edf6a40f14998480e2b9e50961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Controller/controller_atlas_2x.png using Guid(d35855edf6a40f14998480e2b9e50961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c974b06ab011df3cb804838b35764cf9') in 0.033840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.479376 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat
-  artifactKey: Guid(9ef09833dc2c3404d88335dc4ee33fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Dark.mat using Guid(9ef09833dc2c3404d88335dc4ee33fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be9d8b174ba6aa5e2ef78c17b36d62c1') in 0.048124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000331 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat
-  artifactKey: Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Trans.mat using Guid(6320d51ee137b4e42b6cb01f30c65ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc7a6726273c79a24c7527a638119e1b') in 0.019057 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000444 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline White.mat
-  artifactKey: Guid(652af6f8addd2f94ab5db4712c3122d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline White.mat using Guid(652af6f8addd2f94ab5db4712c3122d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82ae6a702cf31e58c5741603cf7c070') in 0.015580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000343 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat
-  artifactKey: Guid(899a7f458dad9a740869a20c3e3b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Dark.mat using Guid(899a7f458dad9a740869a20c3e3b2d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '331d01c7519b9584bff953b593548fdc') in 0.027527 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat
-  artifactKey: Guid(ab43b5449aabc884faa9439a63aa2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline None.mat using Guid(ab43b5449aabc884faa9439a63aa2035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '727316fcc389d2dc2d0f24e73dfe47cb') in 0.028122 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat
-  artifactKey: Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT UI Icon Outline Yellow.mat using Guid(bb6f9bec926368b4eb8e5590da43eee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '400366da6099bd819ec2084204f5f57a') in 0.018087 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat
-  artifactKey: Guid(edc31919a4a0caa4eafbbd6eb17dfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline Yellow.mat using Guid(edc31919a4a0caa4eafbbd6eb17dfc39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff0a524db16fddfa76b5b0bf45cfd94') in 0.015293 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000695 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat
-  artifactKey: Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Material/MT Sprite Outline White.mat using Guid(fa6817dfb0f48b946aed8e1043559b1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135aea2be0d61c3178c8e8aaf1b858d1') in 0.013898 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.100114 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png
-  artifactKey: Guid(e577f30c6bd976a429addedf4c4ad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Fabric.png using Guid(e577f30c6bd976a429addedf4c4ad662) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e75fd19cefcb73559915ab260cbedbc') in 0.016812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000561 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png
-  artifactKey: Guid(0e1ccb64303778e4081913a6d9cca677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wood Log.png using Guid(0e1ccb64303778e4081913a6d9cca677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe469e10bbc2d418c46c61f42357c6ea') in 0.015549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000511 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wooden Plank.png
-  artifactKey: Guid(f8a9cfc721a20ce409c3d743e9b251bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wooden Plank.png using Guid(f8a9cfc721a20ce409c3d743e9b251bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84c3b0bb5f3128a3fc5a22fb547f508e') in 0.018812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png
-  artifactKey: Guid(615ecf391b0ba0b40a9c3882ac5e6afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Paper.png using Guid(615ecf391b0ba0b40a9c3882ac5e6afc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '871b57eed3a506ae4cee07d0308d788d') in 0.018793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000384 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/String.png
-  artifactKey: Guid(90192622496cded43ac060f5e25e20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/String.png using Guid(90192622496cded43ac060f5e25e20e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c213adb8bfeaf0feb9ffe889b9a08b') in 0.020004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png
-  artifactKey: Guid(3281101b955224c4f9bfd58e8ab4c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Rope.png using Guid(3281101b955224c4f9bfd58e8ab4c342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57de9bb1df39e3d6f76b773855ef34f4') in 0.021802 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Leather.png
-  artifactKey: Guid(c0e7217a07e49364db48c62cc2e2b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Leather.png using Guid(c0e7217a07e49364db48c62cc2e2b376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef98d875011fee705a71c3319fa258c0') in 0.015720 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png
-  artifactKey: Guid(046f821c76a004e4c91b9f27ee906194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Material/Wool.png using Guid(046f821c76a004e4c91b9f27ee906194) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eb7428da1293177b1f80c02e800ccc5') in 0.014983 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.922085 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 2.png
-  artifactKey: Guid(1c82fa18a9230df4f9a0aa981fe3a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 2.png using Guid(1c82fa18a9230df4f9a0aa981fe3a341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61fe1028133b51b0b1ed1c59811bc4ea') in 0.018583 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book.png
-  artifactKey: Guid(7972dd97521bb1c44ba8e3774391b996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book.png using Guid(7972dd97521bb1c44ba8e3774391b996) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2965341dfbe26a7c9b3e6560f33178d6') in 0.014618 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png
-  artifactKey: Guid(af91b161f106d9e46b3704f05a3ab63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Crate.png using Guid(af91b161f106d9e46b3704f05a3ab63d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9db8eb347af039fab2ec81bd12ac979e') in 0.028406 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000330 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Key.png
-  artifactKey: Guid(a6c10312421cb5e438d8b9edaad2db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Key.png using Guid(a6c10312421cb5e438d8b9edaad2db28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71146f910eb8fdfada2dacf115ed3593') in 0.028361 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000608 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Scroll.png
-  artifactKey: Guid(4b61215c56174cb489119b1357a5b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Scroll.png using Guid(4b61215c56174cb489119b1357a5b77c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4d2bcee65e6f89fb696534468a64b35') in 0.033567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Map.png
-  artifactKey: Guid(34102981c7e63b646b05313914b723a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Map.png using Guid(34102981c7e63b646b05313914b723a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eea1c7db638539493ebaee8c0d8fbc6b') in 0.025893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Chest.png
-  artifactKey: Guid(c8303e833b0ef184e99c1bc8940fff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Chest.png using Guid(c8303e833b0ef184e99c1bc8940fff84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b2ad80f7d6fa8d3cfe544ca397c66e0') in 0.014666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png
-  artifactKey: Guid(17c2d0550f9d2f9418f458279eb57c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Key.png using Guid(17c2d0550f9d2f9418f458279eb57c65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d699a831ce9b3978ebaff295b2f86df') in 0.021935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png
-  artifactKey: Guid(6b22156af64babe4f9bff6441c5b942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Book 3.png using Guid(6b22156af64babe4f9bff6441c5b942f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fce7a0fa2f3bed0bc59fc11b5316b0d6') in 0.031897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Coin.png
-  artifactKey: Guid(394899dbf2938874ca7d1025f7598406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Golden Coin.png using Guid(394899dbf2938874ca7d1025f7598406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03a5d75fec61aaacd536699aef253e36') in 0.027221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png
-  artifactKey: Guid(745c230e29c9393469cb614114618353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Envolop.png using Guid(745c230e29c9393469cb614114618353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8adebcd04c65549d5e5e80fd5e0106') in 0.016285 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Lantern.png
-  artifactKey: Guid(5780c0f7daa138f46823eb60d93b7cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Lantern.png using Guid(5780c0f7daa138f46823eb60d93b7cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54dab9e79632ef6ee05e7f95b66b19ce') in 0.017879 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Coin.png
-  artifactKey: Guid(83f2beb3e2ba2e347b4b0d5d63d0373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Silver Coin.png using Guid(83f2beb3e2ba2e347b4b0d5d63d0373b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d475779f749a9a2c05034bca8e15e1') in 0.019780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Rune Stone.png
-  artifactKey: Guid(b9a847102a75c8c429a8f749008df6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Rune Stone.png using Guid(b9a847102a75c8c429a8f749008df6c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7bf83e90e9420bf1e775911d3ff03da3') in 0.016765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000421 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Copper Coin.png
-  artifactKey: Guid(4605338a5a51383478a6b8eb3707e90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Copper Coin.png using Guid(4605338a5a51383478a6b8eb3707e90c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2115b474c5ed385bb0dd9e3b00963d3f') in 0.012789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000301 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png
-  artifactKey: Guid(e30e7f1121c83ed469e6242c11d18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Iron Key.png using Guid(e30e7f1121c83ed469e6242c11d18e05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc0ac2b092ff2cda24f546dea93716ba') in 0.014006 seconds 
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_hurt.png
+  artifactKey: Guid(08085266a74f5244f99565f1ebba75cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_hurt.png using Guid(08085266a74f5244f99565f1ebba75cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '667f28966c24b40dd44fd7553898ea61') in 0.011926 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000221 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Heart.png
-  artifactKey: Guid(87a7c4321fd50514c8e41d6779a071da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Heart.png using Guid(87a7c4321fd50514c8e41d6779a071da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ad382b14167eb1b197506ad05334a64') in 0.013120 seconds 
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_jump.png
+  artifactKey: Guid(e6804f559002e3141b67b4323cbffb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_jump.png using Guid(e6804f559002e3141b67b4323cbffb26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f16b2452b549857c92e99644dea65df9') in 0.015640 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Candle.png
-  artifactKey: Guid(4408269a96438e84796304f4ac0ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Candle.png using Guid(4408269a96438e84796304f4ac0ed623) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd04095afb31281ab3697c624c2e663') in 0.021446 seconds 
+  Time since last request: 0.000370 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_doublejump.png
+  artifactKey: Guid(91bf7901c68d7a7428a535aaf31d7a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_doublejump.png using Guid(91bf7901c68d7a7428a535aaf31d7a96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c3f99d8547ac41a0e50c6825a8f2305') in 0.010460 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000394 seconds.
-  path: Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Gear.png
-  artifactKey: Guid(042fae2dd68bce044b8fbd1f26724a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Cainos/Pixel Art Icon Pack - RPG/Texture/Misc/Gear.png using Guid(042fae2dd68bce044b8fbd1f26724a2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '716990b2fc5d8b8f9a28704438c39b8d') in 0.014991 seconds 
+  Time since last request: 0.000309 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_death.png
+  artifactKey: Guid(7e1e5a0d137a9df4c9317b243e36920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_death.png using Guid(7e1e5a0d137a9df4c9317b243e36920d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b23842841eac65349ff1f1601ec7060') in 0.013907 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000590 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_climb.png
+  artifactKey: Guid(5eeb476fd045d6c489138242186d5015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_climb.png using Guid(5eeb476fd045d6c489138242186d5015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e4ad5ce4ac3c4ec83ac3fa6633fa9967') in 0.016233 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000320 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_run_attack.png
+  artifactKey: Guid(4f3c009af8716c844942f7506cef2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_run_attack.png using Guid(4f3c009af8716c844942f7506cef2f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efd640aa1caf797cb03e1c0809a9b0eb') in 0.010818 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000513 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack3.png
+  artifactKey: Guid(8b64a6b73f8a1344f8619bbe33df7ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_attack3.png using Guid(8b64a6b73f8a1344f8619bbe33df7ae1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '710546c31f51b14b30d05f469417841f') in 0.009399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000421 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_run.png
+  artifactKey: Guid(24299104732c6524784f9af95e588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_run.png using Guid(24299104732c6524784f9af95e588447) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b79a64234b8aa9acd948ea7cdb336f12') in 0.020358 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000543 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_idle.png
+  artifactKey: Guid(8e102ffd4acc846479fd1aee3b63290d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_idle.png using Guid(8e102ffd4acc846479fd1aee3b63290d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff94f4786cf125eaa4a147f3a4b83867') in 0.011680 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000391 seconds.
+  path: Assets/AssetsMaterial/2 Punk/2 Punk/Punk_punch.png
+  artifactKey: Guid(f681f7c0b759246438c5f704a7843865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/2 Punk/2 Punk/Punk_punch.png using Guid(f681f7c0b759246438c5f704a7843865) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbd0109c8244e9fb96802209a7dbb247') in 0.013295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 45.292085 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk
+  artifactKey: Guid(8c182c30e110bfd4daa733e058879140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk using Guid(8c182c30e110bfd4daa733e058879140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e3b0f9e76ec504f4d4552d272e88d7') in 0.002627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 141.953567 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death1.png
+  artifactKey: Guid(39984e66276235240b889b9e431352a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death1.png using Guid(39984e66276235240b889b9e431352a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a7355d69fecac18641674e12336a4c') in 0.016761 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000378 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death4.png
+  artifactKey: Guid(c4c15e076a9edb24ea5b4edb5ffba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death4.png using Guid(c4c15e076a9edb24ea5b4edb5ffba580) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18b8d17f33459a11f3fd4f40aafb4a11') in 0.016601 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000492 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death2.png
+  artifactKey: Guid(ebce7339c428fb74a9e68bde1fc4efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death2.png using Guid(ebce7339c428fb74a9e68bde1fc4efb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e48439389025effbc4321ef644b37b05') in 0.022511 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000505 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death5.png
+  artifactKey: Guid(f86e8f0eba1bd8f42b89a1e5e6d11b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death5.png using Guid(f86e8f0eba1bd8f42b89a1e5e6d11b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59a3f3059e2d258c8d15aca52f4e6479') in 0.020783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000620 seconds.
+  path: Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death3.png
+  artifactKey: Guid(665b644c5017a9a4b84c9c341f450cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/1 Characters/2 Punk/2 Punk/Punk_death3.png using Guid(665b644c5017a9a4b84c9c341f450cc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a65df5f75aaf93cec114dd02a97d7e92') in 0.037218 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 216.083048 seconds.
+  path: Assets/AnimationPlayer/Player.controller
+  artifactKey: Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/Player.controller using Guid(f0264eff53aafbd4fbfb6b818a82018d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74796a6912d0266056e60956730ccb11') in 0.007396 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.877748 seconds.
+  path: Assets/AnimationPlayer/PlayerDead.anim
+  artifactKey: Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AnimationPlayer/PlayerDead.anim using Guid(2400648bf22fafe47996088bbeb0deeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8876a5e7aa62386962c9e077462dfd3c') in 0.002903 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
