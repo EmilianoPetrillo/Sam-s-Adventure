@@ -8,7 +8,7 @@ public class Player : Character
     public static Player Instance;
     public HealthBar healthBar;
     public Animator animator;
-
+    
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -52,6 +52,7 @@ public class Player : Character
     protected override void OnDeath()
     {
         GameController.Instance.ForcedLevelDown();
+       
     }
 
     public void PlayerRespawn()
@@ -87,6 +88,7 @@ public class Player : Character
     {
         projectile0 = Instantiate(projectilePrefab0, transform.position + Vector3.right, Quaternion.identity);
         CheckCrit(characterSO.ATK, projectile0);
+        
     }
 
     private void ShotgunAttack()
