@@ -7,6 +7,7 @@ public class Player : Character
 
     public static Player Instance;
     public HealthBar healthBar;
+    public Animator animator;
 
     private void Awake()
     {
