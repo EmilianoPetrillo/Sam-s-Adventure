@@ -40,8 +40,8 @@ public class Player : Character
     {
         if (Input.GetKeyDown(KeyCode.Mouse1))
         {
-            characterSO.HP -= 100;
-            healthBar.SetHealth(characterSO.HP);
+            //characterSO.HP -= 100;
+            //healthBar.SetHealth(characterSO.HP);
         }
         if (characterSO.HP <= 0)
         {
