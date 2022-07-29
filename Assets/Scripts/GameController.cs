@@ -124,7 +124,7 @@ public class GameController : MonoBehaviour
     private void SpawnEnemy()
     {
         enemyIndex = Random.Range(0, Enemy.GetLength(0));
-        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
+        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position + Enemy[enemyIndex].transform.position, Quaternion.identity);
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

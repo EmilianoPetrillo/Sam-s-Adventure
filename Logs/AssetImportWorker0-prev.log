@@ -15,11 +15,11 @@ C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65419
+57751
 Successfully changed project path to: C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 C:/Users/pegor/Documents/GitHub/Sam-s-Adventure
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 34.08 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 35.73 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.33f1 (915a7af8b0d5)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56920
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56536
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.33f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -49,31 +49,31 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 38.40 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.372 seconds
+- Completed reload, in  0.396 seconds
 Domain Reload Profiling:
-	ReloadAssembly (372ms)
-		BeginReloadAssembly (38ms)
+	ReloadAssembly (397ms)
+		BeginReloadAssembly (41ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (290ms)
-			LoadAssemblies (37ms)
+		EndReloadAssembly (309ms)
+			LoadAssemblies (41ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (91ms)
+			SetupTypeCache (95ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (17ms)
-			SetupLoadedEditorAssemblies (116ms)
+			RebuildScriptCaches (21ms)
+			SetupLoadedEditorAssemblies (122ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (36ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (38ms)
 				BeforeProcessingInitializeOnLoad (6ms)
-				ProcessInitializeOnLoadAttributes (51ms)
+				ProcessInitializeOnLoadAttributes (52ms)
 				ProcessInitializeOnLoadMethodAttributes (18ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -81,7 +81,7 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001811 seconds.
+Registered in 0.001823 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\pegor\Documents\GitHub\Sam-s-Adventure\Library\PackageCache\com.unity.collab-proxy@1.15.15\Lib\Editor\PlasticSCM\unityplastic.dll
 Native extension for Lumin target not found
@@ -89,32 +89,32 @@ Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 35.13 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 39.12 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.669 seconds
+- Completed reload, in  0.751 seconds
 Domain Reload Profiling:
-	ReloadAssembly (669ms)
-		BeginReloadAssembly (89ms)
+	ReloadAssembly (752ms)
+		BeginReloadAssembly (99ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (3ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (14ms)
-		EndReloadAssembly (544ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (615ms)
+			LoadAssemblies (69ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (170ms)
+			SetupTypeCache (189ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (218ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (251ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (35ms)
-				BeforeProcessingInitializeOnLoad (46ms)
-				ProcessInitializeOnLoadAttributes (119ms)
-				ProcessInitializeOnLoadMethodAttributes (11ms)
+				RefreshPlugins (39ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (142ms)
+				ProcessInitializeOnLoadMethodAttributes (12ms)
 				AfterProcessingInitializeOnLoad (3ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
@@ -122,15 +122,15 @@ Domain Reload Profiling:
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
 Refreshing native plugins compatible for Editor in 0.42 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2219 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 97.9 MB.
-System memory in use after: 97.9 MB.
+System memory in use after: 98.0 MB.
 
-Unloading 30 unused Assets to reduce memory usage. Loaded Objects now: 2654.
-Total: 2.376900 ms (FindLiveObjects: 0.103500 ms CreateObjectMapping: 0.041600 ms MarkObjects: 2.133500 ms  DeleteObjects: 0.097500 ms)
+Unloading 28 unused Assets to reduce memory usage. Loaded Objects now: 2656.
+Total: 2.660800 ms (FindLiveObjects: 0.107200 ms CreateObjectMapping: 0.036200 ms MarkObjects: 2.428500 ms  DeleteObjects: 0.088400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -144,865 +144,39 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/EnemiesSO/DemonBoss.asset
-  artifactKey: Guid(6bc45ea259edc8e44a19a66dfb732ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/DemonBoss.asset using Guid(6bc45ea259edc8e44a19a66dfb732ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1c853c92c1df7b9abf12f9cb8a8b29') in 0.025789 seconds 
+  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
+  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b955a90664632f82fd74c866353e6733') in 0.156956 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000355 seconds.
-  path: Assets/EnemiesSO/MeleeSkeleton.asset
-  artifactKey: Guid(6f4f424579eaeaf4fbaeb25a2c4132fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/MeleeSkeleton.asset using Guid(6f4f424579eaeaf4fbaeb25a2c4132fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ca8f467d450b0e909cea582ae134ec3') in 0.006486 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/EnemiesSO/MeleeDemon.asset
-  artifactKey: Guid(0a4b91ff1ad152446899d4ded6ed4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/MeleeDemon.asset using Guid(0a4b91ff1ad152446899d4ded6ed4ff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22cf9d3e520431051375a68e45fb4179') in 0.006481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/EnemiesSO/RangedDemon.asset
-  artifactKey: Guid(a619af6c87c05d94ea166ee5ae04a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/RangedDemon.asset using Guid(a619af6c87c05d94ea166ee5ae04a540) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e1827999349bdde9fd0d4e6c89125e3') in 0.006538 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/EnemiesSO/Player.asset
-  artifactKey: Guid(b1f802ce715bfa74f865c6dbfdaba080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/EnemiesSO/Player.asset using Guid(b1f802ce715bfa74f865c6dbfdaba080) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9548918970e5fb0d5b2fd00430bac408') in 0.006338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.563100 seconds.
-  path: Assets/Prefab/Boss.prefab
-  artifactKey: Guid(9f4a936b74a678d468c1837131d45e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Boss.prefab using Guid(9f4a936b74a678d468c1837131d45e00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece162260e5198bb6c7d1a5c30d3fc64') in 0.077267 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c93e258061495ed32dfb37dcd10860b') in 0.015034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Prefab/Projectile2.prefab
-  artifactKey: Guid(4fc14652383e8c241a8b5eacdba0bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Projectile2.prefab using Guid(4fc14652383e8c241a8b5eacdba0bdb6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb8a6c11256938013434f80d61558151') in 0.011022 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Prefab/Projectile.prefab
-  artifactKey: Guid(3d2e10ed047fe94428947701ea7c829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Projectile.prefab using Guid(3d2e10ed047fe94428947701ea7c829b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62c383482af8b06f9ae60305e1ec72ef') in 0.010238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000297 seconds.
-  path: Assets/Prefab/Projectile1.prefab
-  artifactKey: Guid(e559ca8296b067a4d8f23f5adbc171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Projectile1.prefab using Guid(e559ca8296b067a4d8f23f5adbc171fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b508068c90c6eaee5a6887ec69d34f91') in 0.010299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000225 seconds.
-  path: Assets/Prefab/MeleeDemon.prefab
-  artifactKey: Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/MeleeDemon.prefab using Guid(f9068b9c16ebf0b4a85f0aaba9e28089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef377914d28c08bcfe1f682b68b706f9') in 0.037734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.854003 seconds.
-  path: Assets/Prefab
-  artifactKey: Guid(d3d19165e61273e4492eb40d2277ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab using Guid(d3d19165e61273e4492eb40d2277ba7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57db0c6834b57d7df3a14c527b381541') in 0.002321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.585614 seconds.
+  Time since last request: 12.164333 seconds.
   path: Assets/Prefab/SkeletonClub.prefab
   artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97ad5b3b4a943443b2be88bf2abe5ee0') in 0.009580 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 16.087276 seconds.
-  path: Assets/Prefab/WizardSkeleton.prefab
-  artifactKey: Guid(3c04d460428a41749bb0ffb8d3bc57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/WizardSkeleton.prefab using Guid(3c04d460428a41749bb0ffb8d3bc57ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11e70498c74e3cf4ccb44e494545c846') in 0.006999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.439074 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd9736cd75dfe8d88e2aa98cc417cc9a') in 0.003569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.568609 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2869cdc2e6fe406da080b75eb7b63c2b') in 0.003915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.930528 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '116fdcaa77adea30f437f846cf65846e') in 0.003833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.599892 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a16d048f8eccd8b66f19b47c5297fc31') in 0.003936 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.856649 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e96a81c4e30c82c64fbfe28d25cffbba') in 0.003821 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.431105 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f1328f77c8f79363c915ad23bc69c0') in 0.003903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.708423 seconds.
-  path: Assets/AssetsMaterial/socials.gif
-  artifactKey: Guid(d9a86e1e904758b40bf0ef5dafca2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/socials.gif using Guid(d9a86e1e904758b40bf0ef5dafca2850) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cb767d63c1c034f2c15deb7b20047f9') in 0.021997 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.971967 seconds.
-  path: Assets/AssetsMaterial/socials_1.png
-  artifactKey: Guid(8f195107c25df3c4887eb54cdb882fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/socials_1.png using Guid(8f195107c25df3c4887eb54cdb882fdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4ab6f0c1cf6507e22480e93dc9f7f82') in 0.077716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000267 seconds.
-  path: Assets/AssetsMaterial/socials_2.png
-  artifactKey: Guid(f0a7fcd8b6fb2c043bda77bebb7cc549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/socials_2.png using Guid(f0a7fcd8b6fb2c043bda77bebb7cc549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6e56895111165b5d1ba788b0e2b3cca') in 0.014514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000218 seconds.
-  path: Assets/AssetsMaterial/socials_3.png
-  artifactKey: Guid(09b71a70a44158b47b4e0295dceac3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/socials_3.png using Guid(09b71a70a44158b47b4e0295dceac3de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e66980c138537253105592acf59250') in 0.014862 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/AssetsMaterial/ThaleahFat.ttf
-  artifactKey: Guid(4526ce8b19f486443ab489d602778367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/ThaleahFat.ttf using Guid(4526ce8b19f486443ab489d602778367) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dbe987209874e39214f2f8be6269823') in 0.026986 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.268048 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7fca938e8a010f2399e9ea64d4f3ed76') in 0.004386 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.826944 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fffb50edc91eceefaed0e82583f5dce0') in 0.004332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.357835 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d01cb8d7d8600df0709798f4b138b95') in 0.012075 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.795709 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83762c2a654605f057436c56b48d58bc') in 0.011023 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.725724 seconds.
-  path: Assets/Prefab/HealthBar (1).prefab
-  artifactKey: Guid(114fe6b2c1f3b3b448b69cd8305cfcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HealthBar (1).prefab using Guid(114fe6b2c1f3b3b448b69cd8305cfcb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4eb367a25152295b053e0ec51da9a51') in 0.008232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.181892 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe9d5fa367897d302fb6b1cbbc8f185') in 0.011299 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.982729 seconds.
-  path: Assets/Prefab/Canvas (1).prefab
-  artifactKey: Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Canvas (1).prefab using Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8131a18bfb717fd2fb86c5e032f078a1') in 0.008223 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76f695537357234f5c7a11436148021e') in 0.010996 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.944763 seconds.
-  path: Assets/Prefab/Skeleton.prefab
-  artifactKey: Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/Skeleton.prefab using Guid(5566776b1fe5e4f4195a01e23910d43c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86c93886c41272e8eaab19b11677294c') in 0.011015 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.840416 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d188b41c7284e97695f16d3dd7fb779') in 0.005162 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.544315 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22e9d8599196be7a0aef303bbacf807f') in 0.004476 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.368527 seconds.
-  path: Assets/Prefab/HealthBarPref..prefab
-  artifactKey: Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HealthBarPref..prefab using Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'facda26a41e7f0412164cbe7d96e0258') in 0.008602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3951a2ff06dc897621ce87856f5093e3') in 0.004187 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.144024 seconds.
-  path: Assets/Prefab/HealthBarPref..prefab
-  artifactKey: Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/HealthBarPref..prefab using Guid(aad7dd4505be08c40b2ad2b5f963fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '290a2b79ca0bd6a6e2143f514ff48d9a') in 0.004169 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000205 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddb44c278f2b5f89f1736299ad91dd68') in 0.004473 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.799260 seconds.
-  path: Assets/AssetsMaterial/Skeleton
-  artifactKey: Guid(68ff4f1f87690a042a0f71656147e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton using Guid(68ff4f1f87690a042a0f71656147e125) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ada0cc81583fc19e3ad7d4d8078cbe8b') in 0.002118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 264.099101 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd10c1c3a8a147f57f31567ac47669b2') in 0.018250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 95.813999 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2da80f789b7e20337abae89325fb577b') in 0.015825 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.867240 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3108ea3a9c835fd06e82ec3a4be9aa07') in 0.016180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.769566 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cfd0b2d154930fc83c39f1b04187be6') in 0.017161 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.305882 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e58e625e85470e481c02b3902b8e1a58') in 0.016719 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.493111 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7be65507c689410350150442b63e87') in 0.015148 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.087119 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdf6b5c13de01723e90e1baddac97221') in 0.017846 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 58.070934 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42fb7de7d4cb7cbe31e4f4f46b27394c') in 0.020379 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.483513 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8cd412b683b9f52c74685de4aaa1631') in 0.021006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.456871 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa972abedfde70e82f85eb3df71b4ad') in 0.022906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.687967 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775f51137d1d87a723bb61e635a25ae0') in 0.022833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 37.137405 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5740e661f74adc0c925cd7871cbb7c') in 0.022646 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.595380 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '988cb5118aad7c54b0fb3095c3fcdcb6') in 0.029016 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.500656 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49f77cb1e075b9ecb35ea59914bedd3') in 0.028919 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.312222 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df1abd3ea84ee2d1a1671e51c7a666c6') in 0.027706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 33.406553 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90389445344e9c261d5a35fa49d6a280') in 0.031160 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.197941 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ba13f586773cddd00716a4df0c1e992') in 0.031662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.215609 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34d62dbb700fcb5a3acfeb148ecb356') in 0.032995 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.535987 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1080c7fc4508acf178bcf915b55b3f9') in 0.032559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.409851 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c248b540e916a63b877f550e251cdfd2') in 0.037309 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.979760 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2173e21f612d90843e51c38278efead') in 0.036042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.341760 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ebe55742c232ff7c1fc356546d0387f') in 0.038608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.270882 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12146871ff52e499f7a635a4f110488e') in 0.045713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.698276 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6d4873fab2103af2e0e5444e3fbf9f4') in 0.046193 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 26.015773 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2408159dc9309d64ea901522e19bc9b6') in 0.043851 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.605675 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d39dbe9ffb14e6e0441e5d0eaa1db4f') in 0.052415 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 52.138580 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e805f7d8734bdc8750f70d67a506efd8') in 0.052550 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.647289 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230e47fed0ce4312781467f1483bb0b0') in 0.050046 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.381847 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0ec94eb3d033e0955944c567fe9ebba') in 0.050290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.686084 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b09728b89debb461cb196606851bba41') in 0.050637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.906996 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee98999af76c6c5c4a1d6c56200ea19f') in 0.057664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.227605 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb4bbb41564ff00501948eab5eae508c') in 0.062683 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 42.697262 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4729945013e7d57b79d450c8e736256a') in 0.057365 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.054847 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7179ebde5b1ec67fa6f33d7498db2b3') in 0.066284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 47.290975 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52508e483ee18cc8f8954277fd3fb0eb') in 0.156487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.377927 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8b92c9d06fc65ced7eceb05c7c2b65a') in 0.108346 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.765948 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cf53d434acf75a19b4d35fb53d8af8e') in 0.096865 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.583249 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3706b7994d5673e8f305117e8e23232e') in 0.114029 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.187720 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03b23261cdca5fe00e5fa61f2352f908') in 0.105307 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 279.489355 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ddf00b53950ae5f7176fdf9c5714b53') in 0.112563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.760916 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32f3b9a61aadf6339e0c9150eac50daf') in 0.116052 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 230.633577 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f66eba3f774b18838b7a0bbb3aa171d2') in 0.132440 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 510.779014 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b48eef3b0d8dcbbd92e39c1147e81e77') in 0.163142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 36.258938 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '926c75246697cb2a2b5b7f9c0f71d4f4') in 0.131743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 43.375919 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07096b0b06691367cae41bb141db384') in 0.132830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.599492 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd7785e339406b6f1ffa19490d3c40a5') in 0.128952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.290318 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37b9c276d6830e7d1f6ff35b6b3cee10') in 0.130756 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.882325 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81ef7ffca55bd6aaa253cede482d8cc2') in 0.124044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 53.717239 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e793b431ec326dbaa236dbfc9d47d') in 0.162480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 31.563068 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6146297151bb0bd1fc49ddd9b3df910') in 0.140658 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.638732 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c3d8d30dca4721dd086851677888af8') in 0.158520 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.485097 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a751402ec14cf4a1cc3303ae4d4bf7dc') in 0.143807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.198278 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc82be516c0337335e5fb9d015d2f111') in 0.148856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.713704 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4adff1cdbbe9d4ce35e6faf9f364754') in 0.162039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 27.518813 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4e8cc57b70be39fe6c95418de647ca8') in 0.150118 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.502174 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be4676cbd836ed2bf49d288a3778076') in 0.155012 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.981273 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1af8100b7254b7992b93408619c0bd96') in 0.154405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 24.993340 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d2f7da96472f25bbbce9549ff96bd95') in 0.164418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.668500 seconds.
-  path: Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png
-  artifactKey: Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Enemies/Another Skeleton Enemy/Skeleton enemy.png using Guid(9687e1cb335134545935a9ff55cbe00d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19e54f445046e4e3bcf5f996fb55e77d') in 0.186124 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.552327 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9445454bcb973d6cd0f356c35d4a759f') in 0.007090 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.368628 seconds.
-  path: Assets/AssetsMaterial/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png
-  artifactKey: Guid(6005d955d6954ac4a9a9484ed745ea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Shikashi's Fantasy Icons Pack v2/#1 - Transparent Icons.png using Guid(6005d955d6954ac4a9a9484ed745ea3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2562e7b2bfffd8b32b44379f544eb09') in 0.920351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.768309 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Attack.gif
-  artifactKey: Guid(2ef5a98900c4eb64fb039a53e8ad4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Attack.gif using Guid(2ef5a98900c4eb64fb039a53e8ad4426) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0fcfc946bdb0a5087e92c9250f43e741') in 0.021931 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000371 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Attack.png
-  artifactKey: Guid(b6082f34d5cc4be4ebba05318b51fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Attack.png using Guid(b6082f34d5cc4be4ebba05318b51fac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5e21e3f54e9156a5c0a39c5afd18501') in 0.147933 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.873286 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17e816b491aaec2406c12fea1ae601ee') in 0.026602 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 19.614181 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0172d5f0b1ddeb80756926d6ead36910') in 0.018744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.800016 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c853755672cbdac5eb22bb66cc750897') in 0.020588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 18.546197 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0dafc1bb954bc05e00f45c0ebfae54be') in 0.012822 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.343652 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e958eb06b3056fdc13d9974db7b8070') in 0.012446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.015806 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c36ce2d790cf335242a94b8807a205d') in 0.026072 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.592330 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '92ed28436fdb43d68f2e47ce920e21bc') in 0.014206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.435842 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3461800eadbf2fb42b2213a34726bf3d') in 0.019086 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.663243 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '703e928e791dc95b3c39d8eb2332d047') in 0.012740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.272172 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'feab3e61d060776b67c0fcd74885ab95') in 0.013635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.688165 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '074996285bb2d7e901dca3e0093f0bc4') in 0.020011 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.317303 seconds.
-  path: Assets/Prefab/SkeletonClub.prefab
-  artifactKey: Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5d6a902058140c7142121ff61ef8db3') in 0.011940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 76.370834 seconds.
-  path: Assets/Prefab/New Animator Controller.controller
-  artifactKey: Guid(87170bc574c84f24aa189238bf0f7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefab/New Animator Controller.controller using Guid(87170bc574c84f24aa189238bf0f7385) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb63fcbd30cb85bc902b19a1af4708a') in 0.015017 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.938262 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Dead.gif
-  artifactKey: Guid(a6932cb731eb88247bc37b2d2c2f5e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Dead.gif using Guid(a6932cb731eb88247bc37b2d2c2f5e89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '753f21d68ea01c3633a10c67369dc654') in 0.092033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000595 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Hit.gif
-  artifactKey: Guid(074c07652a4f27a4aba7ee3b9008394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Hit.gif using Guid(074c07652a4f27a4aba7ee3b9008394f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f218b9907fe80349a9c6ac1e75d3afe3') in 0.024305 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000572 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Idle.gif
-  artifactKey: Guid(ef5e60cb53122444e989e70baf7be9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Idle.gif using Guid(ef5e60cb53122444e989e70baf7be9e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8c463cc9300b007896b789ef819375e') in 0.020581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000390 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Walk.gif
-  artifactKey: Guid(3810363b068a76a4a8d888fd63d323b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton Walk.gif using Guid(3810363b068a76a4a8d888fd63d323b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90dfd43f93e24db1043fd911e1529524') in 0.022637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000919 seconds.
-  path: Assets/AssetsMaterial/Skeleton/GIFS/Skeleton React.gif
-  artifactKey: Guid(eb692ae2926150540a801ec499c0f999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/GIFS/Skeleton React.gif using Guid(eb692ae2926150540a801ec499c0f999) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e7248eb220bd3d6f084abae3d8cd537') in 0.021716 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.517737 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Dead.png
-  artifactKey: Guid(9434f5131233e5f46956fbd7e5a6dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Dead.png using Guid(9434f5131233e5f46956fbd7e5a6dbd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d38da09ce0cd6c16c00d3ee0aa563e6') in 0.065498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000554 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton React.png
-  artifactKey: Guid(cf7f26804887c45498b49075ee627065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton React.png using Guid(cf7f26804887c45498b49075ee627065) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2cdab5135a1c3ac5e5ab1fd572d7f66') in 0.026975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000434 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Idle.png
-  artifactKey: Guid(7beab1a2f34e7464291a0b4a39fd2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Idle.png using Guid(7beab1a2f34e7464291a0b4a39fd2798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de88296ecfa1ea9b7bc25ef6900d2d36') in 0.053999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000832 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Hit.png
-  artifactKey: Guid(93012e94071e76c489d6230c6a155894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Hit.png using Guid(93012e94071e76c489d6230c6a155894) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70459bd681cfc53c9bd837b20cb3f0b5') in 0.019596 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000442 seconds.
-  path: Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Walk.png
-  artifactKey: Guid(8872286596856774d8ab9a38e568932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AssetsMaterial/Skeleton/Sprite Sheets/Skeleton Walk.png using Guid(8872286596856774d8ab9a38e568932a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abe813562caf3251587bf392084c01b') in 0.059539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 23.341776 seconds.
-  path: Assets/Animation
-  artifactKey: Guid(b529e8237b6b62f49ab33349a73133c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation using Guid(b529e8237b6b62f49ab33349a73133c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76468daea348fbe6ff684e43f3eab89b') in 0.011866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 153.793327 seconds.
-  path: Assets/Animation/DemonAnimation
-  artifactKey: Guid(f168ef8538a258445ba0d8f9e745f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/DemonAnimation using Guid(f168ef8538a258445ba0d8f9e745f15b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '406ae66c174c19998f880e657dee770b') in 0.010225 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.701358 seconds.
-  path: Assets/Animation/AnimationPlayer
-  artifactKey: Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/AnimationPlayer using Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85fb76267f6bf61df294143612550923') in 0.009712 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.418282 seconds.
-  path: Assets/Animation/AnimationPunk
-  artifactKey: Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/AnimationPunk using Guid(128818ae82649df4faaec3fa0e1da5e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35a26bc5c4a7d955f9238541f56cacc2') in 0.007900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 97.205543 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation
-  artifactKey: Guid(381e1f93371ec82418c5d035d8db5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation using Guid(381e1f93371ec82418c5d035d8db5ce5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4042b998f512a6880d7f0268f51cc1c1') in 0.011297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.113115 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubController.controller
-  artifactKey: Guid(f7139b32e1d37834aa441dba16d9c0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubController.controller using Guid(f7139b32e1d37834aa441dba16d9c0c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed119bfc760ec7b8651846b196f4df9') in 0.016849 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.757746 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClub_idle.anim
-  artifactKey: Guid(ed532446da7446144a4c01eb5b0d2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClub_idle.anim using Guid(ed532446da7446144a4c01eb5b0d2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0ece92a3f0ba20fa2ed384a6a448f40') in 0.016569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.292537 seconds.
-  path: Assets/Animation/DemonAnimation/Animations
-  artifactKey: Guid(4e001e799f681b6499473621eacf150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/DemonAnimation/Animations using Guid(4e001e799f681b6499473621eacf150c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05d86c3acd8f0f8fb370b17d0878bc17') in 0.012792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.613564 seconds.
-  path: Assets/Animation/DemonAnimation/Animations/DemonSlimeAttack.anim
-  artifactKey: Guid(5d0da1b014e87ad4a995565ba06a50fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/DemonAnimation/Animations/DemonSlimeAttack.anim using Guid(5d0da1b014e87ad4a995565ba06a50fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d4f2ed9192dbc678bf7a37a46b4f2f1') in 0.012265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.625818 seconds.
-  path: Assets/Animation/DemonAnimation/Animations/DemonSlimeDeath.anim
-  artifactKey: Guid(d4a5597bcd8c78e41821ab6801591de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/DemonAnimation/Animations/DemonSlimeDeath.anim using Guid(d4a5597bcd8c78e41821ab6801591de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c33f913614f7851ff52ff481397750e') in 0.010908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.247676 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubIdle.anim
-  artifactKey: Guid(ed532446da7446144a4c01eb5b0d2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubIdle.anim using Guid(ed532446da7446144a4c01eb5b0d2db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e6a39134c2806dc502a269ece2b101b') in 0.012242 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 21.501874 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/New Animation.anim
-  artifactKey: Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/New Animation.anim using Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2671355d3d2d184027a0044c6831b0bd') in 0.011399 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.097320 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClub.anim
-  artifactKey: Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClub.anim using Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e8ede3fb3363570002328764199b6ae') in 0.003706 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.563332 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubDeath.anim
-  artifactKey: Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubDeath.anim using Guid(34fe55f11d656e644ab2e74ae7c44cf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad80cb60209728f5776aac8240dedc3d') in 0.007391 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 14.059313 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubWalk.anim
-  artifactKey: Guid(0ff583e401e3d1849bebea8eabc55887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubWalk.anim using Guid(0ff583e401e3d1849bebea8eabc55887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0250f5d0bc6e68f1efeb5e100c3b1cc1') in 0.007874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 15.669638 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubHurt.anim
-  artifactKey: Guid(dd1756153bbc401448b126aef395e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubHurt.anim using Guid(dd1756153bbc401448b126aef395e977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba97fffcc41354aaba512371204928a0') in 0.006248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 578.786735 seconds.
-  path: Assets/Animation/ClubSkeletonAnimation/SkeletonClubAttack.anim
-  artifactKey: Guid(eee36d135195ee0478bc7f3fdde18625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animation/ClubSkeletonAnimation/SkeletonClubAttack.anim using Guid(eee36d135195ee0478bc7f3fdde18625) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fa0bdcb7cc367581309c7b9aab3ed3f') in 0.007537 seconds 
+Start importing Assets/Prefab/SkeletonClub.prefab using Guid(4a979dec2e9f9024d9c20706624c6f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'SkeletonClubController': Transition 'AnyState -> SkeletonClubDeath' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+Asset 'SkeletonClubController': Transition 'AnyState -> SkeletonClubHurt' in state 'AnyState' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: 'a63e03096d72eea052b366c6127b7c95') in 0.042206 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
