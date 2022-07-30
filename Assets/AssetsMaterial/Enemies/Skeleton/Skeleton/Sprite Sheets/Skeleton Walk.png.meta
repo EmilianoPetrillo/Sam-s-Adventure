@@ -135,7 +135,7 @@ TextureImporter:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -156,7 +156,7 @@ TextureImporter:
         serializedVersion: 2
         x: 22
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -177,7 +177,7 @@ TextureImporter:
         serializedVersion: 2
         x: 44
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -198,7 +198,7 @@ TextureImporter:
         serializedVersion: 2
         x: 66
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -217,9 +217,9 @@ TextureImporter:
       name: Skeleton Walk_4
       rect:
         serializedVersion: 2
-        x: 88
+        x: 89
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -240,7 +240,7 @@ TextureImporter:
         serializedVersion: 2
         x: 110
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -261,7 +261,7 @@ TextureImporter:
         serializedVersion: 2
         x: 132
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -282,7 +282,7 @@ TextureImporter:
         serializedVersion: 2
         x: 154
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -303,7 +303,7 @@ TextureImporter:
         serializedVersion: 2
         x: 176
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -324,7 +324,7 @@ TextureImporter:
         serializedVersion: 2
         x: 198
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -345,7 +345,7 @@ TextureImporter:
         serializedVersion: 2
         x: 220
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -366,7 +366,7 @@ TextureImporter:
         serializedVersion: 2
         x: 242
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -387,7 +387,7 @@ TextureImporter:
         serializedVersion: 2
         x: 264
         y: 0
-        width: 22
+        width: 20
         height: 33
       alignment: 6
       pivot: {x: 0, y: 0}

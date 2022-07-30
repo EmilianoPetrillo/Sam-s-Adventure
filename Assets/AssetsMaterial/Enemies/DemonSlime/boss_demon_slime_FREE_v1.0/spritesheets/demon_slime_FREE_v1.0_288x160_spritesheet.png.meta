@@ -304,9 +304,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_0
       rect:
         serializedVersion: 2
-        x: 0
+        x: 104
         y: 640
-        width: 288
+        width: 86
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -325,9 +325,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_1
       rect:
         serializedVersion: 2
-        x: 288
+        x: 386
         y: 640
-        width: 288
+        width: 97
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -346,9 +346,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_2
       rect:
         serializedVersion: 2
-        x: 576
+        x: 669
         y: 640
-        width: 288
+        width: 104
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -367,9 +367,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_3
       rect:
         serializedVersion: 2
-        x: 864
+        x: 961
         y: 640
-        width: 288
+        width: 96
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -388,9 +388,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_4
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1242
         y: 640
-        width: 288
+        width: 107
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -409,9 +409,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_5
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1532
         y: 640
-        width: 288
+        width: 103
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -430,9 +430,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_6
       rect:
         serializedVersion: 2
-        x: 0
+        x: 98
         y: 480
-        width: 288
+        width: 84
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -451,9 +451,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_7
       rect:
         serializedVersion: 2
-        x: 288
+        x: 383
         y: 480
-        width: 288
+        width: 95
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -472,9 +472,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_8
       rect:
         serializedVersion: 2
-        x: 576
+        x: 681
         y: 480
-        width: 288
+        width: 77
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -493,9 +493,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_9
       rect:
         serializedVersion: 2
-        x: 864
-        y: 480
-        width: 288
+        x: 963
+        y: 481
+        width: 100
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -514,9 +514,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_10
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1242
         y: 480
-        width: 288
+        width: 109
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -535,9 +535,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_11
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1530
         y: 480
-        width: 288
+        width: 100
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -556,9 +556,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_12
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1826
         y: 480
-        width: 288
+        width: 93
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -577,9 +577,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_13
       rect:
         serializedVersion: 2
-        x: 2016
+        x: 2104
         y: 480
-        width: 288
+        width: 102
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -598,9 +598,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_14
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 2395
         y: 480
-        width: 288
+        width: 103
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -619,9 +619,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_15
       rect:
         serializedVersion: 2
-        x: 2592
+        x: 2689
         y: 480
-        width: 288
+        width: 90
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -640,9 +640,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_16
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 2971
         y: 480
-        width: 288
+        width: 87
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -661,9 +661,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_17
       rect:
         serializedVersion: 2
-        x: 3168
+        x: 3269
         y: 480
-        width: 288
+        width: 76
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -682,9 +682,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_18
       rect:
         serializedVersion: 2
-        x: 0
+        x: 93
         y: 320
-        width: 288
+        width: 92
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -703,9 +703,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_19
       rect:
         serializedVersion: 2
-        x: 288
+        x: 388
         y: 320
-        width: 288
+        width: 88
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -724,9 +724,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_20
       rect:
         serializedVersion: 2
-        x: 576
+        x: 676
         y: 320
-        width: 288
+        width: 99
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -745,9 +745,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_21
       rect:
         serializedVersion: 2
-        x: 864
+        x: 962
         y: 320
-        width: 288
+        width: 105
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -766,9 +766,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_22
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1236
         y: 320
-        width: 288
+        width: 121
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -787,9 +787,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_23
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1521
         y: 320
-        width: 288
+        width: 118
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -808,9 +808,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_24
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1829
         y: 320
-        width: 288
+        width: 112
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -829,9 +829,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_25
       rect:
         serializedVersion: 2
-        x: 2016
+        x: 2137
         y: 320
-        width: 288
+        width: 83
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -850,9 +850,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_26
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 2414
         y: 320
-        width: 288
+        width: 101
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -871,9 +871,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_27
       rect:
         serializedVersion: 2
-        x: 2592
+        x: 2614
         y: 320
-        width: 288
+        width: 160
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -892,9 +892,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_28
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 2899
         y: 320
-        width: 288
+        width: 163
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -913,9 +913,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_29
       rect:
         serializedVersion: 2
-        x: 3168
+        x: 3206
         y: 320
-        width: 288
+        width: 149
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -934,9 +934,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_30
       rect:
         serializedVersion: 2
-        x: 3456
+        x: 3530
         y: 320
-        width: 288
+        width: 114
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -955,9 +955,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_31
       rect:
         serializedVersion: 2
-        x: 3744
+        x: 3838
         y: 320
-        width: 288
+        width: 95
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -976,9 +976,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_32
       rect:
         serializedVersion: 2
-        x: 4032
+        x: 4132
         y: 320
-        width: 288
+        width: 89
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -997,9 +997,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_33
       rect:
         serializedVersion: 2
-        x: 0
+        x: 91
         y: 160
-        width: 288
+        width: 95
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1018,9 +1018,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_34
       rect:
         serializedVersion: 2
-        x: 288
+        x: 387
         y: 160
-        width: 288
+        width: 100
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1039,9 +1039,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_35
       rect:
         serializedVersion: 2
-        x: 576
-        y: 160
-        width: 288
+        x: 671
+        y: 158
+        width: 119
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1060,9 +1060,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_36
       rect:
         serializedVersion: 2
-        x: 864
+        x: 967
         y: 160
-        width: 288
+        width: 105
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1081,9 +1081,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_37
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1247
         y: 160
-        width: 288
+        width: 90
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1102,9 +1102,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_38
       rect:
         serializedVersion: 2
-        x: 0
+        x: 98
         y: 0
-        width: 288
+        width: 93
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1123,9 +1123,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_39
       rect:
         serializedVersion: 2
-        x: 288
+        x: 391
         y: 0
-        width: 288
+        width: 96
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1144,9 +1144,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_40
       rect:
         serializedVersion: 2
-        x: 576
+        x: 670
         y: 0
-        width: 288
+        width: 117
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1165,9 +1165,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_41
       rect:
         serializedVersion: 2
-        x: 864
+        x: 966
         y: 0
-        width: 288
+        width: 109
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1186,9 +1186,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_42
       rect:
         serializedVersion: 2
-        x: 1152
+        x: 1247
         y: 0
-        width: 288
+        width: 104
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1207,9 +1207,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_43
       rect:
         serializedVersion: 2
-        x: 1440
+        x: 1545
         y: 0
-        width: 288
+        width: 122
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1228,9 +1228,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_44
       rect:
         serializedVersion: 2
-        x: 1728
+        x: 1828
         y: 0
-        width: 288
+        width: 128
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1249,9 +1249,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_45
       rect:
         serializedVersion: 2
-        x: 2016
+        x: 2115
         y: 0
-        width: 288
+        width: 137
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1270,9 +1270,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_46
       rect:
         serializedVersion: 2
-        x: 2304
+        x: 2400
         y: 0
-        width: 288
+        width: 138
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1291,9 +1291,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_47
       rect:
         serializedVersion: 2
-        x: 2592
+        x: 2685
         y: 0
-        width: 288
+        width: 137
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1312,9 +1312,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_48
       rect:
         serializedVersion: 2
-        x: 2880
+        x: 2979
         y: 0
-        width: 288
+        width: 132
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1333,9 +1333,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_49
       rect:
         serializedVersion: 2
-        x: 3168
+        x: 3267
         y: 0
-        width: 288
+        width: 132
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1354,9 +1354,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_50
       rect:
         serializedVersion: 2
-        x: 3456
-        y: 0
-        width: 288
+        x: 3556
+        y: 1
+        width: 132
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1375,9 +1375,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_51
       rect:
         serializedVersion: 2
-        x: 3744
+        x: 3842
         y: 0
-        width: 288
+        width: 140
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1396,9 +1396,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_52
       rect:
         serializedVersion: 2
-        x: 4032
+        x: 4130
         y: 0
-        width: 288
+        width: 131
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1417,9 +1417,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_53
       rect:
         serializedVersion: 2
-        x: 4320
+        x: 4415
         y: 0
-        width: 288
+        width: 134
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1438,9 +1438,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_54
       rect:
         serializedVersion: 2
-        x: 4608
+        x: 4714
         y: 0
-        width: 288
+        width: 129
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1459,9 +1459,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_55
       rect:
         serializedVersion: 2
-        x: 4896
+        x: 5006
         y: 0
-        width: 288
+        width: 117
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1480,9 +1480,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_56
       rect:
         serializedVersion: 2
-        x: 5184
+        x: 5299
         y: 0
-        width: 288
+        width: 81
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1501,9 +1501,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_57
       rect:
         serializedVersion: 2
-        x: 5472
+        x: 5589
         y: 0
-        width: 288
+        width: 103
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1522,9 +1522,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_58
       rect:
         serializedVersion: 2
-        x: 5760
+        x: 5859
         y: 0
-        width: 288
+        width: 109
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
@@ -1543,9 +1543,9 @@ TextureImporter:
       name: demon_slime_FREE_v1.0_288x160_spritesheet_59
       rect:
         serializedVersion: 2
-        x: 6048
+        x: 6149
         y: 0
-        width: 288
+        width: 96
         height: 160
       alignment: 6
       pivot: {x: 0, y: 0}
