@@ -24,7 +24,7 @@ public class MagicDice : MonoBehaviour
         }
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
@@ -32,9 +32,4 @@ public class MagicDice : MonoBehaviour
             Destroy(gameObject);
         }
     }
-
-    //public void OnTriggerEnter()
-    //{
-
-    //}
 }
