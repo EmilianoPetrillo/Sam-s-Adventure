@@ -4,139 +4,139 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: 7025154549869057301
-    second: SkeletonClub_attack1
+    second: Skeleton enemy_0
   - first:
       213: -1052431571235582798
-    second: SkeletonClub_attack2
+    second: Skeleton enemy_1
   - first:
       213: -8249531409998353857
-    second: SkeletonClub_attack3
+    second: Skeleton enemy_2
   - first:
       213: -5725178719030385771
-    second: SkeletonClub_attack4
+    second: Skeleton enemy_3
   - first:
       213: -4345535007044184461
-    second: SkeletonClub_attack5
+    second: Skeleton enemy_4
   - first:
       213: -6608955959846293068
-    second: SkeletonClub_attack6
+    second: Skeleton enemy_5
   - first:
       213: 2682571728898774543
-    second: SkeletonClub_attack7
+    second: Skeleton enemy_6
   - first:
       213: 3980739256242589887
-    second: SkeletonClub_attack8
+    second: Skeleton enemy_7
   - first:
       213: 5994429131288928525
-    second: SkeletonClub_attack9
+    second: Skeleton enemy_8
   - first:
       213: 8976488520447721068
-    second: SkeletonClub_attack10
+    second: Skeleton enemy_9
   - first:
       213: -4367081648991140790
-    second: SkeletonClub_attack11
+    second: Skeleton enemy_10
   - first:
       213: 3900501143166408568
-    second: SkeletonClub_attack12
+    second: Skeleton enemy_11
   - first:
       213: -1326419318096611321
-    second: SkeletonClub_attack13
+    second: Skeleton enemy_12
   - first:
       213: 4251906360239513419
-    second: SkeletonClub_hurt3
+    second: Skeleton enemy_13
   - first:
       213: 2646334155208643579
-    second: SkeletonClub_hurt2
+    second: Skeleton enemy_14
   - first:
       213: -3712685219517249095
-    second: SkeletonClub_hurt1
+    second: Skeleton enemy_15
   - first:
       213: -2627258213357970557
-    second: SkeletonClub_idle1
+    second: Skeleton enemy_16
   - first:
       213: 1107983150400447951
-    second: SkeletonClub_idle2
+    second: Skeleton enemy_17
   - first:
       213: -841477135289833387
-    second: SkeletonClub_idle3
+    second: Skeleton enemy_18
   - first:
       213: 306834143366845967
-    second: SkeletonClub_idle4
+    second: Skeleton enemy_19
   - first:
       213: -6289823522979162965
-    second: SkeletonClub_walk1
+    second: Skeleton enemy_20
   - first:
       213: 8507390889452736926
-    second: SkeletonClub_walk2
+    second: Skeleton enemy_21
   - first:
       213: 5801475551444210642
-    second: SkeletonClub_walk3
+    second: Skeleton enemy_22
   - first:
       213: 2915540044530629201
-    second: SkeletonClub_walk4
+    second: Skeleton enemy_23
   - first:
       213: -2360470341137857836
-    second: SkeletonClub_walk5
+    second: Skeleton enemy_24
   - first:
       213: 1529470679888677018
-    second: SkeletonClub_walk6
+    second: Skeleton enemy_25
   - first:
       213: 3437145983743085951
-    second: SkeletonClub_walk7
+    second: Skeleton enemy_26
   - first:
       213: 7668837336211610510
-    second: SkeletonClub_walk8
+    second: Skeleton enemy_27
   - first:
       213: -422267860648895622
-    second: SkeletonClub_walk9
+    second: Skeleton enemy_28
   - first:
       213: -7213611353175648617
-    second: SkeletonClub_walk10
+    second: Skeleton enemy_29
   - first:
       213: 3978353915906207673
-    second: SkeletonClub_walk11
+    second: Skeleton enemy_30
   - first:
       213: -3238468278916570848
-    second: SkeletonClub_walk12
+    second: Skeleton enemy_31
   - first:
       213: -8619853186011431500
-    second: SkeletonClub_dead1
+    second: Skeleton enemy_32
   - first:
       213: 4625816606421005513
-    second: SkeletonClub_dead2
+    second: Skeleton enemy_33
   - first:
       213: -6819641155109389077
-    second: SkeletonClub_dead3
+    second: Skeleton enemy_34
   - first:
       213: 5789935519133889292
-    second: SkeletonClub_dead4
+    second: Skeleton enemy_35
   - first:
       213: 8145106839956665129
-    second: SkeletonClub_dead5
+    second: Skeleton enemy_36
   - first:
       213: -862854591641819843
-    second: SkeletonClub_dead6
+    second: Skeleton enemy_37
   - first:
       213: -1492088842765610512
-    second: SkeletonClub_dead7
+    second: Skeleton enemy_38
   - first:
       213: -8068354712703553056
-    second: SkeletonClub_dead8
+    second: Skeleton enemy_39
   - first:
       213: 5015575561642519280
-    second: SkeletonClub_dead9
+    second: Skeleton enemy_40
   - first:
       213: -3857987652739811041
-    second: SkeletonClub_dead10
+    second: Skeleton enemy_41
   - first:
       213: 1058141771445020729
-    second: SkeletonClub_dead11
+    second: Skeleton enemy_42
   - first:
       213: -4619378450006378782
-    second: SkeletonClub_dead12
+    second: Skeleton enemy_43
   - first:
       213: 6633196986395104502
-    second: SkeletonClub_dead13
+    second: Skeleton enemy_44
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -167,7 +167,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -181,7 +181,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -298,15 +298,15 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: SkeletonClub_attack1
+      name: Skeleton enemy_0
       rect:
         serializedVersion: 2
-        x: 7
-        y: 272
-        width: 36
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,15 +319,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack2
+      name: Skeleton enemy_1
       rect:
         serializedVersion: 2
-        x: 68
-        y: 271
-        width: 39
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,15 +340,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack3
+      name: Skeleton enemy_2
       rect:
         serializedVersion: 2
-        x: 129
-        y: 271
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,15 +361,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack4
+      name: Skeleton enemy_3
       rect:
         serializedVersion: 2
-        x: 195
-        y: 271
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,15 +382,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack5
+      name: Skeleton enemy_4
       rect:
         serializedVersion: 2
-        x: 268
-        y: 271
-        width: 53
-        height: 42
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -403,15 +403,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack6
+      name: Skeleton enemy_5
       rect:
         serializedVersion: 2
-        x: 335
-        y: 271
-        width: 31
-        height: 40
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 320
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,15 +424,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack7
+      name: Skeleton enemy_6
       rect:
         serializedVersion: 2
-        x: 401
-        y: 271
-        width: 27
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 384
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,15 +445,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack8
+      name: Skeleton enemy_7
       rect:
         serializedVersion: 2
-        x: 466
-        y: 272
-        width: 26
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 448
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,15 +466,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack9
+      name: Skeleton enemy_8
       rect:
         serializedVersion: 2
-        x: 514
-        y: 271
-        width: 62
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 512
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,15 +487,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack10
+      name: Skeleton enemy_9
       rect:
         serializedVersion: 2
-        x: 578
-        y: 272
-        width: 40
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 576
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -508,15 +508,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack11
+      name: Skeleton enemy_10
       rect:
         serializedVersion: 2
-        x: 646
-        y: 272
-        width: 36
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 640
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,15 +529,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack12
+      name: Skeleton enemy_11
       rect:
         serializedVersion: 2
-        x: 705
-        y: 271
-        width: 41
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 704
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -550,15 +550,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_attack13
+      name: Skeleton enemy_12
       rect:
         serializedVersion: 2
-        x: 776
-        y: 272
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 768
+        y: 256
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,15 +571,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_hurt3
+      name: Skeleton enemy_13
       rect:
         serializedVersion: 2
-        x: 138
-        y: 16
-        width: 31
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -592,15 +592,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_hurt2
+      name: Skeleton enemy_14
       rect:
         serializedVersion: 2
-        x: 72
-        y: 14
-        width: 34
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -613,15 +613,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_hurt1
+      name: Skeleton enemy_15
       rect:
         serializedVersion: 2
-        x: 8
-        y: 14
-        width: 33
-        height: 36
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -634,15 +634,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_idle1
+      name: Skeleton enemy_16
       rect:
         serializedVersion: 2
-        x: 9
-        y: 80
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,15 +655,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_idle2
+      name: Skeleton enemy_17
       rect:
         serializedVersion: 2
-        x: 73
-        y: 79
-        width: 34
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -676,15 +676,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_idle3
+      name: Skeleton enemy_18
       rect:
         serializedVersion: 2
-        x: 138
-        y: 80
-        width: 35
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 320
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -697,15 +697,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_idle4
+      name: Skeleton enemy_19
       rect:
         serializedVersion: 2
-        x: 200
-        y: 80
-        width: 35
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 384
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -718,15 +718,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk1
+      name: Skeleton enemy_20
       rect:
         serializedVersion: 2
-        x: 5
-        y: 143
-        width: 36
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 448
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -739,15 +739,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk2
+      name: Skeleton enemy_21
       rect:
         serializedVersion: 2
-        x: 69
-        y: 144
-        width: 36
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 512
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -760,15 +760,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk3
+      name: Skeleton enemy_22
       rect:
         serializedVersion: 2
-        x: 134
-        y: 143
-        width: 36
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 576
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -781,15 +781,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk4
+      name: Skeleton enemy_23
       rect:
         serializedVersion: 2
-        x: 198
-        y: 143
-        width: 35
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 640
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -802,15 +802,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk5
+      name: Skeleton enemy_24
       rect:
         serializedVersion: 2
-        x: 260
-        y: 143
-        width: 37
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 704
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -823,15 +823,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk6
+      name: Skeleton enemy_25
       rect:
         serializedVersion: 2
-        x: 326
-        y: 144
-        width: 36
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 768
+        y: 192
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -844,15 +844,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk7
+      name: Skeleton enemy_26
       rect:
         serializedVersion: 2
-        x: 388
-        y: 143
-        width: 38
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -865,15 +865,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk8
+      name: Skeleton enemy_27
       rect:
         serializedVersion: 2
-        x: 452
-        y: 143
-        width: 39
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -886,15 +886,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk9
+      name: Skeleton enemy_28
       rect:
         serializedVersion: 2
-        x: 516
-        y: 144
-        width: 38
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -907,15 +907,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk10
+      name: Skeleton enemy_29
       rect:
         serializedVersion: 2
-        x: 580
-        y: 143
-        width: 38
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -928,15 +928,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk11
+      name: Skeleton enemy_30
       rect:
         serializedVersion: 2
-        x: 645
-        y: 143
-        width: 38
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 256
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -949,15 +949,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_walk12
+      name: Skeleton enemy_31
       rect:
         serializedVersion: 2
-        x: 709
-        y: 144
-        width: 37
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 320
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -970,15 +970,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead1
+      name: Skeleton enemy_32
       rect:
         serializedVersion: 2
-        x: 10
-        y: 208
-        width: 32
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 384
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -991,15 +991,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead2
+      name: Skeleton enemy_33
       rect:
         serializedVersion: 2
-        x: 73
-        y: 208
-        width: 33
-        height: 32
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 448
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1012,15 +1012,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead3
+      name: Skeleton enemy_34
       rect:
         serializedVersion: 2
-        x: 136
-        y: 208
-        width: 34
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 512
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1033,15 +1033,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead4
+      name: Skeleton enemy_35
       rect:
         serializedVersion: 2
-        x: 202
-        y: 207
-        width: 34
-        height: 29
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 576
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1054,15 +1054,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead5
+      name: Skeleton enemy_36
       rect:
         serializedVersion: 2
-        x: 265
-        y: 207
-        width: 37
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 640
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1075,15 +1075,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead6
+      name: Skeleton enemy_37
       rect:
         serializedVersion: 2
-        x: 329
-        y: 208
-        width: 38
-        height: 30
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 704
+        y: 128
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1096,15 +1096,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead7
+      name: Skeleton enemy_38
       rect:
         serializedVersion: 2
-        x: 392
-        y: 207
-        width: 43
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1117,15 +1117,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead8
+      name: Skeleton enemy_39
       rect:
         serializedVersion: 2
-        x: 457
-        y: 207
-        width: 43
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1138,15 +1138,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead9
+      name: Skeleton enemy_40
       rect:
         serializedVersion: 2
-        x: 521
-        y: 207
-        width: 42
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1159,15 +1159,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead10
+      name: Skeleton enemy_41
       rect:
         serializedVersion: 2
-        x: 585
-        y: 207
-        width: 43
-        height: 34
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 192
+        y: 64
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1180,15 +1180,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead11
+      name: Skeleton enemy_42
       rect:
         serializedVersion: 2
-        x: 649
-        y: 207
-        width: 42
-        height: 33
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 0
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1201,15 +1201,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead12
+      name: Skeleton enemy_43
       rect:
         serializedVersion: 2
-        x: 713
-        y: 207
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 64
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1222,15 +1222,15 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: SkeletonClub_dead13
+      name: Skeleton enemy_44
       rect:
         serializedVersion: 2
-        x: 777
-        y: 207
-        width: 42
-        height: 31
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+        x: 128
+        y: 0
+        width: 64
+        height: 64
+      alignment: 9
+      pivot: {x: 0, y: 0.25}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

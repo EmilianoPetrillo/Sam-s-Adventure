@@ -247,7 +247,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 0, y: 0}
-  m_AnchoredPosition: {x: 1.33, y: 1.55}
+  m_AnchoredPosition: {x: -0.756, y: 1.423}
   m_SizeDelta: {x: 977.895, y: 180.5797}
   m_Pivot: {x: 0, y: 0}
 --- !u!223 &1143226922705282559
@@ -399,7 +399,7 @@ GameObject:
   - component: {fileID: 7390229677090703355}
   - component: {fileID: 6821319263391066347}
   - component: {fileID: -3391625238260619720}
-  - component: {fileID: 2715779462289108818}
+  - component: {fileID: 2295673690916491054}
   m_Layer: 0
   m_Name: MeleeDemon
   m_TagString: Enemy
@@ -527,7 +527,7 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &2715779462289108818
+--- !u!61 &2295673690916491054
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -540,10 +540,10 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 2.2856166, y: 0.63152647}
+  m_Offset: {x: 0.032066643, y: 0.6394625}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
+    pivot: {x: 0.5, y: 0}
     oldSize: {x: 4.5, y: 2.5}
     newSize: {x: 4.5, y: 2.5}
     adaptiveTilingThreshold: 0.5
@@ -551,7 +551,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.2590698, y: 1.2630529}
+  m_Size: {x: 1.1347667, y: 1.2684815}
   m_EdgeRadius: 0
 --- !u!1 &8722908209727569186
 GameObject:

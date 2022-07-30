@@ -50,7 +50,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -64,7 +64,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 64
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -184,11 +184,11 @@ TextureImporter:
       name: wizard fly_0
       rect:
         serializedVersion: 2
-        x: 22
-        y: 171
-        width: 30
-        height: 56
-      alignment: 0
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -205,11 +205,11 @@ TextureImporter:
       name: wizard fly_1
       rect:
         serializedVersion: 2
-        x: 100
-        y: 173
-        width: 32
-        height: 53
-      alignment: 0
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -226,11 +226,11 @@ TextureImporter:
       name: wizard fly_2
       rect:
         serializedVersion: 2
-        x: 16
-        y: 94
-        width: 43
-        height: 50
-      alignment: 0
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -247,11 +247,11 @@ TextureImporter:
       name: wizard fly_3
       rect:
         serializedVersion: 2
-        x: 82
-        y: 99
-        width: 66
-        height: 42
-      alignment: 0
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -268,11 +268,11 @@ TextureImporter:
       name: wizard fly_4
       rect:
         serializedVersion: 2
-        x: 4
-        y: 19
-        width: 71
-        height: 42
-      alignment: 0
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -289,11 +289,11 @@ TextureImporter:
       name: wizard fly_5
       rect:
         serializedVersion: 2
-        x: 84
-        y: 19
-        width: 69
-        height: 41
-      alignment: 0
+        x: 80
+        y: 0
+        width: 80
+        height: 80
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []

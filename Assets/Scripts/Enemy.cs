@@ -84,7 +84,7 @@ public class Enemy : Character
         }
     }
 
-    private void Attack()
+    protected void Attack()
     {
         animator.SetBool("Walk", false);
         animator.SetBool("Attack", true);

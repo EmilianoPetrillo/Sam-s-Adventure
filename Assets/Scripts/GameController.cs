@@ -105,13 +105,12 @@ public class GameController : MonoBehaviour
         Destroy(enemy);
         if (level <= 10 && level > 1)
         {
-            level -= 2;
-            LevelUp();
+            level -= 1;
+            SpawnEnemy();
         }
         else if(level == 1)
         {
-            level--;
-            LevelUp();
+            SpawnEnemy();
         }
     }
 
@@ -124,7 +123,7 @@ public class GameController : MonoBehaviour
     private void SpawnEnemy()
     {
         enemyIndex = Random.Range(0, Enemy.GetLength(0));
-        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position + Enemy[enemyIndex].transform.position, Quaternion.identity);
+        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

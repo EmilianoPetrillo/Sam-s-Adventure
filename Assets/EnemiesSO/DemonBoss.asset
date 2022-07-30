@@ -13,3 +13,8 @@ MonoBehaviour:
   m_Name: DemonBoss
   m_EditorClassIdentifier: 
   HP: 2000
+  ATK: 250
+  CRITRATE: 0
+  CRITDAMAGE: 0
+  coins: 1000
+  multiplier: 1

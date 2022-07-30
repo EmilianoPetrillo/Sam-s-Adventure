@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8766448359820671508}
   - component: {fileID: -9141563725113084271}
-  - component: {fileID: -7805471251596599928}
   - component: {fileID: 7032936979768844009}
   - component: {fileID: -2151865401564054635}
   - component: {fileID: 3981965518696887807}
+  - component: {fileID: 8117826883016123820}
   m_Layer: 0
   m_Name: SkeletonClub
   m_TagString: Enemy
@@ -57,32 +57,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &-7805471251596599928
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7619324482846993826}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 0.34, y: 0.32}
-    newSize: {x: 0.34, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.375, y: 0.375}
-  m_EdgeRadius: 0
 --- !u!114 &7032936979768844009
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -156,7 +130,7 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: -2627258213357970557, guid: 9687e1cb335134545935a9ff55cbe00d, type: 3}
+  m_Sprite: {fileID: 7025154549869057301, guid: 9687e1cb335134545935a9ff55cbe00d, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 1
   m_FlipY: 0
@@ -167,6 +141,32 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &8117826883016123820
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619324482846993826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.39181262, y: 0.25012836}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0.25}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 0.34, y: 0.32}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.5323514, y: 0.5000356}
+  m_EdgeRadius: 0
 --- !u!1001 &276298169413415915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -252,11 +252,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.504
+      value: -0.995
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.125
+      value: 0.492
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

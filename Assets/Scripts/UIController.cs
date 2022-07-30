@@ -35,6 +35,14 @@ public class UIController : MonoBehaviour
     public GameObject bossButton;
     public bool level9Completed;
 
+    public GameObject GamePanel;
+    public GameObject DeathPanel;
+    public GameObject StatsPanel;
+    public Text HPUpCost;
+    public Text ATKUpCost;
+    public Text CRITRATEUpCost;
+    public Text CRITDMGUpCost;
+
     private void Update()
     {
         actualCoins.text = coins.ToString();
@@ -43,6 +51,10 @@ public class UIController : MonoBehaviour
             bossButton.SetActive(true);
         else if (bossButton.activeSelf == true && GameController.Instance.Level != 9)
             bossButton.SetActive(false);
+        HPUpCost.text = coinsToUpgradeHP.ToString();
+        ATKUpCost.text = coinsToUpgradeATK.ToString();
+        CRITRATEUpCost.text = coinsToUpgradeCRITRATE.ToString();
+        CRITDMGUpCost.text = coinsToUpgradeCRITDAMAGE.ToString();
     }
 
     public void CoinsUp(float gainedCoins)
@@ -54,6 +66,25 @@ public class UIController : MonoBehaviour
         GameController.Instance.LevelUp();
         GameController.Instance.ForcedLevelUp();
     }
+
+    public void DeathPanelOn()
+    {
+        GamePanel.SetActive(false);
+        DeathPanel.SetActive(true);
+    }
+
+    public void DeathPanelOff()
+    {
+        GamePanel.SetActive(true);
+        DeathPanel.SetActive(false);
+        GameController.Instance.ForcedLevelDown();
+    }
+
+    public void StatsPanelOff()
+    {
+        StatsPanel.SetActive(false);
+    }
+
     #region STATS UPGRADE BUTTONS
     public void AtkUpgrade()
     {

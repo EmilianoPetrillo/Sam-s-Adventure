@@ -32,7 +32,6 @@ public class Player : Character
 
     private void Start()
     {
-        characterSO.HP = 800;
         healthBar.SetMaxHealth(characterSO.HP);
     }
 
@@ -51,8 +50,7 @@ public class Player : Character
 
     protected override void OnDeath()
     {
-        GameController.Instance.ForcedLevelDown();
-       
+        UIController.Instance.DeathPanelOn();  
     }
 
     public void PlayerRespawn()
