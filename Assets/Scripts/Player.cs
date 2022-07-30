@@ -8,7 +8,8 @@ public class Player : Character
     public static Player Instance;
     public HealthBar healthBar;
     public Animator animator;
-    
+    private CharacterSO playerSO;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -19,6 +20,7 @@ public class Player : Character
         {
             Instance = this;
         }
+        playerSO = Object.Instantiate(characterSO);
     }
 
     public GameObject projectilePrefab0;
@@ -32,7 +34,7 @@ public class Player : Character
 
     private void Start()
     {
-        healthBar.SetMaxHealth(characterSO.HP);
+        healthBar.SetMaxHealth(playerSO.HP);
     }
 
     private void Update()
@@ -42,6 +44,16 @@ public class Player : Character
             //characterSO.HP -= 100;
             //healthBar.SetHealth(characterSO.HP);
         }
+        if (playerSO.HP <= 0)
+        {
+            OnDeath();
+        }
+        healthBar.SetHealth(playerSO.HP);
+    }
+
+    public override void TakeDamage(int damage)
+    {
+        playerSO.HP -= damage;
         if (characterSO.HP <= 0)
         {
             OnDeath();
@@ -55,8 +67,8 @@ public class Player : Character
 
     public void PlayerRespawn()
     {
-        characterSO.HP = 800;
-        healthBar.SetMaxHealth(characterSO.HP);
+        playerSO.HP = 800;
+        healthBar.SetMaxHealth(playerSO.HP);
     }
 
     #region ATTACK TYPES
@@ -85,13 +97,13 @@ public class Player : Character
     private void PistolAttack()
     {
         projectile0 = Instantiate(projectilePrefab0, transform.position + Vector3.right, Quaternion.identity);
-        CheckCrit(characterSO.ATK, projectile0);
+        CheckCrit(playerSO.ATK, projectile0);
         
     }
 
     private void ShotgunAttack()
     {
-        float shotgunatk = characterSO.ATK / 2;
+        float shotgunatk = playerSO.ATK / 2;
         for(int i = 0; i < 4; i++)
         {
             projectile1 = Instantiate(projectilePrefab1, transform.position + Vector3.right, new Quaternion(1, Random.Range(-0.2f, 0.2f), 0, 0));
@@ -101,15 +113,15 @@ public class Player : Character
 
     private void SniperAttack()
     {
-        float sniperatk = characterSO.ATK * 1.5f;
+        float sniperatk = playerSO.ATK * 1.5f;
         projectile2 = Instantiate(projectilePrefab2, transform.position + Vector3.right, Quaternion.identity);
         CheckCrit(sniperatk, projectile2);
     }
 
     private void CheckCrit(float dmg, GameObject projectile)
     {
-        if (Random.Range(0f, 1f) <= (characterSO.CRITRATE / 100))
-            projectile.GetComponent<Projectile>().damage = dmg * (characterSO.CRITDAMAGE / 100);
+        if (Random.Range(0f, 1f) <= (playerSO.CRITRATE / 100))
+            projectile.GetComponent<Projectile>().damage = dmg * (playerSO.CRITDAMAGE / 100);
         else
             projectile.GetComponent<Projectile>().damage = dmg;
     }
@@ -117,22 +129,22 @@ public class Player : Character
     #region STATS UPGRADE METHODS
     public void ATKUpgrade()
     {
-        characterSO.ATK += 10;
+        playerSO.ATK += 10;
     }
 
     public void HPUpgrade()
     {
-        characterSO.HP += 10;
+        playerSO.HP += 10;
     }
 
     public void CRITRATEUpgrade()
     {
-        characterSO.CRITRATE += 0.5f;
+        playerSO.CRITRATE += 0.5f;
     }
 
     public void CRITDAMAGEUpgrade()
     {
-        characterSO.CRITDAMAGE += 0.5f;
+        playerSO.CRITDAMAGE += 0.5f;
     }
     #endregion
 }

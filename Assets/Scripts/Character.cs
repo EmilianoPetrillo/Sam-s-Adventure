@@ -9,7 +9,6 @@ public class Character : MonoBehaviour
     public virtual void TakeDamage(int damage)
     {
         characterSO.HP -= damage;
-        Player.Instance.healthBar.SetHealth(characterSO.HP);
         if (characterSO.HP <= 0)
         {
             OnDeath();

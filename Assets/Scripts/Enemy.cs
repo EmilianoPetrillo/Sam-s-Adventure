@@ -65,7 +65,7 @@ public class Enemy : Character
 
     protected virtual void Move()
     {
-        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > 2)
+        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange)
         {
             transform.Translate(Vector2.left * speed * Time.deltaTime);
         }
@@ -92,6 +92,6 @@ public class Enemy : Character
 
     public void DoDamage()
     {
-        Player.Instance.TakeDamage(100);
+        Player.Instance.TakeDamage((int)enemySO.ATK);
     }
 }

@@ -69,7 +69,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df181d550dfe4d941ab0f8ebf9356cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterSO: {fileID: 11400000, guid: 6f4f424579eaeaf4fbaeb25a2c4132fe, type: 2}
+  characterSO: {fileID: 11400000, guid: 4dc28bc14c9d7454395778d25416138d, type: 2}
   healthBar: {fileID: 9219542342261586620}
 --- !u!95 &-2151865401564054635
 Animator:
