@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 8766448359820671508}
   - component: {fileID: -9141563725113084271}
-  - component: {fileID: -7805471251596599928}
-  - component: {fileID: 7032936979768844009}
   - component: {fileID: -2151865401564054635}
   - component: {fileID: 3981965518696887807}
+  - component: {fileID: 4341627311436281113}
+  - component: {fileID: 3627720599536874183}
   m_Layer: 0
   m_Name: WizardEnemy
   m_TagString: Enemy
@@ -29,8 +29,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7619324482846993826}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 1}
+  m_LocalPosition: {x: 0.5, y: 1, z: 0}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 6023168155593892624}
   m_Father: {fileID: 0}
@@ -57,46 +57,6 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &-7805471251596599928
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7619324482846993826}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 2, y: 0.6}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 4.5, y: 2.5}
-    newSize: {x: 0.34, y: 0.32}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 1.2, y: 1.2}
-  m_EdgeRadius: 0
---- !u!114 &7032936979768844009
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7619324482846993826}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: df181d550dfe4d941ab0f8ebf9356cca, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterSO: {fileID: 11400000, guid: a619af6c87c05d94ea166ee5ae04a540, type: 2}
-  healthBar: {fileID: 9219542342261586620}
 --- !u!95 &-2151865401564054635
 Animator:
   serializedVersion: 3
@@ -135,7 +95,7 @@ SpriteRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: edc31919a4a0caa4eafbbd6eb17dfc39, type: 2}
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -156,17 +116,58 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 6915268688075055195, guid: 380e7817228b30b43a54a5de7af89a6a, type: 3}
+  m_Sprite: {fileID: 4128169131359079353, guid: c3ec09c01a474aa4eb315e317949b6c8, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 0.34, y: 0.32}
+  m_Size: {x: 0.31, y: 0.57}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &4341627311436281113
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619324482846993826}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.3, y: 0.56}
+    newSize: {x: 0.31, y: 0.57}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.31, y: 0.57}
+  m_EdgeRadius: 0
+--- !u!114 &3627720599536874183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7619324482846993826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5d43c47b6460d704dae9a7b47be12e32, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSO: {fileID: 11400000, guid: 6f4f424579eaeaf4fbaeb25a2c4132fe, type: 2}
+  magicDice: {fileID: 810328042633650328, guid: ae63473ac95d1e74da19fb4b00a39b41, type: 3}
+  healthBar: {fileID: 9219542342261586620}
 --- !u!1001 &276298169413415915
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -264,11 +265,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 1.68
+      value: -0.474
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 1.56
+      value: 0.291
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
