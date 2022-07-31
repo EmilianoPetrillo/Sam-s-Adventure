@@ -34,7 +34,6 @@ public class GameController : MonoBehaviour
     {
         stage = 1;
         level = 1;
-        SpawnEnemy();
     }
 
 
@@ -49,6 +48,13 @@ public class GameController : MonoBehaviour
     }
 
     #region STAGES AND LEVELS
+
+
+    public void StartStuff()
+    {
+        SpawnEnemy();
+    }
+
     public void LevelUp()
     {
         if (timer == false)
@@ -121,8 +127,9 @@ public class GameController : MonoBehaviour
         Player.Instance.gameObject.SetActive(false);
     }
     #endregion
+
     #region ENEMIES SPAWN
-    private void SpawnEnemy()
+    public void SpawnEnemy()
     {
         enemyIndex = Random.Range(0, Enemy.GetLength(0));
         GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
@@ -138,10 +145,11 @@ public class GameController : MonoBehaviour
     private float MultiplierCalculator(int Stage, int Level)
     {
         float a = Level / 10f;
-        float multiplier = stage + a;
+        float multiplier = 2 * stage + a;
         return multiplier;
     }
     #endregion
+
     #region PROPERTIES
 
     public int Stage => stage;

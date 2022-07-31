@@ -89,6 +89,12 @@ public class UIController : MonoBehaviour
 
     #region PANELS STUFF
 
+    public void StartStuff()
+    {
+        GameController.Instance.StartStuff();
+        UITextController.Instance.DeleteStartStuff();
+    }
+
     public void DeathPanelOn()
     {
         GamePanel.SetActive(false);

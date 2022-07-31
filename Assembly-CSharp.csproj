@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\DistanceEnemy.cs" />
+    <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Weapons\PistolProjectile.cs" />
@@ -73,11 +74,11 @@
     <Compile Include="Assets\Scripts\Weapons\MagicDice.cs" />
     <Compile Include="Assets\Scripts\EnemySO.cs" />
     <Compile Include="Assets\Scripts\CharacterSO.cs" />
-    <Compile Include="Assets\Scripts\UITextController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
     <None Include="Assets\AssetsMaterial\License.txt" />
+    <None Include="Assets\Animation\Bringer Of Death\License.txt" />
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH Sprite Icon Outline Color.shader" />
     <None Include="Assets\AssetsMaterial\Sideview Sci-Fi - Patreon Collection\public-license.txt" />
     <None Include="Assets\AssetsMaterial\bulkhead-walls-files\license.txt" />
@@ -85,6 +86,7 @@
     <None Include="Assets\AssetsMaterial\Shikashi&apos;s Fantasy Icons Pack v2\Shikashi&apos;s Fantasy Icons Pack.txt" />
     <None Include="Assets\AssetsMaterial\Font.txt" />
     <None Include="Assets\AssetsMaterial\Robot Shooting Game\Read Me.txt" />
+    <None Include="Assets\Animation\Bringer Of Death\Contact.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

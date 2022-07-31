@@ -21,19 +21,16 @@ public class UITextController : MonoBehaviour
     }
 
     public GameObject TapToAttackText;
+    public GameObject SwapText;
+    public GameObject IntroductionText;
+    public Image SwapTextArrow;
 
-    private float t;
-    private bool timer = true;
-
-    private void Update()
+    public void DeleteStartStuff()
     {
-        if(timer)
-            t += Time.deltaTime;
-        if(t > 5)
-        {
-            t = 0;
-            timer = false;
-            Destroy(TapToAttackText);
-        }
+        Destroy(TapToAttackText.gameObject);
+        Destroy(SwapText.gameObject);
+        Destroy(IntroductionText.gameObject);
+        Destroy(SwapTextArrow.gameObject);
     }
+
 }

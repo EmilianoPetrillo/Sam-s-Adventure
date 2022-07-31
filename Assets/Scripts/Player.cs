@@ -72,6 +72,7 @@ public class Player : Character
     }
 
     #region ATTACK TYPES
+
     public void Attack()
     {
         if (weapon == 0)
@@ -122,26 +123,30 @@ public class Player : Character
         else
             projectile.GetComponent<Projectile>().damage = dmg;
     }
+
     #endregion
+
     #region STATS UPGRADE METHODS
+
     public void ATKUpgrade()
     {
-        playerSO.ATK += 10;
+        playerSO.ATK += 25;
     }
 
     public void HPUpgrade()
     {
-        playerSO.HP += 10;
+        playerSO.HP += 100;
     }
 
     public void CRITRATEUpgrade()
     {
-        playerSO.CRITRATE += 0.5f;
+        playerSO.CRITRATE += 1f;
     }
 
     public void CRITDAMAGEUpgrade()
     {
-        playerSO.CRITDAMAGE += 0.5f;
+        playerSO.CRITDAMAGE += 1f;
     }
+
     #endregion
 }
