@@ -8,4 +8,5 @@ public class CharacterSO : ScriptableObject
     public float ATK;
     public float CRITRATE;
     public float CRITDAMAGE;
+    public float MAXHP;
 }

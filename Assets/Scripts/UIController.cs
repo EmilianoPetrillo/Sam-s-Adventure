@@ -83,7 +83,6 @@ public class UIController : MonoBehaviour
 
     public void BossButton()
     {
-        GameController.Instance.LevelUp();
         GameController.Instance.ForcedLevelUp();
     }
 

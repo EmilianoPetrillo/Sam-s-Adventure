@@ -35,6 +35,7 @@ public class Player : Character
     private void Start()
     {
         healthBar.SetMaxHealth(playerSO.HP);
+        playerSO.MAXHP = playerSO.HP;
     }
 
     private void Update()
@@ -67,8 +68,8 @@ public class Player : Character
 
     public void PlayerRespawn()
     {
-        playerSO.HP = 800;
-        healthBar.SetMaxHealth(playerSO.HP);
+        playerSO.HP = playerSO.MAXHP;
+        healthBar.SetMaxHealth(playerSO.MAXHP);
     }
 
     #region ATTACK TYPES
@@ -135,7 +136,9 @@ public class Player : Character
 
     public void HPUpgrade()
     {
+        playerSO.MAXHP += 100;
         playerSO.HP += 100;
+        healthBar.SetMaxHealth(playerSO.MAXHP);
     }
 
     public void CRITRATEUpgrade()

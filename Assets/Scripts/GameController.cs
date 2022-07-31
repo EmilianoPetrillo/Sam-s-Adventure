@@ -21,7 +21,7 @@ public class GameController : MonoBehaviour
 
     public GameObject[] Enemy;
     private int enemyIndex;
-    public GameObject Boss;
+    public GameObject[] Boss;
     public Transform SpawnPosition;
 
     private int stage;
@@ -55,6 +55,8 @@ public class GameController : MonoBehaviour
         SpawnEnemy();
     }
 
+    bool firstBossKilled = false;
+
     public void LevelUp()
     {
         if (timer == false)
@@ -65,9 +67,14 @@ public class GameController : MonoBehaviour
         {
             if (level >= 10)
             {
-                UIController.Instance.level9Completed = false;
-                //StageUp();
-                EndGame();
+                if (firstBossKilled)
+                    EndGame();
+                else
+                {
+                    i++;//to know which boss has to be spawned at the next stage
+                    UIController.Instance.level9Completed = false;
+                    StageUp();
+                }
             }
             else if (level == 9)
             {
@@ -87,22 +94,24 @@ public class GameController : MonoBehaviour
     
     public void StageUp()
     {
-        if(stage >= 10)
+        firstBossKilled = true;
+       /* if (stage >= 10)
         {
             EndGame();
-        }
-        else
-        {
-            stage++;
-            level = 1;
-            SpawnEnemy();
-        }
+        }*/
+       // else
+       // {
+        stage++;
+        level = 1;
+        SpawnEnemy();
+       // }
     }
 
     public void ForcedLevelUp()
     {
         GameObject enemy = FindObjectOfType<Enemy>().gameObject;
         Destroy(enemy);
+        LevelUp();
     }
 
     public void ForcedLevelDown()
@@ -136,9 +145,11 @@ public class GameController : MonoBehaviour
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 
+    private int i = 0;
+
     private void SpawnBoss()
     {
-        GameObject boss = Instantiate(Boss, SpawnPosition.position, Quaternion.identity);
+        GameObject boss = Instantiate(Boss[i], SpawnPosition.position, Quaternion.identity);
         boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

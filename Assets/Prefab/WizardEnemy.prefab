@@ -172,8 +172,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSO: {fileID: 11400000, guid: dcd04e0e2b5ee584e94b716e27496a12, type: 2}
   healthBar: {fileID: 9219542342261586620}
-  magicDice: {fileID: 8457936467306362375, guid: ae63473ac95d1e74da19fb4b00a39b41, type: 3}
-  magicDiceSpawnPosition: {fileID: 4387871684384391393}
+  Projectile: {fileID: 8457936467306362375, guid: ae63473ac95d1e74da19fb4b00a39b41, type: 3}
+  ProjectileSpawnPosition: {fileID: 4387871684384391393}
 --- !u!61 &1108273069208446238
 BoxCollider2D:
   m_ObjectHideFlags: 0

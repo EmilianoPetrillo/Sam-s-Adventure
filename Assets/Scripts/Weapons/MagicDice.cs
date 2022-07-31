@@ -8,6 +8,7 @@ public class MagicDice : MonoBehaviour
     protected float speed;
     float t = 0;
     public float damage;
+    public bool HasExplodingAnimation = false;
 
     private void Start()
     {
@@ -26,10 +27,17 @@ public class MagicDice : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "Player" && !HasExplodingAnimation)
         {
             collision.gameObject.GetComponent<Character>().TakeDamage((int)damage);
             Destroy(gameObject);
+        }
+        else if(collision.gameObject.tag == "Player" && HasExplodingAnimation)
+        {
+            collision.gameObject.GetComponent<Character>().TakeDamage((int)damage);
+            Animator animator = GetComponent<Animator>();
+            animator.SetBool("Hit", true);
+            speed = 0;
         }
     }
 }

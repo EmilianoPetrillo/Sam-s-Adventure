@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class DistanceEnemy : Enemy
 {
-    public GameObject magicDice;
-    public Transform magicDiceSpawnPosition;
+    public GameObject Projectile;
+    public Transform ProjectileSpawnPosition;
 
     public void Shoot()
     {
-        GameObject go = Instantiate(magicDice, magicDiceSpawnPosition.position, Quaternion.identity);
+        GameObject go = Instantiate(Projectile, ProjectileSpawnPosition.position, Quaternion.identity);
         go.GetComponent<MagicDice>().damage = enemySO.ATK * enemySO.multiplier;
     }
 }
