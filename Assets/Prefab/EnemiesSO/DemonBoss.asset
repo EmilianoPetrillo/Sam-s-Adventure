@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 3000
   ATK: 250
-  CRITRATE: 10
+  CRITRATE: 0
   CRITDAMAGE: 0
   coins: 1000
   multiplier: 1

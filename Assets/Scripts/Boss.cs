@@ -4,9 +4,5 @@ using UnityEngine;
 
 public class Boss : Enemy
 {
-    protected override void Start()
-    {
-        enemySO.coins *= enemySO.multiplier;
-        characterSO.ATK *= enemySO.multiplier;
-    }
+
 }

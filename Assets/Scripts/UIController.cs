@@ -19,6 +19,7 @@ public class UIController : MonoBehaviour
             Instance = this;
         }
     }
+    #region STATS AND COINS
 
     private int coins;
     private int coinsToUpgradeATK = 100;
@@ -29,6 +30,8 @@ public class UIController : MonoBehaviour
     private int keyCRITRATE = 0;
     private int coinsToUpgradeCRITDAMAGE = 100;
     private int keyCRITDAMAGE = 0;
+
+    #endregion
     public Text actualCoins;
     public Text stageAndLevel;
 
@@ -38,10 +41,15 @@ public class UIController : MonoBehaviour
     public GameObject GamePanel;
     public GameObject DeathPanel;
     public GameObject StatsPanel;
+    public GameObject EndGamePanel;
     public Text HPUpCost;
     public Text ATKUpCost;
     public Text CRITRATEUpCost;
     public Text CRITDMGUpCost;
+
+    public Image[] CarriedWeapons = new Image[2];
+    private int i = 0;
+    public Image ActiveWeapon;
 
     private void Update()
     {
@@ -57,15 +65,29 @@ public class UIController : MonoBehaviour
         CRITDMGUpCost.text = coinsToUpgradeCRITDAMAGE.ToString();
     }
 
+    public void ChangeActiveWeapon()
+    {
+        CarriedWeapons[i].gameObject.SetActive(false);
+        if (i < 1)
+            i++;
+        else if (i == 1)
+            i = 0;
+        ActiveWeapon = CarriedWeapons[i];
+        CarriedWeapons[i].gameObject.SetActive(true);
+    }
+
     public void CoinsUp(float gainedCoins)
     {
         coins += (int)gainedCoins;
     }
+
     public void BossButton()
     {
         GameController.Instance.LevelUp();
         GameController.Instance.ForcedLevelUp();
     }
+
+    #region PANELS STUFF
 
     public void DeathPanelOn()
     {
@@ -85,7 +107,16 @@ public class UIController : MonoBehaviour
         StatsPanel.SetActive(false);
     }
 
+    public void EndGamePanelStuff()
+    {
+        GamePanel.SetActive(false);
+        EndGamePanel.SetActive(true);
+    }
+
+    #endregion
+
     #region STATS UPGRADE BUTTONS
+
     public void AtkUpgrade()
     {
         if (coins >= coinsToUpgradeATK)
@@ -129,6 +160,7 @@ public class UIController : MonoBehaviour
             Player.Instance.CRITDAMAGEUpgrade();
         }
     }
+
     #endregion
 
 }

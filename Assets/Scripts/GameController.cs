@@ -60,7 +60,8 @@ public class GameController : MonoBehaviour
             if (level >= 10)
             {
                 UIController.Instance.level9Completed = false;
-                StageUp();
+                //StageUp();
+                EndGame();
             }
             else if (level == 9)
             {
@@ -116,7 +117,8 @@ public class GameController : MonoBehaviour
 
     private void EndGame()
     {
-        print("gj");
+        UIController.Instance.EndGamePanelStuff();
+        Player.Instance.gameObject.SetActive(false);
     }
     #endregion
     #region ENEMIES SPAWN
@@ -129,7 +131,8 @@ public class GameController : MonoBehaviour
 
     private void SpawnBoss()
     {
-        Instantiate(Boss, SpawnPosition.position, Quaternion.identity);
+        GameObject boss = Instantiate(Boss, SpawnPosition.position, Quaternion.identity);
+        boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 
     private float MultiplierCalculator(int Stage, int Level)

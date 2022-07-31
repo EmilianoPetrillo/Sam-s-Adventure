@@ -73,6 +73,7 @@
     <Compile Include="Assets\Scripts\Weapons\MagicDice.cs" />
     <Compile Include="Assets\Scripts\EnemySO.cs" />
     <Compile Include="Assets\Scripts\CharacterSO.cs" />
+    <Compile Include="Assets\Scripts\UITextController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

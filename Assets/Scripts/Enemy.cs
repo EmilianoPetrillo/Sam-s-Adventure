@@ -13,8 +13,8 @@ public class Enemy : Character
     Animation deathAnimation;
     public HealthBar healthBar;
 
-    private float t = 0;
-    private bool timer;
+    protected float t = 0;
+    protected bool timer;
 
 
     protected EnemySO enemySO;
@@ -31,13 +31,14 @@ public class Enemy : Character
 
     protected virtual void Start()
     {
-        enemySO.coins *= enemySO.multiplier;
+        enemySO.coins *= enemySO.multiplier * 2;
         enemySO.ATK *= enemySO.multiplier;
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
+        print("HP:" + enemySO.HP + " Coins:" + enemySO.coins + " ATK:" + enemySO.ATK + " Multiplier:" + enemySO.multiplier);
     }
 
-    private void Update()
+    protected void Update()
     {
         if (deathCheck == false)
             Move();

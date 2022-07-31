@@ -78,20 +78,17 @@ public class Player : Character
             PistolAttack();
         else if (weapon == 1)
             ShotgunAttack();
-        else if (weapon == 2)
-            SniperAttack();
+        //else if (weapon == 2)
+          //  SniperAttack();
     }
 
     public void ChangeWeapon()
     {
-        if (weapon < 2)
-        {
+        if (weapon < 1)
             weapon++;
-        }
-        else
-        {
+        else if(weapon == 1)
             weapon = 0;
-        }
+        UIController.Instance.ChangeActiveWeapon();
     }
 
     private void PistolAttack()
