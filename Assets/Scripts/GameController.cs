@@ -49,6 +49,15 @@ public class GameController : MonoBehaviour
 
     #region STAGES AND LEVELS
 
+    public void OnPlayerDeath()
+    {
+        MagicDice enemyProjectile = FindObjectOfType<MagicDice>();
+        if(enemyProjectile != null)
+            Destroy(enemyProjectile.gameObject);
+        Enemy enemy = FindObjectOfType<Enemy>();
+        if(enemy != null)
+            Destroy(enemy.gameObject);
+    }
 
     public void StartStuff()
     {
@@ -117,8 +126,9 @@ public class GameController : MonoBehaviour
     public void ForcedLevelDown()
     {
         Player.Instance.PlayerRespawn();
-        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
-        Destroy(enemy);
+        Enemy enemy = FindObjectOfType<Enemy>();
+        if(enemy != null)
+            Destroy(enemy.gameObject);
         if (level <= 10 && level > 1)
         {
             level -= 1;

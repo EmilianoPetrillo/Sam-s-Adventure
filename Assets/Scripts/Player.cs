@@ -63,7 +63,9 @@ public class Player : Character
 
     protected override void OnDeath()
     {
-        UIController.Instance.DeathPanelOn();  
+        UIController.Instance.DeathPanelOn();
+        GameController.Instance.OnPlayerDeath();
+        PlayerRespawn();
     }
 
     public void PlayerRespawn()

@@ -6,7 +6,7 @@ public class SniperProjectile : Projectile
 {
     private void Start()
     {
-        speed = 7;
+        speed = 8;
     }
 
     protected override void Update()

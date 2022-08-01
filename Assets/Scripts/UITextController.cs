@@ -8,6 +8,9 @@ public class UITextController : MonoBehaviour
 
     public static UITextController Instance;
 
+    private bool timer = false;
+    private float t = 0;
+
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -20,17 +23,35 @@ public class UITextController : MonoBehaviour
         }
     }
 
-    public GameObject TapToAttackText;
-    public GameObject SwapText;
-    public GameObject IntroductionText;
-    public Image SwapTextArrow;
+    public GameObject[] TextsAndArrows;
+
+    public GameObject GamePanel;
+    public GameObject StartPanel;
+
+    private void Update()
+    {
+        if (timer)
+            t += Time.deltaTime;
+        if (t >= 5)
+            DeleteOtherStartStuff();
+    }
 
     public void DeleteStartStuff()
     {
-        Destroy(TapToAttackText.gameObject);
-        Destroy(SwapText.gameObject);
-        Destroy(IntroductionText.gameObject);
-        Destroy(SwapTextArrow.gameObject);
+        Destroy(StartPanel.gameObject);
+        timer = true;
+        GamePanel.gameObject.SetActive(true);
+    }
+
+    public void DeleteOtherStartStuff()
+    {
+        for(int i = 0; i < TextsAndArrows.GetLength(0); i++)
+        {
+            Destroy(TextsAndArrows[i]);
+        }
+
+        timer = false;
+        t = 0;
     }
 
 }

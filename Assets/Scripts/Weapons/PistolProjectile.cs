@@ -6,6 +6,6 @@ public class PistolProjectile : Projectile
 {
     private void Start()
     {
-        speed = 5;
+        speed = 6;
     }
 }
