@@ -20,12 +20,14 @@ public class GameController : MonoBehaviour
     }
 
     public GameObject[] Enemy;
+    public GameObject FakeEnemy;
     private int enemyIndex;
     public GameObject[] Boss;
     public Transform SpawnPosition;
 
     private int stage;
     private int level;
+    private int maxLevel;
 
     bool timer = false;
     float t = 0;
@@ -34,6 +36,7 @@ public class GameController : MonoBehaviour
     {
         stage = 1;
         level = 1;
+        maxLevel = 10;
     }
 
 
@@ -51,20 +54,13 @@ public class GameController : MonoBehaviour
 
     public void OnPlayerDeath()
     {
-        MagicDice enemyProjectile = FindObjectOfType<MagicDice>();
-        if(enemyProjectile != null)
-            Destroy(enemyProjectile.gameObject);
-        Enemy enemy = FindObjectOfType<Enemy>();
-        if(enemy != null)
-            Destroy(enemy.gameObject);
+        DestroyEnemy();
     }
 
     public void StartStuff()
     {
-        SpawnEnemy();
+        SpawnFakeEnemy();
     }
-
-    bool firstBossKilled = false;
 
     public void LevelUp()
     {
@@ -74,24 +70,22 @@ public class GameController : MonoBehaviour
         }
         else if(timer == true && t > 1)
         {
-            if (level >= 10)
+            if (level >= maxLevel)
             {
-                if (firstBossKilled)
-                    EndGame();
-                else
-                {
-                    i++;//to know which boss has to be spawned at the next stage
-                    UIController.Instance.level9Completed = false;
-                    StageUp();
-                }
+                StageUp();
+                UIController.Instance.level9Completed = false;
             }
-            else if (level == 9)
+            else if (level == maxLevel - 1 && !UIController.Instance.level9Completed)
             {
                 level++;
                 UIController.Instance.level9Completed = true;
                 SpawnBoss();
             }
-            else if (level <= 8)
+            else if (level == maxLevel - 1 && UIController.Instance.level9Completed)
+            {
+                SpawnEnemy();
+            }
+            else if (level <= maxLevel - 2)
             {
                 level++;
                 SpawnEnemy();
@@ -103,41 +97,35 @@ public class GameController : MonoBehaviour
     
     public void StageUp()
     {
-        firstBossKilled = true;
-       /* if (stage >= 10)
+        if (stage >= 10)
         {
             EndGame();
-        }*/
-       // else
-       // {
-        stage++;
-        level = 1;
-        SpawnEnemy();
-       // }
+        }
+        else
+        {
+            stage++;
+            level = 1;
+            SpawnEnemy();
+            if (stage == 10)
+                maxLevel = 30;
+            if ((stage - 1) % 3 == 0)
+                UITextController.Instance.ChangeGamePanel();
+        }
     }
 
     public void ForcedLevelUp()
     {
-        GameObject enemy = FindObjectOfType<Enemy>().gameObject;
-        Destroy(enemy);
+        UIController.Instance.level9Completed = false;
+        DestroyEnemy();
         LevelUp();
     }
 
     public void ForcedLevelDown()
     {
-        Player.Instance.PlayerRespawn();
-        Enemy enemy = FindObjectOfType<Enemy>();
-        if(enemy != null)
-            Destroy(enemy.gameObject);
-        if (level <= 10 && level > 1)
-        {
+        DestroyEnemy();
+        if (level == 10)
             level -= 1;
-            SpawnEnemy();
-        }
-        else if(level == 1)
-        {
-            SpawnEnemy();
-        }
+        SpawnEnemy();
     }
 
     private void EndGame()
@@ -155,12 +143,20 @@ public class GameController : MonoBehaviour
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 
-    private int i = 0;
-
     private void SpawnBoss()
     {
-        GameObject boss = Instantiate(Boss[i], SpawnPosition.position, Quaternion.identity);
+        GameObject boss = Instantiate(Boss[Random.Range(0, Boss.GetLength(0))], SpawnPosition.position, Quaternion.identity);
         boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+    }
+
+    public void DestroyEnemy()
+    {
+        MagicDice enemyProjectile = FindObjectOfType<MagicDice>();
+        if (enemyProjectile != null)
+            Destroy(enemyProjectile.gameObject);
+        Enemy enemy = FindObjectOfType<Enemy>();
+        if (enemy != null)
+            Destroy(enemy.gameObject);
     }
 
     private float MultiplierCalculator(int Stage, int Level)
@@ -169,6 +165,19 @@ public class GameController : MonoBehaviour
         float multiplier = 2 * stage + a;
         return multiplier;
     }
+
+    public void SpawnFakeEnemy()
+    {
+        Instantiate(FakeEnemy, SpawnPosition.position, Quaternion.identity);
+    }
+
+    public void FakeEnemyDeath()
+    {
+        DestroyEnemy();
+        SpawnEnemy();
+        UITextController.Instance.DeleteOtherStartStuff();
+    }
+
     #endregion
 
     #region PROPERTIES

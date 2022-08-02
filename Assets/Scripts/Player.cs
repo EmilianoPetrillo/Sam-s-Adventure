@@ -10,6 +10,11 @@ public class Player : Character
     public Animator animator;
     private CharacterSO playerSO;
 
+    public CharacterSO PlayerSO
+    {
+        get { return playerSO; }
+    }
+
     private void Awake()
     {
         if (Instance != null && Instance != this)

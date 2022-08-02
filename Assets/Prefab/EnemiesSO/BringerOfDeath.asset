@@ -16,6 +16,8 @@ MonoBehaviour:
   ATK: 400
   CRITRATE: 0
   CRITDAMAGE: 0
+  MAXHP: 0
   coins: 10000
   multiplier: 1
   attackRange: 3.5
+  moveSpeed: 1.5

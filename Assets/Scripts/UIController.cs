@@ -19,6 +19,7 @@ public class UIController : MonoBehaviour
             Instance = this;
         }
     }
+
     #region STATS AND COINS
 
     private int coins;
@@ -32,6 +33,7 @@ public class UIController : MonoBehaviour
     private int keyCRITDAMAGE = 0;
 
     #endregion
+
     public Text actualCoins;
     public Text stageAndLevel;
 
@@ -46,6 +48,10 @@ public class UIController : MonoBehaviour
     public Text ATKUpCost;
     public Text CRITRATEUpCost;
     public Text CRITDMGUpCost;
+    public Text CurrentATK;
+    public Text CurrentHP;
+    public Text CurrentCRITRATE;
+    public Text CurrentCRITDMG;
 
     public Image[] CarriedWeapons = new Image[2];
     private int i = 0;
@@ -63,6 +69,10 @@ public class UIController : MonoBehaviour
         ATKUpCost.text = coinsToUpgradeATK.ToString();
         CRITRATEUpCost.text = coinsToUpgradeCRITRATE.ToString();
         CRITDMGUpCost.text = coinsToUpgradeCRITDAMAGE.ToString();
+        CurrentATK.text = Player.Instance.PlayerSO.ATK.ToString();
+        CurrentHP.text = Player.Instance.PlayerSO.MAXHP.ToString();
+        CurrentCRITRATE.text = Player.Instance.PlayerSO.CRITRATE.ToString();
+        CurrentCRITDMG.text = Player.Instance.PlayerSO.CRITDAMAGE.ToString();
     }
 
     public void ChangeActiveWeapon()

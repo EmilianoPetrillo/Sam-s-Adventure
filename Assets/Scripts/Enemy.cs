@@ -7,10 +7,8 @@ public class Enemy : Character
     protected bool deathCheck = false;
     //Senza il controllo deathCheck (dentro OnDeath()) diversi proiettili potevano invocare la funzione OnDeath
     //facendo avanzare il player di più livelli in un colpo solo.
-    protected float speed = 1.5f;
 
     Animator animator;
-    Animation deathAnimation;
     public HealthBar healthBar;
 
     protected float t = 0;
@@ -38,7 +36,7 @@ public class Enemy : Character
         print("HP:" + enemySO.HP + " Coins:" + enemySO.coins + " ATK:" + enemySO.ATK + " Multiplier:" + enemySO.multiplier);
     }
 
-    protected void Update()
+    protected virtual void Update()
     {
         if (deathCheck == false)
             Move();
@@ -54,6 +52,7 @@ public class Enemy : Character
 
     protected override void OnDeath()
     {
+        //the stuff itself is in the update
         if (deathCheck == false)
         {
             timer = true;
@@ -68,7 +67,7 @@ public class Enemy : Character
     {
         if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange)
         {
-            transform.Translate(Vector2.left * speed * Time.deltaTime);
+            transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);
         }
         else
             Attack();

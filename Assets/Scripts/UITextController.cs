@@ -8,9 +8,6 @@ public class UITextController : MonoBehaviour
 
     public static UITextController Instance;
 
-    private bool timer = false;
-    private float t = 0;
-
     private void Awake()
     {
         if (Instance != null && Instance != this)
@@ -27,19 +24,12 @@ public class UITextController : MonoBehaviour
 
     public GameObject GamePanel;
     public GameObject StartPanel;
-
-    private void Update()
-    {
-        if (timer)
-            t += Time.deltaTime;
-        if (t >= 5)
-            DeleteOtherStartStuff();
-    }
+    public Image[] Backgrounds;
+    private int i = 0;
 
     public void DeleteStartStuff()
     {
         Destroy(StartPanel.gameObject);
-        timer = true;
         GamePanel.gameObject.SetActive(true);
     }
 
@@ -49,9 +39,13 @@ public class UITextController : MonoBehaviour
         {
             Destroy(TextsAndArrows[i]);
         }
+    }
 
-        timer = false;
-        t = 0;
+    public void ChangeGamePanel()
+    {
+        i++;
+        Image image = GamePanel.GetComponent<Image>();
+        image.sprite = Backgrounds[i].sprite;
     }
 
 }
