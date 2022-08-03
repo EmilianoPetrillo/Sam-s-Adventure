@@ -8,7 +8,7 @@ public class Enemy : Character
     //Senza il controllo deathCheck (dentro OnDeath()) diversi proiettili potevano invocare la funzione OnDeath
     //facendo avanzare il player di più livelli in un colpo solo.
 
-    Animator animator;
+    protected Animator animator;
     public HealthBar healthBar;
 
     protected float t = 0;
@@ -84,7 +84,7 @@ public class Enemy : Character
         }
     }
 
-    protected void Attack()
+    protected virtual void Attack()
     {
         animator.SetBool("Walk", false);
         animator.SetBool("Attack", true);

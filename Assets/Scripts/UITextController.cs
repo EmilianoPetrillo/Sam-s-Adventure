@@ -24,8 +24,14 @@ public class UITextController : MonoBehaviour
 
     public GameObject GamePanel;
     public GameObject StartPanel;
-    public Image[] Backgrounds;
+    public GameObject[] Backgrounds;
+    public GameObject CurrentBackground;
     private int i = 0;
+
+    private void Start()
+    {
+        CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
+    }
 
     public void DeleteStartStuff()
     {
@@ -43,9 +49,9 @@ public class UITextController : MonoBehaviour
 
     public void ChangeGamePanel()
     {
+        Destroy(CurrentBackground);
         i++;
-        Image image = GamePanel.GetComponent<Image>();
-        image.sprite = Backgrounds[i].sprite;
+        CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
     }
 
 }
