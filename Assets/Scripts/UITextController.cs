@@ -27,10 +27,11 @@ public class UITextController : MonoBehaviour
     public GameObject[] Backgrounds;
     public GameObject CurrentBackground;
     private int i = 0;
+    private int j = 0;
 
     private void Start()
     {
-        CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
+
     }
 
     public void DeleteStartStuff()
@@ -39,19 +40,29 @@ public class UITextController : MonoBehaviour
         GamePanel.gameObject.SetActive(true);
     }
 
-    public void DeleteOtherStartStuff()
-    {
-        for(int i = 0; i < TextsAndArrows.GetLength(0); i++)
-        {
-            Destroy(TextsAndArrows[i]);
-        }
-    }
-
     public void ChangeGamePanel()
     {
-        Destroy(CurrentBackground);
-        i++;
+        if(CurrentBackground != null)
+        {
+            Destroy(CurrentBackground);
+            i++;
+        }
         CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
+    }
+
+    public void NextPhase()
+    {
+        TextsAndArrows[j].SetActive(false);
+        if(j >= TextsAndArrows.GetLength(0) - 1)
+        {
+            GameController.Instance.SpawnEnemy();
+            ChangeGamePanel();
+        }
+        else
+        {
+            j++;
+            TextsAndArrows[j].SetActive(true);
+        }
     }
 
 }

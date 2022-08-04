@@ -174,13 +174,6 @@ public class GameController : MonoBehaviour
         Instantiate(FakeEnemy, SpawnPosition.position, Quaternion.identity);
     }
 
-    public void FakeEnemyDeath()
-    {
-        DestroyEnemy();
-        SpawnEnemy();
-        UITextController.Instance.DeleteOtherStartStuff();
-    }
-
     #endregion
 
     #region PROPERTIES

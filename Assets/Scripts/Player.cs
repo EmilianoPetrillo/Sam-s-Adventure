@@ -91,6 +91,8 @@ public class Player : Character
           //  SniperAttack();
     }
 
+    private bool tutorial = true;
+
     public void ChangeWeapon()
     {
         if (weapon < 1)
@@ -98,6 +100,12 @@ public class Player : Character
         else if(weapon == 1)
             weapon = 0;
         UIController.Instance.ChangeActiveWeapon();
+
+        if (tutorial)
+        {
+            UITextController.Instance.NextPhase();
+            tutorial = false;
+        }
     }
 
     private void PistolAttack()

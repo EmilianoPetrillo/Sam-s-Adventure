@@ -9,9 +9,16 @@ public class FakeEnemy : Enemy
         
     }
 
+    private bool tutorial = true;
+
     protected override void OnDeath()
     {
-        GameController.Instance.FakeEnemyDeath();
+        if (tutorial)
+        {
+            tutorial = false;
+            UITextController.Instance.NextPhase();
+        }
+        Destroy(gameObject);
     }
 
 }

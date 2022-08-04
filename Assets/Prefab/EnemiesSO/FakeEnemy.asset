@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: FakeEnemy
   m_EditorClassIdentifier: 
-  HP: 5000
+  HP: 1000
   ATK: 0
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
   coins: 0
   multiplier: 1
-  attackRange: 0
+  attackRange: []
+  moveSpeed: 0

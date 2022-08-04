@@ -22,7 +22,7 @@ public class UIController : MonoBehaviour
 
     #region STATS AND COINS
 
-    private int coins;
+    private int coins= 100;
     private int coinsToUpgradeATK = 100;
     private int keyATK = 0;
     private int coinsToUpgradeHP = 100;
@@ -132,6 +132,8 @@ public class UIController : MonoBehaviour
 
     #region STATS UPGRADE BUTTONS
 
+    private bool tutorial = true;
+
     public void AtkUpgrade()
     {
         if (coins >= coinsToUpgradeATK)
@@ -140,6 +142,11 @@ public class UIController : MonoBehaviour
             keyATK++;
             coinsToUpgradeATK += 25 * keyATK;
             Player.Instance.ATKUpgrade();
+            if (tutorial)
+            {
+                UITextController.Instance.NextPhase();
+                tutorial = false;
+            }
         }
     }
 
@@ -151,6 +158,11 @@ public class UIController : MonoBehaviour
             keyHP++;
             coinsToUpgradeHP += 25 * keyHP;
             Player.Instance.HPUpgrade();
+            if (tutorial)
+            {
+                UITextController.Instance.NextPhase();
+                tutorial = false;
+            }
         }
     }
 
@@ -162,6 +174,11 @@ public class UIController : MonoBehaviour
             keyCRITRATE++;
             coinsToUpgradeCRITRATE += 25 * keyCRITRATE;
             Player.Instance.CRITRATEUpgrade();
+            if (tutorial)
+            {
+                UITextController.Instance.NextPhase();
+                tutorial = false;
+            }
         }
     }
 
@@ -173,6 +190,11 @@ public class UIController : MonoBehaviour
             keyCRITDAMAGE++;
             coinsToUpgradeCRITDAMAGE += 25 * keyCRITDAMAGE;
             Player.Instance.CRITDAMAGEUpgrade();
+            if (tutorial)
+            {
+                UITextController.Instance.NextPhase();
+                tutorial = false;
+            }
         }
     }
 
