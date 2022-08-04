@@ -104,6 +104,7 @@ public class GameController : MonoBehaviour
         else
         {
             stage++;
+            i++;
             level = 1;
             SpawnEnemy();
             if (stage == 10)
@@ -143,9 +144,11 @@ public class GameController : MonoBehaviour
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 
+    private int i = 0;
+
     private void SpawnBoss()
     {
-        GameObject boss = Instantiate(Boss[Random.Range(0, Boss.GetLength(0))], SpawnPosition.position, Quaternion.identity);
+        GameObject boss = Instantiate(Boss[i], SpawnPosition.position, Quaternion.identity);
         boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

@@ -7,6 +7,6 @@ public class EnemySO : CharacterSO
 {
     public float coins;
     public float multiplier = 1;
-    public float attackRange;
+    public float[] attackRange;
     public float moveSpeed;
 }

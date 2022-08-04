@@ -60,10 +60,12 @@
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\PlayerSO.cs" />
+    <Compile Include="Assets\Scripts\MechaStone.cs" />
     <Compile Include="Assets\Scripts\Weapons\PistolProjectile.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Weapons\ShotgunProjectile.cs" />
     <Compile Include="Assets\Scripts\Weapons\SniperProjectile.cs" />
+    <Compile Include="Assets\Scripts\Weapons\LaserBeam.cs" />
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Weapons\Projectile.cs" />
     <Compile Include="Assets\Scripts\Boss.cs" />
@@ -76,8 +78,6 @@
     <Compile Include="Assets\Scripts\EnemySO.cs" />
     <Compile Include="Assets\Scripts\CharacterSO.cs" />
     <Compile Include="Assets\Scripts\URLButton.cs" />
-    <Compile Include="Assets\Scripts\MechaStone.cs" />
-    <Compile Include="Assets\Scripts\Weapons\LaserBeam.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
@@ -91,7 +91,6 @@
     <None Include="Assets\AssetsMaterial\Shikashi&apos;s Fantasy Icons Pack v2\Shikashi&apos;s Fantasy Icons Pack.txt" />
     <None Include="Assets\AssetsMaterial\Font.txt" />
     <None Include="Assets\Animation\Evil Wizard\License.txt" />
-    <None Include="Assets\AssetsMaterial\Robot Shooting Game\Read Me.txt" />
     <None Include="Assets\Animation\Bringer Of Death\Contact.txt" />
   </ItemGroup>
   <ItemGroup>

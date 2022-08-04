@@ -4,12 +4,12 @@ using UnityEngine;
 
 public class MechaStone : Enemy
 {
-
-    public float meleeRange; //this should be in the SO
     private bool laserBeamTimer = false;
+    private bool glowingTimer = false;
     private bool canMove = false;
     private bool shoot = false;
     private float t1;
+    private float t2;
 
     public GameObject laserBeam;
 
@@ -24,11 +24,11 @@ public class MechaStone : Enemy
         if (canMove)
             Movement();
 
-        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange)
+        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
             canMove = true;
-        else if (Vector2.Distance(transform.position, Player.Instance.transform.position) <= enemySO.attackRange && Vector2.Distance(transform.position, Player.Instance.transform.position) > meleeRange && !shoot)
+        else if (Vector2.Distance(transform.position, Player.Instance.transform.position) <= enemySO.attackRange[0] && Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[1] && !shoot)
             LaserBeamAttack();
-        else if (Vector2.Distance(transform.position, Player.Instance.transform.position) <= meleeRange)
+        else if (Vector2.Distance(transform.position, Player.Instance.transform.position) <= enemySO.attackRange[1])
             Attack();
 
         if (laserBeamTimer == true)
@@ -57,17 +57,41 @@ public class MechaStone : Enemy
 
     protected void LaserBeamAttack()
     {
-        shoot = true;
         canMove = false;
-        animator.SetBool("Idle", false);
-        animator.SetBool("LaserBeam", true);
-        laserBeamTimer = true;
+        animator.SetBool("Glowing", true);
+        glowingTimer = true;
+        if (glowingTimer)
+            t2 += Time.deltaTime;
+        if(t2 >= animator.GetCurrentAnimatorStateInfo(0).length)
+        {
+            glowingTimer = false;
+            t2 = 0;
+            shoot = true;
+            animator.SetBool("Idle", false);
+            animator.SetBool("LaserBeam", true);
+            laserBeamTimer = true;
+        }
     }
 
     protected override void Attack()
     {
         base.Attack();
         canMove = false;
+    }
+
+    protected override void OnDeath()
+    {
+        //the stuff itself is in the update
+        if (deathCheck == false)
+        {
+            timer = true;
+            deathCheck = true;
+            animator.SetBool("Idle", false);
+            animator.SetBool("Attack", false);
+            animator.SetBool("LaserBeam", false);
+            animator.SetBool("RangedAttack", false);
+            animator.SetBool("Dead", true);
+        }
     }
 
 }

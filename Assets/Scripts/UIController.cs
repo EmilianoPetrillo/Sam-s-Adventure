@@ -138,7 +138,7 @@ public class UIController : MonoBehaviour
         {
             coins -= coinsToUpgradeATK;
             keyATK++;
-            coinsToUpgradeATK += 100 * keyATK;
+            coinsToUpgradeATK += 25 * keyATK;
             Player.Instance.ATKUpgrade();
         }
     }
@@ -149,7 +149,7 @@ public class UIController : MonoBehaviour
         {
             coins -= coinsToUpgradeHP;
             keyHP++;
-            coinsToUpgradeHP += 100 * keyHP;
+            coinsToUpgradeHP += 25 * keyHP;
             Player.Instance.HPUpgrade();
         }
     }
@@ -160,7 +160,7 @@ public class UIController : MonoBehaviour
         {
             coins -= coinsToUpgradeCRITRATE;
             keyCRITRATE++;
-            coinsToUpgradeCRITRATE += 100 * keyCRITRATE;
+            coinsToUpgradeCRITRATE += 25 * keyCRITRATE;
             Player.Instance.CRITRATEUpgrade();
         }
     }
@@ -171,7 +171,7 @@ public class UIController : MonoBehaviour
         {
             coins -= coinsToUpgradeCRITDAMAGE;
             keyCRITDAMAGE++;
-            coinsToUpgradeCRITDAMAGE += 100 * keyCRITDAMAGE;
+            coinsToUpgradeCRITDAMAGE += 25 * keyCRITDAMAGE;
             Player.Instance.CRITDAMAGEUpgrade();
         }
     }

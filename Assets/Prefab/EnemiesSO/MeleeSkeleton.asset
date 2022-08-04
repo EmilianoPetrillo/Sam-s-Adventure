@@ -19,5 +19,6 @@ MonoBehaviour:
   MAXHP: 0
   coins: 100
   multiplier: 1
-  attackRange: 2.1
+  attackRange:
+  - 2
   moveSpeed: 1.4

@@ -14,7 +14,6 @@ public class Enemy : Character
     protected float t = 0;
     protected bool timer;
 
-
     protected EnemySO enemySO;
     public EnemySO EnemySO
     {
@@ -50,6 +49,16 @@ public class Enemy : Character
         }
     }
 
+    protected virtual void Move()
+    {
+        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
+        {
+            transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);
+        }
+        else
+            Attack();
+    }
+
     protected override void OnDeath()
     {
         //the stuff itself is in the update
@@ -61,16 +70,6 @@ public class Enemy : Character
             animator.SetBool("Attack", false);
             animator.SetBool("Dead", true);
         }
-    }
-
-    protected virtual void Move()
-    {
-        if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange)
-        {
-            transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);
-        }
-        else
-            Attack();
     }
 
     public override void TakeDamage(int damage)

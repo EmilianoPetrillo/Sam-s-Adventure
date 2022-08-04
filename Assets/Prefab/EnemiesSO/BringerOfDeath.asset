@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: BringerOfDeath
   m_EditorClassIdentifier: 
-  HP: 4000
+  HP: 6000
   ATK: 400
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
-  coins: 10000
+  coins: 3000
   multiplier: 1
-  attackRange: 3.5
+  attackRange:
+  - 2.5
   moveSpeed: 1.5
