@@ -20,5 +20,5 @@ MonoBehaviour:
   coins: 100
   multiplier: 1
   attackRange:
-  - 7
+  - 10
   moveSpeed: 1.2

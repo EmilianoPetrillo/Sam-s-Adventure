@@ -13,7 +13,7 @@ public class Projectile : MonoBehaviour
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
         t += Time.deltaTime;
-        if(t >= 2)
+        if(t >= 1.2f)
         {
             Destroy(gameObject);
         }

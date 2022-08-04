@@ -70,6 +70,7 @@ public class GameController : MonoBehaviour
         }
         else if(timer == true && t > 1)
         {
+            Player.Instance.PlayerRespawn();
             if (level >= maxLevel)
             {
                 StageUp();

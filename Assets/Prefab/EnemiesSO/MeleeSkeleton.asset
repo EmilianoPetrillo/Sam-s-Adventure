@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: MeleeSkeleton
   m_EditorClassIdentifier: 
-  HP: 1500
+  HP: 2000
   ATK: 100
   CRITRATE: 0
   CRITDAMAGE: 0

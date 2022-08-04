@@ -34,6 +34,10 @@ public class Player : Character
     GameObject projectile1;
     public GameObject projectilePrefab2;
     GameObject projectile2;
+    public Transform projectileSpawnPosition;
+    public GameObject[] Guns;
+    public GameObject ActiveGun;
+    public GameObject Arm;
 
     int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
 
@@ -79,7 +83,7 @@ public class Player : Character
         healthBar.SetMaxHealth(playerSO.MAXHP);
     }
 
-    #region ATTACK TYPES
+    #region WEAPONS STUFF
 
     public void Attack()
     {
@@ -96,10 +100,18 @@ public class Player : Character
     public void ChangeWeapon()
     {
         if (weapon < 1)
+        {
+            ActiveGun.transform.localPosition = new Vector2(-0.056f, 0.007f);
             weapon++;
+        }
         else if(weapon == 1)
+        {
             weapon = 0;
+            ActiveGun.transform.localPosition = new Vector2(0.03600002f, 0.03199995f);
+        }
+
         UIController.Instance.ChangeActiveWeapon();
+        ActiveGun.GetComponent<SpriteRenderer>().sprite = Guns[weapon].GetComponent<SpriteRenderer>().sprite;
 
         if (tutorial)
         {
@@ -110,7 +122,7 @@ public class Player : Character
 
     private void PistolAttack()
     {
-        projectile0 = Instantiate(projectilePrefab0, transform.position + Vector3.right, Quaternion.identity);
+        projectile0 = Instantiate(projectilePrefab0, projectileSpawnPosition.position, Quaternion.identity);
         CheckCrit(playerSO.ATK, projectile0);
         
     }
@@ -120,7 +132,7 @@ public class Player : Character
         float shotgunatk = playerSO.ATK / 2;
         for(int i = 0; i < 4; i++)
         {
-            projectile1 = Instantiate(projectilePrefab1, transform.position + Vector3.right, new Quaternion(1, Random.Range(-0.2f, 0.2f), 0, 0));
+            projectile1 = Instantiate(projectilePrefab1, projectileSpawnPosition.position, new Quaternion(1, Random.Range(-0.2f, 0.2f), 0, 0));
             CheckCrit(shotgunatk, projectile1);
         }
     }
@@ -128,7 +140,7 @@ public class Player : Character
     private void SniperAttack()
     {
         float sniperatk = playerSO.ATK * 1.5f;
-        projectile2 = Instantiate(projectilePrefab2, transform.position + Vector3.right, Quaternion.identity);
+        projectile2 = Instantiate(projectilePrefab2, projectileSpawnPosition.position, Quaternion.identity);
         CheckCrit(sniperatk, projectile2);
     }
 
@@ -138,6 +150,14 @@ public class Player : Character
             projectile.GetComponent<Projectile>().damage = dmg * (playerSO.CRITDAMAGE / 100);
         else
             projectile.GetComponent<Projectile>().damage = dmg;
+    }
+
+    [SerializeField] float gunMovement;
+
+    public void GunMove()
+    {
+        Arm.transform.localPosition = new Vector2(Arm.transform.localPosition.x - gunMovement, Arm.transform.localPosition.y);
+        gunMovement = -gunMovement;
     }
 
     #endregion
