@@ -38,7 +38,9 @@ public class UIController : MonoBehaviour
     public Text stageAndLevel;
 
     public GameObject bossButton;
+    public GameObject BossButtonStuff;
     public bool level9Completed;
+    public bool bossButtonStuffShown = false;
 
     public GameObject GamePanel;
     public GameObject DeathPanel;
@@ -61,10 +63,25 @@ public class UIController : MonoBehaviour
     {
         actualCoins.text = coins.ToString();
         stageAndLevel.text = GameController.Instance.Stage.ToString() + " - " + GameController.Instance.Level.ToString();
-        if (bossButton.activeSelf == false && GameController.Instance.Level == 9 && level9Completed)
+        if (bossButton.activeSelf == false && GameController.Instance.Level == GameController.Instance.maxLevel - 1 && level9Completed)
+        {
             bossButton.SetActive(true);
-        else if (bossButton.activeSelf == true && GameController.Instance.Level != 9)
+            if (!bossButtonStuffShown)
+            {
+                BossButtonStuff.SetActive(true);
+                bossButtonStuffShown = true;
+            }
+        }
+        else if (bossButton.activeSelf == true && GameController.Instance.Level != GameController.Instance.maxLevel - 1)
+        {
             bossButton.SetActive(false);
+            if (bossButtonStuffShown)
+            {
+                BossButtonStuff.SetActive(false);
+            }
+
+        }
+
         HPUpCost.text = coinsToUpgradeHP.ToString();
         ATKUpCost.text = coinsToUpgradeATK.ToString();
         CRITRATEUpCost.text = coinsToUpgradeCRITRATE.ToString();

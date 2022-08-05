@@ -27,7 +27,7 @@ public class GameController : MonoBehaviour
 
     private int stage;
     private int level;
-    private int maxLevel;
+    public int maxLevel;
 
     bool timer = false;
     float t = 0;
@@ -135,6 +135,7 @@ public class GameController : MonoBehaviour
         UIController.Instance.EndGamePanelStuff();
         Player.Instance.gameObject.SetActive(false);
     }
+
     #endregion
 
     #region ENEMIES SPAWN
