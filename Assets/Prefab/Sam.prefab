@@ -136,6 +136,7 @@ MonoBehaviour:
   - {fileID: 7948555503913828588, guid: 67c59b29ca8599f4c88ecb087543dfe6, type: 3}
   ActiveGun: {fileID: 1052953108475466121}
   Arm: {fileID: 1052953108268246001}
+  HeldWeapon: {fileID: 0}
   gunMovement: 0.01
 --- !u!95 &5098512151997761833
 Animator:

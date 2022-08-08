@@ -5,22 +5,19 @@ using UnityEngine.UI;
 
 public class ManageSubmenusPanel : MonoBehaviour
 {
-    public GameObject currentPanel;
-    public GameObject textWeaponMenu;
-    public GameObject textStatsMenu;
+    public GameObject[] StuffToClose;
+    public GameObject[] StuffToOpen;
     public GameObject otherPanel;
     public void TogglePanel()
     {
-        if(currentPanel != null && otherPanel != null)
+        bool isActive = StuffToOpen[0].activeSelf;
+        if(otherPanel.activeSelf)
         {
-            bool isActive = currentPanel.activeSelf;
-            if(otherPanel.activeSelf)
-            {
-                otherPanel.SetActive(false);
-            }
-            textWeaponMenu.SetActive(isActive);
-            textStatsMenu.SetActive(isActive);
-            currentPanel.SetActive(!isActive);
+            otherPanel.SetActive(false);
         }
+        for (int i = 0; i < StuffToClose.Length; i++)
+            StuffToClose[i].gameObject.SetActive(isActive);
+        for (int i = 0; i < StuffToOpen.Length; i++)
+            StuffToOpen[i].gameObject.SetActive(!isActive);
     }
 }

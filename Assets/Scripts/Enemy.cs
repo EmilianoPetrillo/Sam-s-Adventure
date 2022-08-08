@@ -69,6 +69,7 @@ public class Enemy : Character
             animator.SetBool("Walk", false);
             animator.SetBool("Attack", false);
             animator.SetBool("Dead", true);
+            GetComponent<BoxCollider2D>().enabled = false;
         }
     }
 
