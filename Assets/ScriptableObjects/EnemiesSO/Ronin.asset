@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Ronin
   m_EditorClassIdentifier: 
   HP: 1700
-  ATK: 40
+  ATK: 50
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0

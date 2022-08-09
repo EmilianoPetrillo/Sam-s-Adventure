@@ -6,14 +6,15 @@ public class Projectile : MonoBehaviour
 {
 
     protected float speed;
-    float t = 0;
+    protected float t = 0;
+    protected float expireTime = 1.2f;
     public float damage;
 
     protected virtual void Update()
     {
         transform.Translate(Vector3.right * speed * Time.deltaTime);
         t += Time.deltaTime;
-        if(t >= 1.2f)
+        if(t >= expireTime)
         {
             Destroy(gameObject);
         }

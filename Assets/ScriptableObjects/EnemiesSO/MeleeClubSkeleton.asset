@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: MeleeClubSkeleton
   m_EditorClassIdentifier: 
-  HP: 1600
+  HP: 1800
   ATK: 80
   CRITRATE: 0
   CRITDAMAGE: 0
@@ -21,4 +21,4 @@ MonoBehaviour:
   multiplier: 1
   attackRange:
   - 1.5
-  moveSpeed: 1.7
+  moveSpeed: 2.5

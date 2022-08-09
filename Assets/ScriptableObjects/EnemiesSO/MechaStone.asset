@@ -22,4 +22,4 @@ MonoBehaviour:
   attackRange:
   - 9
   - 3.3
-  moveSpeed: 0.5
+  moveSpeed: 1

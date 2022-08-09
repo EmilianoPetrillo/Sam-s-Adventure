@@ -12,7 +12,7 @@ public class MagicDice : MonoBehaviour
 
     private void Start()
     {
-        speed = -5;
+        speed = -8;
     }
 
     protected virtual void Update()

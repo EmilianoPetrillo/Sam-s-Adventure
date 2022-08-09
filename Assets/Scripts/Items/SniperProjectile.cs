@@ -6,7 +6,8 @@ public class SniperProjectile : Projectile
 {
     private void Start()
     {
-        speed = 8;
+        speed = 13;
+        expireTime = 2f;
     }
 
     protected override void Update()

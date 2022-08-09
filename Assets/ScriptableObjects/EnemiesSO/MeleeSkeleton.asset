@@ -21,4 +21,4 @@ MonoBehaviour:
   multiplier: 1
   attackRange:
   - 2
-  moveSpeed: 1.4
+  moveSpeed: 2

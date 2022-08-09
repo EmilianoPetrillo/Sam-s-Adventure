@@ -62,6 +62,7 @@
     <Compile Include="Assets\Scripts\Items\DraggableItem.cs" />
     <Compile Include="Assets\Scripts\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\MechaStone.cs" />
+    <Compile Include="Assets\Scripts\Items\SniperItem.cs" />
     <Compile Include="Assets\Scripts\Items\PistolProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\WeaponItem.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
@@ -76,6 +77,7 @@
     <Compile Include="Assets\Scripts\UIController.cs" />
     <Compile Include="Assets\Scripts\UI\ManageSubmenusPanel.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
+    <Compile Include="Assets\Scripts\Items\ShotgunItem.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\FakeEnemy.cs" />
@@ -84,10 +86,8 @@
     <Compile Include="Assets\Scripts\Items\ItemCollection.cs" />
     <Compile Include="Assets\Scripts\EnemySO.cs" />
     <Compile Include="Assets\Scripts\CharacterSO.cs" />
-    <Compile Include="Assets\Scripts\URLButton.cs" />
     <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
-    <Compile Include="Assets\Scripts\Items\ShotgunItem.cs" />
-    <Compile Include="Assets\Scripts\Items\SniperItem.cs" />
+    <Compile Include="Assets\Scripts\URLButton.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
