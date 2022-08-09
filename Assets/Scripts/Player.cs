@@ -31,11 +31,15 @@ public class Player : Character
     public Transform projectileSpawnPosition;
     public GameObject ActiveGun;
     public GameObject Arm;
+    public GameObject Shield;
 
     public WeaponItem[] HeldWeapons;
     public ItemSlot[] HeldWeaponsSlots;
 
-    int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
+    public int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
+
+    private float t = 0;
+    private bool timer = false;
 
     private void Start()
     {
@@ -50,6 +54,13 @@ public class Player : Character
             OnDeath();
         }
         healthBar.SetHealth(playerSO.HP);
+
+        if (timer)
+        {
+            t += Time.deltaTime;
+            if (t >= 2)
+                ShieldOn();
+        }
     }
 
     private void FixedUpdate()
@@ -59,10 +70,13 @@ public class Player : Character
 
     public override void TakeDamage(int damage)
     {
-        playerSO.HP -= damage;
-        if (characterSO.HP <= 0)
+        if (!Shield.activeSelf)
         {
-            OnDeath();
+            playerSO.HP -= damage;
+            if (characterSO.HP <= 0)
+            {
+                OnDeath();
+            }
         }
     }
 
@@ -81,6 +95,24 @@ public class Player : Character
 
     #region WEAPONS STUFF
 
+    public void ShieldOn()
+    {
+        if(t < 2)
+        {
+            Shield.SetActive(true);
+            timer = true;
+        }
+        else if (t >= 2)
+        {
+            Shield.SetActive(false);
+            if(t >= 10)
+            {
+                timer = false;
+                t = 0;
+            }
+        }
+    }
+
     public void UpdateHeldWeapons()
     {
         if (HeldWeaponsSlots[0].GetComponentInChildren<DraggableItem>() != null)
@@ -92,6 +124,16 @@ public class Player : Character
             HeldWeapons[1] = HeldWeaponsSlots[1].GetComponentInChildren<DraggableItem>().Item as WeaponItem;
         else
             HeldWeapons[1] = null;
+        
+        if (HeldWeapons[weapon] != null)
+            ActiveGun.GetComponent<SpriteRenderer>().sprite = HeldWeapons[weapon].image;
+        else
+            ActiveGun.GetComponent<SpriteRenderer>().sprite = null;
+
+        if (HeldWeapons[weapon] != null)
+            UIController.Instance.ActiveGunImage.sprite = HeldWeapons[weapon].image;
+        else
+            UIController.Instance.ActiveGunImage.sprite = null;
     }
 
     public void Attack()
@@ -107,17 +149,9 @@ public class Player : Character
     public void ChangeWeapon()
     {
         if (weapon < 1)
-        {
             weapon++;
-            ActiveGun.transform.localPosition = new Vector2(-0.056f, 0.007f);
-        }
         else if(weapon == 1)
-        {
             weapon = 0;
-            ActiveGun.transform.localPosition = new Vector2(0.03600002f, 0.03199995f);
-        }
-
-        UIController.Instance.ChangeActiveWeapon();
 
         if (tutorial)
         {

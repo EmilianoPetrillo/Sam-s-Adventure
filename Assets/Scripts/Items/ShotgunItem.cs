@@ -13,6 +13,5 @@ public class ShotgunItem : WeaponItem
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, new Quaternion(1, Random.Range(-0.2f, 0.2f), 0, 0));
             DamageCalculator(shotgunatk, projectile);
         }
-        Debug.Log("lol");
     }
 }

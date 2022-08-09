@@ -55,9 +55,7 @@ public class UIController : MonoBehaviour
     public Text CurrentCRITRATE;
     public Text CurrentCRITDMG;
 
-    public Image[] CarriedWeapons = new Image[2];
-    private int i = 0;
-    public Image ActiveWeapon;
+    public Image ActiveGunImage;
 
     private void Update()
     {
@@ -90,17 +88,6 @@ public class UIController : MonoBehaviour
         CurrentHP.text = Player.Instance.PlayerSO.MAXHP.ToString();
         CurrentCRITRATE.text = Player.Instance.PlayerSO.CRITRATE.ToString();
         CurrentCRITDMG.text = Player.Instance.PlayerSO.CRITDAMAGE.ToString();
-    }
-
-    public void ChangeActiveWeapon()
-    {
-        CarriedWeapons[i].gameObject.SetActive(false);
-        if (i < 1)
-            i++;
-        else if (i == 1)
-            i = 0;
-        ActiveWeapon = CarriedWeapons[i];
-        CarriedWeapons[i].gameObject.SetActive(true);
     }
 
     public void CoinsUp(float gainedCoins)
