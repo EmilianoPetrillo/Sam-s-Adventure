@@ -10716,6 +10716,7 @@ MonoBehaviour:
   - {fileID: 3254465479644966554, guid: fba052c289a4b56419ac4b0d2b80ba8f, type: 3}
   - {fileID: 6363871807855489389, guid: 821abbbf31a516244be0f54e90cb6ee1, type: 3}
   - {fileID: 8097721896163224380, guid: 5f011416f1ac2b847b9fd374e7f4b501, type: 3}
+  - {fileID: 8154599920659429078, guid: 7dbd1a58eea53464ab00f0277a80cb20, type: 3}
   FakeEnemy: {fileID: 8520809721821668579, guid: 1dab851cb28649c43889cccf8e2ba74d, type: 3}
   Boss:
   - {fileID: 7390229677090703352, guid: f9068b9c16ebf0b4a85f0aaba9e28089, type: 3}

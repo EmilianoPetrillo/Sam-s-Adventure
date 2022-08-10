@@ -141,7 +141,7 @@ public class GameController : MonoBehaviour
     #region ENEMIES SPAWN
     public void SpawnEnemy()
     {
-        enemyIndex = Random.Range(0, Enemy.GetLength(0));
+        enemyIndex = Random.Range(8, Enemy.GetLength(0));
         GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
         enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
