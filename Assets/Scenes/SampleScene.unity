@@ -12132,6 +12132,7 @@ MonoBehaviour:
   - {fileID: 7390229677090703352, guid: f9068b9c16ebf0b4a85f0aaba9e28089, type: 3}
   - {fileID: 6724001826590004861, guid: 3cbb61be459c6034b8f033a5b90d48d6, type: 3}
   - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
+  - {fileID: 7545121625123481855, guid: effd769d2cc7de245820608c751bb5e2, type: 3}
   SpawnPosition: {fileID: 1308625935}
   Game: {fileID: 0}
   maxLevel: 0
