@@ -88,6 +88,7 @@
     <Compile Include="Assets\Scripts\CharacterSO.cs" />
     <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
     <Compile Include="Assets\Scripts\URLButton.cs" />
+    <Compile Include="Assets\Scripts\Items\ShopController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

@@ -9,6 +9,5 @@ public class PistolItem : WeaponItem
     {
         projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.identity);
         DamageCalculator(Player.Instance.PlayerSO.ATK, projectile);
-        Debug.Log("lol");
     }
 }

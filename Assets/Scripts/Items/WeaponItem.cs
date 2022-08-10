@@ -15,6 +15,7 @@ public abstract class WeaponItem : Item
     public eWeaponType WeaponType;
     public GameObject projectilePrefab;
     protected GameObject projectile;
+    public int WeaponCost;
 
     public virtual void Shoot()
     {
@@ -27,5 +28,15 @@ public abstract class WeaponItem : Item
             projectile.GetComponent<Projectile>().damage = dmg * (Player.Instance.PlayerSO.CRITDAMAGE / 100);
         else
             projectile.GetComponent<Projectile>().damage = dmg;
+    }
+
+    public void BuyItem()
+    {
+        if (UIController.Instance.Coins >= WeaponCost)
+        {
+            UIController.Instance.CoinsUp(-WeaponCost);
+            PlayerInventoryUI.Instance.AddWeaponToInventory(this);
+            Debug.Log("You have acquired " + name);
+        }
     }
 }

@@ -19,11 +19,15 @@ public class GameController : MonoBehaviour
         }
     }
 
-    public GameObject[] Enemy;
+    public GameObject[] EnemiesWorld1;
+    public GameObject[] EnemiesWorld2;
+    public GameObject[] EnemiesWorld3;
+    public GameObject[] EnemiesWorld4;
     public GameObject FakeEnemy;
     private int enemyIndex;
     public GameObject[] Boss;
     public Transform SpawnPosition;
+    public GameObject Game;
 
     private int stage;
     private int level;
@@ -80,19 +84,18 @@ public class GameController : MonoBehaviour
             {
                 level++;
                 UIController.Instance.level9Completed = true;
-                SpawnBoss();
             }
             else if (level == maxLevel - 1 && UIController.Instance.level9Completed)
             {
-                SpawnEnemy();
+
             }
             else if (level <= maxLevel - 2)
             {
                 level++;
-                SpawnEnemy();
             }
             timer = false;
             t = 0;
+            SpawnEnemy();
         }
     }
     
@@ -107,7 +110,6 @@ public class GameController : MonoBehaviour
             stage++;
             i++;
             level = 1;
-            SpawnEnemy();
             if (stage == 10)
                 maxLevel = 30;
             if ((stage - 1) % 3 == 0)
@@ -139,11 +141,40 @@ public class GameController : MonoBehaviour
     #endregion
 
     #region ENEMIES SPAWN
+
+    public int StartingIndexToSpawnEnemy;
+
     public void SpawnEnemy()
     {
-        enemyIndex = Random.Range(8, Enemy.GetLength(0));
-        GameObject enemy = Instantiate(Enemy[enemyIndex], SpawnPosition.position, Quaternion.identity);
-        enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+        if (level == maxLevel)
+            SpawnBoss();
+        else
+        {
+            if (stage <= 3)
+            {
+                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld1.GetLength(0));
+                GameObject enemy = Instantiate(EnemiesWorld1[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+            }
+            else if (stage > 3 && stage <= 6)
+            {
+                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld2.GetLength(0));
+                GameObject enemy = Instantiate(EnemiesWorld2[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+            }
+            else if (stage <= 9)
+            {
+                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld3.GetLength(0));
+                GameObject enemy = Instantiate(EnemiesWorld3[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+            }
+            else if (stage == 10)
+            {
+                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld4.GetLength(0));
+                GameObject enemy = Instantiate(EnemiesWorld4[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+            }
+        }
     }
 
     private int i = 0;
@@ -162,12 +193,14 @@ public class GameController : MonoBehaviour
         Enemy enemy = FindObjectOfType<Enemy>();
         if (enemy != null)
             Destroy(enemy.gameObject);
+        timer = false;
+        t = 0;
     }
 
     private float MultiplierCalculator(int Stage, int Level)
     {
         float a = Level / 10f;
-        float multiplier = 2 * stage + a;
+        float multiplier = Mathf.Pow(2, stage + a);
         return multiplier;
     }
 

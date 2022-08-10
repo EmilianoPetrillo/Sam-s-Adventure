@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Wizard
   m_EditorClassIdentifier: 
   HP: 1200
-  ATK: 50
+  ATK: 80
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0

@@ -10,6 +10,6 @@ public class DistanceEnemy : Enemy
     public void Shoot()
     {
         GameObject go = Instantiate(Projectile, ProjectileSpawnPosition.position, Quaternion.identity);
-        go.GetComponent<MagicDice>().damage = enemySO.ATK * enemySO.multiplier;
+        go.GetComponent<MagicDice>().damage = enemySO.ATK;
     }
 }

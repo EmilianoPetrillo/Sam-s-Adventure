@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Striker
   m_EditorClassIdentifier: 
   HP: 1800
-  ATK: 50
+  ATK: 60
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0

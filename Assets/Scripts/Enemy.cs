@@ -32,7 +32,7 @@ public class Enemy : Character
         enemySO.ATK *= enemySO.multiplier;
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
-        print("HP:" + enemySO.HP + " Coins:" + enemySO.coins + " ATK:" + enemySO.ATK + " Multiplier:" + enemySO.multiplier);
+        print("Multiplier:" + enemySO.multiplier);
     }
 
     protected virtual void Update()

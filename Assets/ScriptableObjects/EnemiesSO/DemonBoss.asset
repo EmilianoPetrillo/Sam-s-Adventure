@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: DemonBoss
   m_EditorClassIdentifier: 
   HP: 8000
-  ATK: 250
+  ATK: 300
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0

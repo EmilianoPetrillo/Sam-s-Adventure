@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: ArcaneArcher
   m_EditorClassIdentifier: 
   HP: 1800
-  ATK: 80
+  ATK: 100
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0

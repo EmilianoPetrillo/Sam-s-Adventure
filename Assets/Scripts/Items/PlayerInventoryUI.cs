@@ -4,6 +4,20 @@ using UnityEngine;
 
 public class PlayerInventoryUI : MonoBehaviour
 {
+    public static PlayerInventoryUI Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     public List<ItemSlot> Slots = new List<ItemSlot>();
 
     public GameObject InventoryContainer;
@@ -20,8 +34,6 @@ public class PlayerInventoryUI : MonoBehaviour
 
         // AddItemToInventory(ItemController.Instance.Items.GetItem(Item.eItemType.Consumable));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Pistol));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Shotgun));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Sniper));
     }
 
     public void AddItemToInventory(Item _item)
