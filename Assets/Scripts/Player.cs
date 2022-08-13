@@ -49,12 +49,13 @@ public class Player : Character
 
     private void Update()
     {
+        healthBar.SetHealth(playerSO.HP);
         if (playerSO.HP <= 0)
         {
+            healthBar.SetHealth(0);
             OnDeath();
         }
-        healthBar.SetHealth(playerSO.HP);
-
+       
         if (timer)
         {
             t += Time.deltaTime;
@@ -138,8 +139,14 @@ public class Player : Character
 
     public void Attack()
     {
+        Vector3 mouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mouseDirection.z = 0f;
+        Vector3 aimDirection = (mouseDirection - Arm.transform.position).normalized;
+        float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+        angle = Mathf.Clamp(angle, -30f, 30f);
+        Arm.transform.eulerAngles = new Vector3(0, 0, angle);
         if (HeldWeapons[weapon] != null)
-            HeldWeapons[weapon].Shoot();
+            HeldWeapons[weapon].Shoot(angle);
         else
             print("You have no weapon in your hands!");
     }

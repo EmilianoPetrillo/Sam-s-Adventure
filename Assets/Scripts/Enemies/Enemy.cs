@@ -76,10 +76,11 @@ public class Enemy : Character
     public override void TakeDamage(int damage)
     {
         enemySO.HP -= damage;
-        if (enemySO.HP >= 0)
+        if (enemySO.HP > 0)
             healthBar.SetHealth(enemySO.HP);
         if (enemySO.HP <= 0)
         {
+            healthBar.SetHealth(0);
             OnDeath();
         }
     }

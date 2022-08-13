@@ -17,7 +17,7 @@ public abstract class WeaponItem : Item
     protected GameObject projectile;
     public int WeaponCost;
 
-    public virtual void Shoot()
+    public virtual void Shoot(float angle)
     {
 
     }
