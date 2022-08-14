@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 6734422662632479793}
   m_Layer: 0
   m_Name: DarkWizard
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +29,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3216597812450554660}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.73, y: 0.09, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 3037754731899005744}
@@ -48,8 +48,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df181d550dfe4d941ab0f8ebf9356cca, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  characterSO: {fileID: 0}
-  healthBar: {fileID: 0}
+  characterSO: {fileID: 11400000, guid: 23cd6aadcc4f2d2449317dbf37937f60, type: 2}
+  healthBar: {fileID: 453938573564506780}
 --- !u!61 &-8018823284420339733
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -63,7 +63,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: -0.27285013, y: 0.35}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -74,7 +74,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.5542998, y: 0.69}
   m_EdgeRadius: 0
 --- !u!50 &-7159966441106765063
 Rigidbody2D:
@@ -96,7 +96,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 7
 --- !u!212 &1668956248661706640
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -158,7 +158,7 @@ Animator:
   m_GameObject: {fileID: 3216597812450554660}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 11cbc897fdf12de4985986830d082488, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -277,3 +277,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
   m_PrefabInstance: {fileID: 8821225570462235595}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &453938573564506780 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946399908719921495, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
+  m_PrefabInstance: {fileID: 8821225570462235595}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc221c19769210e40a58de33ff03dbe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
