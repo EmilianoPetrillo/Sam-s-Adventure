@@ -19,9 +19,9 @@ MonoBehaviour:
     width: 1536
     height: 772.8
   m_ShowMode: 4
-  m_Title: Game
+  m_Title: Project
   m_RootView: {fileID: 2}
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_Maximized: 1
 --- !u!114 &2
@@ -46,7 +46,7 @@ MonoBehaviour:
     y: 0
     width: 1536
     height: 772.8
-  m_MinSize: {x: 875, y: 542}
+  m_MinSize: {x: 875, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
   m_UseTopView: 1
   m_TopViewHeight: 30
@@ -122,7 +122,7 @@ MonoBehaviour:
   m_MinSize: {x: 679, y: 492}
   m_MaxSize: {x: 14002, y: 14042}
   vertical: 0
-  controlID: 25039
+  controlID: 40
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -147,7 +147,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 492}
   m_MaxSize: {x: 10001, y: 14042}
   vertical: 1
-  controlID: 25040
+  controlID: 41
 --- !u!114 &7
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -172,7 +172,7 @@ MonoBehaviour:
   m_MinSize: {x: 403, y: 221}
   m_MaxSize: {x: 8003, y: 4021}
   vertical: 0
-  controlID: 25041
+  controlID: 42
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -278,7 +278,7 @@ MonoBehaviour:
   m_MinSize: {x: 276, y: 292}
   m_MaxSize: {x: 4001, y: 8042}
   vertical: 1
-  controlID: 25034
+  controlID: 139
 --- !u!114 &12
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -388,7 +388,7 @@ MonoBehaviour:
     m_VAllowExceedBaseRangeMax: 1
     m_ScaleWithWindow: 0
     m_HSlider: 0
-    m_VSlider: 0
+    m_VSlider: 1
     m_IgnoreScrollWheelUntilClicked: 0
     m_EnableMouseInput: 1
     m_EnableSliderZoomHorizontal: 0
@@ -401,7 +401,7 @@ MonoBehaviour:
       y: 21
       width: 443.80005
       height: 232.79999
-    m_Scale: {x: 0.26944444, y: 0.26944444}
+    m_Scale: {x: 0.28893232, y: 0.28893232}
     m_Translation: {x: 221.90002, y: 116.399994}
     m_MarginLeft: 0
     m_MarginRight: 0
@@ -409,12 +409,12 @@ MonoBehaviour:
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -823.5465
-      y: -432
-      width: 1647.093
-      height: 864
+      x: -768
+      y: -402.8625
+      width: 1536
+      height: 805.725
     m_MinimalGUI: 1
-  m_defaultScale: 0.26944444
+  m_defaultScale: 0.28893232
   m_LastWindowPixelSize: {x: 554.75006, y: 317.25}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
@@ -449,9 +449,9 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 028b0000
-      m_LastClickedID: 35586
-      m_ExpandedIDs: 20bcfffff2890000
+      m_SelectedIDs: 46520000
+      m_LastClickedID: 0
+      m_ExpandedIDs: bcfaffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -790,22 +790,22 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Animation/EVil Wizard 2/Animation Evil Wizard 2
+    - Assets/AssetsMaterial/Enemies/Monsters_Creatures_Fantasy/Flying eye
     m_Globs: []
     m_OriginalText: 
   m_ViewMode: 1
   m_StartGridSize: 96
   m_LastFolders:
-  - Assets/Animation/EVil Wizard 2/Animation Evil Wizard 2
+  - Assets/AssetsMaterial/Enemies/Monsters_Creatures_Fantasy/Flying eye
   m_LastFoldersGridSize: 96
   m_LastProjectPath: C:\Users\pegor\Documents\GitHub\Sam-s-Adventure
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 271}
-    m_SelectedIDs: eea10000
-    m_LastClickedID: 41454
-    m_ExpandedIDs: 00000000248f0000268f0000288f00002a8f00002c8f00002e8f0000308f0000328f0000348f0000368f0000388f00003a8f00003c8f00003e8f0000408f0000428f0000448f0000468f0000488f00004a8f00004c8f00004e8f0000508f0000528f0000548f0000568f0000588f00005a8f00005c8f00005e8f0000608f0000628f00006a8f0000ce9d0000
+    scrollPos: {x: 0, y: 713.4}
+    m_SelectedIDs: 46520000
+    m_LastClickedID: 21062
+    m_ExpandedIDs: 0000000040510000425100004451000046510000485100004a5100004c5100004e51000050510000525100005451000056510000585100005a5100005c5100005e51000060510000625100006451000066510000685100006a5100006c5100006e51000070510000725100007451000076510000785100007a5100007c5100007e5100008051000082510000e451000038520000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -833,7 +833,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000248f0000268f0000288f00002a8f00002c8f00002e8f0000308f0000328f0000348f0000368f0000388f00003a8f00003c8f00003e8f0000408f0000428f0000448f0000468f0000488f00004a8f00004c8f00004e8f0000508f0000528f0000548f0000568f0000588f00005a8f00005c8f00005e8f0000608f0000628f00006a8f0000ce9d0000
+    m_ExpandedIDs: 0000000040510000425100004451000046510000485100004a5100004c5100004e51000050510000525100005451000056510000585100005a5100005c5100005e51000060510000625100006451000066510000685100006a5100006c5100006e51000070510000725100007451000076510000785100007a5100007c5100007e5100008051000082510000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -860,7 +860,7 @@ MonoBehaviour:
   m_ListAreaState:
     m_SelectedInstanceIDs: 
     m_LastClickedInstanceID: 0
-    m_HadKeyboardFocusLastEvent: 0
+    m_HadKeyboardFocusLastEvent: 1
     m_ExpandedInstanceIDs: c623000014570000965600007c1800006a5a0000de590000fa5900006e5a00007e5a0000c8430000e2490000e6490000ea490000ee490000f24900009e4f00004c21000010690000f8680000305b0000946c0000886c0000806c00004e6f0000c84c0000002000007e2100000c200000b61e0000462100008c1c00003c450000424800005644000006490000104700000c4700000447000000470000e448000044490000d8480000d66300002652000048440000444500004c5c00005e4c00005e570000225e0000705000006c5e00008a550000fe5c000024650000128900002c200000a6660000945c0000da5f00001a6f00008644000046180000604600001c690000ae470000ac5e0000c46a0000d820000008220000867100003262000006690000bcaa000098210000847c0000d0480000ce480000ca480000c6480000b6450000b2450000b8450000521f0000741f0000921e000076450000e04900009c45000042ab0000a65d0000be470000e045000048b7000054b70000e2450000e495000012960000c04e0000341f0000682000009c470000604e0000a8470000000000004876000054760000507600005c76000074760000cc4c0000d44c00009c760000ac760000a4760000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
