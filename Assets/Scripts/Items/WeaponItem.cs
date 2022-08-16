@@ -16,6 +16,7 @@ public abstract class WeaponItem : Item
     public GameObject projectilePrefab;
     protected GameObject projectile;
     public int WeaponCost;
+    public float DamageMultiplier;
 
     public virtual void Shoot(float angle)
     {
