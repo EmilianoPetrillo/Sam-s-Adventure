@@ -26,6 +26,8 @@ public class UITextController : MonoBehaviour
     public GameObject StartPanel;
     public GameObject[] Backgrounds;
     public GameObject CurrentBackground;
+    public Transform SpawnPosition;
+    public GameObject Portal;
     private int i = 0;
     private int j = 0;
 
@@ -50,13 +52,20 @@ public class UITextController : MonoBehaviour
         CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
     }
 
+    //Integrate this changes for portal spawning
+    //GameObject portal = Instantiate(Portal, SpawnPosition.position, Quaternion.identity);
+    //new WaitForSeconds(1);
+    //DitzeGames.Effects.CameraEffects.ShakeOnce(3);
+    //new WaitForSeconds(4);
+    //Destroy(portal);
+
     public void NextPhase()
     {
         TextsAndArrows[j].SetActive(false);
         if(j >= TextsAndArrows.GetLength(0) - 1)
         {
-            GameController.Instance.SpawnEnemy();
             ChangeGamePanel();
+            GameController.Instance.SpawnEnemy();
         }
         else
         {

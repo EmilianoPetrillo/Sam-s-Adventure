@@ -1999,7 +1999,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: ccd3bbccfc1a64a48a76e39f069a4f5b, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 1
+  m_Volume: 0.25
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -12365,6 +12365,8 @@ MonoBehaviour:
   - {fileID: 2648943712416751105, guid: 47bc3060f212f6d4dbf3bfd7851476c9, type: 3}
   - {fileID: 6970653023920866548, guid: b01db8234155e8c41a429292d8bc7a55, type: 3}
   CurrentBackground: {fileID: 0}
+  SpawnPosition: {fileID: 1308625935}
+  Portal: {fileID: 1044598877515549908, guid: bc3a427b4e02e384891f06c020257866, type: 3}
 --- !u!1 &2073800592
 GameObject:
   m_ObjectHideFlags: 0
