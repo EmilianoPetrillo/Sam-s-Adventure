@@ -28,6 +28,7 @@ public class GameController : MonoBehaviour
     public GameObject[] Boss;
     public Transform SpawnPosition;
     public GameObject Game;
+    public Transform SpawnPositionFly;
 
     private int stage;
     private int level;

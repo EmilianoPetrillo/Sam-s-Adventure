@@ -9,17 +9,20 @@ public class MagicDice : MonoBehaviour
     float t = 0;
     public float damage;
     public bool HasExplodingAnimation = false;
+    private GameObject player;
 
     private void Start()
     {
-        speed = -8;
+        speed = 12;
+        player = GameObject.FindGameObjectWithTag("Player");
     }
 
     protected virtual void Update()
     {
-        transform.Translate(Vector3.right * speed * Time.deltaTime);
+        //transform.Translate(Vector3.right * speed * Time.deltaTime);
+        transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         t += Time.deltaTime;
-        if (t >= 2)
+        if (t >= 30)
         {
             Destroy(gameObject);
         }
