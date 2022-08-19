@@ -17,6 +17,9 @@ public abstract class WeaponItem : Item
     protected GameObject projectile;
     public int WeaponCost;
     public float DamageMultiplier;
+    public float AttackSpeed;
+    private float AttackRate = 0f;
+    Player player;
 
     public virtual void Shoot(float angle)
     {
@@ -39,5 +42,10 @@ public abstract class WeaponItem : Item
             PlayerInventoryUI.Instance.AddWeaponToInventory(this);
             Debug.Log("You have acquired " + name);
         }
+    }
+
+    public virtual void Update()
+    {
+    
     }
 }

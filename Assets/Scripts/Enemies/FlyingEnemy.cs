@@ -10,6 +10,7 @@ public class FlyingEnemy : Enemy
     protected override void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        transform.position = new Vector2(transform.position.x, transform.position.y + 4);
     }
 
     protected override void Update()

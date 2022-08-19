@@ -12318,6 +12318,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   EnemiesWorld1:
   - {fileID: 3235165854459304685, guid: 91ba4f43a37f64442b77c9b2771e22ea, type: 3}
+  - {fileID: 7619324482846993826, guid: ee93435f661d4314997a571b9c73e53b, type: 3}
+  - {fileID: 888538370235454064, guid: 5566776b1fe5e4f4195a01e23910d43c, type: 3}
+  - {fileID: 7619324482846993826, guid: 4a979dec2e9f9024d9c20706624c6f3f, type: 3}
+  - {fileID: 3216597812450554660, guid: 557f60d7bbdffcd4fad03421418b020c, type: 3}
+  - {fileID: 9029908376087644320, guid: 8e077e84775847f41a30aa75b726af09, type: 3}
   EnemiesWorld2:
   - {fileID: 6363871807855489389, guid: 821abbbf31a516244be0f54e90cb6ee1, type: 3}
   - {fileID: 8097721896163224380, guid: 5f011416f1ac2b847b9fd374e7f4b501, type: 3}
@@ -12332,7 +12337,7 @@ MonoBehaviour:
   - {fileID: 6724001826590004861, guid: 3cbb61be459c6034b8f033a5b90d48d6, type: 3}
   - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
   - {fileID: 7545121625123481855, guid: effd769d2cc7de245820608c751bb5e2, type: 3}
-  SpawnPosition: {fileID: 1374080969}
+  SpawnPosition: {fileID: 1308625935}
   Game: {fileID: 0}
   SpawnPositionFly: {fileID: 1374080969}
   maxLevel: 0

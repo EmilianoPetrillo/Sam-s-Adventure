@@ -95,9 +95,9 @@
      <None Include="Assets\Animation\Fire Worm\License.txt" />
      <None Include="Assets\Animation\EVil Wizard 2\License.txt" />
      <None Include="Assets\AssetsMaterial\Shikashi&apos;s Fantasy Icons Pack v2\Shikashi&apos;s Fantasy Icons Pack.txt" />
-     <None Include="Assets\Animation\_Info.txt" />
+     <None Include="Assets\Animation\SlaveKnight\_Info.txt" />
      <None Include="Assets\AssetsMaterial\Font.txt" />
-     <None Include="Assets\Animation\license.txt" />
+     <None Include="Assets\Animation\SlaveKnight\license.txt" />
      <None Include="Assets\Animation\Evil Wizard\License.txt" />
      <None Include="Assets\Animation\Bringer Of Death\Contact.txt" />
  <Reference Include="UnityEngine">

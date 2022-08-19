@@ -9,6 +9,7 @@ public class Player : Character
     public HealthBar healthBar;
     public Animator animator;
     private CharacterSO playerSO;
+    
 
     public CharacterSO PlayerSO
     {
@@ -149,6 +150,7 @@ public class Player : Character
             HeldWeapons[weapon].Shoot(angle);
         else
             print("You have no weapon in your hands!");
+
     }
 
     private bool tutorial = true;
