@@ -17,3 +17,4 @@ MonoBehaviour:
   CRITRATE: 0
   CRITDAMAGE: 150
   MAXHP: 0
+  ATTACKSPEED: 1

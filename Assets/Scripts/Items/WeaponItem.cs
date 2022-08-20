@@ -17,13 +17,13 @@ public abstract class WeaponItem : Item
     protected GameObject projectile;
     public int WeaponCost;
     public float DamageMultiplier;
-    public float AttackSpeed;
-    private float AttackRate = 0f;
-    Player player;
+    public float ShootRate;
+    private float time;
+    
 
     public virtual void Shoot(float angle)
     {
-
+        
     }
 
     protected void DamageCalculator(float dmg, GameObject projectile)
@@ -46,6 +46,13 @@ public abstract class WeaponItem : Item
 
     public virtual void Update()
     {
-    
+        //    time += Time.deltaTime;
+        //    float nextTimeToShoot = 1 / ShootRate;
+        //    if (time >= nextTimeToShoot)
+        //    {
+
+        //        Shoot(float angle);
+        //        time = 0;
+        //    }
     }
 }

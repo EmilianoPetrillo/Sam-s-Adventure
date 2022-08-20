@@ -212,7 +212,7 @@ TextureImporter:
         y: 197
         width: 25
         height: 59
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -233,7 +233,7 @@ TextureImporter:
         y: 200
         width: 25
         height: 53
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -254,7 +254,7 @@ TextureImporter:
         y: 134
         width: 25
         height: 54
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -273,11 +273,11 @@ TextureImporter:
         serializedVersion: 2
         x: 161
         y: 128
-        width: 64
+        width: 62
         height: 42
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
-      border: {x: 20, y: 0, z: 21, w: 0}
+      border: {x: 21, y: 0, z: 19, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -292,13 +292,13 @@ TextureImporter:
       name: attack_from_air_4
       rect:
         serializedVersion: 2
-        x: 27
+        x: 32
         y: 63
-        width: 74
+        width: 72
         height: 45
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
-      border: {x: 30, y: 0, z: 25, w: 0}
+      border: {x: 22, y: 0, z: 29, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -317,7 +317,7 @@ TextureImporter:
         y: 74
         width: 7
         height: 8
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -338,7 +338,7 @@ TextureImporter:
         y: 64
         width: 27
         height: 21
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -355,13 +355,13 @@ TextureImporter:
       name: attack_from_air_7
       rect:
         serializedVersion: 2
-        x: 156
+        x: 153
         y: 63
-        width: 75
+        width: 83
         height: 45
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
-      border: {x: 26, y: 0, z: 28, w: 0}
+      border: {x: 30, y: 0, z: 29, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -380,7 +380,7 @@ TextureImporter:
         y: 81
         width: 6
         height: 4
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -401,7 +401,7 @@ TextureImporter:
         y: 74
         width: 6
         height: 6
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -422,7 +422,7 @@ TextureImporter:
         y: 64
         width: 12
         height: 11
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -443,7 +443,7 @@ TextureImporter:
         y: 64
         width: 29
         height: 8
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
@@ -460,13 +460,13 @@ TextureImporter:
       name: attack_from_air_12
       rect:
         serializedVersion: 2
-        x: 20
+        x: 21
         y: 0
-        width: 82
+        width: 84
         height: 46
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
-      border: {x: 33, y: 0, z: 23, w: 0}
+      border: {x: 33, y: 0, z: 27, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
@@ -485,7 +485,7 @@ TextureImporter:
         y: 0
         width: 20
         height: 20
-      alignment: 0
+      alignment: 6
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
