@@ -18,15 +18,21 @@ public abstract class WeaponItem : Item
     public int WeaponCost;
     public float DamageMultiplier;
     public float ShootRate;
-    private float time;
-    bool hasShoot = false;
-    
+    protected float time;
+    public bool Shooting = false;
 
-    public virtual void Shoot(float angle)
+    public virtual IEnumerator Shoot(GameObject Arm)
     {
-        
+        yield break;    
     }
-
+    public void StopShoot()
+    {
+        Shooting = false;
+    }
+    public void StartShoot()
+    {
+        Shooting = true;
+    }
     protected void DamageCalculator(float dmg, GameObject projectile)
     {
         if (Random.Range(0f, 1f) <= (Player.Instance.PlayerSO.CRITRATE / 100))
@@ -47,12 +53,6 @@ public abstract class WeaponItem : Item
 
     public virtual void Update()
     {
-        time += Time.deltaTime;
-        float nextTimeToShoot = 1 / ShootRate;
-        if (time >= nextTimeToShoot)
-        {
-            hasShoot = false;
-            time = 0;
-        }
+        
     }
 }

@@ -41,7 +41,7 @@ public class Player : Character
 
     private float t = 0;
     private bool timer = false;
-
+    private Coroutine shootCoroutine = null;
     private void Start()
     {
         healthBar.SetMaxHealth(playerSO.HP);
@@ -140,17 +140,23 @@ public class Player : Character
 
     public void Attack()
     {
-        Vector3 mouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        mouseDirection.z = 0f;
-        Vector3 aimDirection = (mouseDirection - Arm.transform.position).normalized;
-        float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-        angle = Mathf.Clamp(angle, -30f, 30f);
-        Arm.transform.eulerAngles = new Vector3(0, 0, angle);
-        if (HeldWeapons[weapon] && hasShoot == false != null)
-            HeldWeapons[weapon].Shoot(angle);
+        if(HeldWeapons[weapon].Shooting == false)
+        {
+            HeldWeapons[weapon].StartShoot();
+        }
+        Debug.Log("Called Attack!");
+        if (HeldWeapons[weapon] && hasShoot == false)
+            shootCoroutine = StartCoroutine(HeldWeapons[weapon].Shoot(Arm));
         else
             print("You have no weapon in your hands!");
 
+    }
+
+    public void StopShooting()
+    {
+        HeldWeapons[weapon].StopShoot();
+        StopCoroutine(shootCoroutine);
+        shootCoroutine = null;
     }
 
     private bool tutorial = true;
