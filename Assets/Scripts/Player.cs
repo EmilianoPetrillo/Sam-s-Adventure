@@ -9,7 +9,7 @@ public class Player : Character
     public HealthBar healthBar;
     public Animator animator;
     private CharacterSO playerSO;
-    
+    bool hasShoot = false;
 
     public CharacterSO PlayerSO
     {
@@ -146,7 +146,7 @@ public class Player : Character
         float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
         angle = Mathf.Clamp(angle, -30f, 30f);
         Arm.transform.eulerAngles = new Vector3(0, 0, angle);
-        if (HeldWeapons[weapon] != null)
+        if (HeldWeapons[weapon] && hasShoot == false != null)
             HeldWeapons[weapon].Shoot(angle);
         else
             print("You have no weapon in your hands!");

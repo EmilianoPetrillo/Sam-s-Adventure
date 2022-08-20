@@ -19,4 +19,4 @@ MonoBehaviour:
   projectilePrefab: {fileID: 8689375317197207745, guid: e559ca8296b067a4d8f23f5adbc171fc, type: 3}
   WeaponCost: 100
   DamageMultiplier: 10
-  AttackSpeed: 1
+  ShootRate: 3

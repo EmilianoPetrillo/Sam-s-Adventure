@@ -19,6 +19,7 @@ public abstract class WeaponItem : Item
     public float DamageMultiplier;
     public float ShootRate;
     private float time;
+    bool hasShoot = false;
     
 
     public virtual void Shoot(float angle)
@@ -46,13 +47,12 @@ public abstract class WeaponItem : Item
 
     public virtual void Update()
     {
-        //    time += Time.deltaTime;
-        //    float nextTimeToShoot = 1 / ShootRate;
-        //    if (time >= nextTimeToShoot)
-        //    {
-
-        //        Shoot(float angle);
-        //        time = 0;
-        //    }
+        time += Time.deltaTime;
+        float nextTimeToShoot = 1 / ShootRate;
+        if (time >= nextTimeToShoot)
+        {
+            hasShoot = false;
+            time = 0;
+        }
     }
 }
