@@ -5,14 +5,9 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "New Weapon Item", menuName = "Create Weapon Item/Pistol")]
 public class PistolItem : WeaponItem
 {
-    
-    private void Awake()
-    {
-        ShootRate = 1;
-    }
     public override IEnumerator Shoot(GameObject Arm)
     {
-        while (Shooting)
+        while (true)
         {
             Vector3 mouseDirection = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             mouseDirection.z = 0f;
@@ -23,7 +18,7 @@ public class PistolItem : WeaponItem
             float pistolatk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(pistolatk, projectile);
-            yield return new WaitForSeconds(ShootRate);
+            yield return new WaitForSeconds(0.75f);
         }
         
     }

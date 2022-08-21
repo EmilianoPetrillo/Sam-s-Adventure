@@ -140,13 +140,14 @@ public class Player : Character
 
     public void Attack()
     {
-        if(HeldWeapons[weapon].Shooting == false)
+        if(HeldWeapons[weapon] != null)
         {
-            HeldWeapons[weapon].StartShoot();
+            if (HeldWeapons[weapon].Shooting == false)
+            {
+                HeldWeapons[weapon].StartShoot();
+                shootCoroutine = StartCoroutine(HeldWeapons[weapon].Shoot(Arm));
+            }
         }
-        Debug.Log("Called Attack!");
-        if (HeldWeapons[weapon] && hasShoot == false)
-            shootCoroutine = StartCoroutine(HeldWeapons[weapon].Shoot(Arm));
         else
             print("You have no weapon in your hands!");
 
@@ -155,8 +156,12 @@ public class Player : Character
     public void StopShooting()
     {
         HeldWeapons[weapon].StopShoot();
-        StopCoroutine(shootCoroutine);
-        shootCoroutine = null;
+        if(shootCoroutine != null)
+        {
+            StopCoroutine(shootCoroutine);
+            shootCoroutine = null;
+        }
+        
     }
 
     private bool tutorial = true;

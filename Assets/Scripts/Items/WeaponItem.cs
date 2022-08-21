@@ -17,7 +17,6 @@ public abstract class WeaponItem : Item
     protected GameObject projectile;
     public int WeaponCost;
     public float DamageMultiplier;
-    public float ShootRate;
     protected float time;
     public bool Shooting = false;
 

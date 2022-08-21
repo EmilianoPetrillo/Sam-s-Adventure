@@ -43,6 +43,7 @@ public class OnLongPressBehaviour : MonoBehaviour, IPointerDownHandler, IPointer
     void OnReleaseLongPress()
     {
         //held = true;
-        onReleaseLongPress.Invoke();
+        if(onReleaseLongPress!=null)
+            onReleaseLongPress.Invoke();
     }
 }

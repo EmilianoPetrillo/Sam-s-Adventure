@@ -1276,7 +1276,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 503fce4411a0b7f4a9fe3f1834982b29, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  holdTime: 0.1
+  holdTime: 0.5
   onLongPress:
     m_PersistentCalls:
       m_Calls:
