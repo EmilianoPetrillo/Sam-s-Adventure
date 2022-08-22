@@ -18,7 +18,7 @@ public class PistolItem : WeaponItem
             float pistolatk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(pistolatk, projectile);
-            yield return new WaitForSeconds(0.75f);
+            yield return new WaitForSeconds(0.50f);
         }
         
     }

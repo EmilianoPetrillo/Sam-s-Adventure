@@ -98,7 +98,7 @@ public class SlaveKnight : Enemy
     protected override void Attack()
     {
         timer = true;
-        float x = Random.Range(0f, 1f);
+        float x = Random.Range(0f, 2f);
         if (x <= 0.5f)
             animator.SetBool("Attack", true);
         //else

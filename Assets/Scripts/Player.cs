@@ -154,7 +154,7 @@ public class Player : Character
     }
 
     public void StopShooting()
-    {
+    { if (HeldWeapons[weapon] != null)
         HeldWeapons[weapon].StopShoot();
         if(shootCoroutine != null)
         {

@@ -12,12 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: SlaveKnight
   m_EditorClassIdentifier: 
-  HP: 0
-  ATK: 0
+  HP: 2500
+  ATK: 25
   CRITRATE: 0
   CRITDAMAGE: 0
-  MAXHP: 0
-  coins: 0
+  MAXHP: 2500
+  coins: 500
   multiplier: 1
-  attackRange: []
-  moveSpeed: 0
+  attackRange:
+  - 2
+  moveSpeed: 4
