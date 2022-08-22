@@ -13,11 +13,11 @@ public class SlaveKnight : Enemy
         enemySO.MAXHP = enemySO.HP;
     }
 
-    public override void TakeDamage(int damage)
-    {
-        if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
-            base.TakeDamage(damage);
-    }
+    //public override void TakeDamage(int damage)
+    //{
+    //    if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
+    //        base.TakeDamage(damage);
+    //}
 
     protected override void Update()
     {
@@ -26,13 +26,13 @@ public class SlaveKnight : Enemy
             if (animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
                 Move();
 
-            if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
-            {
-                animator.SetBool("Pray", false);
-                animator.SetBool("Walk", true);
-                timer = false;
-                t = 0;
-            }
+            //if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
+            //{
+            //    animator.SetBool("Pray", false);
+            //    animator.SetBool("Walk", true);
+            //    timer = false;
+            //    t = 0;
+            //}
 
             if (enemySO.HP <= enemySO.MAXHP / 3)
             {
@@ -47,9 +47,9 @@ public class SlaveKnight : Enemy
                 t = 0;
             }
 
-            if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("AttackCombo"))
+            if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
             {
-                animator.SetBool("AttackCombo", false);
+                animator.SetBool("Attack", false);
                 animator.SetBool("Walk", true);
                 timer = false;
                 t = 0;
@@ -87,7 +87,7 @@ public class SlaveKnight : Enemy
 
     private void StartHealPhase()
     {
-        animator.SetBool("AttackCombo", false);
+        animator.SetBool("Attack", false);
         //animator.SetBool("AttackfromAir", false);
         animator.SetBool("Walk", false);
         animator.SetBool("Heal", true);
@@ -100,9 +100,9 @@ public class SlaveKnight : Enemy
         timer = true;
         float x = Random.Range(0f, 1f);
         if (x <= 0.5f)
-            animator.SetBool("AttackCombo", true);
-        else
-            animator.SetBool("Roll", true);
+            animator.SetBool("Attack", true);
+        //else
+        //    animator.SetBool("Roll", true);
     }
 
     public void Heal()
@@ -112,8 +112,8 @@ public class SlaveKnight : Enemy
             enemySO.HP += enemySO.HP / 20;
     }
 
-    public void Jump()
-    {
+    //public void Jump()
+    //{
         
-    }
+    //}
 }
