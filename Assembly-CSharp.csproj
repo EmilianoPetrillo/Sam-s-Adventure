@@ -85,6 +85,7 @@
      <Compile Include="Assets\Scripts\OnLongPressBehaviour.cs" />
      <Compile Include="Assets\Scripts\Enemies\EnemySO.cs" />
      <Compile Include="Assets\Scripts\CharacterSO.cs" />
+     <Compile Include="Assets\Scripts\Enemies\SlaveKnight.cs" />
      <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
      <Compile Include="Assets\Scripts\URLButton.cs" />
      <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
