@@ -40,8 +40,13 @@ public class Player : Character
     public int weapon = 0;//0 pistola, 1 pompa, 2 cecchino
 
     private float t = 0;
+    private float t1 = 0;
+    private float t2 = 0;
     private bool timer = false;
+    public bool timer1 = false;
+    public bool timer2 = false;
     private Coroutine shootCoroutine = null;
+
     private void Start()
     {
         healthBar.SetMaxHealth(playerSO.HP);
@@ -62,6 +67,27 @@ public class Player : Character
             t += Time.deltaTime;
             if (t >= 2)
                 ShieldOn();
+        }
+
+        if (timer1 && HeldWeapons[weapon] != null)
+        {
+            t1 += Time.deltaTime;
+            if (t1 >= 1 / HeldWeapons[weapon].FireRate)
+            {
+                StopShooting();
+                t1 = 0;
+                timer1 = false;
+            }
+        }
+
+        if (timer2 && HeldWeapons[weapon] != null)
+        {
+            t2 += Time.deltaTime;
+            if (t2 >= 1 / HeldWeapons[weapon].FireRate)
+            {
+                t2 = 0;
+                timer2 = false;
+            }
         }
     }
 
@@ -140,17 +166,30 @@ public class Player : Character
 
     public void Attack()
     {
-        if(HeldWeapons[weapon] != null)
+        if(HeldWeapons[weapon] != null && HeldWeapons[weapon].Shooting == false)
         {
-            if (HeldWeapons[weapon].Shooting == false)
+            
+            if (HeldWeapons[weapon].weaponFireType == WeaponItem.eWeaponFireType.Manual && timer1 == false)
             {
                 HeldWeapons[weapon].StartShoot();
+                timer1 = true;
                 shootCoroutine = StartCoroutine(HeldWeapons[weapon].Shoot(Arm));
+            }
+
+            if (HeldWeapons[weapon].weaponFireType == WeaponItem.eWeaponFireType.Automatic && timer2 == false)
+            {
+                shootCoroutine = StartCoroutine(HeldWeapons[weapon].Shoot(Arm));
+                timer2 = true;
             }
         }
         else
             print("You have no weapon in your hands!");
 
+    }
+
+    public void StopAutoShoot()
+    {
+        timer1 = true;
     }
 
     public void StopShooting()
@@ -161,7 +200,6 @@ public class Player : Character
             StopCoroutine(shootCoroutine);
             shootCoroutine = null;
         }
-        
     }
 
     private bool tutorial = true;

@@ -35,7 +35,9 @@ public class GameController : MonoBehaviour
     public int maxLevel;
 
     bool timer = false;
+    bool timer1 = false;
     float t = 0;
+    float t1 = 0;
 
     private void Start()
     {
@@ -52,6 +54,11 @@ public class GameController : MonoBehaviour
             t += Time.deltaTime;
             if (t > 1)
                 LevelUp();
+        }
+
+        if (timer1 == true)
+        {
+            t1 += Time.deltaTime;
         }
     }
 

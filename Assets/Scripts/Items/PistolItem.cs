@@ -13,14 +13,13 @@ public class PistolItem : WeaponItem
             mouseDirection.z = 0f;
             Vector3 aimDirection = (mouseDirection - Arm.transform.position).normalized;
             float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
-            angle = Mathf.Clamp(angle, -30f, 30f);
+            angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
             float pistolatk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(pistolatk, projectile);
-            yield return new WaitForSeconds(0.50f);
+            yield break;
         }
-        
     }
 
 }

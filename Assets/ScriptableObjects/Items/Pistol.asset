@@ -16,7 +16,9 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 2e11c0db01c654f4f897c367c41e21cc, type: 3}
   ItemType: 1
   WeaponType: 0
+  weaponFireType: 0
+  FireRate: 1
   projectilePrefab: {fileID: 2071703974779912799, guid: 3d2e10ed047fe94428947701ea7c829b, type: 3}
   WeaponCost: 0
   DamageMultiplier: 10
-  ShootRate: 1
+  Shooting: 0

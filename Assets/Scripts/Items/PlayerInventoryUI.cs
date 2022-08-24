@@ -34,6 +34,7 @@ public class PlayerInventoryUI : MonoBehaviour
 
         // AddItemToInventory(ItemController.Instance.Items.GetItem(Item.eItemType.Consumable));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Pistol));
+        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Shotgun));
     }
 
     public void AddItemToInventory(Item _item)

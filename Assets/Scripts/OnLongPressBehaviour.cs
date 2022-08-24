@@ -4,9 +4,24 @@ using UnityEngine.EventSystems;
 
 public class OnLongPressBehaviour : MonoBehaviour, IPointerDownHandler, IPointerUpHandler, IPointerExitHandler
 {
+
+    public static OnLongPressBehaviour Instance;
+
+    private void Awake()
+    {
+        if (Instance != null && Instance != this)
+        {
+            Destroy(this);
+        }
+        else
+        {
+            Instance = this;
+        }
+    }
+
     [SerializeField]
     [Tooltip("How long must pointer be down on this object to trigger a long press")]
-    private float holdTime = 1f;
+    public float holdTime;
 
     //private bool held = false;
     //public UnityEvent onClick = new UnityEvent();
@@ -40,6 +55,7 @@ public class OnLongPressBehaviour : MonoBehaviour, IPointerDownHandler, IPointer
         //held = true;
         onLongPress.Invoke();
     }
+
     void OnReleaseLongPress()
     {
         //held = true;

@@ -9,10 +9,22 @@ public abstract class WeaponItem : Item
     {
         Pistol,
         Shotgun,
-        Sniper
+        Sniper,
+        Desolation
     }
 
     public eWeaponType WeaponType;
+
+    public enum eWeaponFireType
+    {
+        Manual,
+        Automatic
+    }
+
+    public eWeaponFireType weaponFireType;
+
+    public float FireRate;
+
     public GameObject projectilePrefab;
     protected GameObject projectile;
     public int WeaponCost;
@@ -24,14 +36,17 @@ public abstract class WeaponItem : Item
     {
         yield break;    
     }
+
     public void StopShoot()
     {
         Shooting = false;
     }
+
     public void StartShoot()
     {
         Shooting = true;
     }
+
     protected void DamageCalculator(float dmg, GameObject projectile)
     {
         if (Random.Range(0f, 1f) <= (Player.Instance.PlayerSO.CRITRATE / 100))
