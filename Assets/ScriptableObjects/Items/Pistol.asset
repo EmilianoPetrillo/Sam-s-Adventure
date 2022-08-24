@@ -17,7 +17,7 @@ MonoBehaviour:
   ItemType: 1
   WeaponType: 0
   weaponFireType: 0
-  FireRate: 1
+  FireRate: 2
   projectilePrefab: {fileID: 2071703974779912799, guid: 3d2e10ed047fe94428947701ea7c829b, type: 3}
   WeaponCost: 0
   DamageMultiplier: 10

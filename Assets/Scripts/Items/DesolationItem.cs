@@ -15,9 +15,9 @@ public class DesolationItem : WeaponItem
             float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
             angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
-            float pistolatk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
+            float desolationAtk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
-            DamageCalculator(pistolatk, projectile);
+            DamageCalculator(desolationAtk, projectile);
             yield return new WaitForSeconds(1 / FireRate);
         }
 

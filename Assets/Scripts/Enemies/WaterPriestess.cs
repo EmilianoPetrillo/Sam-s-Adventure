@@ -106,8 +106,13 @@ public class WaterPriestess : Enemy
 
     public void Heal()
     {
-        enemySO.MAXHP -= enemySO.MAXHP / 100;
         if (enemySO.HP <= enemySO.MAXHP)
-            enemySO.HP += enemySO.HP/20;
+        {
+            if (enemySO.HP + enemySO.MAXHP / 20 <= enemySO.MAXHP)
+                enemySO.HP += enemySO.MAXHP / 20;
+            else
+                enemySO.HP = enemySO.MAXHP;
+        }
+        healthBar.SetHealth(enemySO.HP);
     }
 }

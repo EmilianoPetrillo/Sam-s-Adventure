@@ -9,7 +9,6 @@ public class Player : Character
     public HealthBar healthBar;
     public Animator animator;
     private CharacterSO playerSO;
-    bool hasShoot = false;
 
     public CharacterSO PlayerSO
     {

@@ -34,7 +34,7 @@ public class SlaveKnight : Enemy
             //    t = 0;
             //}
 
-            if (enemySO.HP <= enemySO.MAXHP / 3)
+            if (enemySO.HP <= enemySO.MAXHP / 3 && hasHealed == false)
             {
                 StartHealPhase();
             }
@@ -42,14 +42,6 @@ public class SlaveKnight : Enemy
             if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Heal"))
             {
                 animator.SetBool("Heal", false);
-                animator.SetBool("Walk", true);
-                timer = false;
-                t = 0;
-            }
-
-            if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Attack"))
-            {
-                animator.SetBool("Attack", false);
                 animator.SetBool("Walk", true);
                 timer = false;
                 t = 0;
@@ -85,8 +77,11 @@ public class SlaveKnight : Enemy
             Attack();
     }
 
+    private bool hasHealed = false;
+
     private void StartHealPhase()
     {
+        hasHealed = true;
         animator.SetBool("Attack", false);
         //animator.SetBool("AttackfromAir", false);
         animator.SetBool("Walk", false);
@@ -97,19 +92,24 @@ public class SlaveKnight : Enemy
 
     protected override void Attack()
     {
-        timer = true;
-        float x = Random.Range(0f, 2f);
-        if (x <= 0.5f)
-            animator.SetBool("Attack", true);
+        //float x = Random.Range(0f, 2f);
+        //if (x <= 0.5f)
+        animator.SetBool("Attack", true);
+        animator.SetBool("Walk", false);
         //else
         //    animator.SetBool("Roll", true);
     }
 
     public void Heal()
     {
-        enemySO.MAXHP -= enemySO.MAXHP / 100;
         if (enemySO.HP <= enemySO.MAXHP)
-            enemySO.HP += enemySO.HP / 20;
+        {
+            if (enemySO.HP + enemySO.MAXHP / 20 <= enemySO.MAXHP)
+                enemySO.HP += enemySO.MAXHP / 20;
+            else
+                enemySO.HP = enemySO.MAXHP;
+        }
+        healthBar.SetHealth(enemySO.HP);
     }
 
     //public void Jump()
