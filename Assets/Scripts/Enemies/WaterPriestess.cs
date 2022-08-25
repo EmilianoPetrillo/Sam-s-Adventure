@@ -33,7 +33,7 @@ public class WaterPriestess : Enemy
                 t = 0;
             }
 
-            if (enemySO.HP <= enemySO.MAXHP / 3)
+            if (enemySO.HP <= enemySO.MAXHP * (enemySO.healthAmountToTriggerHealPhaseInPercent / 100))
             {
                 StartHealPhase();
             }
@@ -108,8 +108,8 @@ public class WaterPriestess : Enemy
     {
         if (enemySO.HP <= enemySO.MAXHP)
         {
-            if (enemySO.HP + enemySO.MAXHP / 20 <= enemySO.MAXHP)
-                enemySO.HP += enemySO.MAXHP / 20;
+            if (enemySO.HP + enemySO.MAXHP * (enemySO.healthAmountToRecoverInPercent / 100) <= enemySO.MAXHP)
+                enemySO.HP += enemySO.MAXHP * (enemySO.healthAmountToRecoverInPercent / 100);
             else
                 enemySO.HP = enemySO.MAXHP;
         }

@@ -57,6 +57,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enemies\DistanceEnemy.cs" />
+    <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
     <Compile Include="Assets\AssetsMaterial\Portals\FlyingObelisk_Simple\CameraEffects.cs" />
     <Compile Include="Assets\Scripts\Enemies\WaterPriestess.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
@@ -98,7 +99,8 @@
     <Compile Include="Assets\Scripts\Enemies\SlaveKnight.cs" />
     <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
     <Compile Include="Assets\Scripts\URLButton.cs" />
-    <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
+    <Compile Include="Assets\Scripts\Items\DominionItem.cs" />
+    <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
@@ -110,7 +112,7 @@
     <None Include="Assets\AssetsMaterial\bulkhead-walls-files\license.txt" />
     <None Include="Assets\Animation\Fire Worm\License.txt" />
     <None Include="Assets\AssetsMaterial\GunsPack\Font.txt" />
-    <None Include="Assets\Animation\EVil Wizard 2\License.txt" />
+    <None Include="Assets\Animation\Dark Wizard\License.txt" />
     <None Include="Assets\AssetsMaterial\Shikashi&apos;s Fantasy Icons Pack v2\Shikashi&apos;s Fantasy Icons Pack.txt" />
     <None Include="Assets\Animation\SlaveKnight\_Info.txt" />
     <None Include="Assets\AssetsMaterial\Font.txt" />

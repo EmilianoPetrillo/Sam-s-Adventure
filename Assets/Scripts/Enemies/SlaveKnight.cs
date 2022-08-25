@@ -9,7 +9,6 @@ public class SlaveKnight : Enemy
     {
         base.Start();
         animator.GetCurrentAnimatorStateInfo(0);
-        timer = true;
         enemySO.MAXHP = enemySO.HP;
     }
 
@@ -34,7 +33,7 @@ public class SlaveKnight : Enemy
             //    t = 0;
             //}
 
-            if (enemySO.HP <= enemySO.MAXHP / 3 && hasHealed == false)
+            if (enemySO.HP <= enemySO.MAXHP * (enemySO.healthAmountToTriggerHealPhaseInPercent / 100) && hasHealed == false)
             {
                 StartHealPhase();
             }
@@ -104,8 +103,8 @@ public class SlaveKnight : Enemy
     {
         if (enemySO.HP <= enemySO.MAXHP)
         {
-            if (enemySO.HP + enemySO.MAXHP / 20 <= enemySO.MAXHP)
-                enemySO.HP += enemySO.MAXHP / 20;
+            if (enemySO.HP + enemySO.MAXHP * (enemySO.healthAmountToRecoverInPercent / 100) <= enemySO.MAXHP)
+                enemySO.HP += enemySO.MAXHP * (enemySO.healthAmountToRecoverInPercent / 100);
             else
                 enemySO.HP = enemySO.MAXHP;
         }

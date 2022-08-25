@@ -9,4 +9,6 @@ public class EnemySO : CharacterSO
     public float multiplier = 1;
     public float[] attackRange;
     public float moveSpeed;
+    public float healthAmountToRecoverInPercent;
+    public float healthAmountToTriggerHealPhaseInPercent;
 }

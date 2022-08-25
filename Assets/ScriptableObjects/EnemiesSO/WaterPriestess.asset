@@ -22,3 +22,5 @@ MonoBehaviour:
   attackRange:
   - 2
   moveSpeed: 5
+  healthAmountToRecoverInPercent: 99
+  healthAmountToTriggerHealPhaseInPercent: 30
