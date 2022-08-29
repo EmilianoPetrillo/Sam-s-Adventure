@@ -11,7 +11,8 @@ public abstract class WeaponItem : Item
         Shotgun,
         Sniper,
         Desolation,
-        Dominion
+        Dominion,
+        Frozen
     }
 
     public eWeaponType WeaponType;

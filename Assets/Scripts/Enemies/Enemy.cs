@@ -49,6 +49,7 @@ public class Enemy : Character
         }
     }
 
+
     protected virtual void Move()
     {
         if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
@@ -95,4 +96,12 @@ public class Enemy : Character
     {
         Player.Instance.TakeDamage((int)enemySO.ATK);
     }
+
+    //private void OnTriggerEnter()
+    //{
+    //    if (other.gameObject.tag == "Gelo")
+    //    {
+    //        Freeze();
+    //    }
+    //}
 }
