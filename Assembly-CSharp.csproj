@@ -49,6 +49,7 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enemies\DistanceEnemy.cs" />
      <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
+     <Compile Include="Assets\Scripts\Items\FrozenProjectile.cs" />
      <Compile Include="Assets\AssetsMaterial\Portals\FlyingObelisk_Simple\CameraEffects.cs" />
      <Compile Include="Assets\Scripts\Enemies\WaterPriestess.cs" />
      <Compile Include="Assets\Scripts\UITextController.cs" />
@@ -92,6 +93,7 @@
      <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
      <Compile Include="Assets\Scripts\URLButton.cs" />
      <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
+     <Compile Include="Assets\Scripts\Items\FrozenItem.cs" />
      <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
      <None Include="Assets\AssetsMaterial\License.txt" />
      <None Include="Assets\Animation\Bringer Of Death\License.txt" />

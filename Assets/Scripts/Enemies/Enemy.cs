@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+
 
 public class Enemy : Character
 {
@@ -10,6 +12,14 @@ public class Enemy : Character
 
     protected Animator animator;
     public HealthBar healthBar;
+
+    float mFreezingSpeed = 1.0f; // Seconds to freeze
+
+    private bool mFreezing = false; // Is freezing or not
+    private float mTimeScale = 1.0f; // Own time scale
+    private float mFreezeTime = 150.0f; // How many seconds left to recover from freezing, use this in case the enemy need to move again after some seconds
+
+    private static float FT = 5.0f; // Duration of freezing effect
 
     protected float t = 0;
     protected bool timer;
@@ -47,14 +57,34 @@ public class Enemy : Character
             GameController.Instance.LevelUp();
             Destroy(gameObject);
         }
-    }
+        if (mFreezing == true)
+        {
+            // Diminish local time scale until reach 0.0
+            if (mTimeScale > 0.0)
+            {
+                mTimeScale -= (1.0f / mFreezingSpeed) * Time.deltaTime;
 
+                if (mTimeScale < 0.0)
+                    mTimeScale = 0.0f;
+            }
+            else
+            {
+                mFreezeTime -= Time.deltaTime;
+
+                if (mFreezeTime <= 0)
+                {
+                    UnFreeze();
+                }
+            }
+        }
+    }
 
     protected virtual void Move()
     {
         if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
         {
-            transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);
+            transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime * mTimeScale);
+            UnityEngine.Debug.Log(mTimeScale);
         }
         else
             Attack();
@@ -97,11 +127,25 @@ public class Enemy : Character
         Player.Instance.TakeDamage((int)enemySO.ATK);
     }
 
-    //private void OnTriggerEnter()
-    //{
-    //    if (other.gameObject.tag == "Gelo")
-    //    {
-    //        Freeze();
-    //    }
-    //}
+    void OnColliderEnter(Collision collision)
+    {
+        if (collision.gameObject.tag == "Gelo")
+        {
+            UnityEngine.Debug.Log("Gelo");
+            Freeze();
+        }
+    }
+
+    private void Freeze()
+    {
+        mFreezing = true;
+        mFreezeTime = FT;
+    }
+
+    private void UnFreeze()
+    {
+        mFreezing = false;
+        mTimeScale = 1.0f;
+        mFreezeTime = 0.0f;
+    }
 }
