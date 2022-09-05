@@ -61,15 +61,20 @@
     <Compile Include="Assets\Scripts\Items\FrozenProjectile.cs" />
     <Compile Include="Assets\AssetsMaterial\Portals\FlyingObelisk_Simple\CameraEffects.cs" />
     <Compile Include="Assets\Scripts\Enemies\WaterPriestess.cs" />
+    <Compile Include="Assets\Scripts\MenuSystem\LoadingScreen.cs" />
     <Compile Include="Assets\Scripts\UITextController.cs" />
     <Compile Include="Assets\Scripts\Player.cs" />
     <Compile Include="Assets\Scripts\Enemies\DistanceFlyingEnemy.cs" />
     <Compile Include="Assets\Scripts\Items\DraggableItem.cs" />
     <Compile Include="Assets\Scripts\Enemies\FlyingEnemy.cs" />
+    <Compile Include="Assets\Scripts\clickScript.cs" />
     <Compile Include="Assets\Scripts\PlayerSO.cs" />
     <Compile Include="Assets\Scripts\Enemies\MechaStone.cs" />
     <Compile Include="Assets\Scripts\Items\SniperItem.cs" />
+    <Compile Include="Assets\Scripts\Controllers\LoadController.cs" />
     <Compile Include="Assets\Scripts\Items\PistolProjectile.cs" />
+    <Compile Include="Assets\Scripts\MenuSystem\Fader.cs" />
+    <Compile Include="Assets\Scripts\MenuSystem\MenuPopup.cs" />
     <Compile Include="Assets\Scripts\Items\WeaponItem.cs" />
     <Compile Include="Assets\Scripts\Character.cs" />
     <Compile Include="Assets\Scripts\Items\ShotgunProjectile.cs" />
@@ -78,7 +83,9 @@
     <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
     <Compile Include="Assets\Scripts\Items\ItemSlot.cs" />
     <Compile Include="Assets\Scripts\Items\DesolationItem.cs" />
+    <Compile Include="Assets\Scripts\UI\SceneLoading.cs" />
     <Compile Include="Assets\Scripts\Camera Script\CameraViewportHandler.cs" />
+    <Compile Include="Assets\Scripts\GameData.cs" />
     <Compile Include="Assets\Scripts\Items\PlayerInventoryUI.cs" />
     <Compile Include="Assets\Scripts\Items\Projectile.cs" />
     <Compile Include="Assets\Scripts\Enemies\Boss.cs" />
@@ -87,8 +94,10 @@
     <Compile Include="Assets\Scripts\UI\ManageSubmenusPanel.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Items\ShotgunItem.cs" />
+    <Compile Include="Assets\Scripts\Controllers\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
+    <Compile Include="Assets\Scripts\LoadSave.cs" />
     <Compile Include="Assets\Scripts\Camera Script\AnchorGameObject.cs" />
     <Compile Include="Assets\Scripts\Items\DominionItem.cs" />
     <Compile Include="Assets\Scripts\Enemies\FakeEnemy.cs" />
@@ -103,8 +112,7 @@
     <Compile Include="Assets\Scripts\URLButton.cs" />
     <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\FrozenItem.cs" />
-    <Compile Include="Assets\Scripts\UI\MenuOperations.cs" />
-    <Compile Include="Assets\Scripts\UI\SceneLoading.cs" />
+    <Compile Include="Assets\Scripts\Controllers\ScreenController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

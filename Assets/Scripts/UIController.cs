@@ -58,6 +58,9 @@ public class UIController : MonoBehaviour
 
     public Image ActiveGunImage;
 
+    private void Start()
+    {
+    }
     private void Update()
     {
         actualCoins.text = coins.ToString();
@@ -85,10 +88,13 @@ public class UIController : MonoBehaviour
         ATKUpCost.text = coinsToUpgradeATK.ToString();
         CRITRATEUpCost.text = coinsToUpgradeCRITRATE.ToString();
         CRITDMGUpCost.text = coinsToUpgradeCRITDAMAGE.ToString();
-        CurrentATK.text = Player.Instance.PlayerSO.ATK.ToString();
-        CurrentHP.text = Player.Instance.PlayerSO.MAXHP.ToString();
-        CurrentCRITRATE.text = Player.Instance.PlayerSO.CRITRATE.ToString();
-        CurrentCRITDMG.text = Player.Instance.PlayerSO.CRITDAMAGE.ToString();
+        if (Player.Instance != null)
+        {
+            CurrentATK.text = Player.Instance.PlayerSO.ATK.ToString();
+            CurrentHP.text = Player.Instance.PlayerSO.MAXHP.ToString();
+            CurrentCRITRATE.text = Player.Instance.PlayerSO.CRITRATE.ToString();
+            CurrentCRITDMG.text = Player.Instance.PlayerSO.CRITDAMAGE.ToString();
+        }
     }
 
     public void CoinsUp(float gainedCoins)
@@ -105,7 +111,7 @@ public class UIController : MonoBehaviour
 
     public void StartStuff()
     {
-        GameController.Instance.StartStuff();
+        //GameController.Instance.StartStuff();
         UITextController.Instance.DeleteStartStuff();
     }
 
