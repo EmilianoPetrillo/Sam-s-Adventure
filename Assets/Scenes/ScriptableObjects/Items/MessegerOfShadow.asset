@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3e9b483b73d3adc45a1efd6d941a9804, type: 3}
+  m_Name: MessegerOfShadow
+  m_EditorClassIdentifier: 
+  Name: 
+  image: {fileID: 8512653675723254151, guid: 3e29506499c95cd43a5f57824c9dad63, type: 3}
+  ItemType: 1
+  WeaponType: 6
+  weaponFireType: 0
+  FireRate: 1
+  projectilePrefab: {fileID: 3221709949287775666, guid: ff13f30c787b0d148aa77a66c17d058c, type: 3}
+  WeaponCost: 1000000
+  DamageMultiplier: 4
+  Shooting: 0

@@ -14,10 +14,10 @@ public class Enemy : Character
     public HealthBar healthBar;
 
     float mFreezingSpeed = 1.0f; // Seconds to freeze
-
+    //private bool frozen = false;
     private bool mFreezing = false; // Is freezing or not
     private float mTimeScale = 1.0f; // Own time scale
-    private float mFreezeTime = 150.0f; // How many seconds left to recover from freezing, use this in case the enemy need to move again after some seconds
+    private float mFreezeTime = 5.0f; // How many seconds left to recover from freezing, use this in case the enemy need to move again after some seconds
 
     private static float FT = 5.0f; // Duration of freezing effect
 
@@ -43,10 +43,13 @@ public class Enemy : Character
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
         print("Multiplier:" + enemySO.multiplier);
+    
+ 
     }
 
     protected virtual void Update()
     {
+       
         if (deathCheck == false)
             Move();
         if (timer == true)
@@ -127,7 +130,7 @@ public class Enemy : Character
         Player.Instance.TakeDamage((int)enemySO.ATK);
     }
 
-    void OnColliderEnter(Collision collision)
+    public void OnColliderEnter2D(Collision collision)
     {
         if (collision.gameObject.tag == "Gelo")
         {

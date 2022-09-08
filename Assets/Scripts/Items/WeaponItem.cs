@@ -12,7 +12,8 @@ public abstract class WeaponItem : Item
         Sniper,
         Desolation,
         Dominion,
-        Frozen
+        Frozen,
+        MessegerOfShadow
     }
 
     public eWeaponType WeaponType;

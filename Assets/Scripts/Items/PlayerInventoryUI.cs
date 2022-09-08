@@ -39,6 +39,7 @@ public class PlayerInventoryUI : MonoBehaviour
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Desolation));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Dominion));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Frozen));
+        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.MessegerOfShadow));
     }
 
     public void AddItemToInventory(Item _item)
