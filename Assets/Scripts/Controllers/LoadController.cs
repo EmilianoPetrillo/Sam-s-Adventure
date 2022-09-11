@@ -55,7 +55,7 @@ public class LoadController : MonoBehaviour
             yield return null;
         }
         while (!loadLogoScreen.isDone);
-        AsyncOperation gameLevel = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
+        AsyncOperation cutscenesScreen = SceneManager.LoadSceneAsync("InitialCutscenes", LoadSceneMode.Additive);
         Image _progressBar = GameObject.Find("FillBarLoadingScreen").GetComponent<Image>();
         float fill = 0.2f;
         do
@@ -65,23 +65,49 @@ public class LoadController : MonoBehaviour
             yield return new WaitForSeconds(0.2f);
             fill += 0.2f;
         }
-        while (!gameLevel.isDone);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Game"));
-        UIController.Instance.StartStuff();
-        yield return new WaitForSeconds(1.5f);
+        while (fill != 1.0f);
+        yield return new WaitForSeconds(1f);
+        GameObject.Find("NarrativePanel").GetComponent<CutscenesTypedText>().StartShowSlides();
         AsyncOperation unloadLevel = SceneManager.UnloadSceneAsync("LoadingScreen");
         do
         {
             yield return null;
         }
         while (!unloadLevel.isDone);
-        yield return new WaitForSeconds(1.5f);
+        yield return new WaitForSeconds(1f);
+    }
+
+    private IEnumerator LoadGameOperations()
+    {
+        Fader.Instance.FadeIn(1f);
+        AsyncOperation gameLevel = SceneManager.LoadSceneAsync("Game", LoadSceneMode.Additive);
+        do
+        {
+            yield return null;
+        }
+        while (!gameLevel.isDone);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Game"));
+        yield return new WaitForSeconds(1f);
+        UIController.Instance.StartStuff();
+        Fader.Instance.FadeOut(1f);
+        AsyncOperation unloadingCutscenesScene = SceneManager.UnloadSceneAsync("InitialCutscenes");
+        do
+        {
+            yield return null;
+        }
+        while (!unloadingCutscenesScene.isDone);
+        yield return new WaitForSeconds(1f);
         GameObject.Find("GameControllers").GetComponent<ScreenController>().ShowScreen(true);
         GameController.Instance.StartStuff();
     }
 
-    public void LoadNewRun()
+        public void LoadNewRun()
     {
         StartCoroutine(LoadNewRunOperations());
+    }
+
+    public void LoadGameScene()
+    {
+        StartCoroutine(LoadGameOperations());
     }
 }

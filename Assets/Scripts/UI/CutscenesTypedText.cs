@@ -15,6 +15,10 @@ public class CutscenesTypedText : MonoBehaviour
 
     // Start is called before the first frame update
     void Start()
+    { 
+    }
+
+    public void StartShowSlides()
     {
         slidesText = new List<string>();
         AddSlides();
@@ -45,7 +49,7 @@ public class CutscenesTypedText : MonoBehaviour
             continueButton.gameObject.SetActive(false);
             yield return StartCoroutine(ShowText(slidesText[i]));
         }
-        Debug.Log("Load Game");
+        GameObject.Find("LoadController").GetComponent<LoadController>().LoadGameScene();
     }
 
         IEnumerator ShowText(string phrase)
