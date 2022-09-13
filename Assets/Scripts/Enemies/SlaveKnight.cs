@@ -12,26 +12,12 @@ public class SlaveKnight : Enemy
         enemySO.MAXHP = enemySO.HP;
     }
 
-    //public override void TakeDamage(int damage)
-    //{
-    //    if (!animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
-    //        base.TakeDamage(damage);
-    //}
-
     protected override void Update()
     {
         if (deathCheck == false)
         {
-            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Walk"))
+            if (animator.GetCurrentAnimatorStateInfo(0).IsName("Walk") || animator.GetCurrentAnimatorStateInfo(0).IsName("Jump"))
                 Move();
-
-            //if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("Pray"))
-            //{
-            //    animator.SetBool("Pray", false);
-            //    animator.SetBool("Walk", true);
-            //    timer = false;
-            //    t = 0;
-            //}
 
             if (enemySO.HP <= enemySO.MAXHP * (enemySO.healthAmountToTriggerHealPhaseInPercent / 100) && hasHealed == false)
             {
@@ -45,14 +31,6 @@ public class SlaveKnight : Enemy
                 timer = false;
                 t = 0;
             }
-
-            //if (t >= animator.GetCurrentAnimatorStateInfo(0).length && animator.GetCurrentAnimatorStateInfo(0).IsName("AttackfromAir"))
-            //{
-            //    animator.SetBool("AttackFromAir", false);
-            //    animator.SetBool("Walk", true);
-            //    timer = false;
-            //    t = 0;
-            //}
         }
 
         if (timer == true)
@@ -66,10 +44,14 @@ public class SlaveKnight : Enemy
         }
     }
 
+    private bool hasJumped = false;
+
     protected override void Move()
     {
         if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
         {
+            if (!hasJumped)
+                Jump();
             transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);
         }
         else
@@ -77,12 +59,12 @@ public class SlaveKnight : Enemy
     }
 
     private bool hasHealed = false;
+    public float jumpingSpeed;
 
     private void StartHealPhase()
     {
         hasHealed = true;
         animator.SetBool("Attack", false);
-        //animator.SetBool("AttackfromAir", false);
         animator.SetBool("Walk", false);
         animator.SetBool("Heal", true);
         timer = true;
@@ -91,12 +73,9 @@ public class SlaveKnight : Enemy
 
     protected override void Attack()
     {
-        //float x = Random.Range(0f, 2f);
-        //if (x <= 0.5f)
         animator.SetBool("Attack", true);
         animator.SetBool("Walk", false);
-        //else
-        //    animator.SetBool("Roll", true);
+        animator.SetBool("Jump", false);
     }
 
     public void Heal()
@@ -111,8 +90,37 @@ public class SlaveKnight : Enemy
         healthBar.SetHealth(enemySO.HP);
     }
 
-    //public void Jump()
-    //{
-        
-    //}
+    private bool moveVertically;
+
+    public void Jump()
+    {
+        animator.SetBool("Walk", false);
+        animator.SetBool("Jump", true);
+        if (moveVertically)
+        {
+            transform.Translate(Vector2.up * jumpingSpeed * Time.deltaTime);
+        }
+    }
+
+    public void GoUp()
+    {
+        moveVertically = true;
+    }
+
+    public void GoDown()
+    {
+        jumpingSpeed = -jumpingSpeed;
+    }
+
+    public void Land()
+    {
+        moveVertically = false;
+    }
+
+    public void EndJump()
+    {
+        hasJumped = true;
+        animator.SetBool("Walk", true);
+        animator.SetBool("Jump", false);
+    }
 }

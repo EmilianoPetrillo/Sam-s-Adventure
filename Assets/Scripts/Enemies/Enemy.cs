@@ -24,6 +24,8 @@ public class Enemy : Character
     protected float t = 0;
     protected bool timer;
 
+    public bool canRevive;
+
     protected EnemySO enemySO;
     public EnemySO EnemySO
     {
@@ -43,7 +45,7 @@ public class Enemy : Character
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
         print("Multiplier:" + enemySO.multiplier);
-    
+        enemySO.MAXHP = enemySO.HP;
  
     }
 
@@ -54,11 +56,16 @@ public class Enemy : Character
             Move();
         if (timer == true)
             t += Time.deltaTime;
-        if (t >= animator.GetCurrentAnimatorStateInfo(0).length)
+        if (t >= animator.GetCurrentAnimatorStateInfo(0).length && !canRevive)
         {
             UIController.Instance.CoinsUp(enemySO.coins);
             GameController.Instance.LevelUp();
             Destroy(gameObject);
+        }
+        else if(t >= animator.GetCurrentAnimatorStateInfo(0).length && canRevive)
+        {
+            t = 0;
+            Respawn();
         }
         if (mFreezing == true)
         {
@@ -128,6 +135,25 @@ public class Enemy : Character
     public void DoDamage()
     {
         Player.Instance.TakeDamage((int)enemySO.ATK);
+    }
+
+    public void Respawn()
+    {
+        enemySO.HP = enemySO.MAXHP;
+        healthBar.SetHealth(enemySO.HP);
+        animator.SetBool("Dead", false);
+        animator.SetBool("Revive", true);
+    }
+
+    public void EndRespawn()
+    {
+        timer = false;
+        t = 0;
+        animator.SetBool("Revive", false);
+        animator.SetBool("Walk", true);
+        canRevive = false;
+        GetComponent<BoxCollider2D>().enabled = true;
+        deathCheck = false;
     }
 
     public void OnColliderEnter2D(Collision collision)
