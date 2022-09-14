@@ -11,6 +11,7 @@ public class CutscenesTypedText : MonoBehaviour
 
     public TextMeshProUGUI Text;
     public Button continueButton;
+    public Button skipButton;
     public float TimePerCharacter = 0.1f;
 
     // Start is called before the first frame update
@@ -45,14 +46,13 @@ public class CutscenesTypedText : MonoBehaviour
     {
         for(int i = 0; i < slidesText.Count; i++)
         {
-            Debug.Log("Showing Slide: "+i);
             continueButton.gameObject.SetActive(false);
             yield return StartCoroutine(ShowText(slidesText[i]));
         }
         GameObject.Find("LoadController").GetComponent<LoadController>().LoadGameScene();
     }
 
-        IEnumerator ShowText(string phrase)
+    IEnumerator ShowText(string phrase)
     {
         StringBuilder sb = new StringBuilder();
         for (int i = 1; i <= phrase.Length; i++)
@@ -63,8 +63,15 @@ public class CutscenesTypedText : MonoBehaviour
             yield return new WaitForSeconds(TimePerCharacter);
         }
         continueButton.gameObject.SetActive(true);
+        skipButton.gameObject.SetActive(true);
         var waitForButton = new WaitForUIButtons(continueButton);
         yield return waitForButton.Reset();
     }
+
+    public void SkipIntro()
+    {
+        GameObject.Find("LoadController").GetComponent<LoadController>().LoadGameScene();
+    }
+
 
 }

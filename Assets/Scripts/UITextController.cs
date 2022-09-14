@@ -28,12 +28,30 @@ public class UITextController : MonoBehaviour
     public GameObject CurrentBackground;
     public Transform SpawnPosition;
     public GameObject Portal;
+    public GameObject IntroWorldTextPanel;
     private int i = 0;
     private int j = 0;
-
+    private List<string> worldTitles;
+    private List<string> worldSubtitles;
+  
+    
     private void Start()
     {
+        worldTitles = new List<string>();
+        worldSubtitles = new List<string>();
+        AddTitlesAndSubtitles();
+    }
 
+    private void AddTitlesAndSubtitles()
+    {
+        worldTitles.Add("first universe");
+        worldSubtitles.Add("medieval fantasy");
+        worldTitles.Add("second universe");
+        worldSubtitles.Add("warriors and demons");
+        worldTitles.Add("third universe");
+        worldSubtitles.Add("the elemental");
+        worldTitles.Add("fourth universe");
+        worldSubtitles.Add("the space");
     }
 
     public void DeleteStartStuff()
@@ -52,26 +70,42 @@ public class UITextController : MonoBehaviour
         CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
     }
 
-    //Integrate this changes for portal spawning
-    //GameObject portal = Instantiate(Portal, SpawnPosition.position, Quaternion.identity);
-    //new WaitForSeconds(1);
-    //DitzeGames.Effects.CameraEffects.ShakeOnce(3);
-    //new WaitForSeconds(4);
-    //Destroy(portal);
 
     public void NextPhase()
     {
         TextsAndArrows[j].SetActive(false);
         if(j >= TextsAndArrows.GetLength(0) - 1)
         {
-            ChangeGamePanel();
-            GameController.Instance.SpawnEnemy();
+            StartCoroutine(changePanelAndPortal());
         }
         else
         {
             j++;
             TextsAndArrows[j].SetActive(true);
         }
+    }
+
+    private IEnumerator changePanelAndPortal()
+    {
+        //Integrate this changes for portal spawning
+        GameObject portal = Instantiate(Portal, new Vector3(-3.5f, -1.75f, 0.0f), Quaternion.identity);
+        yield return new WaitForSeconds(1);
+        DitzeGames.Effects.CameraEffects.ShakeOnce(3);
+        yield return new WaitForSeconds(4);
+        Destroy(portal);
+        ChangeGamePanel();
+        StartCoroutine(showIntroText());
+        GameController.Instance.SpawnEnemy();
+    }
+
+    private IEnumerator showIntroText()
+    {
+        Text[] textobjs = IntroWorldTextPanel.GetComponentsInChildren<Text>();
+        textobjs[0].text = worldTitles[i];
+        textobjs[1].text = worldSubtitles[i];
+        IntroWorldTextPanel.SetActive(true);
+        yield return new WaitForSeconds(2);
+        IntroWorldTextPanel.SetActive(false);
     }
 
 }

@@ -23,3 +23,5 @@ MonoBehaviour:
   - 9
   - 3.3
   moveSpeed: 1
+  healthAmountToRecoverInPercent: 0
+  healthAmountToTriggerHealPhaseInPercent: 0
