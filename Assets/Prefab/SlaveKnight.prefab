@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3764993175409779157}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 5, y: 5, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 9073082462480527829}
   m_Father: {fileID: 0}
@@ -104,7 +104,7 @@ BoxCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
-    oldSize: {x: 0.27, y: 0.47}
+    oldSize: {x: 0.421875, y: 0.734375}
     newSize: {x: 2.56, y: 2.56}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
@@ -167,6 +167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSO: {fileID: 11400000, guid: 1da9ba2f88d78f241961fc9c19c30caa, type: 2}
   healthBar: {fileID: 5876884164032637049}
+  canRevive: 0
   jumpingSpeed: 3
 --- !u!1001 &3290192148642537774
 PrefabInstance:
