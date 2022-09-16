@@ -7,12 +7,12 @@ public abstract class WeaponItem : Item
 {
     public enum eWeaponType
     {
-        Pistol,
+        SecretOfProtector,
         Shotgun,
-        Sniper,
+        PlasmaSniper,
         Desolation,
         Dominion,
-        Frozen,
+        BreakerOfTerror,
         MessegerOfShadow
     }
 
