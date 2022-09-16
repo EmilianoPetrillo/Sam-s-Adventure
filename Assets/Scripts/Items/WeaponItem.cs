@@ -13,7 +13,9 @@ public abstract class WeaponItem : Item
         Desolation,
         Dominion,
         BreakerOfTerror,
-        MessegerOfShadow
+        MessegerOfShadow,
+        FavorOfTheMoon,
+        //LastBreath
     }
 
     public eWeaponType WeaponType;

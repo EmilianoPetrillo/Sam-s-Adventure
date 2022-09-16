@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c4491b259f3d34746bc93a247cd0af37, type: 3}
+  m_Name: FavorOfTheMoon
+  m_EditorClassIdentifier: 
+  Name: 
+  image: {fileID: -1129726683912049340, guid: 0e25c03ad6c65744ca6c190b472fa0d7, type: 3}
+  ItemType: 1
+  WeaponType: 7
+  weaponFireType: 0
+  FireRate: 2
+  projectilePrefab: {fileID: 536154135672367423, guid: f3a0d0fdf556d3242aa35467156def4d, type: 3}
+  WeaponCost: 500000
+  DamageMultiplier: 2
+  Shooting: 0

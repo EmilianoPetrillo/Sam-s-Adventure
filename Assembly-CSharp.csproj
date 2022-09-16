@@ -49,11 +49,12 @@
   <ItemGroup>
      <Compile Include="Assets\Scripts\Enemies\DistanceEnemy.cs" />
      <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
-     <Compile Include="Assets\Scripts\Items\FrozenProjectile.cs" />
+     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorProjectile.cs" />
      <Compile Include="Assets\AssetsMaterial\Portals\FlyingObelisk_Simple\CameraEffects.cs" />
      <Compile Include="Assets\Scripts\Enemies\WaterPriestess.cs" />
      <Compile Include="Assets\Scripts\MenuSystem\LoadingScreen.cs" />
      <Compile Include="Assets\Scripts\UITextController.cs" />
+     <Compile Include="Assets\Scripts\Items\SecretOfProtectorItem.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Enemies\DistanceFlyingEnemy.cs" />
      <Compile Include="Assets\Scripts\Items\DraggableItem.cs" />
@@ -63,7 +64,7 @@
      <Compile Include="Assets\Scripts\Enemies\MechaStone.cs" />
      <Compile Include="Assets\Scripts\Items\SniperItem.cs" />
      <Compile Include="Assets\Scripts\Controllers\LoadController.cs" />
-     <Compile Include="Assets\Scripts\Items\PistolProjectile.cs" />
+     <Compile Include="Assets\Scripts\Items\SecretOfProtectorProjectile.cs" />
      <Compile Include="Assets\Scripts\MenuSystem\Fader.cs" />
      <Compile Include="Assets\Scripts\MenuSystem\MenuPopup.cs" />
      <Compile Include="Assets\Scripts\Items\WeaponItem.cs" />
@@ -104,10 +105,9 @@
      <Compile Include="Assets\Scripts\Enemies\EnemySO.cs" />
      <Compile Include="Assets\Scripts\CharacterSO.cs" />
      <Compile Include="Assets\Scripts\Enemies\SlaveKnight.cs" />
-     <Compile Include="Assets\Scripts\Items\PistolItem.cs" />
      <Compile Include="Assets\Scripts\URLButton.cs" />
      <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
-     <Compile Include="Assets\Scripts\Items\FrozenItem.cs" />
+     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorItem.cs" />
      <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />

@@ -40,6 +40,8 @@ public class PlayerInventoryUI : MonoBehaviour
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Dominion));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.BreakerOfTerror));
         AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.MessegerOfShadow));
+        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.FavorOfTheMoon));
+        //AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.LastBreath));
     }
 
     public void AddItemToInventory(Item _item)
