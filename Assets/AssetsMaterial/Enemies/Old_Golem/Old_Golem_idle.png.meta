@@ -1,7 +1,25 @@
 fileFormatVersion: 2
 guid: 25c0c571e7698004c9668bab7674cb50
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3906701081558311736
+    second: Old_Golem_idle_0
+  - first:
+      213: 7255090373453007122
+    second: Old_Golem_idle_1
+  - first:
+      213: 857939176811402674
+    second: Old_Golem_idle_2
+  - first:
+      213: 6128755662070036471
+    second: Old_Golem_idle_3
+  - first:
+      213: -6271791977517974240
+    second: Old_Golem_idle_4
+  - first:
+      213: -4520610451253472885
+    second: Old_Golem_idle_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +179,133 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Old_Golem_idle_0
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 835
+        width: 62
+        height: 88
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cc151e901c98c9c0800000000000000
+      internalID: -3906701081558311736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_idle_1
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 675
+        width: 62
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 219c50b61424fa460800000000000000
+      internalID: 7255090373453007122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_idle_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 515
+        width: 62
+        height: 86
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2b51cb0c22308eb00800000000000000
+      internalID: 857939176811402674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_idle_3
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 355
+        width: 62
+        height: 87
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f739d89dc6bd0550800000000000000
+      internalID: 6128755662070036471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_idle_4
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 195
+        width: 62
+        height: 88
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02d75e20d6e16f8a0800000000000000
+      internalID: -6271791977517974240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_idle_5
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 35
+        width: 62
+        height: 88
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b815e1deeb09341c0800000000000000
+      internalID: -4520610451253472885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

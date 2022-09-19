@@ -168,6 +168,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSO: {fileID: 11400000, guid: 20f94d548da66dd45a1ca0be3a21e9cf, type: 2}
   healthBar: {fileID: 8569045442474093214}
+  canRevive: 0
   laserBeam: {fileID: 3729695234696688044}
 --- !u!1001 &778175218489205705
 PrefabInstance:
@@ -183,6 +184,10 @@ PrefabInstance:
     - target: {fileID: 1895260874411630319, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697593801316314668, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_Pivot.x

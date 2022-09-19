@@ -1,7 +1,37 @@
 fileFormatVersion: 2
 guid: 8934a29d89cc7804c9f483bc51e1bebe
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 35269695368835355
+    second: Old_Golem_bullet_0
+  - first:
+      213: -6357643729572511397
+    second: Old_Golem_bullet_1
+  - first:
+      213: 5812779485354563127
+    second: Old_Golem_bullet_2
+  - first:
+      213: 204955226660765677
+    second: Old_Golem_bullet_3
+  - first:
+      213: 2735280526674672686
+    second: Old_Golem_bullet_4
+  - first:
+      213: 9140233929430977732
+    second: Old_Golem_bullet_5
+  - first:
+      213: -4672540848047420597
+    second: Old_Golem_bullet_6
+  - first:
+      213: 2685603590833690194
+    second: Old_Golem_bullet_7
+  - first:
+      213: 1220452378522273014
+    second: Old_Golem_bullet_8
+  - first:
+      213: 4882898304493692203
+    second: Old_Golem_bullet_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +191,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: Old_Golem_bullet_0
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 1033
+        width: 15
+        height: 15
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b11bbcfd99d4d7000800000000000000
+      internalID: 35269695368835355
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_1
+      rect:
+        serializedVersion: 2
+        x: 70
+        y: 873
+        width: 19
+        height: 8
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b51475256bc15c7a0800000000000000
+      internalID: -6357643729572511397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_2
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 722
+        width: 4
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7369c3ef4242ba050800000000000000
+      internalID: 5812779485354563127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_3
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 713
+        width: 25
+        height: 16
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: def79f751b528d200800000000000000
+      internalID: 204955226660765677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_4
+      rect:
+        serializedVersion: 2
+        x: 94
+        y: 717
+        width: 4
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cbc79952ba5f520800000000000000
+      internalID: 2735280526674672686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_5
+      rect:
+        serializedVersion: 2
+        x: 58
+        y: 553
+        width: 37
+        height: 18
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ccc4bfe452a8de70800000000000000
+      internalID: 9140233929430977732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_6
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 558
+        width: 4
+        height: 4
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b4b81a9dadcc72fb0800000000000000
+      internalID: -4672540848047420597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_7
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 393
+        width: 52
+        height: 14
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 256d727ac3e254520800000000000000
+      internalID: 2685603590833690194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_8
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 233
+        width: 59
+        height: 11
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f4c917d8faefe010800000000000000
+      internalID: 1220452378522273014
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Old_Golem_bullet_9
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 73
+        width: 49
+        height: 6
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2524b1232a83c340800000000000000
+      internalID: 4882898304493692203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3895924928282544253}
   - component: {fileID: 85913516469811815}
+  - component: {fileID: -4397360989402198941}
   m_Layer: 0
   m_Name: SoulCannon
   m_TagString: Untagged
@@ -73,7 +74,7 @@ SpriteRenderer:
   m_SortingOrder: 0
   m_Sprite: {fileID: -2346302928887187388, guid: f51a88b4ba279de4b998632f1ea2599b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 0.375, y: 0.21875}
@@ -82,3 +83,17 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &-4397360989402198941
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2580253946320171985}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: aa54d3268a9177f44ad27e3a82700b9d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 200
+  HasExplodingAnimation: 0
