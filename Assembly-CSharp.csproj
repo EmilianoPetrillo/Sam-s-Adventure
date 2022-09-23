@@ -77,12 +77,14 @@
      <Compile Include="Assets\Scripts\UI\HealthBar.cs" />
      <Compile Include="Assets\Scripts\Items\MessegerOfShadowItem.cs" />
      <Compile Include="Assets\Scripts\Items\ItemSlot.cs" />
+     <Compile Include="Assets\Scripts\Enemies\OldGolem.cs" />
      <Compile Include="Assets\Scripts\Items\DesolationItem.cs" />
      <Compile Include="Assets\Scripts\UI\SceneLoading.cs" />
      <Compile Include="Assets\Scripts\Items\FavorOfTheMoon.cs" />
      <Compile Include="Assets\Scripts\Camera Script\CameraViewportHandler.cs" />
      <Compile Include="Assets\Scripts\GameData.cs" />
      <Compile Include="Assets\Scripts\Items\PlayerInventoryUI.cs" />
+     <Compile Include="Assets\Scripts\Weapons\LavaSpit.cs" />
      <Compile Include="Assets\Scripts\Items\Projectile.cs" />
      <Compile Include="Assets\Scripts\Enemies\Boss.cs" />
      <Compile Include="Assets\Scripts\Items\ShopController.cs" />

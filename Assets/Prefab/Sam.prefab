@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1052953106901029512}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.798, y: -3.052, z: 0}
+  m_LocalPosition: {x: -1.81, y: -3.02, z: 0}
   m_LocalScale: {x: 3, y: 3, z: 1}
   m_Children:
   - {fileID: 1052953108268246000}
@@ -100,7 +100,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.006913323, y: 0.24399902}
+  m_Offset: {x: 0.03707148, y: 0.26483396}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.3, y: 0}
@@ -111,7 +111,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 0.23463342, y: 0.48799804}
+  m_Size: {x: 0.3226031, y: 0.58522767}
   m_EdgeRadius: 0
 --- !u!114 &1052953106901029515
 MonoBehaviour:
@@ -135,6 +135,8 @@ MonoBehaviour:
   HeldWeapons: []
   HeldWeaponsSlots: []
   weapon: 0
+  timer1: 0
+  timer2: 0
   gunMovement: 0.01
 --- !u!95 &5098512151997761833
 Animator:
@@ -235,7 +237,7 @@ SpriteRenderer:
   m_Size: {x: 1, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!1 &1052953108475466121

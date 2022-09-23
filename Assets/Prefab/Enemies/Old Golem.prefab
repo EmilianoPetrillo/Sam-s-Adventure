@@ -11,11 +11,12 @@ GameObject:
   - component: {fileID: 6751408420868047207}
   - component: {fileID: -1348507168836307142}
   - component: {fileID: 6923432361176778951}
-  - component: {fileID: -9059607531849970922}
   - component: {fileID: 4697468949227904274}
+  - component: {fileID: 2300421976465750734}
+  - component: {fileID: 6349942592537599961}
   m_Layer: 0
   m_Name: Old Golem
-  m_TagString: Untagged
+  m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -29,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 3260184175236017521}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 4, y: 4, z: 1}
+  m_LocalScale: {x: 3, y: 3, z: 0}
   m_Children:
   - {fileID: 7251368032913717635}
   - {fileID: 1269386275108857497}
@@ -108,7 +109,43 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
---- !u!61 &-9059607531849970922
+--- !u!95 &4697468949227904274
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260184175236017521}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 71b853bc5e4c6b142b82168a23e63a16, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
+--- !u!114 &2300421976465750734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3260184175236017521}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c8944905b3ada043807501bde1e757b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSO: {fileID: 11400000, guid: 66ff2847156478a4faebd84a1202c7e0, type: 2}
+  healthBar: {fileID: 5244155486231797807}
+  canRevive: 0
+  Projectile: {fileID: 8553457889576984764, guid: fe0d71455fb6cb440a3cbc021251df93, type: 3}
+  ProjectileSpawnPosition: {fileID: 1269386275108857497}
+--- !u!61 &6349942592537599961
 BoxCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -134,25 +171,6 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.96875, y: 1.375}
   m_EdgeRadius: 0
---- !u!95 &4697468949227904274
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3260184175236017521}
-  m_Enabled: 1
-  m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 71b853bc5e4c6b142b82168a23e63a16, type: 2}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &8391160748281727534
 GameObject:
   m_ObjectHideFlags: 0
@@ -297,3 +315,14 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
   m_PrefabInstance: {fileID: 3810332190283508088}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &5244155486231797807 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8946399908719921495, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
+  m_PrefabInstance: {fileID: 3810332190283508088}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc221c19769210e40a58de33ff03dbe1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
