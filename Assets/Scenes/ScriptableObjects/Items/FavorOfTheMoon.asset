@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4491b259f3d34746bc93a247cd0af37, type: 3}
   m_Name: FavorOfTheMoon
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Favor of The      Moon
   image: {fileID: -1129726683912049340, guid: 0e25c03ad6c65744ca6c190b472fa0d7, type: 3}
   ItemType: 1
   WeaponType: 7
+  WeaponAttackType: 2
   weaponFireType: 0
   FireRate: 2
+  WeaponDamage: 50
   projectilePrefab: {fileID: 536154135672367423, guid: f3a0d0fdf556d3242aa35467156def4d, type: 3}
-  WeaponCost: 500000
+  WeaponCost: 200000
   DamageMultiplier: 2
   Shooting: 0

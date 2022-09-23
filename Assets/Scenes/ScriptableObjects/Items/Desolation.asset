@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8c75f62becaf339478e252aaba4ae165, type: 3}
   m_Name: Desolation
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Desolation
   image: {fileID: 21300000, guid: 6383ccab96b969342bbe1af80db28806, type: 3}
   ItemType: 1
   WeaponType: 3
+  WeaponAttackType: 0
   weaponFireType: 0
   FireRate: 4
+  WeaponDamage: 100
   projectilePrefab: {fileID: 479197647588454710, guid: 1dfd8f3cf00f94f4387a4d59d827f30f, type: 3}
-  WeaponCost: 2000
+  WeaponCost: 50000
   DamageMultiplier: 4
   Shooting: 0

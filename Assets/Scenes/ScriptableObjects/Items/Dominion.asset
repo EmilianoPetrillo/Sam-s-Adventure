@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a52b05217d06f1449a5007679a7e315, type: 3}
   m_Name: Dominion
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Dominion
   image: {fileID: 21300000, guid: c93a2992001ab7c4788338c6a08d8522, type: 3}
   ItemType: 1
   WeaponType: 4
+  WeaponAttackType: 0
   weaponFireType: 1
   FireRate: 4
+  WeaponDamage: 40
   projectilePrefab: {fileID: 7151294948693344434, guid: fd25bf256e05c144a9bf1e356817394c, type: 3}
-  WeaponCost: 10000
+  WeaponCost: 500
   DamageMultiplier: 3
   Shooting: 0

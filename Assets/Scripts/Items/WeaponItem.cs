@@ -20,6 +20,16 @@ public abstract class WeaponItem : Item
 
     public eWeaponType WeaponType;
 
+    public enum eWeaponAttackType
+    {
+        Gun,
+        Shotgun,
+        Assault,
+        Sniper
+    }
+
+    public eWeaponAttackType WeaponAttackType;
+
     public enum eWeaponFireType
     {
         Manual,
@@ -29,7 +39,7 @@ public abstract class WeaponItem : Item
     public eWeaponFireType weaponFireType;
 
     public float FireRate;
-
+    public int WeaponDamage;
     public GameObject projectilePrefab;
     protected GameObject projectile;
     public int WeaponCost;

@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7c8dd26a6963e704c8d2321a38245f15, type: 3}
   m_Name: Shotgun
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Shotgun
   image: {fileID: 21300000, guid: da40e90e60e9e4f42b4966c0ee833adf, type: 3}
   ItemType: 1
   WeaponType: 1
+  WeaponAttackType: 0
   weaponFireType: 0
   FireRate: 1.5
+  WeaponDamage: 50
   projectilePrefab: {fileID: 8689375317197207745, guid: e559ca8296b067a4d8f23f5adbc171fc, type: 3}
-  WeaponCost: 100
+  WeaponCost: 500
   DamageMultiplier: 10
   Shooting: 0

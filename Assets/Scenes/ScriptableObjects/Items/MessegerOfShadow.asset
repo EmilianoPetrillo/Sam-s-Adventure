@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3e9b483b73d3adc45a1efd6d941a9804, type: 3}
   m_Name: MessegerOfShadow
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Messegers Of      Shadows
   image: {fileID: 8512653675723254151, guid: 3e29506499c95cd43a5f57824c9dad63, type: 3}
   ItemType: 1
   WeaponType: 6
+  WeaponAttackType: 2
   weaponFireType: 0
   FireRate: 1
+  WeaponDamage: 20
   projectilePrefab: {fileID: 3221709949287775666, guid: ff13f30c787b0d148aa77a66c17d058c, type: 3}
-  WeaponCost: 1000000
+  WeaponCost: 120000
   DamageMultiplier: 4
   Shooting: 0

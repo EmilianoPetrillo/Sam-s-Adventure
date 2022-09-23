@@ -12,13 +12,15 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bf53ac457a33261468703caf2aa06b23, type: 3}
   m_Name: PlasmaSniper
   m_EditorClassIdentifier: 
-  Name: 
+  Name: Cosmic Plasma       Sniper
   image: {fileID: 21300000, guid: ec893ae3c2e5fb84582bcac654c4ea3e, type: 3}
   ItemType: 1
   WeaponType: 2
+  WeaponAttackType: 3
   weaponFireType: 0
   FireRate: 1
+  WeaponDamage: 600
   projectilePrefab: {fileID: 5591920311131459051, guid: 4fc14652383e8c241a8b5eacdba0bdb6, type: 3}
-  WeaponCost: 100
+  WeaponCost: 140000
   DamageMultiplier: 10
   Shooting: 0
