@@ -30,10 +30,10 @@ public class UITextController : MonoBehaviour
     public GameObject Portal;
     public GameObject IntroWorldTextPanel;
     private int i = 0;
-    private int j = 0;
+    private int j = 4;
     private List<string> worldTitles;
     private List<string> worldSubtitles;
-  
+    
     
     private void Start()
     {
@@ -73,7 +73,8 @@ public class UITextController : MonoBehaviour
 
     public void NextPhase()
     {
-        TextsAndArrows[j].SetActive(false);
+        if(j < TextsAndArrows.GetLength(0))
+            TextsAndArrows[j].SetActive(false);
         if(j >= TextsAndArrows.GetLength(0) - 1)
         {
             StartCoroutine(changePanelAndPortal());

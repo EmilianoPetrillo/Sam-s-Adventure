@@ -99,7 +99,6 @@
     <Compile Include="Assets\Scripts\Items\ShopController.cs" />
     <Compile Include="Assets\Scripts\Controllers\ScreenController.cs" />
     <Compile Include="Assets\Scripts\UIController.cs" />
-    <Compile Include="Assets\Scripts\UI\ManageSubmenusPanel.cs" />
     <Compile Include="Assets\Scripts\Items\MessegerOfSadowProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\Item.cs" />
     <Compile Include="Assets\Scripts\Items\ShotgunItem.cs" />
@@ -123,6 +122,7 @@
     <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorItem.cs" />
     <Compile Include="Assets\Scripts\Items\LastBreathItem.cs" />
+    <Compile Include="Assets\Scripts\Controllers\UIButtonPanelsController.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

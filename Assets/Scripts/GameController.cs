@@ -71,7 +71,8 @@ public class GameController : MonoBehaviour
 
     public void StartStuff()
     {
-        SpawnFakeEnemy();
+        //No tutorial for now: SpawnFakeEnemy();
+        UITextController.Instance.NextPhase();
     }
 
     public void LevelUp()
