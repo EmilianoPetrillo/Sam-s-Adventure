@@ -60,6 +60,7 @@
     <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\FavorOfTheMoonProjectile.cs" />
+    <Compile Include="Assets\Scripts\Controllers\UIButtonPanelsController.cs" />
     <Compile Include="Assets\AssetsMaterial\Portals\FlyingObelisk_Simple\CameraEffects.cs" />
     <Compile Include="Assets\Scripts\Enemies\WaterPriestess.cs" />
     <Compile Include="Assets\Scripts\MenuSystem\LoadingScreen.cs" />
@@ -122,7 +123,7 @@
     <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorItem.cs" />
     <Compile Include="Assets\Scripts\Items\LastBreathItem.cs" />
-    <Compile Include="Assets\Scripts\Controllers\UIButtonPanelsController.cs" />
+    <Compile Include="Assets\Scripts\AdditionalShopItemInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

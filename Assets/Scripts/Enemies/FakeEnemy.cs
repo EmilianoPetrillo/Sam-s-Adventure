@@ -9,7 +9,7 @@ public class FakeEnemy : Enemy
         
     }
 
-    private bool tutorial = true;
+    private bool tutorial = false;
 
     protected override void OnDeath()
     {

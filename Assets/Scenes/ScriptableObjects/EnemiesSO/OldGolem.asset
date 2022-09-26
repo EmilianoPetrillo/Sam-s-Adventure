@@ -12,12 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: OldGolem
   m_EditorClassIdentifier: 
-  HP: 3000
+  HP: 300
   ATK: 100
   CRITRATE: 0
   CRITDAMAGE: 0
-  MAXHP: 3000
-  coins: 200000
+  MAXHP: 300
+  coins: 40000
   multiplier: 1
   attackRange:
   - 3

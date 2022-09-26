@@ -201,7 +201,7 @@ public class Player : Character
         }
     }
 
-    private bool tutorial = true;
+    private bool tutorial = false;
 
     public void ChangeWeapon()
     {

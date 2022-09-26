@@ -44,7 +44,7 @@ public class Enemy : Character
         enemySO.ATK *= enemySO.multiplier;
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
-        print("Multiplier:" + enemySO.multiplier);
+        //print("Multiplier:" + enemySO.multiplier);
         enemySO.MAXHP = enemySO.HP;
  
     }

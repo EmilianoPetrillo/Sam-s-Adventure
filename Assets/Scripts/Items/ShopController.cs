@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class ShopController : MonoBehaviour
 {
     public static ShopController Instance;
+    public Sprite OutOfStockImage;
 
     private void Awake()
     {
@@ -33,6 +34,14 @@ public class ShopController : MonoBehaviour
         }
         for (int i = 0; i < WeaponsToSell.Count; i++)
         {
+            //Le prime due armi sono già acquistate e quindi non più disponibili se ci clicco per l'acquisto
+            if(i==0 || i == 1)
+            {
+                contentLines[i].GetComponent<Image>().sprite = OutOfStockImage;
+                contentLines[i].GetComponent<AdditionalShopItemInfo>().isOutOfStock = true;
+            }
+            //Riferimento all'oggetto WeaponInfo
+            contentLines[i].GetComponent<AdditionalShopItemInfo>().weaponInfo = WeaponsToSell[i];
             //Image
             contentLines[i].GetChild(0).GetComponent<Image>().sprite = WeaponsToSell[i].image;
             //Cost

@@ -102,6 +102,11 @@ public class UIController : MonoBehaviour
         coins += (int)gainedCoins;
     }
 
+    public void CoinsDown(float spendCoins)
+    {
+        coins -= (int)spendCoins;
+    }
+
     public void BossButton()
     {
         GameController.Instance.ForcedLevelUp();
@@ -143,7 +148,7 @@ public class UIController : MonoBehaviour
 
     #region STATS UPGRADE BUTTONS
 
-    private bool tutorial = true;
+    private bool tutorial = false;
 
     public void AtkUpgrade()
     {

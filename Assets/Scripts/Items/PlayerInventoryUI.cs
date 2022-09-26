@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerInventoryUI : MonoBehaviour
 {
@@ -18,11 +19,13 @@ public class PlayerInventoryUI : MonoBehaviour
         }
     }
 
-    public List<ItemSlot> Slots = new List<ItemSlot>();
+    private List<ItemSlot> Slots = new List<ItemSlot>();
+    private List<ItemSlot> HeldWeapons = new List<ItemSlot>();
 
     public GameObject InventoryContainer;
+    public GameObject EquipmentContainer;
 
-    private void Start()
+    public void StartInventory()
     {
         foreach(Transform t in InventoryContainer.transform)
         {
@@ -31,17 +34,18 @@ public class PlayerInventoryUI : MonoBehaviour
                 Slots.Add(t.GetComponent<ItemSlot>());
             }
         }
+        foreach (Transform t in EquipmentContainer.transform)
+        {
+            if (t.GetComponent<ItemSlot>())
+            {
+                HeldWeapons.Add(t.GetComponent<ItemSlot>());
+            }
+        }
 
-        // AddItemToInventory(ItemController.Instance.Items.GetItem(Item.eItemType.Consumable));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.SecretOfProtector));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Shotgun));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.PlasmaSniper));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Desolation));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Dominion));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.BreakerOfTerror));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.MessegerOfShadow));
-        AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.FavorOfTheMoon));
-        //AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.LastBreath));
+        AddWeaponToHand(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Dominion));
+        AddWeaponToHand(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.Shotgun));
+        Debug.Log(HeldWeapons[0].transform.GetChild(0).GetComponent<Image>().sprite);
+        UIController.Instance.ActiveGunImage.sprite = HeldWeapons[0].transform.GetChild(0).GetComponent<Image>().sprite;
     }
 
     public void AddItemToInventory(Item _item)
@@ -71,10 +75,27 @@ public class PlayerInventoryUI : MonoBehaviour
 
         UpdateDisplay();
     }
+    public void AddWeaponToHand(WeaponItem _weaponItem)
+    {
+        foreach (ItemSlot slot in HeldWeapons)
+        {
+            if (slot.Draggable.Item == null)
+            {
+                slot.Draggable.Item = _weaponItem;
+                break;
+            }
+        }
+
+        UpdateDisplay();
+    }
 
     public void UpdateDisplay()
     {
         foreach(ItemSlot slot in Slots)
+        {
+            slot.UpdateItemDisplay();
+        }
+        foreach (ItemSlot slot in HeldWeapons)
         {
             slot.UpdateItemDisplay();
         }

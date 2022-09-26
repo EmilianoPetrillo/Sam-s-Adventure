@@ -73,6 +73,7 @@ public class GameController : MonoBehaviour
     {
         //No tutorial for now: SpawnFakeEnemy();
         UITextController.Instance.NextPhase();
+        PlayerInventoryUI.Instance.StartInventory();
     }
 
     public void LevelUp()
