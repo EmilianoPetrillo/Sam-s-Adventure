@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6f33011b7fd92c54eaa60f9ca80e00f7, type: 3}
+  m_Name: Legacy
+  m_EditorClassIdentifier: 
+  Name: Legacy
+  image: {fileID: -4060339134492186001, guid: 79a4a3af36dacb5499ee24d6a886a091, type: 3}
+  ItemType: 1
+  WeaponType: 9
+  WeaponAttackType: 0
+  weaponFireType: 1
+  FireRate: 1
+  WeaponDamage: 40
+  projectilePrefab: {fileID: 5344501006869595611, guid: dd8cafe00a7237f4586792fe7b59c177, type: 3}
+  WeaponCost: 500
+  DamageMultiplier: 2
+  Shooting: 0

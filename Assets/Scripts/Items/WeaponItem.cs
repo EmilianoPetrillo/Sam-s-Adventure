@@ -15,7 +15,12 @@ public abstract class WeaponItem : Item
         BreakerOfTerror,
         MessegerOfShadow,
         FavorOfTheMoon,
-        //LastBreath
+        LastBreath,
+        Legacy,
+        Cataclysm,
+        Destruction,
+        Disturbance,
+        JudgementBlast
     }
 
     public eWeaponType WeaponType;
