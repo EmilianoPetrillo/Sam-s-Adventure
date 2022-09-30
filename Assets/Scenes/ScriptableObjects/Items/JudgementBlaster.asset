@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 0}
+  m_Name: JudgementBlaster
+  m_EditorClassIdentifier: Assembly-CSharp::JudgementBlaster
+  Name: 
+  image: {fileID: -1129726683912049340, guid: e5f9321a37acdcf44850d352e56be2cb, type: 3}
+  ItemType: 1
+  WeaponType: 13
+  WeaponAttackType: 0
+  weaponFireType: 0
+  FireRate: 0.1
+  WeaponDamage: 10
+  projectilePrefab: {fileID: 4931630322671632954, guid: be08e0256a3df484eb962b173a124868, type: 3}
+  WeaponCost: 1000
+  DamageMultiplier: 2
+  Shooting: 0

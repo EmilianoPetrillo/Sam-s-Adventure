@@ -14,7 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Name: Cataclysm
   image: {fileID: -7726624851970778080, guid: 1b66793f70925d842b05d331f02bf251, type: 3}
-  ItemType: 0
+  ItemType: 1
   WeaponType: 10
   WeaponAttackType: 0
   weaponFireType: 0

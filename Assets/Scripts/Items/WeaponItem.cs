@@ -20,7 +20,7 @@ public abstract class WeaponItem : Item
         Cataclysm,
         Destruction,
         Disturbance,
-        JudgementBlast
+        JudgementBlaster
     }
 
     public eWeaponType WeaponType;
