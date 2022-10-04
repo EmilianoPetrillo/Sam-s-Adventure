@@ -149,7 +149,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   characterSO: {fileID: 11400000, guid: d57acd9895d41e24880354140b1debff, type: 2}
   healthBar: {fileID: 5127136586476424336}
-  canRevive: 1
+  canRevive: 0
   speed: 1
   Projectile: {fileID: 2580253946320171985, guid: 9d888956387ddf24381ac981a92a4469, type: 3}
   ProjectileSpawnPosition: {fileID: 1956555296220531631}

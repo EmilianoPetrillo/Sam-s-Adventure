@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3c03101a9daa05e4f89625756d4ac57b, type: 3}
+  m_Name: Disturbance
+  m_EditorClassIdentifier: 
+  Name: Disturbance
+  image: {fileID: -181485876952098698, guid: cac5b15c5ab312d4db7750d898b6eacc, type: 3}
+  ItemType: 1
+  WeaponType: 12
+  WeaponAttackType: 0
+  weaponFireType: 0
+  FireRate: 1.5
+  WeaponDamage: 25
+  projectilePrefab: {fileID: 6383309576113470407, guid: 959bddfaf3c673e43ba1ed310fe0fa0f, type: 3}
+  WeaponCost: 150000
+  DamageMultiplier: 1
+  Shooting: 0

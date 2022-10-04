@@ -6,13 +6,13 @@ public class FlyingEnemy : Enemy
 {
     public float speed;
     private GameObject player;
-    float sinCenterY;
+    //float sinCenterY;
 
     protected override void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         transform.position = new Vector2(transform.position.x, transform.position.y + 4);
-        sinCenterY = transform.position.y;
+        //sinCenterY = transform.position.y;
     }
 
     protected override void Update()
@@ -33,12 +33,12 @@ public class FlyingEnemy : Enemy
     protected override void Move()
     {
 
-        Vector2 pos = transform.position;
+        //Vector2 pos = transform.position;
 
-        float sin = Mathf.Sin(pos.x);
-        pos.y = sinCenterY + sin;
+        //float sin = Mathf.Sin(pos.x);
+        //pos.y = sinCenterY + sin;
 
-        transform.position = pos;
+        //transform.position = pos;
         if (Vector2.Distance(transform.position, Player.Instance.transform.position) > enemySO.attackRange[0])
         {
             //    transform.Translate(Vector2.left * enemySO.moveSpeed * Time.deltaTime);

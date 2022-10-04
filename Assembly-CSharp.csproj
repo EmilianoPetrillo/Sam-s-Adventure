@@ -50,6 +50,7 @@
      <Compile Include="Assets\Scripts\AdditionalShopItemInfo.cs" />
      <Compile Include="Assets\Scripts\Enemies\DistanceEnemy.cs" />
      <Compile Include="Assets\Scripts\Items\DesolationProjectile.cs" />
+     <Compile Include="Assets\Scripts\Items\JudgementBlasterItem.cs" />
      <Compile Include="Assets\Scripts\Items\BreakerOfTerrorProjectile.cs" />
      <Compile Include="Assets\Scripts\Items\FavorOfTheMoonProjectile.cs" />
      <Compile Include="Assets\Scripts\Controllers\UIButtonPanelsController.cs" />
@@ -60,6 +61,7 @@
      <Compile Include="Assets\Scripts\Items\SecretOfProtectorItem.cs" />
      <Compile Include="Assets\Scripts\Player.cs" />
      <Compile Include="Assets\Scripts\Enemies\DistanceFlyingEnemy.cs" />
+     <Compile Include="Assets\Scripts\Items\LegacyItem.cs" />
      <Compile Include="Assets\Scripts\Items\DraggableItem.cs" />
      <Compile Include="Assets\Scripts\Enemies\FlyingEnemy.cs" />
      <Compile Include="Assets\Scripts\clickScript.cs" />
@@ -72,6 +74,7 @@
      <Compile Include="Assets\Scripts\MenuSystem\Fader.cs" />
      <Compile Include="Assets\Scripts\MenuSystem\MenuPopup.cs" />
      <Compile Include="Assets\Scripts\Items\WeaponItem.cs" />
+     <Compile Include="Assets\Scripts\Items\CataclysmProjectile.cs" />
      <Compile Include="Assets\Scripts\Character.cs" />
      <Compile Include="Assets\Scripts\Items\ShotgunProjectile.cs" />
      <Compile Include="Assets\Scripts\Items\SniperProjectile.cs" />
@@ -95,15 +98,18 @@
      <Compile Include="Assets\Scripts\Items\MessegerOfSadowProjectile.cs" />
      <Compile Include="Assets\Scripts\Items\Item.cs" />
      <Compile Include="Assets\Scripts\Items\ShotgunItem.cs" />
+     <Compile Include="Assets\Scripts\Items\JudgementBlasterProjectile.cs" />
      <Compile Include="Assets\Scripts\Controllers\MainMenuController.cs" />
      <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
      <Compile Include="Assets\Scripts\GameController.cs" />
      <Compile Include="Assets\Scripts\LoadSave.cs" />
+     <Compile Include="Assets\Scripts\Items\CataclysmItem.cs" />
      <Compile Include="Assets\Scripts\UI\WaitForUIButtons.cs" />
      <Compile Include="Assets\Scripts\Camera Script\AnchorGameObject.cs" />
      <Compile Include="Assets\Scripts\Items\DominionItem.cs" />
      <Compile Include="Assets\Scripts\Enemies\FakeEnemy.cs" />
      <Compile Include="Assets\Scripts\Weapons\MagicDice.cs" />
+     <Compile Include="Assets\Scripts\Items\LegacyProjectile.cs" />
      <Compile Include="Assets\Scripts\Items\ItemController.cs" />
      <Compile Include="Assets\Scripts\Items\ItemCollection.cs" />
      <Compile Include="Assets\Scripts\OnLongPressBehaviour.cs" />
