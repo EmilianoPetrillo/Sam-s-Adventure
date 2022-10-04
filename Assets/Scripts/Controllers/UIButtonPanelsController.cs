@@ -31,6 +31,7 @@ public class UIButtonPanelsController : MonoBehaviour
     {
         if (!SceneGameObjects.activeSelf)
         {
+            GameController.Instance.DestroyEnemy();
             GameController.Instance.SpawnEnemy();
             SceneGameObjects.SetActive(true);
         }

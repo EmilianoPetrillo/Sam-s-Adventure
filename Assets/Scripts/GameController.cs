@@ -23,6 +23,9 @@ public class GameController : MonoBehaviour
     public GameObject[] EnemiesWorld2;
     public GameObject[] EnemiesWorld3;
     public GameObject[] EnemiesWorld4;
+    public GameObject MiniBossWorld1;
+    public GameObject MiniBossWorld2;
+    public GameObject MiniBossWorld3;
     public GameObject FakeEnemy;
     private int enemyIndex;
     public GameObject[] Boss;
@@ -156,27 +159,51 @@ public class GameController : MonoBehaviour
 
     public void SpawnEnemy()
     {
-        if (level == maxLevel)
+        if (level == 30)
             SpawnBoss();
         else
         {
             if (stage <= 3)
             {
-                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld1.GetLength(0));
-                GameObject enemy = Instantiate(EnemiesWorld1[enemyIndex], SpawnPosition.position, Quaternion.identity);
-                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                if(level == 10 || level == 20)
+                {
+                    GameObject enemy = Instantiate(MiniBossWorld1, SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
+                else
+                {
+                    enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld1.GetLength(0));
+                    GameObject enemy = Instantiate(EnemiesWorld1[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
             }
             else if (stage > 3 && stage <= 6)
             {
-                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld2.GetLength(0));
-                GameObject enemy = Instantiate(EnemiesWorld2[enemyIndex], SpawnPosition.position, Quaternion.identity);
-                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                if (level == 10 || level == 20)
+                {
+                    GameObject enemy = Instantiate(MiniBossWorld2, SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
+                else
+                {
+                    enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld2.GetLength(0));
+                    GameObject enemy = Instantiate(EnemiesWorld2[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
             }
             else if (stage <= 9)
             {
-                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld3.GetLength(0));
-                GameObject enemy = Instantiate(EnemiesWorld3[enemyIndex], SpawnPosition.position, Quaternion.identity);
-                enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                if (level == 10 || level == 20)
+                {
+                    GameObject enemy = Instantiate(MiniBossWorld3, SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
+                else
+                {
+                    enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld3.GetLength(0));
+                    GameObject enemy = Instantiate(EnemiesWorld3[enemyIndex], SpawnPosition.position, Quaternion.identity);
+                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                }
             }
             else if (stage == 10)
             {

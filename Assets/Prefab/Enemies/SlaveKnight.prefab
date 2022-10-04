@@ -168,7 +168,7 @@ MonoBehaviour:
   characterSO: {fileID: 11400000, guid: 1da9ba2f88d78f241961fc9c19c30caa, type: 2}
   healthBar: {fileID: 5876884164032637049}
   canRevive: 0
-  jumpingSpeed: 3
+  jumpingSpeed: 6
 --- !u!1001 &3290192148642537774
 PrefabInstance:
   m_ObjectHideFlags: 0

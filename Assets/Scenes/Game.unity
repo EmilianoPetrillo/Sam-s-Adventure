@@ -22192,8 +22192,6 @@ MonoBehaviour:
   - {fileID: 3216597812450554660, guid: 557f60d7bbdffcd4fad03421418b020c, type: 3}
   - {fileID: 888538370235454064, guid: 5566776b1fe5e4f4195a01e23910d43c, type: 3}
   - {fileID: 7619324482846993826, guid: 4a979dec2e9f9024d9c20706624c6f3f, type: 3}
-  - {fileID: 3764993175409779157, guid: c2f16ed53d58ad54e8bf819933fb59f3, type: 3}
-  - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
   EnemiesWorld2:
   - {fileID: 6363871807855489389, guid: 821abbbf31a516244be0f54e90cb6ee1, type: 3}
   - {fileID: 3254465479644966554, guid: fba052c289a4b56419ac4b0d2b80ba8f, type: 3}
@@ -22202,10 +22200,25 @@ MonoBehaviour:
   - {fileID: 8154599920659429078, guid: 7dbd1a58eea53464ab00f0277a80cb20, type: 3}
   - {fileID: 6724001826590004861, guid: 3cbb61be459c6034b8f033a5b90d48d6, type: 3}
   - {fileID: 3260184175236017521, guid: e010ef5a8328c3147b272382f3343ce5, type: 3}
-  - {fileID: 5238954047448323488, guid: 760a4fcb43a40934c897ae28fdace47d, type: 3}
   EnemiesWorld3:
   - {fileID: 7545121625123481855, guid: effd769d2cc7de245820608c751bb5e2, type: 3}
-  EnemiesWorld4: []
+  EnemiesWorld4:
+  - {fileID: 8097721896163224380, guid: 5f011416f1ac2b847b9fd374e7f4b501, type: 3}
+  - {fileID: 3216597812450554660, guid: 557f60d7bbdffcd4fad03421418b020c, type: 3}
+  - {fileID: 9029908376087644320, guid: 8e077e84775847f41a30aa75b726af09, type: 3}
+  - {fileID: 7366549881217239557, guid: adced5287600ef64da15c1464d474aa5, type: 3}
+  - {fileID: 3235165854459304685, guid: 91ba4f43a37f64442b77c9b2771e22ea, type: 3}
+  - {fileID: 8154599920659429078, guid: 7dbd1a58eea53464ab00f0277a80cb20, type: 3}
+  - {fileID: 3260184175236017521, guid: e010ef5a8328c3147b272382f3343ce5, type: 3}
+  - {fileID: 3254465479644966554, guid: fba052c289a4b56419ac4b0d2b80ba8f, type: 3}
+  - {fileID: 888538370235454064, guid: 5566776b1fe5e4f4195a01e23910d43c, type: 3}
+  - {fileID: 7619324482846993826, guid: 4a979dec2e9f9024d9c20706624c6f3f, type: 3}
+  - {fileID: 6363871807855489389, guid: 821abbbf31a516244be0f54e90cb6ee1, type: 3}
+  - {fileID: 7619324482846993826, guid: ee93435f661d4314997a571b9c73e53b, type: 3}
+  - {fileID: 6724001826590004861, guid: 3cbb61be459c6034b8f033a5b90d48d6, type: 3}
+  MiniBossWorld1: {fileID: 3764993175409779157, guid: c2f16ed53d58ad54e8bf819933fb59f3, type: 3}
+  MiniBossWorld2: {fileID: 5238954047448323488, guid: 760a4fcb43a40934c897ae28fdace47d, type: 3}
+  MiniBossWorld3: {fileID: 0}
   FakeEnemy: {fileID: 8520809721821668579, guid: 1dab851cb28649c43889cccf8e2ba74d, type: 3}
   Boss:
   - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
