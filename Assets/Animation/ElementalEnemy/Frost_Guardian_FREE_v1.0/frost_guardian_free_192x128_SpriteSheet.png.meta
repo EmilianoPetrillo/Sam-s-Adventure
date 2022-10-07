@@ -844,7 +844,7 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_21
       rect:
         serializedVersion: 2
-        x: 1015
+        x: 1016
         y: 272
         width: 97
         height: 96
@@ -869,8 +869,8 @@ TextureImporter:
         y: 272
         width: 139
         height: 90
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38190708, y: -0.009669325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -886,12 +886,12 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_23
       rect:
         serializedVersion: 2
-        x: 1345
+        x: 1346
         y: 272
         width: 142
         height: 90
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.29416883, y: -0.03867764}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -907,12 +907,12 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_24
       rect:
         serializedVersion: 2
-        x: 1537
+        x: 1538
         y: 272
         width: 142
         height: 90
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.1715982, y: 0.009669325}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1289,8 +1289,8 @@ TextureImporter:
         y: 16
         width: 120
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.10152893, y: -0.009257834}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1310,8 +1310,8 @@ TextureImporter:
         y: 16
         width: 122
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.19972904, y: -0.0185158}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1331,8 +1331,8 @@ TextureImporter:
         y: 16
         width: 115
         height: 81
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2875605, y: 0.0107439775}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1478,8 +1478,8 @@ TextureImporter:
         y: 16
         width: 167
         height: 82
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.39082968, y: -0.03183822}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1541,8 +1541,8 @@ TextureImporter:
         y: 16
         width: 186
         height: 83
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3368701, y: 0.010485086}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1604,8 +1604,8 @@ TextureImporter:
         y: 16
         width: 186
         height: 76
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3368701, y: -0.011450479}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1768,12 +1768,12 @@ TextureImporter:
       name: frost_guardian_free_192x128_SpriteSheet_65
       rect:
         serializedVersion: 2
-        x: 2325
+        x: 2327
         y: 16
         width: 165
         height: 70
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.20396988, y: -0.00000019073487}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1814,8 +1814,8 @@ TextureImporter:
         y: 16
         width: 186
         height: 73
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2684943, y: -0.029743966}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1940,8 +1940,8 @@ TextureImporter:
         y: 14
         width: 162
         height: 67
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.335077, y: -0.016203994}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

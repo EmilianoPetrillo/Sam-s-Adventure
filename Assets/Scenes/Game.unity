@@ -22222,8 +22222,9 @@ MonoBehaviour:
   FakeEnemy: {fileID: 8520809721821668579, guid: 1dab851cb28649c43889cccf8e2ba74d, type: 3}
   Boss:
   - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
-  - {fileID: 5238954047448323488, guid: 760a4fcb43a40934c897ae28fdace47d, type: 3}
   - {fileID: 7390229677090703352, guid: f9068b9c16ebf0b4a85f0aaba9e28089, type: 3}
+  - {fileID: 8427600361758340056, guid: 1e363ffb8dc3b844d8b9c116ce634143, type: 3}
+  - {fileID: 7927939717561344883, guid: be4d08eb5e769434abcf528848824132, type: 3}
   SpawnPosition: {fileID: 1308625935}
   Game: {fileID: 0}
   SpawnPositionFly: {fileID: 1374080969}
