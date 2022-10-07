@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: MetalBladeKeeper
   m_EditorClassIdentifier: 
   HP: 15000
-  ATK: 175
+  ATK: 100
   CRITRATE: 2
   CRITDAMAGE: 2
   MAXHP: 15000

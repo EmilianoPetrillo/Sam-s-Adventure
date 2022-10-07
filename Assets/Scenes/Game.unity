@@ -22218,7 +22218,7 @@ MonoBehaviour:
   - {fileID: 6724001826590004861, guid: 3cbb61be459c6034b8f033a5b90d48d6, type: 3}
   MiniBossWorld1: {fileID: 3764993175409779157, guid: c2f16ed53d58ad54e8bf819933fb59f3, type: 3}
   MiniBossWorld2: {fileID: 5238954047448323488, guid: 760a4fcb43a40934c897ae28fdace47d, type: 3}
-  MiniBossWorld3: {fileID: 0}
+  MiniBossWorld3: {fileID: 8573016940459588880, guid: d4bc38d2eac2ac942ae2ee2efd595cfe, type: 3}
   FakeEnemy: {fileID: 8520809721821668579, guid: 1dab851cb28649c43889cccf8e2ba74d, type: 3}
   Boss:
   - {fileID: 7934311031580387180, guid: a26254aa7fc53b0489d2849e152e53dd, type: 3}
