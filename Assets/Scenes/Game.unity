@@ -22281,10 +22281,10 @@ MonoBehaviour:
   GamePanel: {fileID: 530221215}
   StartPanel: {fileID: 1245942313}
   Backgrounds:
-  - {fileID: 6147496329565044014, guid: ffc63467b31965d4792bd99de7cda862, type: 3}
-  - {fileID: 5522258862532068852, guid: 17fdae5913661b44abc9176a1401219f, type: 3}
-  - {fileID: 2648943712416751105, guid: 47bc3060f212f6d4dbf3bfd7851476c9, type: 3}
-  - {fileID: 6970653023920866548, guid: b01db8234155e8c41a429292d8bc7a55, type: 3}
+  - {fileID: 6970653023920866548, guid: 75c8a13858e191840a62e1c5dff86a52, type: 3}
+  - {fileID: 6970653023920866548, guid: 2ab25a83256e6bf42a79a26ec15b9ec2, type: 3}
+  - {fileID: 6970653023920866548, guid: 07d2fa6565f12c749a35b09ce84b503d, type: 3}
+  - {fileID: 6970653023920866548, guid: 70c5180ccc6414d4797ddc6f99992b07, type: 3}
   CurrentBackground: {fileID: 0}
   SpawnPosition: {fileID: 1308625935}
   Portal: {fileID: 1044598877515549908, guid: bc3a427b4e02e384891f06c020257866, type: 3}
