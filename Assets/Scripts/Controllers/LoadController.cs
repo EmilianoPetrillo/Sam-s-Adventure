@@ -100,8 +100,25 @@ public class LoadController : MonoBehaviour
         GameObject.Find("GameControllers").GetComponent<ScreenController>().ShowScreen(true);
         GameController.Instance.StartStuff();
     }
-
-        public void LoadNewRun()
+    private IEnumerator BackToMenuOperations()
+    {
+        Fader.Instance.FadeIn(1f);
+        AsyncOperation unloadingCutscenesScene = SceneManager.UnloadSceneAsync("Game");
+        do
+        {
+            yield return null;
+        }
+        while (!unloadingCutscenesScene.isDone);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("MenuScreen"));
+        //Da sistemare, non trova gli oggetti perchè sono disattivati
+        GameObject.Find("MenuCamera").SetActive(false);
+        GameObject.Find("MenuCanvas").SetActive(false);
+        GameObject.Find("MenuEventSystem").SetActive(false);
+        yield return new WaitForSeconds(1f);
+        UIController.Instance.StartStuff();
+        Fader.Instance.FadeOut(1f);
+    }
+    public void LoadNewRun()
     {
         StartCoroutine(LoadNewRunOperations());
     }
@@ -109,5 +126,10 @@ public class LoadController : MonoBehaviour
     public void LoadGameScene()
     {
         StartCoroutine(LoadGameOperations());
+    }
+
+    public void BackToMainMenu()
+    {
+        StartCoroutine(BackToMenuOperations());
     }
 }

@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class GameController : MonoBehaviour
 {
@@ -63,6 +64,12 @@ public class GameController : MonoBehaviour
         {
             t1 += Time.deltaTime;
         }
+    }
+
+    public void BackToMenu()
+    {
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("Init"));
+        GameObject.Find("LoadController").GetComponent<LoadController>().BackToMainMenu();
     }
 
     #region STAGES AND LEVELS
