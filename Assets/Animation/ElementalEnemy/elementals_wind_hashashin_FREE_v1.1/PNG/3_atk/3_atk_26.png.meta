@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 2a48bd943512e224082f3333639ec52b
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3393305758567671484
+    second: 3_atk_26_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +164,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3_atk_26_0
+      rect:
+        serializedVersion: 2
+        x: 132
+        y: 1
+        width: 26
+        height: 37
+      alignment: 9
+      pivot: {x: 0.14886475, y: -0.0107020205}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 449594e146e88e0d0800000000000000
+      internalID: -3393305758567671484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

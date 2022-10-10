@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: ddad1e48001b0344c9360052480bc2cd
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -4459409780848082351
+    second: death_14_0
+  - first:
+      213: 7659745429896639868
+    second: death_14_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +167,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: death_14_0
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 1
+        width: 65
+        height: 41
+      alignment: 9
+      pivot: {x: 0.3595459, y: 0.013230818}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 152c5a86e6efc12c0800000000000000
+      internalID: -4459409780848082351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: death_14_1
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 1
+        width: 13
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7539eaa2e1ec4a60800000000000000
+      internalID: 7659745429896639868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

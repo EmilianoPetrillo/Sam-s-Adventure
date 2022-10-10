@@ -1,7 +1,10 @@
 fileFormatVersion: 2
 guid: 23502242aee391f418f0614a9c817858
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -3726265232208835741
+    second: idle_5_0
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +164,28 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: idle_5_0
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 1
+        width: 35
+        height: 35
+      alignment: 9
+      pivot: {x: 0.29375175, y: 0.020776452}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36bcd4f8385a94cc0800000000000000
+      internalID: -3726265232208835741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

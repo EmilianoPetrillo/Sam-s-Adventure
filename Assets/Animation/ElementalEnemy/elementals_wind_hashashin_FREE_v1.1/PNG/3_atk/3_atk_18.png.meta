@@ -1,7 +1,13 @@
 fileFormatVersion: 2
 guid: 2dd6cd5aa34ce294d9a07a5f6c3283a0
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 62967712600224440
+    second: 3_atk_18_0
+  - first:
+      213: 561945145841784712
+    second: 3_atk_18_1
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +167,49 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3_atk_18_0
+      rect:
+        serializedVersion: 2
+        x: 120
+        y: 1
+        width: 90
+        height: 57
+      alignment: 9
+      pivot: {x: 0.2263504, y: -0.0028494974}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b2fadd0dc4bfd000800000000000000
+      internalID: 62967712600224440
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_atk_18_1
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 1
+        width: 24
+        height: 41
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8879721022e6cc700800000000000000
+      internalID: 561945145841784712
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

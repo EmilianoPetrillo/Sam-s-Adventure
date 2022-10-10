@@ -17,7 +17,7 @@ MonoBehaviour:
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
-  coins: 5000
+  coins: 50000
   multiplier: 1
   attackRange:
   - 2

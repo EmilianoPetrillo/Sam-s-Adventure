@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: d9fe89c0df9a03b4694ed7b9b659ac6c
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 4568846384590270696
+    second: 3_atk_8_0
+  - first:
+      213: -775055787182115938
+    second: 3_atk_8_1
+  - first:
+      213: 827483731333298655
+    second: 3_atk_8_2
+  - first:
+      213: 8340543492454971815
+    second: 3_atk_8_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -161,7 +173,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: 3_atk_8_0
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 75
+        height: 49
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e0b4da749dc76f30800000000000000
+      internalID: 4568846384590270696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_atk_8_1
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 24
+        width: 34
+        height: 26
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9336e33ed27e35f0800000000000000
+      internalID: -775055787182115938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_atk_8_2
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 16
+        width: 24
+        height: 9
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd93987c110db7b00800000000000000
+      internalID: 827483731333298655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: 3_atk_8_3
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 7
+        width: 22
+        height: 12
+      alignment: 6
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a97975cd109fb370800000000000000
+      internalID: 8340543492454971815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
