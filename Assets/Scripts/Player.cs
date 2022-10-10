@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Player : Character
 {
@@ -32,6 +33,7 @@ public class Player : Character
     public GameObject ActiveGun;
     public GameObject Arm;
     public GameObject Shield;
+    public GameObject ShieldButton;
 
     public WeaponItem[] HeldWeapons;
     public ItemSlot[] HeldWeaponsSlots;
@@ -126,16 +128,19 @@ public class Player : Character
     {
         if(t < 2)
         {
+            //TODO: change shield color
             Shield.SetActive(true);
             timer = true;
         }
         else if (t >= 2)
         {
             Shield.SetActive(false);
-            if(t >= 10)
+            //Shield CDR: 5 sec
+            if(t >= 5)
             {
                 timer = false;
                 t = 0;
+                //TODO: change shield color 
             }
         }
     }

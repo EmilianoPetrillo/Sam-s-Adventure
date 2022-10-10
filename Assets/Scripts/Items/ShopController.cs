@@ -26,7 +26,7 @@ public class ShopController : MonoBehaviour
     private void Start()
     {
         
-        Transform shopContent = transform.GetChild(1).GetChild(0);
+        Transform shopContent = transform.GetChild(2).GetChild(0);
         List<Transform> contentLines = new List<Transform>();
         foreach(Transform item in shopContent)
         {

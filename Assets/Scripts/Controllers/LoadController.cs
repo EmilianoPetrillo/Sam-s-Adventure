@@ -46,9 +46,9 @@ public class LoadController : MonoBehaviour
 
     private IEnumerator LoadNewRunOperations()
     {
-        GameObject.Find("MenuCamera").SetActive(false);
-        GameObject.Find("MenuCanvas").SetActive(false);
-        GameObject.Find("MenuEventSystem").SetActive(false);
+        GameObject parentMenuObject = GameObject.Find("MenuItemsToSwitch");
+        foreach (Transform g in parentMenuObject.transform)
+            g.gameObject.SetActive(false);
         AsyncOperation loadLogoScreen = SceneManager.LoadSceneAsync("LoadingScreen", LoadSceneMode.Additive);
         do
         {
@@ -103,20 +103,21 @@ public class LoadController : MonoBehaviour
     private IEnumerator BackToMenuOperations()
     {
         Fader.Instance.FadeIn(1f);
+        SceneManager.SetActiveScene(SceneManager.GetSceneByName("MenuScreen"));
+        GameObject parentMenuObject = GameObject.Find("MenuItemsToSwitch");
+        parentMenuObject.transform.GetChild(2).gameObject.SetActive(true);
         AsyncOperation unloadingCutscenesScene = SceneManager.UnloadSceneAsync("Game");
         do
         {
             yield return null;
         }
         while (!unloadingCutscenesScene.isDone);
-        SceneManager.SetActiveScene(SceneManager.GetSceneByName("MenuScreen"));
-        //Da sistemare, non trova gli oggetti perchè sono disattivati
-        GameObject.Find("MenuCamera").SetActive(false);
-        GameObject.Find("MenuCanvas").SetActive(false);
-        GameObject.Find("MenuEventSystem").SetActive(false);
+        
         yield return new WaitForSeconds(1f);
-        UIController.Instance.StartStuff();
+        foreach (Transform g in parentMenuObject.transform)
+            g.gameObject.SetActive(true);
         Fader.Instance.FadeOut(1f);
+        
     }
     public void LoadNewRun()
     {
