@@ -164,6 +164,12 @@ TextureImporter:
   - first:
       213: 1809124273788539287
     second: waechter-20 SV_Battler_53
+  - first:
+      213: -6381534586201261526
+    second: waechter-20 SV_Battler_54
+  - first:
+      213: -1037885206064180407
+    second: waechter-20 SV_Battler_55
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -332,8 +338,8 @@ TextureImporter:
         y: 640
         width: 98
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.26135162, y: 0.26438656}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -353,8 +359,8 @@ TextureImporter:
         y: 640
         width: 96
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2561245, y: 0.27247328}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -374,8 +380,8 @@ TextureImporter:
         y: 640
         width: 95
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2480366, y: 0.28225958}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -395,8 +401,8 @@ TextureImporter:
         y: 640
         width: 144
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.512249, y: 0.20908153}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -416,8 +422,8 @@ TextureImporter:
         y: 640
         width: 145
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49458554, y: 0.21797863}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -437,8 +443,8 @@ TextureImporter:
         y: 640
         width: 147
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.50179535, y: 0.2974348}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -521,8 +527,8 @@ TextureImporter:
         y: 512
         width: 98
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2927138, y: 0.30845132}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -542,8 +548,8 @@ TextureImporter:
         y: 512
         width: 96
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30948386, y: 0.30516994}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -563,8 +569,8 @@ TextureImporter:
         y: 512
         width: 95
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.28038907, y: 0.2613513}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -584,8 +590,8 @@ TextureImporter:
         y: 512
         width: 143
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.508667, y: 0.24044363}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -605,8 +611,8 @@ TextureImporter:
         y: 512
         width: 145
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54404426, y: 0.2506753}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -626,8 +632,8 @@ TextureImporter:
         y: 512
         width: 147
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.5157338, y: 0.26438656}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -647,8 +653,8 @@ TextureImporter:
         y: 514
         width: 78
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38066688, y: 0.31587252}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -668,8 +674,8 @@ TextureImporter:
         y: 516
         width: 78
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38066688, y: 0.302711}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -689,8 +695,8 @@ TextureImporter:
         y: 518
         width: 76
         height: 97
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3744057, y: 0.2678405}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -706,12 +712,12 @@ TextureImporter:
       name: waechter-20 SV_Battler_18
       rect:
         serializedVersion: 2
-        x: 49
-        y: 384
-        width: 98
-        height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+        x: 46
+        y: 381
+        width: 101
+        height: 96
+      alignment: 9
+      pivot: {x: 0.31444997, y: 0.27746806}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -731,8 +737,8 @@ TextureImporter:
         y: 384
         width: 96
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30948386, y: 0.31606862}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -752,8 +758,8 @@ TextureImporter:
         y: 384
         width: 95
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.2480366, y: 0.24044333}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -773,8 +779,8 @@ TextureImporter:
         y: 384
         width: 143
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.49433824, y: 0.25089747}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -794,8 +800,8 @@ TextureImporter:
         y: 384
         width: 145
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.54404426, y: 0.3051696}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -815,8 +821,8 @@ TextureImporter:
         y: 384
         width: 147
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.48785692, y: 0.308451}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -836,8 +842,8 @@ TextureImporter:
         y: 389
         width: 81
         height: 78
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.16198279, y: 0.15419437}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -854,11 +860,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 1410
-        y: 389
+        y: 388
         width: 79
         height: 79
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.19376421, y: 0.23528318}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -878,8 +884,8 @@ TextureImporter:
         y: 389
         width: 80
         height: 83
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.17767486, y: 0.13173226}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -899,8 +905,8 @@ TextureImporter:
         y: 269
         width: 78
         height: 78
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.105076715, y: 0.09194203}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -920,8 +926,8 @@ TextureImporter:
         y: 270
         width: 76
         height: 75
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.09436196, y: 0.040979818}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -941,8 +947,8 @@ TextureImporter:
         y: 273
         width: 77
         height: 70
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.07983121, y: 0.08781389}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -958,12 +964,12 @@ TextureImporter:
       name: waechter-20 SV_Battler_30
       rect:
         serializedVersion: 2
-        x: 624
+        x: 625
         y: 256
         width: 99
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.27940845, y: 0.25336972}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -983,8 +989,8 @@ TextureImporter:
         y: 256
         width: 101
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.33473796, y: 0.2615733}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1004,8 +1010,8 @@ TextureImporter:
         y: 256
         width: 102
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.32141232, y: 0.28225926}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1025,8 +1031,8 @@ TextureImporter:
         y: 261
         width: 81
         height: 78
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.17292541, y: 0.16901222}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1046,8 +1052,8 @@ TextureImporter:
         y: 261
         width: 79
         height: 79
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.11472601, y: 0.16687281}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1067,8 +1073,8 @@ TextureImporter:
         y: 261
         width: 80
         height: 83
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.18538514, y: 0.13897668}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1088,8 +1094,8 @@ TextureImporter:
         y: 141
         width: 78
         height: 78
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.11432295, y: 0.16331853}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1109,8 +1115,8 @@ TextureImporter:
         y: 142
         width: 76
         height: 75
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.100569874, y: 0.13588053}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1130,8 +1136,8 @@ TextureImporter:
         y: 128
         width: 95
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25477713, y: 0.24697736}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1151,8 +1157,8 @@ TextureImporter:
         y: 128
         width: 99
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.25735012, y: 0.28765115}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1172,8 +1178,8 @@ TextureImporter:
         y: 128
         width: 107
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3452582, y: 0.24393512}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1189,12 +1195,12 @@ TextureImporter:
       name: waechter-20 SV_Battler_41
       rect:
         serializedVersion: 2
-        x: 1000
+        x: 999
         y: 128
         width: 106
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3364972, y: 0.24697736}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1214,8 +1220,8 @@ TextureImporter:
         y: 133
         width: 73
         height: 63
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.20707974, y: 0.2233148}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1231,12 +1237,12 @@ TextureImporter:
       name: waechter-20 SV_Battler_43
       rect:
         serializedVersion: 2
-        x: 1410
+        x: 1407
         y: 133
-        width: 73
+        width: 76
         height: 63
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.23241384, y: 0.22286066}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1256,8 +1262,8 @@ TextureImporter:
         y: 133
         width: 73
         height: 63
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.19853482, y: 0.1797265}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1277,8 +1283,8 @@ TextureImporter:
         y: 0
         width: 98
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.24697782, y: 0.3013491}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1298,8 +1304,8 @@ TextureImporter:
         y: 0
         width: 96
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.26539293, y: 0.2710393}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1319,8 +1325,8 @@ TextureImporter:
         y: 0
         width: 98
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.27297506, y: 0.26025602}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1340,8 +1346,8 @@ TextureImporter:
         y: 0
         width: 99
         height: 93
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.29595268, y: 0.26025602}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1361,8 +1367,8 @@ TextureImporter:
         y: 0
         width: 99
         height: 94
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.30882064, y: 0.31169525}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1382,8 +1388,8 @@ TextureImporter:
         y: 0
         width: 100
         height: 98
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.33120972, y: 0.28597414}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1403,8 +1409,8 @@ TextureImporter:
         y: 2
         width: 84
         height: 61
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.3572228, y: 0.23853314}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1424,8 +1430,8 @@ TextureImporter:
         y: 2
         width: 84
         height: 61
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.37203252, y: 0.25986665}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1445,8 +1451,8 @@ TextureImporter:
         y: 2
         width: 84
         height: 61
-      alignment: 6
-      pivot: {x: 0, y: 0}
+      alignment: 9
+      pivot: {x: 0.38281685, y: 0.2672914}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -1454,6 +1460,48 @@ TextureImporter:
       bones: []
       spriteID: 791d3bd11fc4b1910800000000000000
       internalID: 1809124273788539287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waechter-20 SV_Battler_54
+      rect:
+        serializedVersion: 2
+        x: 244
+        y: 503
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2aba9bca1c3077a0800000000000000
+      internalID: -6381534586201261526
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: waechter-20 SV_Battler_55
+      rect:
+        serializedVersion: 2
+        x: 810
+        y: 117
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94359ee67e0b891f0800000000000000
+      internalID: -1037885206064180407
       vertices: []
       indices: 
       edges: []
