@@ -47,6 +47,8 @@ AnimationClip:
       value: {fileID: -3703734195752224577, guid: 033afa61237239940a8b1c0cccdc77d2, type: 3}
     - time: 1.0833334
       value: {fileID: -4132167874496263620, guid: fba3c5cff9689414db2d74ba118a0f2b, type: 3}
+    - time: 1.2333333
+      value: {fileID: 4387101832441374223, guid: 15e5f8b3ead9a7d4488d4447cec4224f, type: 3}
     attribute: m_Sprite
     path: 
     classID: 212
@@ -80,12 +82,13 @@ AnimationClip:
     - {fileID: -7178051265973010249, guid: 7097509f10cb2164fa7142a29c2bc387, type: 3}
     - {fileID: -3703734195752224577, guid: 033afa61237239940a8b1c0cccdc77d2, type: 3}
     - {fileID: -4132167874496263620, guid: fba3c5cff9689414db2d74ba118a0f2b, type: 3}
+    - {fileID: 4387101832441374223, guid: 15e5f8b3ead9a7d4488d4447cec4224f, type: 3}
   m_AnimationClipSettings:
     serializedVersion: 2
     m_AdditiveReferencePoseClip: {fileID: 0}
     m_AdditiveReferencePoseTime: 0
     m_StartTime: 0
-    m_StopTime: 1.1
+    m_StopTime: 1.25
     m_OrientationOffsetY: 0
     m_Level: 0
     m_CycleOffset: 0
@@ -107,6 +110,13 @@ AnimationClip:
   m_Events:
   - time: 0.8333333
     functionName: Shoot
+    data: 
+    objectReferenceParameter: {fileID: 0}
+    floatParameter: 0
+    intParameter: 0
+    messageOptions: 0
+  - time: 1.0833334
+    functionName: DoDamage
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

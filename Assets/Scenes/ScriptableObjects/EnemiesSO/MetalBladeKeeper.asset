@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: MetalBladeKeeper
   m_EditorClassIdentifier: 
-  HP: 15000
+  HP: 2700
   ATK: 100
   CRITRATE: 2
   CRITDAMAGE: 2
   MAXHP: 15000
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
   coins: 250000
   multiplier: 1
   attackRange:

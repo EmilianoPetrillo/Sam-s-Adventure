@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: FrostGuardian
   m_EditorClassIdentifier: 
-  HP: 200000
+  HP: 4000
   ATK: 2000
   CRITRATE: 2
   CRITDAMAGE: 25
   MAXHP: 200000
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
   coins: 150000
   multiplier: 1
   attackRange:

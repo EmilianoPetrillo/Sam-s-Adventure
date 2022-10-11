@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: MechaStone
   m_EditorClassIdentifier: 
-  HP: 20000
+  HP: 3500
   ATK: 50
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
   coins: 5000
   multiplier: 1
   attackRange:

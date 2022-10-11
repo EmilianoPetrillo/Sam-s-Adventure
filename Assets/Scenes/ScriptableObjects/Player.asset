@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fe2cd0d5cd740424ca00220211d001a8, type: 3}
   m_Name: Player
   m_EditorClassIdentifier: 
-  HP: 1000
-  ATK: 500
+  HP: 50000
+  ATK: 20000
   CRITRATE: 0
   CRITDAMAGE: 150
   MAXHP: 0

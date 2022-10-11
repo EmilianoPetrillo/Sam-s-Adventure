@@ -97,7 +97,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aa54d3268a9177f44ad27e3a82700b9d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 2
+  damage: 0
   HasExplodingAnimation: 1
 --- !u!61 &147330829496162765
 BoxCollider2D:

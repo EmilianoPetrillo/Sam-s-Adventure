@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using UnityEngine;
 
 [CreateAssetMenu(fileName = "New Weapon Item", menuName = "Create Weapon Item/JudgementBlaster")]
-
 public class JudgementBlaster : WeaponItem
 {
     public override IEnumerator Shoot(GameObject Arm)

@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: Devourer
   m_EditorClassIdentifier: 
-  HP: 10000000
+  HP: 10000
   ATK: 300
   CRITRATE: 2
   CRITDAMAGE: 600
   MAXHP: 0
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
   coins: 0
   multiplier: 1
   attackRange:

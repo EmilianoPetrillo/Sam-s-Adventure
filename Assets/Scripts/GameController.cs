@@ -47,8 +47,8 @@ public class GameController : MonoBehaviour
     private void Start()
     {
         //Todo: Change
-        stage = 1;
-        level = 1;
+        stage = 7;
+        level = 20;
         maxLevel = 10;
         //All the previous enemies + 3 miniboss
         foreach (GameObject e in EnemiesWorld1)
