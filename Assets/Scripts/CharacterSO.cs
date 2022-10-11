@@ -9,4 +9,6 @@ public class CharacterSO : ScriptableObject
     public float CRITRATE;
     public float CRITDAMAGE;
     public float MAXHP;
+    public float SHIELDCOOLDOWN;
+    public float SHIELDTIMEON;
 }

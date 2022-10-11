@@ -126,21 +126,19 @@ public class Player : Character
 
     public void ShieldOn()
     {
-        if(t < 2)
+        if(t < PlayerSO.SHIELDTIMEON)
         {
-            //TODO: change shield color
             Shield.SetActive(true);
             timer = true;
         }
-        else if (t >= 2)
+        else if (t >= PlayerSO.SHIELDTIMEON)
         {
             Shield.SetActive(false);
             //Shield CDR: 5 sec
-            if(t >= 5)
+            if(t >= PlayerSO.SHIELDCOOLDOWN)
             {
                 timer = false;
                 t = 0;
-                //TODO: change shield color 
             }
         }
     }

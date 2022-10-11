@@ -98,7 +98,7 @@ public class LoadController : MonoBehaviour
         while (!unloadingCutscenesScene.isDone);
         yield return new WaitForSeconds(1f);
         GameObject.Find("GameControllers").GetComponent<ScreenController>().ShowScreen(true);
-        GameController.Instance.StartStuff();
+        
     }
     private IEnumerator BackToMenuOperations()
     {
