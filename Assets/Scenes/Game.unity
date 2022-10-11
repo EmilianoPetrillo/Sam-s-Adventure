@@ -1681,8 +1681,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 1.0226, y: 41.4919}
-  m_SizeDelta: {x: 1589.7549, y: 542.4415}
+  m_AnchoredPosition: {x: 1.0226, y: 33.362}
+  m_SizeDelta: {x: 1589.7549, y: 704.99}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &157266221
 MonoBehaviour:
@@ -1704,7 +1704,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 47f7b109ebeb1a949804a61b9a607c66, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -1756,8 +1756,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: -0.04}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 375}
-  m_SizeDelta: {x: 991.85, y: 83.048}
+  m_AnchoredPosition: {x: 50, y: 413}
+  m_SizeDelta: {x: 855.9626, y: 83.048}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &165127475
 MonoBehaviour:
@@ -2282,8 +2282,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -343.06}
-  m_SizeDelta: {x: 611.1333, y: 148}
+  m_AnchoredPosition: {x: 0, y: -387.2452}
+  m_SizeDelta: {x: 611.1333, y: 101.5096}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &189993532
 MonoBehaviour:
@@ -2650,8 +2650,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 645.92, y: -343.06}
-  m_SizeDelta: {x: 300, y: 148}
+  m_AnchoredPosition: {x: 645.92, y: -387.25}
+  m_SizeDelta: {x: 300, y: 101.51}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &217916356
 MonoBehaviour:
@@ -22809,8 +22809,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 7.007019, y: -14.313416}
-  m_SizeDelta: {x: -136.99, y: -142.1933}
+  m_AnchoredPosition: {x: 7.007019, y: -1.26}
+  m_SizeDelta: {x: -136.99, y: -116.0865}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1973847361
 MonoBehaviour:
@@ -22825,10 +22825,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   slidesSprites:
-  - {fileID: 21300000, guid: 93d31ae31b8fad848ba8bffd15b13ba9, type: 3}
-  - {fileID: 21300000, guid: 693e1bee5f0ddce4c9e134c331d5b310, type: 3}
-  - {fileID: 21300000, guid: 766785078581a194e93e1f306133d353, type: 3}
-  - {fileID: 21300000, guid: 4cff5d38a6e9b154d88186695f70826a, type: 3}
+  - {fileID: 21300000, guid: 47f7b109ebeb1a949804a61b9a607c66, type: 3}
+  - {fileID: 21300000, guid: 3b5600d7055e44a45ab3290e0c1fdb6e, type: 3}
+  - {fileID: 21300000, guid: 791e60ac0c73b5c49a0eeef68cecb4c6, type: 3}
+  - {fileID: 21300000, guid: 379a2071a5fee944ebd305afda9cba6d, type: 3}
+  - {fileID: 21300000, guid: 7f5477c1bbf3fa14c81e3aa087e9afc0, type: 3}
+  - {fileID: 21300000, guid: c18951e1586d0664e862c99d68315477, type: 3}
   centralImage: {fileID: 157266221}
   continueButton: {fileID: 189993532}
   skipButton: {fileID: 217916356}

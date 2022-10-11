@@ -119,10 +119,12 @@
     <Compile Include="Assets\Scripts\Items\CataclysmItem.cs" />
     <Compile Include="Assets\Scripts\UI\WaitForUIButtons.cs" />
     <Compile Include="Assets\Scripts\Camera Script\AnchorGameObject.cs" />
+    <Compile Include="Assets\Scripts\CooldownScript.cs" />
     <Compile Include="Assets\Scripts\MusicVolumeController.cs" />
     <Compile Include="Assets\Scripts\Items\DominionItem.cs" />
     <Compile Include="Assets\Scripts\Enemies\FakeEnemy.cs" />
     <Compile Include="Assets\Scripts\Weapons\MagicDice.cs" />
+    <Compile Include="Assets\Scripts\UI\TutorialPanel.cs" />
     <Compile Include="Assets\Scripts\Items\LegacyProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\ItemController.cs" />
     <Compile Include="Assets\Scripts\Items\ItemCollection.cs" />
@@ -136,8 +138,6 @@
     <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorItem.cs" />
     <Compile Include="Assets\Scripts\Items\LastBreathItem.cs" />
-    <Compile Include="Assets\Scripts\CooldownScript.cs" />
-    <Compile Include="Assets\Scripts\UI\TutorialPanel.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

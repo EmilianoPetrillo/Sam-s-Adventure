@@ -10,6 +10,7 @@ public class FlyingEnemy : Enemy
 
     protected override void Start()
     {
+        base.Start();
         player = GameObject.FindGameObjectWithTag("Player");
         transform.position = new Vector2(transform.position.x, transform.position.y + 4);
         //sinCenterY = transform.position.y;
