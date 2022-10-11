@@ -38,8 +38,8 @@ public class MagicDice : MonoBehaviour
         else if(collision.gameObject.tag == "Player" && HasExplodingAnimation)
         {
             collision.gameObject.GetComponent<Character>().TakeDamage((int)damage);
-            Animator animator = GetComponent<Animator>();
-            animator.SetBool("Hit", true);
+            //Animator animator = GetComponent<Animator>();
+            //animator.SetBool("Hit", true);
             speed = 0;
         }
     }

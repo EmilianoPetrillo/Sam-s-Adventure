@@ -66,6 +66,7 @@ public class UITextController : MonoBehaviour
         {
             Destroy(CurrentBackground);
             i++;
+            UIController.Instance.BoxPieces[i - 1].SetActive(true);
         }
         CurrentBackground = Instantiate(Backgrounds[i], Backgrounds[i].transform.position, Quaternion.identity);
     }
@@ -88,6 +89,7 @@ public class UITextController : MonoBehaviour
 
     private IEnumerator changePanelAndPortal()
     {
+        GameController.Instance.DestroyEnemy();
         //Integrate this changes for portal spawning
         GameObject portal = Instantiate(Portal, new Vector3(-3.5f, -1.75f, 0.0f), Quaternion.identity);
         yield return new WaitForSeconds(1);

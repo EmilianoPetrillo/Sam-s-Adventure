@@ -23,7 +23,7 @@ public class GameController : MonoBehaviour
     public GameObject[] EnemiesWorld1;
     public GameObject[] EnemiesWorld2;
     public GameObject[] EnemiesWorld3;
-    public GameObject[] EnemiesWorld4;
+    public List<GameObject> EnemiesWorld4;
     public GameObject MiniBossWorld1;
     public GameObject MiniBossWorld2;
     public GameObject MiniBossWorld3;
@@ -33,6 +33,7 @@ public class GameController : MonoBehaviour
     public Transform SpawnPosition;
     public GameObject Game;
     public Transform SpawnPositionFly;
+    public GameObject Devourer;
 
     private int stage;
     private int level;
@@ -45,9 +46,21 @@ public class GameController : MonoBehaviour
 
     private void Start()
     {
+        //Todo: Change
         stage = 1;
         level = 1;
         maxLevel = 10;
+        //All the previous enemies + 3 miniboss
+        foreach (GameObject e in EnemiesWorld1)
+            EnemiesWorld4.Add(e);
+        foreach (GameObject e in EnemiesWorld2)
+            EnemiesWorld4.Add(e);
+        foreach (GameObject e in EnemiesWorld3)
+            EnemiesWorld4.Add(e);
+        EnemiesWorld4.Add(MiniBossWorld1);
+        EnemiesWorld4.Add(MiniBossWorld2);
+        EnemiesWorld4.Add(MiniBossWorld3);
+
     }
 
 
@@ -116,6 +129,12 @@ public class GameController : MonoBehaviour
             timer = false;
             t = 0;
             SpawnEnemy();
+            if (stage == 4 && level == 1)
+                DestroyEnemy();
+            if (stage == 7 && level == 1)
+                DestroyEnemy();
+            if (stage == 10 && level == 1)
+                DestroyEnemy();
         }
     }
     
@@ -128,12 +147,15 @@ public class GameController : MonoBehaviour
         else
         {
             stage++;
-            i++;
+            
             level = 1;
             if (stage == 10)
                 maxLevel = 30;
             if ((stage - 1) % 3 == 0)
-                UITextController.Instance.ChangeGamePanel();
+            {
+                i++;
+                UITextController.Instance.NextPhase();
+            }
         }
     }
 
@@ -172,10 +194,17 @@ public class GameController : MonoBehaviour
         {
             if (stage <= 3)
             {
-                if(level == 10 || level == 20)
+                if(level == 10)
                 {
-                    GameObject enemy = Instantiate(MiniBossWorld1, SpawnPosition.position, Quaternion.identity);
-                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    if (stage < 3) {
+                        GameObject enemy = Instantiate(MiniBossWorld1, SpawnPosition.position, Quaternion.identity);
+                        enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    }
+                    else
+                    {
+                        SpawnBoss();
+                    }
+                    
                 }
                 else
                 {
@@ -186,10 +215,18 @@ public class GameController : MonoBehaviour
             }
             else if (stage > 3 && stage <= 6)
             {
-                if (level == 10 || level == 20)
+                if (level == 10)
                 {
-                    GameObject enemy = Instantiate(MiniBossWorld2, SpawnPosition.position, Quaternion.identity);
-                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    if (stage < 6)
+                    {
+                        GameObject enemy = Instantiate(MiniBossWorld2, SpawnPosition.position, Quaternion.identity);
+                        enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    }
+                    else
+                    {
+                        SpawnBoss();
+                    }
+
                 }
                 else
                 {
@@ -198,12 +235,20 @@ public class GameController : MonoBehaviour
                     enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
                 }
             }
-            else if (stage <= 9)
+            else if (stage > 6 && stage <= 9)
             {
-                if (level == 10 || level == 20)
+                if (level == 10)
                 {
-                    GameObject enemy = Instantiate(MiniBossWorld3, SpawnPosition.position, Quaternion.identity);
-                    enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    if (stage < 9)
+                    {
+                        GameObject enemy = Instantiate(MiniBossWorld3, SpawnPosition.position, Quaternion.identity);
+                        enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+                    }
+                    else
+                    {
+                        SpawnBoss();
+                    }
+
                 }
                 else
                 {
@@ -214,18 +259,25 @@ public class GameController : MonoBehaviour
             }
             else if (stage == 10)
             {
-                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld4.GetLength(0));
+                enemyIndex = Random.Range(StartingIndexToSpawnEnemy, EnemiesWorld4.Count);
                 GameObject enemy = Instantiate(EnemiesWorld4[enemyIndex], SpawnPosition.position, Quaternion.identity);
                 enemy.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
             }
         }
     }
-
+    //Todo
     private int i = 0;
 
     private void SpawnBoss()
     {
         GameObject boss = Instantiate(Boss[i], SpawnPosition.position, Quaternion.identity);
+        boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
+    }
+
+    public void SpawnDevourer()
+    {
+        //Before devourer stuffs
+        GameObject boss = Instantiate(Devourer, SpawnPosition.position, Quaternion.identity);
         boss.GetComponent<Enemy>().EnemySO.multiplier = MultiplierCalculator(stage, level);
     }
 

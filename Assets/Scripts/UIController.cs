@@ -55,7 +55,7 @@ public class UIController : MonoBehaviour
     public Text CurrentHP;
     public Text CurrentCRITRATE;
     public Text CurrentCRITDMG;
-
+    public List<GameObject> BoxPieces;
     public Image ActiveGunImage;
 
     private void Start()
@@ -159,7 +159,7 @@ public class UIController : MonoBehaviour
             coinsToUpgradeATK += 25 * keyATK;
             Player.Instance.ATKUpgrade();
             //Diminuito costo del 15% rispetto alla precedente build
-            coinsToUpgradeATK *= 85 / 100;
+            coinsToUpgradeATK = coinsToUpgradeATK * 85 / 100;
             if (tutorial)
             {
                 UITextController.Instance.NextPhase();
@@ -176,7 +176,7 @@ public class UIController : MonoBehaviour
             keyHP++;
             coinsToUpgradeHP += 25 * keyHP;
             //Diminuito costo del 15% rispetto alla precedente build
-            coinsToUpgradeHP *= 85 / 100;
+            coinsToUpgradeHP = coinsToUpgradeHP * 85 / 100;
             Player.Instance.HPUpgrade();
             if (tutorial)
             {
@@ -194,7 +194,7 @@ public class UIController : MonoBehaviour
             keyCRITRATE++;
             coinsToUpgradeCRITRATE += 25 * keyCRITRATE;
             //Diminuito costo del 15% rispetto alla precedente build
-            coinsToUpgradeCRITRATE *= 85 / 100;
+            coinsToUpgradeCRITRATE = coinsToUpgradeCRITRATE * 85 / 100;
             Player.Instance.CRITRATEUpgrade();
             if (tutorial)
             {
@@ -212,7 +212,7 @@ public class UIController : MonoBehaviour
             keyCRITDAMAGE++;
             coinsToUpgradeCRITDAMAGE += 25 * keyCRITDAMAGE;
             //Diminuito costo del 15% rispetto alla precedente build
-            coinsToUpgradeCRITDAMAGE *= 85 / 100;
+            coinsToUpgradeCRITDAMAGE = coinsToUpgradeCRITDAMAGE * 85 / 100;
             Player.Instance.CRITDAMAGEUpgrade();
             if (tutorial)
             {

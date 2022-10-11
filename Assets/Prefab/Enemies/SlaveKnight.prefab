@@ -10,10 +10,10 @@ GameObject:
   m_Component:
   - component: {fileID: 3315230900071495712}
   - component: {fileID: -3944980210267987897}
-  - component: {fileID: 488879998989893652}
   - component: {fileID: 4844068567556414962}
   - component: {fileID: 3225822995594759333}
   - component: {fileID: -9203900175531406891}
+  - component: {fileID: 7031441518494035604}
   m_Layer: 0
   m_Name: SlaveKnight
   m_TagString: Enemy
@@ -87,32 +87,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!61 &488879998989893652
-BoxCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 3764993175409779157}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: -0.16186789, y: 0.23566477}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0, y: 0}
-    oldSize: {x: 0.421875, y: 0.734375}
-    newSize: {x: 2.56, y: 2.56}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 0.16306686, y: 0.44132957}
-  m_EdgeRadius: 0
 --- !u!50 &4844068567556414962
 Rigidbody2D:
   serializedVersion: 4
@@ -169,6 +143,32 @@ MonoBehaviour:
   healthBar: {fileID: 5876884164032637049}
   canRevive: 0
   jumpingSpeed: 6
+--- !u!61 &7031441518494035604
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3764993175409779157}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: -0.2109375, y: 0.3671875}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0.421875, y: 0.734375}
+    newSize: {x: 2.56, y: 2.56}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.421875, y: 0.734375}
+  m_EdgeRadius: 0
 --- !u!1001 &3290192148642537774
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -183,6 +183,10 @@ PrefabInstance:
     - target: {fileID: 1895260874411630319, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchorMax.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2697593801316314668, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
+      propertyPath: m_PresetInfoIsWorld
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_Pivot.x
@@ -250,11 +254,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -0.5880127
+      value: -0.735
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.45899963
+      value: 0.709
       objectReference: {fileID: 0}
     - target: {fileID: 5783479807428022523, guid: aad7dd4505be08c40b2ad2b5f963fce3, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x

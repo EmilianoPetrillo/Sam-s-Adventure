@@ -7,7 +7,7 @@ public class LavaSpit : MonoBehaviour
     OldGolem oldGolem;
     Animator animator;
 
-    private float t = 0;
+    //private float t = 0;
     
     private void Start()
     {

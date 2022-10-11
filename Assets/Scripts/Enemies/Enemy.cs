@@ -59,7 +59,15 @@ public class Enemy : Character
         if (t >= animator.GetCurrentAnimatorStateInfo(0).length && !canRevive)
         {
             UIController.Instance.CoinsUp(enemySO.coins);
-            GameController.Instance.LevelUp();
+            if (gameObject.name == "CultistPriest")
+            {
+                GameController.Instance.SpawnDevourer();
+            }
+            else
+            {
+                GameController.Instance.LevelUp();
+            }
+                
             Destroy(gameObject);
         }
         else if(t >= animator.GetCurrentAnimatorStateInfo(0).length && canRevive)
