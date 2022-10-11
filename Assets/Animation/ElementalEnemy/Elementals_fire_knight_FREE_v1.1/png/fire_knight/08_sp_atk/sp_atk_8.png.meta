@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 69641d45d9df5d545bc75b8fe86d885e
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -2007098277009317622
+    second: sp_atk_8_0
+  - first:
+      213: -6312849646343091857
+    second: sp_atk_8_1
+  - first:
+      213: -3674496945359604250
+    second: sp_atk_8_2
+  - first:
+      213: -4787862734400277117
+    second: sp_atk_8_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
@@ -161,7 +173,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sp_atk_8_0
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 82
+        width: 9
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a01af8940ca5524e0800000000000000
+      internalID: -2007098277009317622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_8_1
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 79
+        width: 8
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f69054d81b04468a0800000000000000
+      internalID: -6312849646343091857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_8_2
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1
+        width: 91
+        height: 88
+      alignment: 9
+      pivot: {x: 0.03266367, y: 0.002653955}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5359b1f70910dc0800000000000000
+      internalID: -3674496945359604250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_8_3
+      rect:
+        serializedVersion: 2
+        x: 216
+        y: 73
+        width: 4
+        height: 8
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 385bdb2d5381e8db0800000000000000
+      internalID: -4787862734400277117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

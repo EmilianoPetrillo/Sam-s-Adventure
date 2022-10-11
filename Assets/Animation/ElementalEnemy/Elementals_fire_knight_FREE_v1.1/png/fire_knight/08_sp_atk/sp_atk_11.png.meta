@@ -1,7 +1,19 @@
 fileFormatVersion: 2
 guid: 5f1544bf0cea8564eb46d2577147f61f
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: 2149889566072624066
+    second: sp_atk_11_0
+  - first:
+      213: -5460755944616478769
+    second: sp_atk_11_1
+  - first:
+      213: -7977317775138407098
+    second: sp_atk_11_2
+  - first:
+      213: 1203007537963802480
+    second: sp_atk_11_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +53,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
@@ -161,7 +173,91 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: sp_atk_11_0
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 87
+        width: 7
+        height: 7
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c3d3147b21f5dd10800000000000000
+      internalID: 2149889566072624066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_11_1
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 66
+        width: 7
+        height: 10
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc73804966f7734b0800000000000000
+      internalID: -5460755944616478769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_11_2
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 47
+        width: 13
+        height: 15
+      alignment: 9
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 64d3778cfbfda4190800000000000000
+      internalID: -7977317775138407098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sp_atk_11_3
+      rect:
+        serializedVersion: 2
+        x: 118
+        y: 1
+        width: 52
+        height: 61
+      alignment: 9
+      pivot: {x: 0.33888626, y: 0.000000049901562}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07f13726bf0f1b010800000000000000
+      internalID: 1203007537963802480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []

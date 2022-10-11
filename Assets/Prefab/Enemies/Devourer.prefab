@@ -42,6 +42,8 @@ GameObject:
   - component: {fileID: -3036442977869362112}
   - component: {fileID: 5026066254923211583}
   - component: {fileID: 6965543410714139128}
+  - component: {fileID: 3387300477329116854}
+  - component: {fileID: -7435580586514093337}
   m_Layer: 0
   m_Name: Devourer
   m_TagString: Enemy
@@ -58,7 +60,7 @@ Transform:
   m_GameObject: {fileID: 7927939717561344883}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.3, y: 0.23, z: 0}
-  m_LocalScale: {x: 4.5, y: 4.5, z: 1}
+  m_LocalScale: {x: 5.5, y: 5.5, z: 1}
   m_Children:
   - {fileID: 9072355654225238841}
   - {fileID: 5086708468477559235}
@@ -152,6 +154,53 @@ MonoBehaviour:
   canRevive: 0
   Projectile: {fileID: 4718270283238150460, guid: b201f3ee9ea6dc549b8155105524f0ed, type: 3}
   ProjectileSpawnPosition: {fileID: 5086708468477559235}
+--- !u!61 &3387300477329116854
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927939717561344883}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0.36543036, y: 0.34237576}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.26135162, y: 0.26438656}
+    oldSize: {x: 1.53125, y: 1.453125}
+    newSize: {x: 1.03125, y: 1.140625}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1.53125, y: 1.453125}
+  m_EdgeRadius: 0
+--- !u!50 &-7435580586514093337
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927939717561344883}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 7
 --- !u!1001 &3288884849632234434
 PrefabInstance:
   m_ObjectHideFlags: 0
