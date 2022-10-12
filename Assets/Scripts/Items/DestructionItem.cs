@@ -17,6 +17,12 @@ public class DestructionItem : WeaponItem
             angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
             float Destructionatk = Player.Instance.PlayerSO.ATK / 2 * DamageMultiplier;
+            UnityEngine.Random.InitState((int)DateTime.Now.Ticks);
+            int diceRolling = UnityEngine.Random.Range(0, 100);
+            if (diceRolling <= Player.Instance.PlayerSO.CRITRATE)
+            {
+                Destructionatk += Player.Instance.PlayerSO.CRITDAMAGE * DamageMultiplier / 4;
+            }
             for (int i = 0; i < 4; i++)
             {
                 projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));

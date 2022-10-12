@@ -293,10 +293,11 @@ public class GameController : MonoBehaviour
         t = 0;
     }
 
-    private float MultiplierCalculator(int Stage, int Level)
+    public float MultiplierCalculator(int Stage, int Level)
     {
-        float a = Level / 10f;
-        float multiplier = Mathf.Pow(2, stage + a);
+        //float a = Level / 10f;
+        //float multiplier = Mathf.Pow(2, stage + a);
+        float multiplier = Mathf.Pow(Stage + Level, 2);
         return multiplier;
     }
 

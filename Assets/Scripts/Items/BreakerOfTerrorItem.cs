@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,12 @@ public class BreakerOfTerrorItem : WeaponItem
             angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
             float BreakerOfTerroratk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
+            UnityEngine.Random.InitState((int)DateTime.Now.Ticks);
+            int diceRolling = UnityEngine.Random.Range(0, 100);
+            if (diceRolling <= Player.Instance.PlayerSO.CRITRATE)
+            {
+                BreakerOfTerroratk += Player.Instance.PlayerSO.CRITDAMAGE * DamageMultiplier / 2;
+            }
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(BreakerOfTerroratk, projectile);
             yield break;

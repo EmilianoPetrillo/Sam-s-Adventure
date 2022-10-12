@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -18,6 +19,12 @@ public class CataclysmItem : WeaponItem
             angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
             float Cataclysmatk = Player.Instance.PlayerSO.ATK * DamageMultiplier;
+            UnityEngine.Random.InitState((int)DateTime.Now.Ticks);
+            int diceRolling = UnityEngine.Random.Range(0, 100);
+            if(diceRolling <= Player.Instance.PlayerSO.CRITRATE)
+            {
+                Cataclysmatk += Player.Instance.PlayerSO.CRITDAMAGE * DamageMultiplier / 2;
+            }
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(Cataclysmatk, projectile);
             yield break;

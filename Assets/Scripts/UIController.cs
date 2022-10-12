@@ -25,13 +25,13 @@ public class UIController : MonoBehaviour
     private int coins = 100;
     public int Coins => coins;
     private int coinsToUpgradeATK = 100;
-    private int keyATK = 0;
+    public int keyATK = 0;
     private int coinsToUpgradeHP = 100;
-    private int keyHP = 0;
+    public int keyHP = 0;
     private int coinsToUpgradeCRITRATE = 100;
-    private int keyCRITRATE = 0;
+    public int keyCRITRATE = 0;
     private int coinsToUpgradeCRITDAMAGE = 100;
-    private int keyCRITDAMAGE = 0;
+    public int keyCRITDAMAGE = 0;
 
     #endregion
 

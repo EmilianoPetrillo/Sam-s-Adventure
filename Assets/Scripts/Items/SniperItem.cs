@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -16,6 +17,12 @@ public class SniperItem : WeaponItem
             angle = Mathf.Clamp(angle, -5f, 30f);
             Arm.transform.eulerAngles = new Vector3(0, 0, angle);
             float sniperatk = Player.Instance.PlayerSO.ATK * 2.5f * DamageMultiplier;
+            UnityEngine.Random.InitState((int)DateTime.Now.Ticks);
+            int diceRolling = UnityEngine.Random.Range(0, 100);
+            if (diceRolling <= Player.Instance.PlayerSO.CRITRATE)
+            {
+                sniperatk += Player.Instance.PlayerSO.CRITDAMAGE * DamageMultiplier;
+            }
             projectile = Instantiate(projectilePrefab, Player.Instance.projectileSpawnPosition.position, Quaternion.Euler(0, 0, angle));
             DamageCalculator(sniperatk, projectile);
             yield return new WaitForSeconds(1 / FireRate);

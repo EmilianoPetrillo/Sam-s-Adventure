@@ -234,24 +234,27 @@ public class Player : Character
 
     public void ATKUpgrade()
     {
-        playerSO.ATK += 25;
+        playerSO.ATK = playerSO.ATK + (25 * UIController.Instance.keyATK);
     }
 
     public void HPUpgrade()
     {
-        playerSO.MAXHP += 100;
-        playerSO.HP += 100;
+        playerSO.MAXHP = playerSO.MAXHP + (100 * UIController.Instance.keyHP);
+        playerSO.HP = playerSO.HP + (100 * UIController.Instance.keyHP);
         healthBar.SetMaxHealth(playerSO.MAXHP);
     }
 
     public void CRITRATEUpgrade()
     {
-        playerSO.CRITRATE += 1f;
+        if (playerSO.CRITRATE < 100)
+            playerSO.CRITRATE += 1f;
+        else
+            CRITDAMAGEUpgrade();
     }
 
     public void CRITDAMAGEUpgrade()
     {
-        playerSO.CRITDAMAGE += 1f;
+        playerSO.CRITDAMAGE = playerSO.CRITDAMAGE + (4f * UIController.Instance.keyCRITDAMAGE);
     }
 
     #endregion
