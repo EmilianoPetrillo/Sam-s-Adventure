@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using UnityEditor.SceneManagement;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -90,6 +91,14 @@ public class UITextController : MonoBehaviour
     private IEnumerator changePanelAndPortal()
     {
         GameController.Instance.DestroyEnemy();
+        if (GameController.Instance.Stage == 10 && GameController.Instance.Level == 1) {
+            UIController.Instance.Before4WorldPanel.SetActive(true);
+        }
+        while(UIController.Instance.Before4WorldPanel.activeSelf == true)
+        {
+            yield return null;
+        }
+
         //Integrate this changes for portal spawning
         GameObject portal = Instantiate(Portal, new Vector3(-3.5f, -1.75f, 0.0f), Quaternion.identity);
         yield return new WaitForSeconds(1);

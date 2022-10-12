@@ -47,6 +47,8 @@ public class UIController : MonoBehaviour
     public GameObject DeathPanel;
     public GameObject StatsPanel;
     public GameObject EndGamePanel;
+    public GameObject Before4WorldPanel;
+    public GameObject DevourerKilledPanel;
     public Text HPUpCost;
     public Text ATKUpCost;
     public Text CRITRATEUpCost;
@@ -222,6 +224,18 @@ public class UIController : MonoBehaviour
         }
     }
 
+    public void FinishedCutsceneBefore4World()
+    {
+        Before4WorldPanel.SetActive(false);
+        PlayerInventoryUI.Instance.AddWeaponToInventory(ItemController.Instance.Items.GetWeapon(WeaponItem.eWeaponType.LastBreath));
+
+    }
+
+    public void FinishedCutsceneDevourerKilled()
+    {
+        DevourerKilledPanel.SetActive(false);
+        GameController.Instance.EndGame();
+    }
     #endregion
 
 }

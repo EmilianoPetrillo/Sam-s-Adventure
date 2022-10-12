@@ -35,7 +35,7 @@ public class ShopController : MonoBehaviour
         for (int i = 0; i < WeaponsToSell.Count; i++)
         {
             //Le prime due armi sono già acquistate e quindi non più disponibili se ci clicco per l'acquisto
-            if(i==0 || i == 1)
+            if(i==0 || i == 1 || i == (WeaponsToSell.Count-1))
             {
                 contentLines[i].GetComponent<Image>().sprite = OutOfStockImage;
                 contentLines[i].GetComponent<AdditionalShopItemInfo>().isOutOfStock = true;

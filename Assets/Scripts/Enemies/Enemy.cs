@@ -51,9 +51,13 @@ public class Enemy : Character
         if (t >= animator.GetCurrentAnimatorStateInfo(0).length && !canRevive)
         {
             UIController.Instance.CoinsUp(enemySO.coins);
-            if (gameObject.name == "CultistPriest")
+            if (gameObject.name == "CultistPriest(Clone)")
             {
                 GameController.Instance.SpawnDevourer();
+            }
+            else if (gameObject.name == "Devourer(Clone)")
+            {
+                UIController.Instance.DevourerKilledPanel.SetActive(true);
             }
             else
             {

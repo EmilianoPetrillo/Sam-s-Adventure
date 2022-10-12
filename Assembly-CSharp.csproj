@@ -138,6 +138,7 @@
     <Compile Include="Assets\Scripts\Items\DominionProjectile.cs" />
     <Compile Include="Assets\Scripts\Items\BreakerOfTerrorItem.cs" />
     <Compile Include="Assets\Scripts\Items\LastBreathItem.cs" />
+    <Compile Include="Assets\onActiveScriptBehaviour.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\AssetsMaterial\Cainos\Pixel Art Icon Pack - RPG\Shader\SH UI Icon Outline Color.shader" />

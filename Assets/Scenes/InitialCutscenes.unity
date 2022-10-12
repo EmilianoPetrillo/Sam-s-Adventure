@@ -1035,8 +1035,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 5.7094727, y: -120.93518}
-  m_SizeDelta: {x: -160.0656, y: -458.1296}
+  m_AnchoredPosition: {x: 5.7094727, y: -65.612946}
+  m_SizeDelta: {x: -160.066, y: -356.7582}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1244131320
 MonoBehaviour:
@@ -1092,6 +1092,7 @@ MonoBehaviour:
   continueButton: {fileID: 1217728481}
   skipButton: {fileID: 880420900}
   backButton: {fileID: 987903670}
+  whatSlideToUse: 1
   TimePerCharacter: 0.01
 --- !u!1 &1333348309
 GameObject:

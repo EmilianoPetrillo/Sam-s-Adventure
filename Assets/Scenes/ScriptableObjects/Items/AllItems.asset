@@ -25,6 +25,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fac9f99e8d2fc7d469d584c420f4f8de, type: 2}
   - {fileID: 11400000, guid: 1debe638758544244bc5af8102afd25c, type: 2}
   - {fileID: 11400000, guid: 9f0de08e230e1024da16b0663465536d, type: 2}
+  - {fileID: 11400000, guid: e26aeefe086b8f04ba1fb528128eae42, type: 2}
   WeaponItems:
   - {fileID: 11400000, guid: c9ad3a0cb82af2347b7d3c0831a987c6, type: 2}
   - {fileID: 11400000, guid: 3f798e0535d4e0a4a90daa34839b209a, type: 2}
@@ -38,3 +39,4 @@ MonoBehaviour:
   - {fileID: 11400000, guid: fac9f99e8d2fc7d469d584c420f4f8de, type: 2}
   - {fileID: 11400000, guid: 1debe638758544244bc5af8102afd25c, type: 2}
   - {fileID: 11400000, guid: 9f0de08e230e1024da16b0663465536d, type: 2}
+  - {fileID: 11400000, guid: e26aeefe086b8f04ba1fb528128eae42, type: 2}

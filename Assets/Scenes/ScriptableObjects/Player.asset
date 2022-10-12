@@ -14,8 +14,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   HP: 3000
   ATK: 300
-  CRITRATE: 0
-  CRITDAMAGE: 150
+  CRITRATE: 1
+  CRITDAMAGE: 60
   MAXHP: 0
   SHIELDCOOLDOWN: 5
   SHIELDTIMEON: 2

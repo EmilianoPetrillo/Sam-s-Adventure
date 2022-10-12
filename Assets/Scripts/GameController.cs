@@ -142,7 +142,7 @@ public class GameController : MonoBehaviour
     {
         if (stage >= 10)
         {
-            EndGame();
+            //EndGame();
         }
         else
         {
@@ -174,7 +174,7 @@ public class GameController : MonoBehaviour
         SpawnEnemy();
     }
 
-    private void EndGame()
+    public void EndGame()
     {
         UIController.Instance.EndGamePanelStuff();
         Player.Instance.gameObject.SetActive(false);
