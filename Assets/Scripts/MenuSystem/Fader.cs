@@ -63,7 +63,7 @@ public class Fader : MonoBehaviour
 
     private void Update()
     {
-        float t = Mathf.Clamp01((Time.time - startTime) / duration);
+        float t = Mathf.Clamp01((Time.unscaledTime - startTime) / duration);
         if (FadingIn)
         {
             fadeColor.a = Mathf.Clamp01(t);
