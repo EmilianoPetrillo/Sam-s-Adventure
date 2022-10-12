@@ -1,35 +1,5 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &6785494445428026061
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 5086708468477559235}
-  m_Layer: 0
-  m_Name: MouthDevourer
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &5086708468477559235
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6785494445428026061}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.03, y: 0.09, z: -3034.4766}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 1}
-  m_Children: []
-  m_Father: {fileID: 7826065009896569543}
-  m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &7927939717561344883
 GameObject:
   m_ObjectHideFlags: 0
@@ -41,9 +11,9 @@ GameObject:
   - component: {fileID: 7826065009896569543}
   - component: {fileID: -3036442977869362112}
   - component: {fileID: 5026066254923211583}
-  - component: {fileID: 6965543410714139128}
   - component: {fileID: 3387300477329116854}
   - component: {fileID: -7435580586514093337}
+  - component: {fileID: 3966707731258766847}
   m_Layer: 0
   m_Name: Devourer
   m_TagString: Enemy
@@ -63,7 +33,6 @@ Transform:
   m_LocalScale: {x: 4, y: 4, z: 1}
   m_Children:
   - {fileID: 9072355654225238841}
-  - {fileID: 5086708468477559235}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -137,23 +106,6 @@ Animator:
   m_HasTransformHierarchy: 1
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorControllerStateOnDisable: 0
---- !u!114 &6965543410714139128
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7927939717561344883}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 5d43c47b6460d704dae9a7b47be12e32, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  characterSO: {fileID: 11400000, guid: 78871ea5d857db8479f84cf320ed03bb, type: 2}
-  healthBar: {fileID: 5873687912610579093}
-  canRevive: 0
-  Projectile: {fileID: 4718270283238150460, guid: b201f3ee9ea6dc549b8155105524f0ed, type: 3}
-  ProjectileSpawnPosition: {fileID: 5086708468477559235}
 --- !u!61 &3387300477329116854
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -167,7 +119,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0.36543036, y: 0.34237576}
+  m_Offset: {x: 0.13777032, y: 0.34237576}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.26135162, y: 0.26438656}
@@ -178,7 +130,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.53125, y: 1.453125}
+  m_Size: {x: 1.9865701, y: 1.453125}
   m_EdgeRadius: 0
 --- !u!50 &-7435580586514093337
 Rigidbody2D:
@@ -201,6 +153,21 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 7
+--- !u!114 &3966707731258766847
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7927939717561344883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: df181d550dfe4d941ab0f8ebf9356cca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  characterSO: {fileID: 11400000, guid: 78871ea5d857db8479f84cf320ed03bb, type: 2}
+  healthBar: {fileID: 5873687912610579093}
+  canRevive: 0
 --- !u!1001 &3288884849632234434
 PrefabInstance:
   m_ObjectHideFlags: 0
