@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: FrostGuardian
   m_EditorClassIdentifier: 
   HP: 4000
-  ATK: 2000
+  ATK: 500
   CRITRATE: 2
   CRITDAMAGE: 25
   MAXHP: 200000
@@ -22,7 +22,7 @@ MonoBehaviour:
   coins: 150000
   multiplier: 1
   attackRange:
-  - 2
+  - 2.5
   moveSpeed: 2
   healthAmountToRecoverInPercent: 0
   healthAmountToTriggerHealPhaseInPercent: 0

@@ -12,13 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: DemonBoss
   m_EditorClassIdentifier: 
-  HP: 8000
-  ATK: 300
+  HP: 3400
+  ATK: 220
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
   coins: 2000
   multiplier: 1
   attackRange:
   - 2.5
   moveSpeed: 2
+  healthAmountToRecoverInPercent: 0
+  healthAmountToTriggerHealPhaseInPercent: 0

@@ -12,14 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49d3eb717811c1143b60cec48125cfbf, type: 3}
   m_Name: CultistPriest
   m_EditorClassIdentifier: 
-  HP: 37000
+  HP: 2000
   ATK: 1
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
-  coins: 10000000
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
+  coins: 1000000
   multiplier: 1
-  attackRange: []
+  attackRange:
+  - 3
   moveSpeed: 2
   healthAmountToRecoverInPercent: 0
   healthAmountToTriggerHealPhaseInPercent: 0

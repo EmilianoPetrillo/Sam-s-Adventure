@@ -19,7 +19,7 @@ MonoBehaviour:
   WeaponAttackType: 2
   weaponFireType: 0
   FireRate: 1
-  WeaponDamage: 20
+  WeaponDamage: 400
   projectilePrefab: {fileID: 3221709949287775666, guid: ff13f30c787b0d148aa77a66c17d058c, type: 3}
   WeaponCost: 60000
   DamageMultiplier: 4

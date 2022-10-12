@@ -22,7 +22,7 @@ public class MagicDice : MonoBehaviour
         //transform.Translate(Vector3.right * speed * Time.deltaTime);
         transform.position = Vector2.MoveTowards(transform.position, player.transform.position, speed * Time.deltaTime);
         t += Time.deltaTime;
-        if (t >= 20)
+        if (t >= 1)
         {
             Destroy(gameObject);
         }
