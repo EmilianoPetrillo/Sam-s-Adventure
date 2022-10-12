@@ -12,12 +12,21 @@ public class CutscenesTypedText : MonoBehaviour
     public TextMeshProUGUI Text;
     public Button continueButton;
     public Button skipButton;
+    public Button backButton;
     public float TimePerCharacter = 0.1f;
+    private int i;
 
     // Start is called before the first frame update
     void Start()
-    { 
+    {
+        i = 0;
     }
+    private void DecreaseI()
+    {
+        if (i == 0) i--;
+        if (i > 0) i -= 2;
+    }
+
 
     public void StartShowSlides()
     {
@@ -44,9 +53,11 @@ public class CutscenesTypedText : MonoBehaviour
 
     IEnumerator ShowSlides()
     {
-        for(int i = 0; i < slidesText.Count; i++)
+        for(i = 0; i < slidesText.Count; i++)
         {
+            skipButton.gameObject.SetActive(false);
             continueButton.gameObject.SetActive(false);
+            backButton.gameObject.SetActive(false);
             yield return StartCoroutine(ShowText(slidesText[i]));
         }
         GameObject.Find("LoadController").GetComponent<LoadController>().LoadGameScene();
@@ -55,17 +66,22 @@ public class CutscenesTypedText : MonoBehaviour
     IEnumerator ShowText(string phrase)
     {
         StringBuilder sb = new StringBuilder();
-        for (int i = 1; i <= phrase.Length; i++)
+        for (int j = 1; j <= phrase.Length; j++)
         {
-            sb.Append(phrase.Substring(i - 1, 1));
+            sb.Append(phrase.Substring(j - 1, 1));
             Text.text = sb.ToString();
 
             yield return new WaitForSeconds(TimePerCharacter);
         }
         continueButton.gameObject.SetActive(true);
         skipButton.gameObject.SetActive(true);
-        var waitForButton = new WaitForUIButtons(continueButton);
+        backButton.gameObject.SetActive(true);
+        var waitForButton = new WaitForUIButtons(continueButton, backButton);
         yield return waitForButton.Reset();
+        if (waitForButton.PressedButton == backButton)
+        {
+            DecreaseI();
+        }
     }
 
     public void SkipIntro()
