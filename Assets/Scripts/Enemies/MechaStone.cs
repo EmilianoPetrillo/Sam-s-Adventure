@@ -17,6 +17,7 @@ public class MechaStone : Enemy
     {
         base.Start();
         transform.position = new Vector2(transform.position.x ,-4.2f);
+        enemySO.coins = enemySO.coins / enemySO.multiplier / 2;
     }
 
     protected override void Move()

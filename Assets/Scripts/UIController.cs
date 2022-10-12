@@ -22,7 +22,8 @@ public class UIController : MonoBehaviour
 
     #region STATS AND COINS
 
-    private int coins = 100;
+    //TODO: Fix coins later for build
+    private int coins = 1000000;
     public int Coins => coins;
     private int coinsToUpgradeATK = 100;
     public int keyATK = 0;

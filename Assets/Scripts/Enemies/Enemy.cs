@@ -32,7 +32,13 @@ public class Enemy : Character
 
     protected virtual void Start()
     {
-        enemySO.coins *= enemySO.multiplier * 2;
+        if (gameObject.name == "CultistPriest(Clone)" || gameObject.name == "FrostGuardian(Clone)" || gameObject.name == "MeleeDemon(Clone)")
+        {
+        }
+        else
+        {
+            enemySO.coins *= enemySO.multiplier * 2;
+        }      
         enemySO.ATK *= enemySO.multiplier;
         enemySO.HP *= enemySO.multiplier;
         healthBar.SetMaxHealth(enemySO.HP);
