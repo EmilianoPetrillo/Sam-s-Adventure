@@ -125,7 +125,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b0cc86c4b1657624d847931c24dc6709, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  damage: 20
+  damage: 0
 --- !u!330 &6814419947744029417
 ParticleSystemForceField:
   m_ObjectHideFlags: 0

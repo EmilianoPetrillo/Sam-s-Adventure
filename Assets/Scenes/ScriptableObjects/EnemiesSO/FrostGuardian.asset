@@ -16,10 +16,10 @@ MonoBehaviour:
   ATK: 500
   CRITRATE: 2
   CRITDAMAGE: 25
-  MAXHP: 200000
+  MAXHP: 0
   SHIELDCOOLDOWN: 0
   SHIELDTIMEON: 0
-  coins: 150000
+  coins: 15000
   multiplier: 1
   attackRange:
   - 2.5

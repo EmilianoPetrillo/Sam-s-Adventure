@@ -19,7 +19,7 @@ MonoBehaviour:
   MAXHP: 0
   SHIELDCOOLDOWN: 0
   SHIELDTIMEON: 0
-  coins: 50050
+  coins: 30000
   multiplier: 1
   attackRange:
   - 7

@@ -13,13 +13,13 @@ MonoBehaviour:
   m_Name: CultistPriest
   m_EditorClassIdentifier: 
   HP: 2000
-  ATK: 1
+  ATK: 20
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
   SHIELDCOOLDOWN: 0
   SHIELDTIMEON: 0
-  coins: 1000000
+  coins: 10000
   multiplier: 1
   attackRange:
   - 3

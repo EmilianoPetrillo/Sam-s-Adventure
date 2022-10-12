@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: Player
   m_EditorClassIdentifier: 
   HP: 3000
-  ATK: 300
+  ATK: 1000
   CRITRATE: 1
   CRITDAMAGE: 60
   MAXHP: 0

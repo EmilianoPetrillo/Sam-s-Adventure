@@ -17,8 +17,12 @@ MonoBehaviour:
   CRITRATE: 0
   CRITDAMAGE: 0
   MAXHP: 0
-  coins: 100
+  SHIELDCOOLDOWN: 0
+  SHIELDTIMEON: 0
+  coins: 2000
   multiplier: 1
   attackRange:
   - 2
   moveSpeed: 10
+  healthAmountToRecoverInPercent: 0
+  healthAmountToTriggerHealPhaseInPercent: 0
