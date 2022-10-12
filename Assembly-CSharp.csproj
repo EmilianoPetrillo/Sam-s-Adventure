@@ -113,7 +113,7 @@
     <Compile Include="Assets\Scripts\Items\JudgementBlasterProjectile.cs" />
     <Compile Include="Assets\Scripts\Controllers\MainMenuController.cs" />
     <Compile Include="Assets\Scripts\Enemies\Enemy.cs" />
-    <Compile Include="Assets\onActiveScriptBehaviour.cs" />
+    <Compile Include="Assets\Scripts\onActiveScriptBehaviour.cs" />
     <Compile Include="Assets\Scripts\Items\DisturbanceItem.cs" />
     <Compile Include="Assets\Scripts\GameController.cs" />
     <Compile Include="Assets\Scripts\LoadSave.cs" />
