@@ -22,7 +22,7 @@ MonoBehaviour:
   coins: 7000
   multiplier: 1
   attackRange:
-  - 8
+  - 9
   moveSpeed: 2
   healthAmountToRecoverInPercent: 0
   healthAmountToTriggerHealPhaseInPercent: 0

@@ -15,14 +15,14 @@ MonoBehaviour:
   HP: 2700
   ATK: 100
   CRITRATE: 2
-  CRITDAMAGE: 2
+  CRITDAMAGE: 200
   MAXHP: 0
   SHIELDCOOLDOWN: 0
   SHIELDTIMEON: 0
   coins: 25000
   multiplier: 1
   attackRange:
-  - 2.5
+  - 3.3
   moveSpeed: 3
   healthAmountToRecoverInPercent: 0
   healthAmountToTriggerHealPhaseInPercent: 0
